@@ -6,6 +6,7 @@ status: notes
 updated: 2026-06-07
 related:
   - engineering/practices/README.md
+  - engineering/practices/api-contract-functional-testing.md
 ---
 
 # CI/CD as the Control Plane for AI-Assisted Engineering
