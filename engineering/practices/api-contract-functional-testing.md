@@ -6,6 +6,7 @@ status: notes
 updated: 2026-06-08
 related:
   - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/practices/polyrepo-branching-strategy.md
 source: "https://chatgpt.com/share/6a262bd0-bfe0-83ec-9750-f4608824d8d5"
 ---
 
