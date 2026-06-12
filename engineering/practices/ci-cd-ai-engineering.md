@@ -12,6 +12,8 @@ related:
   - engineering/practices/trunk-based-development.md
   - engineering/practices/federated-pr-review.md
   - engineering/practices/engineering-playbook.md
+  - engineering/practices/code-review-policy.md
+  - engineering/practices/test-coverage-policy.md
 ---
 
 # CI/CD as the Control Plane for AI-Assisted Engineering

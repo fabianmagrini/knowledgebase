@@ -8,6 +8,7 @@ related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/polyrepo-branching-strategy.md
   - engineering/practices/engineering-playbook.md
+  - engineering/practices/test-coverage-policy.md
 ---
 
 # API Spec, Contract, and Functional Testing
