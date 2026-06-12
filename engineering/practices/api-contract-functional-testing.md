@@ -9,6 +9,7 @@ related:
   - engineering/practices/polyrepo-branching-strategy.md
   - engineering/practices/engineering-playbook.md
   - engineering/practices/test-coverage-policy.md
+  - engineering/architecture/composable-architecture.md
 ---
 
 # API Spec, Contract, and Functional Testing
