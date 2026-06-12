@@ -9,6 +9,10 @@ updated: 2026-06-04
 
 Notes on tools, platforms, and infrastructure.
 
+## Notes
+
+- [Git](git.md) — fundamentals, workflow, rebase, stash, bisect, cherry-pick
+
 ## Categories
 
 - [Cloud](cloud/) — AWS, GCP, Azure

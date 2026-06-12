@@ -10,6 +10,7 @@ related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/federated-pr-review.md
   - engineering/practices/engineering-playbook.md
+  - tools/git.md
 ---
 
 # Trunk-Based Development
