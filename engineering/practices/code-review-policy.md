@@ -24,7 +24,7 @@ Code review is a core engineering practice for quality, alignment, and shared ow
 
 **Review for intent, not just implementation.** The most valuable reviews focus on problem framing (is this solving the right problem?), design choices (are trade-offs clear and appropriate?), and maintainability (will this be easy to change in six months?).
 
-**Small changes, fast feedback.** Prefer small incremental PRs. Review within same-day SLA where possible. Large PRs reduce review quality and increase cycle time.
+**Small changes, fast feedback.** Prefer small incremental PRs. Review within same-day SLA where possible. Large PRs reduce review quality and increase cycle time. Practical thresholds: review no more than 200–400 lines at a time; maintain an inspection rate under 500 lines per hour; do not review for more than 60 minutes in a single session without a break.
 
 **Shared ownership over individual ownership.** All code is team-owned. Code review spreads knowledge, reduces reliance on single owners, and enables safer future changes.
 
@@ -45,7 +45,9 @@ Code review is a core engineering practice for quality, alignment, and shared ow
 ## Author expectations
 
 - Keep PRs small and focused
+- **Self-review first** — read through your own diff before requesting review; catch typos, logic errors, and obvious issues before the reviewer sees them
 - Provide clear context: what problem is being solved, why this approach, trade-offs considered
+- **Annotate the diff** where reasoning is non-obvious — inline comments explaining why, not what, reduce reviewer cognitive load
 - Link relevant ADRs, SDF discussions, and tickets
 - Call out areas where feedback is specifically needed
 - For AI-generated PRs: validate output, confirm correctness and intent before requesting review
