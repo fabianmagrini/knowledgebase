@@ -7,6 +7,7 @@ updated: 2026-06-11
 related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/api-contract-functional-testing.md
+  - engineering/practices/regulated-service-release-process.md
 ---
 
 # Polyrepo Branching Strategy

@@ -8,6 +8,7 @@ related:
   - engineering/practices/README.md
   - engineering/practices/api-contract-functional-testing.md
   - engineering/practices/polyrepo-branching-strategy.md
+  - engineering/practices/regulated-service-release-process.md
 ---
 
 # CI/CD as the Control Plane for AI-Assisted Engineering
