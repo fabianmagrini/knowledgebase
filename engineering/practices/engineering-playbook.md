@@ -10,6 +10,8 @@ related:
   - engineering/practices/trunk-based-development.md
   - engineering/practices/api-contract-functional-testing.md
   - engineering/practices/regulated-service-release-process.md
+  - engineering/practices/code-review-policy.md
+  - engineering/practices/test-coverage-policy.md
 source: "https://gist.github.com/fabianmagrini/a970c210fd3267b50a1484721297c6eb"
 ---
 

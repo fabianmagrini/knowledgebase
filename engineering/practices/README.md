@@ -18,3 +18,5 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Trunk-Based Development](trunk-based-development.md)
 - [Federated PR Review and Governance](federated-pr-review.md)
 - [Modern Web Engineering Playbook](engineering-playbook.md)
+- [Code Review Policy](code-review-policy.md)
+- [Test Coverage Policy](test-coverage-policy.md)
