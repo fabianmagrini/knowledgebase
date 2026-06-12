@@ -9,6 +9,7 @@ related:
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/federated-pr-review.md
+  - engineering/practices/engineering-playbook.md
 ---
 
 # Trunk-Based Development

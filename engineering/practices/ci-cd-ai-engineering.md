@@ -11,6 +11,7 @@ related:
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/trunk-based-development.md
   - engineering/practices/federated-pr-review.md
+  - engineering/practices/engineering-playbook.md
 ---
 
 # CI/CD as the Control Plane for AI-Assisted Engineering
