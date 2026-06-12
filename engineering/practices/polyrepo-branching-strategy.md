@@ -8,6 +8,7 @@ related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/api-contract-functional-testing.md
   - engineering/practices/regulated-service-release-process.md
+  - engineering/practices/trunk-based-development.md
 ---
 
 # Polyrepo Branching Strategy

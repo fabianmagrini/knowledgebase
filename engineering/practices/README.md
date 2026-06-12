@@ -15,3 +15,4 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [CI/CD as the Control Plane for AI-Assisted Engineering](ci-cd-ai-engineering.md)
 - [Polyrepo Branching Strategy](polyrepo-branching-strategy.md)
 - [Release Process for Regulated and High-Risk Services](regulated-service-release-process.md)
+- [Trunk-Based Development](trunk-based-development.md)
