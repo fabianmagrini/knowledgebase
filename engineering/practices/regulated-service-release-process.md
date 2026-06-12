@@ -9,6 +9,7 @@ related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/api-contract-functional-testing.md
   - engineering/practices/trunk-based-development.md
+  - engineering/practices/engineering-playbook.md
 ---
 
 # Release Process for Regulated and High-Risk Services

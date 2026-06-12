@@ -7,6 +7,7 @@ updated: 2026-06-08
 related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/polyrepo-branching-strategy.md
+  - engineering/practices/engineering-playbook.md
 ---
 
 # API Spec, Contract, and Functional Testing
