@@ -15,6 +15,7 @@ related:
   - engineering/practices/ai-native-engineering-stack.md
   - engineering/practices/agentic-sdlc.md
   - engineering/practices/agentic-ai-strategy-frameworks.md
+  - engineering/architecture/c4-model.md
 source: "https://gist.github.com/fabianmagrini/a970c210fd3267b50a1484721297c6eb"
 ---
 
