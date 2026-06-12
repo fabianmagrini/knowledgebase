@@ -15,6 +15,8 @@ related:
   - engineering/practices/code-review-policy.md
   - engineering/practices/test-coverage-policy.md
   - engineering/practices/ai-native-engineering-stack.md
+  - engineering/practices/agentic-sdlc.md
+  - engineering/practices/agentic-sdlc-maturity-model.md
 ---
 
 # CI/CD as the Control Plane for AI-Assisted Engineering

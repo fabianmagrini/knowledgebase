@@ -9,6 +9,8 @@ related:
   - engineering/practices/engineering-playbook.md
   - engineering/practices/federated-pr-review.md
   - engineering/practices/code-review-policy.md
+  - engineering/practices/agentic-sdlc.md
+  - engineering/practices/agentic-sdlc-maturity-model.md
 source: "https://gist.github.com/fabianmagrini/9543a6a750d904f66744d7fbfb3d3ec3"
 ---
 
