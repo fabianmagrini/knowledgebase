@@ -7,7 +7,6 @@ updated: 2026-06-11
 related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/api-contract-functional-testing.md
-source: "https://chatgpt.com/share/6a2a76be-5a78-83ec-9950-3aef072a58e2"
 ---
 
 # Polyrepo Branching Strategy
