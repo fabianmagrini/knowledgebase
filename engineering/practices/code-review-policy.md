@@ -10,6 +10,7 @@ related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/trunk-based-development.md
   - engineering/practices/test-coverage-policy.md
+  - engineering/practices/ai-native-engineering-stack.md
 source: "https://gist.github.com/fabianmagrini/e95a24606e7108a7e0673de02d739be3"
 ---
 

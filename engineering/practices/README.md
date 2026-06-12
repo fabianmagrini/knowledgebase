@@ -20,3 +20,4 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Modern Web Engineering Playbook](engineering-playbook.md)
 - [Code Review Policy](code-review-policy.md)
 - [Test Coverage Policy](test-coverage-policy.md)
+- [The AI-Native Engineering Stack](ai-native-engineering-stack.md)

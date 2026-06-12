@@ -14,6 +14,7 @@ related:
   - engineering/practices/engineering-playbook.md
   - engineering/practices/code-review-policy.md
   - engineering/practices/test-coverage-policy.md
+  - engineering/practices/ai-native-engineering-stack.md
 ---
 
 # CI/CD as the Control Plane for AI-Assisted Engineering
