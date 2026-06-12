@@ -9,6 +9,7 @@ related:
   - engineering/practices/api-contract-functional-testing.md
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/trunk-based-development.md
+  - engineering/practices/federated-pr-review.md
 ---
 
 # Polyrepo Branching Strategy
