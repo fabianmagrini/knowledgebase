@@ -10,6 +10,7 @@ related:
   - engineering/practices/polyrepo-branching-strategy.md
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/trunk-based-development.md
+  - engineering/practices/federated-pr-review.md
 ---
 
 # CI/CD as the Control Plane for AI-Assisted Engineering

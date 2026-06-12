@@ -16,3 +16,4 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Polyrepo Branching Strategy](polyrepo-branching-strategy.md)
 - [Release Process for Regulated and High-Risk Services](regulated-service-release-process.md)
 - [Trunk-Based Development](trunk-based-development.md)
+- [Federated PR Review and Governance](federated-pr-review.md)

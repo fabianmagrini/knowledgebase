@@ -8,6 +8,7 @@ related:
   - engineering/practices/polyrepo-branching-strategy.md
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/practices/federated-pr-review.md
 ---
 
 # Trunk-Based Development
