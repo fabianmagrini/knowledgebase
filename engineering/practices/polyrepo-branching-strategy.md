@@ -10,6 +10,7 @@ related:
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/trunk-based-development.md
   - engineering/practices/federated-pr-review.md
+  - tools/git.md
 ---
 
 # Polyrepo Branching Strategy
