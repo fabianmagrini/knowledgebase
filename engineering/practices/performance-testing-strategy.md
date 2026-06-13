@@ -8,6 +8,7 @@ related:
   - engineering/practices/api-contract-functional-testing.md
   - engineering/practices/test-coverage-policy.md
   - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/practices/release-confidence.md
 source: "https://gist.github.com/fabianmagrini/dbf422910023dc8460f1331dd27c6f21"
 updated: 2026-06-13
 ---

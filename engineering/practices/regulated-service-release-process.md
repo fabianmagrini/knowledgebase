@@ -13,6 +13,7 @@ related:
   - leadership/managed-disruption.md
   - engineering/practices/federated-pr-review.md
   - engineering/security/secure-sdlc.md
+  - engineering/practices/release-confidence.md
 ---
 
 # Release Process for Regulated and High-Risk Services

@@ -32,3 +32,4 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Change Absorption Capacity (CATS)](change-absorption-capacity.md)
 - [AI-DLC and the Reimagined SDLC](ai-dlc-methodology.md)
 - [Harness Engineering](harness-engineering.md)
+- [Release Confidence as a System Property](release-confidence.md)

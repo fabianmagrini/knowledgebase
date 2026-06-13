@@ -12,6 +12,7 @@ related:
   - engineering/practices/engineering-playbook.md
   - leadership/managed-disruption.md
   - engineering/practices/code-review-policy.md
+  - engineering/practices/release-confidence.md
   - tools/git.md
 ---
 
