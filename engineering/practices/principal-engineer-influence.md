@@ -8,6 +8,7 @@ related:
   - engineering/practices/architecture-decision-forum.md
   - engineering/practices/start-with-why.md
   - engineering/practices/protecting-mavericks.md
+  - engineering/practices/ai-augmented-engineering-team.md
 source: "https://gist.github.com/fabianmagrini/220ed6ab9e5d206a96a55177175e3fa1"
 updated: 2026-06-13
 ---

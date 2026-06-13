@@ -31,3 +31,4 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Architecture Decision Forum](architecture-decision-forum.md)
 - [Facilitating Technical Decisions](decision-facilitation.md)
 - [Principal Engineer Influence](principal-engineer-influence.md)
+- [The AI-Augmented Engineering Team](ai-augmented-engineering-team.md)
