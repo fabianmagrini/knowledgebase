@@ -9,6 +9,7 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/harness-engineering.md
   - engineering/practices/federated-pr-review.md
+  - engineering/practices/agent-backpressure-loops.md
 source: "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/"
 updated: 2026-06-14
 ---

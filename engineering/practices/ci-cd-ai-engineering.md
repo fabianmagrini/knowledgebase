@@ -23,6 +23,7 @@ related:
   - engineering/practices/performance-testing-strategy.md
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/release-confidence.md
+  - engineering/practices/agent-backpressure-loops.md
   - engineering/security/secure-sdlc.md
 ---
 

@@ -11,6 +11,7 @@ related:
   - engineering/practices/ai-native-engineering-overview.md
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/quality-first-ai-coding.md
+  - engineering/practices/agent-backpressure-loops.md
 source: "https://diego-pacheco.blogspot.com/2026/05/harness-engineering.html"
 updated: 2026-06-14
 ---
