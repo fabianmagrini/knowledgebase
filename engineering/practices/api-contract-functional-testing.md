@@ -9,6 +9,7 @@ related:
   - engineering/practices/polyrepo-branching-strategy.md
   - engineering/practices/engineering-playbook.md
   - engineering/practices/test-coverage-policy.md
+  - engineering/practices/performance-testing-strategy.md
   - engineering/architecture/composable-architecture.md
 ---
 
