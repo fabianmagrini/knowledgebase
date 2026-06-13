@@ -30,3 +30,4 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Eval-Driven Development for AI Capabilities](eval-driven-ai-development.md)
 - [Architecture Decision Forum](architecture-decision-forum.md)
 - [Facilitating Technical Decisions](decision-facilitation.md)
+- [Principal Engineer Influence](principal-engineer-influence.md)
