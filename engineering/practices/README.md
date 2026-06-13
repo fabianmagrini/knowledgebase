@@ -9,6 +9,8 @@ updated: 2026-06-04
 
 Notes on development practices: testing, CI/CD, code review, observability.
 
+**Thematic maps:** [AI-Native Engineering — Overview](ai-native-engineering-overview.md) · [Engineering Leadership — Overview](engineering-leadership-overview.md)
+
 ## Notes
 
 - [API Spec, Contract, and Functional Testing](api-contract-functional-testing.md)
