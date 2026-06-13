@@ -11,6 +11,7 @@ related:
   - engineering/practices/ai-augmented-engineering-team.md
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/harness-engineering.md
+  - engineering/practices/agent-backpressure-loops.md
 source: "https://gist.github.com/fabianmagrini/4399048fc0f1dd2261a1c126589f29ec"
 updated: 2026-06-13
 ---
