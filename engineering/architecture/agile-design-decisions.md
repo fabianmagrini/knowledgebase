@@ -10,6 +10,7 @@ related:
   - engineering/practices/start-with-why.md
   - engineering/practices/federated-pr-review.md
   - engineering/practices/code-review-policy.md
+  - engineering/practices/architecture-decision-forum.md
 source: "https://gist.github.com/fabianmagrini/76071cbc06aa1a5eafd19a7fb5ea2457"
 updated: 2026-06-13
 ---

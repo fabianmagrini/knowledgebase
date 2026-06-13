@@ -12,6 +12,7 @@ related:
   - engineering/practices/engineering-playbook.md
   - engineering/practices/code-review-policy.md
   - engineering/practices/ai-native-engineering-stack.md
+  - engineering/practices/architecture-decision-forum.md
 source: "https://gist.github.com/fabianmagrini/a44c8ec5efdee0ebf57a4c7d31ed2f4d"
 ---
 
