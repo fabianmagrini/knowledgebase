@@ -9,6 +9,7 @@ related:
   - engineering/practices/engineering-playbook.md
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/code-review-policy.md
+  - engineering/practices/eval-driven-ai-development.md
 source: "https://gist.github.com/fabianmagrini/e95a24606e7108a7e0673de02d739be3"
 ---
 

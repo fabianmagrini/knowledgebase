@@ -10,6 +10,7 @@ related:
   - engineering/practices/engineering-playbook.md
   - engineering/practices/agentic-sdlc-maturity-model.md
   - engineering/practices/agentic-ai-strategy-frameworks.md
+  - engineering/practices/eval-driven-ai-development.md
   - engineering/architecture/c4-model.md
   - engineering/architecture/composable-architecture.md
 source: "https://gist.github.com/fabianmagrini/4862954cd301634ab4bfd595c00ea52c"
