@@ -11,6 +11,7 @@ related:
   - engineering/practices/test-coverage-policy.md
   - engineering/practices/performance-testing-strategy.md
   - engineering/architecture/composable-architecture.md
+  - engineering/practices/regulated-service-release-process.md
 ---
 
 # API Spec, Contract, and Functional Testing

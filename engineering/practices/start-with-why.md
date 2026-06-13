@@ -7,6 +7,7 @@ related:
   - engineering/architecture/agile-design-decisions.md
   - engineering/practices/managed-disruption.md
   - engineering/practices/decision-facilitation.md
+  - engineering/practices/principal-engineer-influence.md
 source: "https://gist.github.com/fabianmagrini/a9419029286fb2277dc7b2bc5fc0d43d"
 updated: 2026-06-13
 ---

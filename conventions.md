@@ -67,6 +67,9 @@ updated: YYYY-MM-DD
 **Languages**
 `go`, `python`, `typescript`, `java`, `rust`, `sql`
 
+**AI engineering**
+`ai-engineering`
+
 **People & culture**
 `leadership`, `culture`, `communication`
 
