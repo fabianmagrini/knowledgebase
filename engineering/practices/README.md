@@ -26,3 +26,4 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Agentic AI Strategy Frameworks](agentic-ai-strategy-frameworks.md)
 - [Managed Disruption](managed-disruption.md)
 - [Protecting Mavericks](protecting-mavericks.md)
+- [Start with the Why](start-with-why.md)

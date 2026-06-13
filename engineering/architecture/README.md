@@ -13,3 +13,5 @@ Notes on software architecture, system design, and distributed systems.
 
 - [C4 Model](c4-model.md) — four-level architecture diagramming with PlantUML and Structurizr DSL examples
 - [Composable Architecture](composable-architecture.md) — PBCs, API Gateway, BFF, User Journey API, GraphQL federation, DX and maintainability progression
+- [Agile Design Decisions and Principles](agile-design-decisions.md) — continuous design, reversibility and blast-radius frameworks, delegation, emergent architecture, technical debt
+- [Architectural Decision Records (ADRs)](adr.md) — lightweight, version-controlled records of significant decisions
