@@ -35,3 +35,4 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Principal Engineer Influence](principal-engineer-influence.md)
 - [The AI-Augmented Engineering Team](ai-augmented-engineering-team.md)
 - [Performance Testing Strategy](performance-testing-strategy.md)
+- [Change Absorption Capacity (CATS)](change-absorption-capacity.md)

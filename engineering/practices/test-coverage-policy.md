@@ -11,6 +11,7 @@ related:
   - engineering/practices/code-review-policy.md
   - engineering/practices/eval-driven-ai-development.md
   - engineering/practices/performance-testing-strategy.md
+  - engineering/practices/change-absorption-capacity.md
 source: "https://gist.github.com/fabianmagrini/e95a24606e7108a7e0673de02d739be3"
 ---
 
