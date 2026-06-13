@@ -21,6 +21,7 @@ related:
   - engineering/practices/agentic-sdlc-maturity-model.md
   - engineering/practices/eval-driven-ai-development.md
   - engineering/practices/performance-testing-strategy.md
+  - engineering/practices/change-absorption-capacity.md
   - engineering/security/secure-sdlc.md
 ---
 

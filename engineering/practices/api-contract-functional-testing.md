@@ -12,6 +12,7 @@ related:
   - engineering/practices/performance-testing-strategy.md
   - engineering/architecture/composable-architecture.md
   - engineering/practices/regulated-service-release-process.md
+  - engineering/practices/change-absorption-capacity.md
 ---
 
 # API Spec, Contract, and Functional Testing
