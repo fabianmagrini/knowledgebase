@@ -24,3 +24,5 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [The Agentic SDLC](agentic-sdlc.md)
 - [Agentic SDLC Maturity Model](agentic-sdlc-maturity-model.md)
 - [Agentic AI Strategy Frameworks](agentic-ai-strategy-frameworks.md)
+- [Managed Disruption](managed-disruption.md)
+- [Protecting Mavericks](protecting-mavericks.md)
