@@ -14,6 +14,7 @@ related:
   - engineering/practices/eval-driven-ai-development.md
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/practices/ai-augmented-engineering-team.md
+  - engineering/practices/agentic-ai-strategy-frameworks.md
 source: "https://gist.github.com/fabianmagrini/9543a6a750d904f66744d7fbfb3d3ec3"
 ---
 

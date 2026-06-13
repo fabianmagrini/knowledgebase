@@ -14,6 +14,7 @@ related:
   - engineering/practices/ai-augmented-engineering-team.md
   - engineering/architecture/c4-model.md
   - engineering/architecture/composable-architecture.md
+  - engineering/architecture/design-systems-ai-control-plane.md
 source: "https://gist.github.com/fabianmagrini/4862954cd301634ab4bfd595c00ea52c"
 ---
 

@@ -11,6 +11,8 @@ related:
   - engineering/practices/trunk-based-development.md
   - engineering/practices/engineering-playbook.md
   - engineering/practices/managed-disruption.md
+  - engineering/practices/federated-pr-review.md
+  - engineering/security/secure-sdlc.md
 ---
 
 # Release Process for Regulated and High-Risk Services

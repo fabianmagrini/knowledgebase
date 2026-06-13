@@ -8,6 +8,7 @@ related:
   - engineering/architecture/c4-model.md
   - engineering/practices/code-review-policy.md
   - engineering/practices/architecture-decision-forum.md
+  - engineering/architecture/strangler-fig.md
 source: "https://gist.github.com/fabianmagrini/76071cbc06aa1a5eafd19a7fb5ea2457"
 updated: 2026-06-13
 ---

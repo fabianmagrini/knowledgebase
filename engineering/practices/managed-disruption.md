@@ -9,6 +9,7 @@ related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/protecting-mavericks.md
   - engineering/practices/start-with-why.md
+  - engineering/architecture/strangler-fig.md
 source: "https://gist.github.com/fabianmagrini/8d7a465df449ea54881c86f563ec6f6d"
 updated: 2026-06-13
 ---

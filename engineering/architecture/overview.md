@@ -10,6 +10,7 @@ related:
   - engineering/architecture/adr.md
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/practices/architecture-decision-forum.md
+  - engineering/architecture/strangler-fig.md
 updated: 2026-06-13
 ---
 
@@ -26,6 +27,8 @@ systems.
 
 - [Composable Architecture](composable-architecture.md) — packaged business capabilities,
   API gateway/BFF, journey APIs, GraphQL federation.
+- [Strangler Fig Pattern](strangler-fig.md) — modernise legacy incrementally behind a
+  facade, without a big-bang rewrite.
 - [Design Systems as the AI Control Plane](design-systems-ai-control-plane.md) — the design
   system as constraint layer and platform for AI-generated UI.
 
