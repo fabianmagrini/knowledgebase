@@ -8,6 +8,8 @@ related:
   - engineering/practices/agentic-sdlc.md
   - engineering/practices/engineering-playbook.md
   - engineering/architecture/composable-architecture.md
+  - engineering/architecture/agile-design-decisions.md
+  - engineering/architecture/adr.md
 source: "https://gist.github.com/fabianmagrini/caa685a8f63028f17da6feed7a848114"
 ---
 
