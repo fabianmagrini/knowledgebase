@@ -14,6 +14,7 @@ related:
   - engineering/practices/harness-engineering.md
   - leadership/learning-organisation.md
   - engineering/practices/release-confidence.md
+  - engineering/practices/quality-first-ai-coding.md
 source: "https://stackoverflow.blog/2026/05/12/you-shipped-it-fast-but-did-you-ship-it-right/"
 updated: 2026-06-14
 ---

@@ -14,6 +14,7 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/ai-dlc-methodology.md
   - engineering/practices/harness-engineering.md
+  - engineering/practices/quality-first-ai-coding.md
   - leadership/learning-organisation.md
   - engineering/architecture/design-systems-ai-control-plane.md
 updated: 2026-06-13
@@ -55,6 +56,8 @@ A map of the notes on building software with AI agents. They answer different qu
   prompts/skills/agents themselves, not just the code they emit.
 - [Harness Engineering](harness-engineering.md) — the component-level anatomy of an agent
   harness (the program agents run inside): core loop, tools, memory, patterns, trade-offs.
+- [Quality-First AI Coding](quality-first-ai-coding.md) — the practitioner workflow: multi-model
+  bug review and quality-over-velocity use of AI to write better code more slowly.
 - [Change Absorption Capacity (CATS)](change-absorption-capacity.md) — raising a system's
   capacity to safely absorb agent-speed change: contracts, automated verification, telemetry,
   simplification.

@@ -16,6 +16,7 @@ related:
   - leadership/architecture-decision-forum.md
   - tools/git.md
   - engineering/security/secure-sdlc.md
+  - engineering/practices/quality-first-ai-coding.md
 source: "https://gist.github.com/fabianmagrini/e95a24606e7108a7e0673de02d739be3"
 ---
 
