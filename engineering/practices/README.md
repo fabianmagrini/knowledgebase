@@ -36,3 +36,4 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [The AI-Augmented Engineering Team](ai-augmented-engineering-team.md)
 - [Performance Testing Strategy](performance-testing-strategy.md)
 - [Change Absorption Capacity (CATS)](change-absorption-capacity.md)
+- [AI-DLC and the Reimagined SDLC](ai-dlc-methodology.md)
