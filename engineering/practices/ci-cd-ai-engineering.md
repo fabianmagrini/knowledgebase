@@ -14,7 +14,7 @@ related:
   - engineering/practices/engineering-playbook.md
   - engineering/practices/code-review-policy.md
   - engineering/practices/test-coverage-policy.md
-  - engineering/practices/managed-disruption.md
+  - leadership/managed-disruption.md
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/practices/ai-native-engineering-stack.md
   - engineering/practices/agentic-sdlc.md

@@ -12,6 +12,7 @@ Personal engineering knowledge base.
 ## Structure
 
 - [Engineering](engineering/) — architecture, system design, patterns, practices
+- [Leadership](leadership/) — leadership, communication, decision governance, culture
 - [Languages](languages/) — programming language notes
 - [Tools](tools/) — CLI tools, editors, platforms, infrastructure
 - [Concepts](concepts/) — algorithms, data structures, CS fundamentals

@@ -19,6 +19,7 @@ All conventions are documented in [conventions.md](conventions.md). Read it befo
 
 ```
 engineering/        # architecture, practices, security
+leadership/         # leadership, communication, decision governance, culture
 languages/          # per-language notes
 tools/              # cloud, containers, editors
 concepts/           # algorithms, data structures, CS fundamentals

@@ -9,7 +9,7 @@ updated: 2026-06-04
 
 Notes on development practices: testing, CI/CD, code review, observability.
 
-**Thematic maps:** [AI-Native Engineering — Overview](ai-native-engineering-overview.md) · [Engineering Leadership — Overview](engineering-leadership-overview.md)
+**Thematic maps:** [AI-Native Engineering — Overview](ai-native-engineering-overview.md) · [Engineering Leadership — Overview](../../leadership/engineering-leadership-overview.md)
 
 ## Notes
 
@@ -26,13 +26,7 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [The Agentic SDLC](agentic-sdlc.md)
 - [Agentic SDLC Maturity Model](agentic-sdlc-maturity-model.md)
 - [Agentic AI Strategy Frameworks](agentic-ai-strategy-frameworks.md)
-- [Managed Disruption](managed-disruption.md)
-- [Protecting Mavericks](protecting-mavericks.md)
-- [Start with the Why](start-with-why.md)
 - [Eval-Driven Development for AI Capabilities](eval-driven-ai-development.md)
-- [Architecture Decision Forum](architecture-decision-forum.md)
-- [Facilitating Technical Decisions](decision-facilitation.md)
-- [Principal Engineer Influence](principal-engineer-influence.md)
 - [The AI-Augmented Engineering Team](ai-augmented-engineering-team.md)
 - [Performance Testing Strategy](performance-testing-strategy.md)
 - [Change Absorption Capacity (CATS)](change-absorption-capacity.md)

@@ -1,13 +1,13 @@
 ---
 title: Principal Engineer Influence
 tags: [leadership, communication]
-topic: engineering/practices
+topic: leadership
 status: notes
 related:
-  - engineering/practices/decision-facilitation.md
-  - engineering/practices/architecture-decision-forum.md
-  - engineering/practices/start-with-why.md
-  - engineering/practices/protecting-mavericks.md
+  - leadership/decision-facilitation.md
+  - leadership/architecture-decision-forum.md
+  - leadership/start-with-why.md
+  - leadership/protecting-mavericks.md
   - engineering/practices/ai-augmented-engineering-team.md
 source: "https://gist.github.com/fabianmagrini/220ed6ab9e5d206a96a55177175e3fa1"
 updated: 2026-06-13

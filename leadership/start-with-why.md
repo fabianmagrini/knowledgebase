@@ -1,13 +1,13 @@
 ---
 title: Start with the Why
 tags: [leadership, communication]
-topic: engineering/practices
+topic: leadership
 status: notes
 related:
   - engineering/architecture/agile-design-decisions.md
-  - engineering/practices/managed-disruption.md
-  - engineering/practices/decision-facilitation.md
-  - engineering/practices/principal-engineer-influence.md
+  - leadership/managed-disruption.md
+  - leadership/decision-facilitation.md
+  - leadership/principal-engineer-influence.md
 source: "https://gist.github.com/fabianmagrini/a9419029286fb2277dc7b2bc5fc0d43d"
 updated: 2026-06-13
 ---
@@ -54,6 +54,6 @@ ship with confidence and fewer production issues (Why), so we embrace engineerin
 (How), like strong automated test suites (What)."*
 
 This is the same "understand the problem first" discipline that underpins
-[agile design decisions](../architecture/agile-design-decisions.md): the Why prevents
+[agile design decisions](../engineering/architecture/agile-design-decisions.md): the Why prevents
 "solutioneering," and the 5 Whys / XY Problem surface the real need before a solution is
 chosen.

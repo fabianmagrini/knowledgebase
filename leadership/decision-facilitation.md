@@ -1,14 +1,14 @@
 ---
 title: Facilitating Technical Decisions
 tags: [leadership, communication, code-review]
-topic: engineering/practices
+topic: leadership
 status: notes
 related:
-  - engineering/practices/architecture-decision-forum.md
-  - engineering/practices/start-with-why.md
+  - leadership/architecture-decision-forum.md
+  - leadership/start-with-why.md
   - engineering/architecture/agile-design-decisions.md
-  - engineering/practices/protecting-mavericks.md
-  - engineering/practices/principal-engineer-influence.md
+  - leadership/protecting-mavericks.md
+  - leadership/principal-engineer-influence.md
 source: "https://gist.github.com/fabianmagrini/10e09bb9cef680c07cad82e7bfbcb441"
 updated: 2026-06-13
 ---
@@ -26,7 +26,7 @@ sessions, or on-demand explanation, not the live discussion.
 
 This is the personal-skill counterpart to the
 [architecture decision forum](architecture-decision-forum.md): it operationalises the
-facilitator role, and puts the [decision frameworks](../architecture/agile-design-decisions.md)
+facilitator role, and puts the [decision frameworks](../engineering/architecture/agile-design-decisions.md)
 into words.
 
 ## The decision frame

@@ -7,11 +7,11 @@ related:
   - engineering/architecture/adr.md
   - engineering/architecture/c4-model.md
   - engineering/architecture/composable-architecture.md
-  - engineering/practices/start-with-why.md
+  - leadership/start-with-why.md
   - engineering/practices/federated-pr-review.md
   - engineering/practices/code-review-policy.md
-  - engineering/practices/architecture-decision-forum.md
-  - engineering/practices/decision-facilitation.md
+  - leadership/architecture-decision-forum.md
+  - leadership/decision-facilitation.md
   - engineering/architecture/strangler-fig.md
 source: "https://gist.github.com/fabianmagrini/76071cbc06aa1a5eafd19a7fb5ea2457"
 updated: 2026-06-13
@@ -103,7 +103,7 @@ an [ADR](adr.md). Repayment strategies:
 Understanding the problem before the solution prevents "solutioneering" and unlocks team
 autonomy via Commander's Intent. Tools: the **5 Whys** to find root causes, and spotting the
 **XY Problem** (asking about an attempted solution rather than the real need). See
-[Start with the Why](../practices/start-with-why.md).
+[Start with the Why](../../leadership/start-with-why.md).
 
 ## The simplicity paradox
 

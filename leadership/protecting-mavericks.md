@@ -1,12 +1,13 @@
 ---
 title: Protecting Mavericks
 tags: [leadership, culture]
-topic: engineering/practices
+topic: leadership
 status: notes
 related:
-  - engineering/practices/managed-disruption.md
-  - engineering/practices/decision-facilitation.md
-  - engineering/practices/principal-engineer-influence.md
+  - leadership/managed-disruption.md
+  - leadership/decision-facilitation.md
+  - leadership/principal-engineer-influence.md
+  - leadership/learning-organisation.md
 source: "https://gist.github.com/fabianmagrini/8d7a465df449ea54881c86f563ec6f6d"
 updated: 2026-06-13
 ---

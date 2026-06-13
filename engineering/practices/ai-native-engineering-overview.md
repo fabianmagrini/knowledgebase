@@ -14,6 +14,7 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/ai-dlc-methodology.md
   - engineering/practices/harness-engineering.md
+  - leadership/learning-organisation.md
   - engineering/architecture/design-systems-ai-control-plane.md
 updated: 2026-06-13
 ---
@@ -63,5 +64,8 @@ A map of the notes on building software with AI agents. They answer different qu
 When code generation is cheap, leverage moves to **intent, constraints, and judgement**.
 Strategy sets direction; the SDLC and CI/CD move work; the stack and team supply capability;
 design systems and evals keep output correct. See also the
-[engineering leadership overview](engineering-leadership-overview.md) for the human/decision
-side, much of which these notes depend on.
+[engineering leadership overview](../../leadership/engineering-leadership-overview.md) for the human/decision
+side, much of which these notes depend on — and
+[The Learning Organisation and AI Adoption](../../leadership/learning-organisation.md) for the
+cultural prerequisite (psychological safety, slack, intelligent failure) that lets a team adopt
+any of this faster than the tooling changes.

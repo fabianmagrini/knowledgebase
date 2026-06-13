@@ -1,15 +1,15 @@
 ---
 title: Architecture Decision Forum
 tags: [architecture, code-review, system-design, leadership]
-topic: engineering/practices
+topic: leadership
 status: notes
 related:
   - engineering/architecture/agile-design-decisions.md
   - engineering/architecture/adr.md
   - engineering/practices/federated-pr-review.md
   - engineering/practices/code-review-policy.md
-  - engineering/practices/decision-facilitation.md
-  - engineering/practices/principal-engineer-influence.md
+  - leadership/decision-facilitation.md
+  - leadership/principal-engineer-influence.md
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/practices/ai-augmented-engineering-team.md
 source: "https://gist.github.com/fabianmagrini/15ea9a5d1d053a42b1d22ab788290e91"
@@ -24,8 +24,8 @@ gatekeeper**: it exists to raise the quality and consistency of decisions while 
 team autonomy — not to approve or block work.
 
 It is the operational home for the **global / cross-cutting (Tier C)** decisions in
-[agile design decisions](../architecture/agile-design-decisions.md): the guild sets
-guardrails, teams move freely between them. Its currency is the [ADR](../architecture/adr.md).
+[agile design decisions](../engineering/architecture/agile-design-decisions.md): the guild sets
+guardrails, teams move freely between them. Its currency is the [ADR](../engineering/architecture/adr.md).
 
 ## Principles
 
@@ -60,7 +60,7 @@ boundaries, e.g.:
 - Purely stylistic or coding-convention choices.
 
 If a team can reverse it cheaply on their own, it doesn't belong here — see Type 2 (two-way
-door) decisions in [agile design decisions](../architecture/agile-design-decisions.md).
+door) decisions in [agile design decisions](../engineering/architecture/agile-design-decisions.md).
 
 ## Roles
 
@@ -101,6 +101,6 @@ Measure **outcomes, not activity** — a forum optimising for volume has missed 
 ## Relationship to PR review
 
 This forum decides *direction* (should we build it this way?); code review and
-[federated PR review](federated-pr-review.md) govern *implementation* (was it built well?).
+[federated PR review](../engineering/practices/federated-pr-review.md) govern *implementation* (was it built well?).
 Keep them separate — pushing architectural debate into PRs is slow and late; pushing
 line-level review into the forum wastes everyone's time.
