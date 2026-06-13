@@ -1,6 +1,6 @@
 ---
 title: Start with the Why
-tags: [meta, documentation]
+tags: [leadership, communication]
 topic: engineering/practices
 status: notes
 related:
