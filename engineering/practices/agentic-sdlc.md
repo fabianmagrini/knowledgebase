@@ -13,6 +13,7 @@ related:
   - engineering/practices/agentic-ai-strategy-frameworks.md
   - engineering/practices/eval-driven-ai-development.md
   - engineering/practices/ai-augmented-engineering-team.md
+  - engineering/practices/harness-engineering.md
   - engineering/architecture/c4-model.md
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/design-systems-ai-control-plane.md

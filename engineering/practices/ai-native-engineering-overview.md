@@ -13,6 +13,7 @@ related:
   - engineering/practices/ai-augmented-engineering-team.md
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/ai-dlc-methodology.md
+  - engineering/practices/harness-engineering.md
   - engineering/architecture/design-systems-ai-control-plane.md
 updated: 2026-06-13
 ---
@@ -51,6 +52,8 @@ A map of the notes on building software with AI agents. They answer different qu
   — codified constraints as the control plane for AI-generated UI.
 - [Eval-Driven Development for AI Capabilities](eval-driven-ai-development.md) — testing the
   prompts/skills/agents themselves, not just the code they emit.
+- [Harness Engineering](harness-engineering.md) — the component-level anatomy of an agent
+  harness (the program agents run inside): core loop, tools, memory, patterns, trade-offs.
 - [Change Absorption Capacity (CATS)](change-absorption-capacity.md) — raising a system's
   capacity to safely absorb agent-speed change: contracts, automated verification, telemetry,
   simplification.
