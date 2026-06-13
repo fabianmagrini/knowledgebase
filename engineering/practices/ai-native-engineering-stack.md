@@ -12,6 +12,7 @@ related:
   - engineering/practices/agentic-sdlc.md
   - engineering/practices/agentic-sdlc-maturity-model.md
   - engineering/practices/eval-driven-ai-development.md
+  - engineering/architecture/design-systems-ai-control-plane.md
 source: "https://gist.github.com/fabianmagrini/9543a6a750d904f66744d7fbfb3d3ec3"
 ---
 
