@@ -9,6 +9,7 @@ related:
   - engineering/architecture/c4-model.md
   - engineering/practices/agentic-sdlc.md
   - engineering/practices/api-contract-functional-testing.md
+  - engineering/architecture/design-systems-ai-control-plane.md
 source: "https://gist.github.com/fabianmagrini/3b93d3db8189f663053489dd554d311d"
 ---
 
