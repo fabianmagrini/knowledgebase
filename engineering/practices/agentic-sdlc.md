@@ -9,6 +9,7 @@ related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/engineering-playbook.md
   - engineering/practices/agentic-sdlc-maturity-model.md
+  - engineering/practices/ai-dlc-methodology.md
   - engineering/practices/agentic-ai-strategy-frameworks.md
   - engineering/practices/eval-driven-ai-development.md
   - engineering/practices/ai-augmented-engineering-team.md

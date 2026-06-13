@@ -12,6 +12,7 @@ related:
   - engineering/practices/eval-driven-ai-development.md
   - engineering/practices/ai-augmented-engineering-team.md
   - engineering/practices/change-absorption-capacity.md
+  - engineering/practices/ai-dlc-methodology.md
   - engineering/architecture/design-systems-ai-control-plane.md
 updated: 2026-06-13
 ---
@@ -33,6 +34,8 @@ A map of the notes on building software with AI agents. They answer different qu
 - [The Agentic SDLC](agentic-sdlc.md) — the AI-assisted software delivery lifecycle.
 - [CI/CD as the Control Plane for AI-Assisted Engineering](ci-cd-ai-engineering.md) — the
   pipeline as the guardrail that makes agent-speed delivery safe.
+- [AI-DLC and the Reimagined SDLC](ai-dlc-methodology.md) — a concrete, ceremony-level
+  methodology (AI-DLC, V-Bounce, Bolts/Units/Intents) instantiating the agentic loop.
 
 ## Platform & team — who and what enables it?
 

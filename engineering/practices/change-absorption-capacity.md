@@ -10,6 +10,7 @@ related:
   - engineering/practices/ai-native-engineering-overview.md
   - engineering/practices/eval-driven-ai-development.md
   - engineering/practices/test-coverage-policy.md
+  - engineering/practices/ai-dlc-methodology.md
 source: "https://stackoverflow.blog/2026/05/12/you-shipped-it-fast-but-did-you-ship-it-right/"
 updated: 2026-06-14
 ---

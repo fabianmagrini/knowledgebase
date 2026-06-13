@@ -6,6 +6,7 @@ status: notes
 updated: 2026-06-13
 related:
   - engineering/practices/agentic-sdlc.md
+  - engineering/practices/ai-dlc-methodology.md
   - engineering/practices/ai-native-engineering-stack.md
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/agentic-ai-strategy-frameworks.md
