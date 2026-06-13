@@ -2,7 +2,7 @@
 title: Knowledge Base Conventions
 tags: [meta]
 status: complete
-updated: 2026-06-04
+updated: 2026-06-13
 ---
 
 # Conventions
@@ -66,6 +66,9 @@ updated: YYYY-MM-DD
 
 **Languages**
 `go`, `python`, `typescript`, `java`, `rust`, `sql`
+
+**People & culture**
+`leadership`, `culture`, `communication`
 
 **Meta**
 `meta`, `reading`, `paper`, `book`, `talk`

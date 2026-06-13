@@ -1,6 +1,6 @@
 ---
 title: Protecting Mavericks
-tags: [meta]
+tags: [leadership, culture]
 topic: engineering/practices
 status: notes
 related:
