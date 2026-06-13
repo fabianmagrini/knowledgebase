@@ -10,6 +10,7 @@ related:
   - engineering/practices/api-contract-functional-testing.md
   - engineering/practices/trunk-based-development.md
   - engineering/practices/engineering-playbook.md
+  - engineering/practices/managed-disruption.md
 ---
 
 # Release Process for Regulated and High-Risk Services
