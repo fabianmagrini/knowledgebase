@@ -27,3 +27,4 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Managed Disruption](managed-disruption.md)
 - [Protecting Mavericks](protecting-mavericks.md)
 - [Start with the Why](start-with-why.md)
+- [Eval-Driven Development for AI Capabilities](eval-driven-ai-development.md)
