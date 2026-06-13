@@ -22,4 +22,5 @@ make good decisions with others.
 - [Architecture Decision Forum](architecture-decision-forum.md)
 - [Protecting Mavericks](protecting-mavericks.md)
 - [Managed Disruption](managed-disruption.md)
+- [First-Principles Thinking](first-principles-thinking.md)
 - [The Learning Organisation and AI Adoption](learning-organisation.md)
