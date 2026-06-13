@@ -33,3 +33,4 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [AI-DLC and the Reimagined SDLC](ai-dlc-methodology.md)
 - [Harness Engineering](harness-engineering.md)
 - [Release Confidence as a System Property](release-confidence.md)
+- [Quality-First AI Coding](quality-first-ai-coding.md)
