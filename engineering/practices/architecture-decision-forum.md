@@ -8,6 +8,7 @@ related:
   - engineering/architecture/adr.md
   - engineering/practices/federated-pr-review.md
   - engineering/practices/code-review-policy.md
+  - engineering/practices/decision-facilitation.md
 source: "https://gist.github.com/fabianmagrini/15ea9a5d1d053a42b1d22ab788290e91"
 updated: 2026-06-13
 ---
