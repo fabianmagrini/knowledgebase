@@ -8,6 +8,7 @@ related:
   - engineering/practices/start-with-why.md
   - engineering/architecture/agile-design-decisions.md
   - engineering/practices/protecting-mavericks.md
+  - engineering/practices/principal-engineer-influence.md
 source: "https://gist.github.com/fabianmagrini/10e09bb9cef680c07cad82e7bfbcb441"
 updated: 2026-06-13
 ---
