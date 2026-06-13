@@ -1,15 +1,16 @@
 ---
 title: Engineering Leadership — Overview
 tags: [meta, leadership, communication]
-topic: engineering/practices
+topic: leadership
 status: complete
 related:
-  - engineering/practices/start-with-why.md
-  - engineering/practices/decision-facilitation.md
-  - engineering/practices/principal-engineer-influence.md
-  - engineering/practices/protecting-mavericks.md
-  - engineering/practices/managed-disruption.md
-  - engineering/practices/architecture-decision-forum.md
+  - leadership/start-with-why.md
+  - leadership/decision-facilitation.md
+  - leadership/principal-engineer-influence.md
+  - leadership/protecting-mavericks.md
+  - leadership/managed-disruption.md
+  - leadership/architecture-decision-forum.md
+  - leadership/learning-organisation.md
   - engineering/architecture/agile-design-decisions.md
 updated: 2026-06-13
 ---
@@ -31,7 +32,7 @@ how to set direction and make good decisions with other people.
   the decision frame; facilitate rather than lecture.
 - [Architecture Decision Forum](architecture-decision-forum.md) — the advisory body that
   governs high-blast-radius decisions without becoming a gatekeeper.
-- [Agile Design Decisions and Principles](../architecture/agile-design-decisions.md) — the
+- [Agile Design Decisions and Principles](../engineering/architecture/agile-design-decisions.md) — the
   decision frameworks (reversibility, blast radius, delegation) the forum and facilitation
   put into practice.
 
@@ -41,12 +42,15 @@ how to set direction and make good decisions with other people.
   without letting disruption damage the team.
 - [Managed Disruption](managed-disruption.md) — introducing change into delivery safely and
   deliberately.
+- [The Learning Organisation and AI Adoption](learning-organisation.md) — the cultural
+  prerequisites (psychological safety, slack, intelligent failure) that let teams absorb new
+  technology faster than it changes.
 
 ## The through-line
 
 Leadership here is **advisory, not authoritarian**: set direction through purpose and clear
 signals, facilitate decisions the group owns, govern only the choices whose blast radius
 demands it, and protect the people who drive change. Much of the
-[AI-native engineering](ai-native-engineering-overview.md) operating model rests on these
+[AI-native engineering](../engineering/practices/ai-native-engineering-overview.md) operating model rests on these
 practices — Intent Specs are *start with the why*; the governance forum is a *constraint
 authority*; Principals become *orchestrators*.

@@ -13,7 +13,7 @@ related:
   - engineering/practices/ai-native-engineering-stack.md
   - engineering/architecture/agile-design-decisions.md
   - engineering/architecture/adr.md
-  - engineering/practices/architecture-decision-forum.md
+  - leadership/architecture-decision-forum.md
   - tools/git.md
   - engineering/security/secure-sdlc.md
 source: "https://gist.github.com/fabianmagrini/e95a24606e7108a7e0673de02d739be3"

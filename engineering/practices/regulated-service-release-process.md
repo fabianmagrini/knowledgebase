@@ -10,7 +10,7 @@ related:
   - engineering/practices/api-contract-functional-testing.md
   - engineering/practices/trunk-based-development.md
   - engineering/practices/engineering-playbook.md
-  - engineering/practices/managed-disruption.md
+  - leadership/managed-disruption.md
   - engineering/practices/federated-pr-review.md
   - engineering/security/secure-sdlc.md
 ---

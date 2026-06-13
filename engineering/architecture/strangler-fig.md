@@ -6,7 +6,7 @@ status: notes
 related:
   - engineering/architecture/agile-design-decisions.md
   - engineering/architecture/adr.md
-  - engineering/practices/managed-disruption.md
+  - leadership/managed-disruption.md
   - engineering/architecture/composable-architecture.md
 updated: 2026-06-13
 ---
@@ -52,7 +52,7 @@ calls → │  route per capability            │
 
 ## Relationship to other notes
 
-It is the architectural expression of [managed disruption](../practices/managed-disruption.md)
+It is the architectural expression of [managed disruption](../../leadership/managed-disruption.md)
 (controlled, incremental change), and it pairs naturally with
 [composable architecture](composable-architecture.md) — the new system is often built as
 composable services/capabilities behind the facade.

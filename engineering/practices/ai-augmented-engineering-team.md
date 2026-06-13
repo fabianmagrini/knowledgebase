@@ -7,10 +7,11 @@ related:
   - engineering/practices/agentic-sdlc.md
   - engineering/practices/agentic-sdlc-maturity-model.md
   - engineering/practices/ai-native-engineering-stack.md
-  - engineering/practices/principal-engineer-influence.md
-  - engineering/practices/architecture-decision-forum.md
+  - leadership/principal-engineer-influence.md
+  - leadership/architecture-decision-forum.md
   - engineering/practices/eval-driven-ai-development.md
   - engineering/architecture/design-systems-ai-control-plane.md
+  - leadership/learning-organisation.md
 source: "https://gist.github.com/fabianmagrini/61ce6e1b381227755048dbd90704924b"
 updated: 2026-06-13
 ---
@@ -38,7 +39,7 @@ architecture, and constraint definition**. The team doesn't get smaller — it g
 |---|---|
 | **Stream-aligned teams** | Business outcomes (journeys, APIs, microfrontends), delivered via AI-assisted workflows |
 | **Platform team** | The internal developer platform — golden paths, AI tooling integration, guardrails (see [AI-native engineering stack](ai-native-engineering-stack.md)) |
-| **Principal Engineers** | System orchestration — defining constraints, cross-team architecture, governance (see [influence](principal-engineer-influence.md)) |
+| **Principal Engineers** | System orchestration — defining constraints, cross-team architecture, governance (see [influence](../../leadership/principal-engineer-influence.md)) |
 | **Product Engineering** | Intent — framing the problem and defining the outcomes so the system builds the *correct* solution |
 
 ## The delivery loop
@@ -62,7 +63,7 @@ primary asset — *intent is authored, code is generated*. Every task carries:
 - Testable acceptance criteria
 - **Non-goals**
 
-This is [start with the why](start-with-why.md) made executable: the spec is what an agent
+This is [start with the why](../../leadership/start-with-why.md) made executable: the spec is what an agent
 (or human) needs to build the right thing.
 
 ## Constraints as control
@@ -72,7 +73,7 @@ codified constraints are what make agent output safe at scale:
 
 - **Architecture and API contracts** — the boundaries agents compose within.
 - **Design systems** — the [control plane for AI-generated UI](../architecture/design-systems-ai-control-plane.md).
-- **Governance** — the [architecture decision forum](architecture-decision-forum.md) acts as
+- **Governance** — the [architecture decision forum](../../leadership/architecture-decision-forum.md) acts as
   a *constraint authority*, not an approval bottleneck.
 
 ## Transition roadmap (6–12 months)

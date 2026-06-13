@@ -9,7 +9,7 @@ related:
   - engineering/architecture/agile-design-decisions.md
   - engineering/architecture/adr.md
   - engineering/architecture/design-systems-ai-control-plane.md
-  - engineering/practices/architecture-decision-forum.md
+  - leadership/architecture-decision-forum.md
   - engineering/architecture/strangler-fig.md
 updated: 2026-06-13
 ---
@@ -39,7 +39,7 @@ systems.
   architecture; technical debt as a tool.
 - [Architectural Decision Records (ADRs)](adr.md) — lightweight, version-controlled records
   of significant decisions.
-- [Architecture Decision Forum](../practices/architecture-decision-forum.md) — the advisory
+- [Architecture Decision Forum](../../leadership/architecture-decision-forum.md) — the advisory
   body where cross-cutting decisions are made and logged as ADRs *(in practices)*.
 
 ## The through-line
@@ -47,6 +47,6 @@ systems.
 Describe with C4, shape with composable + design-system primitives, decide with the
 reversibility/blast-radius frameworks, and record in ADRs ratified through the decision
 forum. The decision-making side connects to the
-[engineering leadership overview](../practices/engineering-leadership-overview.md); the
+[engineering leadership overview](../../leadership/engineering-leadership-overview.md); the
 AI-era constraints connect to the
 [AI-native engineering overview](../practices/ai-native-engineering-overview.md).

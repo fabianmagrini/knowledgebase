@@ -7,7 +7,7 @@ related:
   - engineering/architecture/composable-architecture.md
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/ai-native-engineering-stack.md
-  - engineering/practices/architecture-decision-forum.md
+  - leadership/architecture-decision-forum.md
   - engineering/practices/agentic-sdlc.md
   - engineering/practices/ai-augmented-engineering-team.md
 source: "https://gist.github.com/fabianmagrini/3bf21095225b78d8b30db9437f4477b9"
@@ -69,7 +69,7 @@ Guardrails only work if they block non-compliant code automatically:
 - **Static analysis** detecting non-token styling.
 - **CI checks** blocking non-compliant UI.
 
-This is exactly the standard the [architecture decision forum](../practices/architecture-decision-forum.md)
+This is exactly the standard the [architecture decision forum](../../leadership/architecture-decision-forum.md)
 protects when it makes "a new widget outside the design system" a reviewable exception.
 
 ## Payoff
