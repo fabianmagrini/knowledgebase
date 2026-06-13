@@ -9,6 +9,7 @@ related:
   - engineering/architecture/agile-design-decisions.md
   - leadership/protecting-mavericks.md
   - leadership/principal-engineer-influence.md
+  - leadership/first-principles-thinking.md
 source: "https://gist.github.com/fabianmagrini/10e09bb9cef680c07cad82e7bfbcb441"
 updated: 2026-06-13
 ---
