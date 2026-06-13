@@ -29,3 +29,4 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Start with the Why](start-with-why.md)
 - [Eval-Driven Development for AI Capabilities](eval-driven-ai-development.md)
 - [Architecture Decision Forum](architecture-decision-forum.md)
+- [Facilitating Technical Decisions](decision-facilitation.md)
