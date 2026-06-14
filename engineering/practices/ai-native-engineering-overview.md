@@ -18,6 +18,7 @@ related:
   - engineering/practices/agent-backpressure-loops.md
   - engineering/practices/agile-in-the-age-of-ai.md
   - engineering/practices/modern-engineering-values.md
+  - engineering/practices/loop-driven-development.md
   - leadership/learning-organisation.md
   - engineering/architecture/design-systems-ai-control-plane.md
 updated: 2026-06-13
@@ -68,6 +69,9 @@ A map of the notes on building software with AI agents. They answer different qu
 - [Backpressure Loops for Coding Agents](agent-backpressure-loops.md) — move mechanical
   correctness feedback into agent-actionable loops (sensors) so agents self-correct and humans
   stop babysitting.
+- [Loop-Driven Development](loop-driven-development.md) — the connective map: TDD scaled to agent
+  loops (trigger/goal/harness/verifier/state) and the autocomplete→prompt→context→harness→loop
+  leverage stack.
 - [Change Absorption Capacity (CATS)](change-absorption-capacity.md) — raising a system's
   capacity to safely absorb agent-speed change: contracts, automated verification, telemetry,
   simplification.

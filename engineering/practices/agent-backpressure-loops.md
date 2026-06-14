@@ -10,6 +10,7 @@ related:
   - engineering/practices/harness-engineering.md
   - engineering/practices/eval-driven-ai-development.md
   - engineering/practices/modern-engineering-values.md
+  - engineering/practices/loop-driven-development.md
 source: "https://generativeprogrammer.com/p/stop-babysitting-your-coding-agent"
 updated: 2026-06-14
 ---
