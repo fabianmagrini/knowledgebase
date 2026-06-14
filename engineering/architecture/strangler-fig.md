@@ -8,6 +8,7 @@ related:
   - engineering/architecture/adr.md
   - leadership/managed-disruption.md
   - engineering/architecture/composable-architecture.md
+  - engineering/architecture/architectural-change-cases.md
 updated: 2026-06-13
 ---
 

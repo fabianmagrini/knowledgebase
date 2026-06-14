@@ -13,6 +13,7 @@ related:
   - engineering/practices/performance-testing-strategy.md
   - engineering/architecture/agile-design-decisions.md
   - engineering/architecture/strangler-fig.md
+  - engineering/architecture/architectural-change-cases.md
 source: "https://gist.github.com/fabianmagrini/3b93d3db8189f663053489dd554d311d"
 ---
 
