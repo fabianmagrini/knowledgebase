@@ -10,6 +10,7 @@ related:
   - engineering/practices/ai-native-engineering-overview.md
   - engineering/practices/ai-augmented-engineering-team.md
   - engineering/practices/change-absorption-capacity.md
+  - engineering/practices/agile-in-the-age-of-ai.md
 source: "https://specs.md/methodology/sdlc-reimagined"
 updated: 2026-06-14
 ---

@@ -11,6 +11,7 @@ related:
   - engineering/practices/ai-augmented-engineering-team.md
   - engineering/practices/agentic-ai-strategy-frameworks.md
   - engineering/practices/change-absorption-capacity.md
+  - engineering/practices/agile-in-the-age-of-ai.md
 source: "https://erik.wiffin.com/posts/you-are-failing-at-ai-because-you-havent-built-a-learning-organization/"
 updated: 2026-06-14
 ---
