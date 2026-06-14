@@ -9,6 +9,7 @@ related:
   - leadership/start-with-why.md
   - leadership/protecting-mavericks.md
   - engineering/practices/ai-augmented-engineering-team.md
+  - leadership/raising-problems-without-complaining.md
 source: "https://gist.github.com/fabianmagrini/220ed6ab9e5d206a96a55177175e3fa1"
 updated: 2026-06-13
 ---

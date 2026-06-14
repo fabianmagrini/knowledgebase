@@ -18,6 +18,7 @@ make good decisions with others.
 - [Engineering Leadership — Overview](engineering-leadership-overview.md)
 - [Start with the Why](start-with-why.md)
 - [Principal Engineer Influence](principal-engineer-influence.md)
+- [Raising Problems Without Complaining](raising-problems-without-complaining.md)
 - [Facilitating Technical Decisions](decision-facilitation.md)
 - [Architecture Decision Forum](architecture-decision-forum.md)
 - [Protecting Mavericks](protecting-mavericks.md)
