@@ -9,6 +9,7 @@ related:
   - leadership/decision-facilitation.md
   - leadership/principal-engineer-influence.md
   - leadership/first-principles-thinking.md
+  - leadership/designing-with-constraints.md
 source: "https://gist.github.com/fabianmagrini/a9419029286fb2277dc7b2bc5fc0d43d"
 updated: 2026-06-13
 ---

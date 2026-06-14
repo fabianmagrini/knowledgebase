@@ -11,6 +11,7 @@ related:
   - leadership/managed-disruption.md
   - leadership/architecture-decision-forum.md
   - leadership/first-principles-thinking.md
+  - leadership/designing-with-constraints.md
   - leadership/learning-organisation.md
   - engineering/architecture/agile-design-decisions.md
 updated: 2026-06-13
@@ -38,6 +39,8 @@ how to set direction and make good decisions with other people.
   put into practice.
 - [First-Principles Thinking](first-principles-thinking.md) — framing the problem before deciding:
   strip inherited assumptions, separate hard from soft limits, reason forward from what holds.
+- [Designing with Constraints](designing-with-constraints.md) — the complement: impose deliberate
+  constraints (one-pager, separable core tech, one defining constraint) to collapse decision space.
 
 ## People & change
 
