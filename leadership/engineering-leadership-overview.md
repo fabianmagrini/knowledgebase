@@ -7,6 +7,7 @@ related:
   - leadership/start-with-why.md
   - leadership/decision-facilitation.md
   - leadership/principal-engineer-influence.md
+  - leadership/raising-problems-without-complaining.md
   - leadership/protecting-mavericks.md
   - leadership/managed-disruption.md
   - leadership/architecture-decision-forum.md
@@ -27,6 +28,8 @@ how to set direction and make good decisions with other people.
 - [Start with the Why](start-with-why.md) — lead with purpose before approach or output.
 - [Principal Engineer Influence](principal-engineer-influence.md) — your words signal
   strategy; give feedback early and privately so forums validate rather than surprise.
+- [Raising Problems Without Complaining](raising-problems-without-complaining.md) — managing up:
+  raise blockers so they signal ownership, not a collaboration gap; "what's my move here?"
 
 ## Running the decision — facilitation
 
