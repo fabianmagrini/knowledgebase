@@ -13,6 +13,7 @@ related:
   - engineering/practices/ai-native-engineering-stack.md
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/prompt-engineering-for-programmers.md
+  - standards/open-knowledge-format.md
 source:
   - "https://generativeprogrammer.com/p/from-test-driven-to-loop-driven-development"
   - "https://addyo.substack.com/p/loop-engineering"
