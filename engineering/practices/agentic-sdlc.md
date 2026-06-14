@@ -14,6 +14,7 @@ related:
   - engineering/practices/eval-driven-ai-development.md
   - engineering/practices/ai-augmented-engineering-team.md
   - engineering/practices/harness-engineering.md
+  - engineering/practices/agile-in-the-age-of-ai.md
   - engineering/architecture/c4-model.md
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/design-systems-ai-control-plane.md

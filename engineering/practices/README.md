@@ -35,3 +35,4 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Release Confidence as a System Property](release-confidence.md)
 - [Quality-First AI Coding](quality-first-ai-coding.md)
 - [Backpressure Loops for Coding Agents](agent-backpressure-loops.md)
+- [Agile in the Age of AI](agile-in-the-age-of-ai.md)

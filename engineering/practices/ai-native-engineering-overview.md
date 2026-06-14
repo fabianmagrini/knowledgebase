@@ -16,6 +16,7 @@ related:
   - engineering/practices/harness-engineering.md
   - engineering/practices/quality-first-ai-coding.md
   - engineering/practices/agent-backpressure-loops.md
+  - engineering/practices/agile-in-the-age-of-ai.md
   - leadership/learning-organisation.md
   - engineering/architecture/design-systems-ai-control-plane.md
 updated: 2026-06-13
@@ -40,6 +41,8 @@ A map of the notes on building software with AI agents. They answer different qu
   pipeline as the guardrail that makes agent-speed delivery safe.
 - [AI-DLC and the Reimagined SDLC](ai-dlc-methodology.md) — a concrete, ceremony-level
   methodology (AI-DLC, V-Bounce, Bolts/Units/Intents) instantiating the agentic loop.
+- [Agile in the Age of AI](agile-in-the-age-of-ai.md) — the counterpoint: Agile principles
+  persist; sustainable pace and human cognitive load bind how many agents you can direct.
 
 ## Platform & team — who and what enables it?
 
