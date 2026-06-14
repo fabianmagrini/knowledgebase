@@ -14,6 +14,7 @@ related:
   - leadership/decision-facilitation.md
   - leadership/first-principles-thinking.md
   - engineering/architecture/strangler-fig.md
+  - engineering/architecture/architectural-change-cases.md
 source: "https://gist.github.com/fabianmagrini/76071cbc06aa1a5eafd19a7fb5ea2457"
 updated: 2026-06-13
 ---

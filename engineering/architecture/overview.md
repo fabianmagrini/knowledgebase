@@ -8,6 +8,7 @@ related:
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/agile-design-decisions.md
   - engineering/architecture/adr.md
+  - engineering/architecture/architectural-change-cases.md
   - engineering/architecture/design-systems-ai-control-plane.md
   - leadership/architecture-decision-forum.md
   - engineering/architecture/strangler-fig.md
@@ -39,6 +40,8 @@ systems.
   architecture; technical debt as a tool.
 - [Architectural Decision Records (ADRs)](adr.md) — lightweight, version-controlled records
   of significant decisions.
+- [Architectural Change Cases](architectural-change-cases.md) — extend ADRs forward in time:
+  structured speculation about how decisions might have to change, with cost and reversibility.
 - [Architecture Decision Forum](../../leadership/architecture-decision-forum.md) — the advisory
   body where cross-cutting decisions are made and logged as ADRs *(in practices)*.
 
