@@ -19,6 +19,7 @@ related:
   - engineering/practices/agile-in-the-age-of-ai.md
   - engineering/practices/modern-engineering-values.md
   - engineering/practices/loop-driven-development.md
+  - engineering/practices/prompt-engineering-for-programmers.md
   - leadership/learning-organisation.md
   - engineering/architecture/design-systems-ai-control-plane.md
 updated: 2026-06-13
@@ -73,6 +74,9 @@ A map of the notes on building software with AI agents. They answer different qu
   loops (trigger/goal/harness/verifier/state) and the autocomplete→prompt→context→harness→loop
   leverage stack; plus the loop-engineering anatomy and the comprehension-debt / cognitive-surrender
   cautions.
+- [Prompt Engineering for Programmers](prompt-engineering-for-programmers.md) — the ground-level
+  craft: context, specificity, decomposition, few-shot, personas, and debugging/refactoring
+  patterns. Prompt quality determines output quality.
 - [Change Absorption Capacity (CATS)](change-absorption-capacity.md) — raising a system's
   capacity to safely absorb agent-speed change: contracts, automated verification, telemetry,
   simplification.

@@ -11,6 +11,7 @@ related:
   - engineering/practices/federated-pr-review.md
   - engineering/practices/agent-backpressure-loops.md
   - engineering/practices/modern-engineering-values.md
+  - engineering/practices/prompt-engineering-for-programmers.md
 source: "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/"
 updated: 2026-06-14
 ---

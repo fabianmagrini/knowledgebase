@@ -12,6 +12,7 @@ related:
   - engineering/practices/test-coverage-policy.md
   - engineering/practices/ai-native-engineering-stack.md
   - engineering/practices/change-absorption-capacity.md
+  - engineering/practices/prompt-engineering-for-programmers.md
 source:
   - "https://generativeprogrammer.com/p/from-test-driven-to-loop-driven-development"
   - "https://addyo.substack.com/p/loop-engineering"
