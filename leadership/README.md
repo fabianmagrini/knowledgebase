@@ -23,4 +23,5 @@ make good decisions with others.
 - [Protecting Mavericks](protecting-mavericks.md)
 - [Managed Disruption](managed-disruption.md)
 - [First-Principles Thinking](first-principles-thinking.md)
+- [Designing with Constraints](designing-with-constraints.md)
 - [The Learning Organisation and AI Adoption](learning-organisation.md)

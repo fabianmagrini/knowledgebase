@@ -9,6 +9,7 @@ related:
   - leadership/start-with-why.md
   - leadership/engineering-leadership-overview.md
   - engineering/architecture/agile-design-decisions.md
+  - leadership/designing-with-constraints.md
 source: "https://www.philmckinney.com/how-to-improve-your-first-principles-thinking-skills/"
 updated: 2026-06-14
 ---
