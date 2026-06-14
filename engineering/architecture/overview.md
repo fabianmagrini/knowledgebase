@@ -6,6 +6,7 @@ status: complete
 related:
   - engineering/architecture/c4-model.md
   - engineering/architecture/composable-architecture.md
+  - engineering/architecture/micro-frontend-canvas.md
   - engineering/architecture/agile-design-decisions.md
   - engineering/architecture/adr.md
   - engineering/architecture/architectural-change-cases.md
@@ -28,6 +29,8 @@ systems.
 
 - [Composable Architecture](composable-architecture.md) — packaged business capabilities,
   API gateway/BFF, journey APIs, GraphQL federation.
+- [The Micro-Frontend Canvas](micro-frontend-canvas.md) — a single-page tool for deciding and
+  validating micro-frontend boundaries (capability, ownership, communication) before coding.
 - [Strangler Fig Pattern](strangler-fig.md) — modernise legacy incrementally behind a
   facade, without a big-bang rewrite.
 - [Design Systems as the AI Control Plane](design-systems-ai-control-plane.md) — the design

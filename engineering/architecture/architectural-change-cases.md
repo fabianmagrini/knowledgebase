@@ -10,6 +10,7 @@ related:
   - engineering/architecture/strangler-fig.md
   - engineering/architecture/composable-architecture.md
   - engineering/practices/change-absorption-capacity.md
+  - engineering/architecture/micro-frontend-canvas.md
 source: "https://www.infoq.com/articles/architectural-change-cases/"
 updated: 2026-06-14
 ---
