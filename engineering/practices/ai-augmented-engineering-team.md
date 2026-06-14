@@ -12,6 +12,7 @@ related:
   - engineering/practices/eval-driven-ai-development.md
   - engineering/architecture/design-systems-ai-control-plane.md
   - leadership/learning-organisation.md
+  - engineering/practices/modern-engineering-values.md
 source: "https://gist.github.com/fabianmagrini/61ce6e1b381227755048dbd90704924b"
 updated: 2026-06-13
 ---
