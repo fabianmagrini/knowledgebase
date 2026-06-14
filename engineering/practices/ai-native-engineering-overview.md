@@ -17,6 +17,7 @@ related:
   - engineering/practices/quality-first-ai-coding.md
   - engineering/practices/agent-backpressure-loops.md
   - engineering/practices/agile-in-the-age-of-ai.md
+  - engineering/practices/modern-engineering-values.md
   - leadership/learning-organisation.md
   - engineering/architecture/design-systems-ai-control-plane.md
 updated: 2026-06-13
@@ -51,6 +52,8 @@ A map of the notes on building software with AI agents. They answer different qu
 - [The AI-Augmented Engineering Team](ai-augmented-engineering-team.md) — the operating
   model: team composition, Intent Specs, the delivery loop, transition roadmap. The capstone
   that ties the rest together.
+- [Modern Engineering Values](modern-engineering-values.md) — a solo/small-team practitioner's
+  values: ownership, taste, guardrails, context-in-the-repo, own your stack, option value.
 
 ## Control & quality — how do we keep it correct?
 
