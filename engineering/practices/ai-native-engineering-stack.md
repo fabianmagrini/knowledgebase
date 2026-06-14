@@ -18,6 +18,7 @@ related:
   - engineering/practices/harness-engineering.md
   - engineering/practices/loop-driven-development.md
   - engineering/practices/prompt-engineering-for-programmers.md
+  - standards/open-knowledge-format.md
 source: "https://gist.github.com/fabianmagrini/9543a6a750d904f66744d7fbfb3d3ec3"
 ---
 

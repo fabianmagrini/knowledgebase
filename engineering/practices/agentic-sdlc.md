@@ -17,6 +17,7 @@ related:
   - engineering/practices/agile-in-the-age-of-ai.md
   - engineering/practices/modern-engineering-values.md
   - engineering/practices/loop-driven-development.md
+  - standards/open-knowledge-format.md
   - engineering/architecture/c4-model.md
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/design-systems-ai-control-plane.md

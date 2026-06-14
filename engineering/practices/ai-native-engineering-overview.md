@@ -20,6 +20,7 @@ related:
   - engineering/practices/modern-engineering-values.md
   - engineering/practices/loop-driven-development.md
   - engineering/practices/prompt-engineering-for-programmers.md
+  - standards/open-knowledge-format.md
   - leadership/learning-organisation.md
   - engineering/architecture/design-systems-ai-control-plane.md
 updated: 2026-06-13
@@ -56,6 +57,8 @@ A map of the notes on building software with AI agents. They answer different qu
   that ties the rest together.
 - [Modern Engineering Values](modern-engineering-values.md) — a solo/small-team practitioner's
   values: ownership, taste, guardrails, context-in-the-repo, own your stack, option value.
+- [Open Knowledge Format (OKF)](../../standards/open-knowledge-format.md) — a portable
+  markdown+YAML format for the knowledge/context agents consume *(in standards)*.
 
 ## Control & quality — how do we keep it correct?
 

@@ -15,6 +15,7 @@ Personal engineering knowledge base.
 - [Leadership](leadership/) — leadership, communication, decision governance, culture
 - [Languages](languages/) — programming language notes
 - [Tools](tools/) — CLI tools, editors, platforms, infrastructure
+- [Standards](standards/) — specifications, protocols, and formats
 - [Concepts](concepts/) — algorithms, data structures, CS fundamentals
 - [Reading](reading/) — notes from books, papers, and articles
 

@@ -22,6 +22,7 @@ engineering/        # architecture, practices, security
 leadership/         # leadership, communication, decision governance, culture
 languages/          # per-language notes
 tools/              # cloud, containers, editors
+standards/          # specifications, protocols, formats
 concepts/           # algorithms, data structures, CS fundamentals
 reading/            # notes from books, papers, articles
 ```
