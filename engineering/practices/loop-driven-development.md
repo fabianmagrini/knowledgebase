@@ -10,7 +10,11 @@ related:
   - engineering/practices/eval-driven-ai-development.md
   - engineering/practices/agentic-sdlc.md
   - engineering/practices/test-coverage-policy.md
-source: "https://generativeprogrammer.com/p/from-test-driven-to-loop-driven-development"
+  - engineering/practices/ai-native-engineering-stack.md
+  - engineering/practices/change-absorption-capacity.md
+source:
+  - "https://generativeprogrammer.com/p/from-test-driven-to-loop-driven-development"
+  - "https://addyo.substack.com/p/loop-engineering"
 updated: 2026-06-14
 ---
 
@@ -53,6 +57,34 @@ engineering wraps harnesses with recurring, decision-based orchestration.
 > "The point of a harness is not to make the model magically correct. The point is to make the
 > work observable, constrained, and checkable."
 
+## Loop engineering: the anatomy of a loop
+
+Loop engineering (era 5) is where the engineer stops prompting the agent turn-by-turn and instead
+designs the system that prompts it — "you design the system that does it instead" (Addy Osmani). A
+loop is a recursive goal: define a purpose and the agent iterates until it is complete. The
+leverage moves from prompt engineering to loop architecture — as Boris Cherny puts it, "my job is
+to write loops." Because Claude Code and Codex now share the same underlying pieces, the design
+transfers across tools: design the loop, not the tool.
+
+A loop is assembled from six parts:
+
+| Component | Role |
+|---|---|
+| **Automations** | The heartbeat — scheduled discovery/triage. Codex automations route findings to a Triage inbox; Claude Code uses `/loop` (cadence re-runs) and `/goal` (iterate until conditions hold). |
+| **Worktrees** | Parallel safety — Git worktrees isolate concurrent agents so they do not collide on the same files. |
+| **Skills** | Encoded project knowledge (`SKILL.md` plus optional scripts) so conventions are not re-derived each run — the cure for *intent debt*. |
+| **Plugins / connectors** | MCP integrations to real tools (issue trackers, databases, staging, Slack) so the loop acts in the actual environment, not just the filesystem. |
+| **Sub-agents** | Separation of maker and checker — a second agent verifies, because "the model that wrote the code is way too nice grading its own homework." |
+| **Memory / state file** | The spine — external persistence (Markdown, a Linear board) of what was attempted, passed, and pending. "The agent forgets, the repo doesn't." |
+
+### A loop in practice
+
+A morning automation runs a triage skill over CI failures, issues, and recent commits, and writes
+the findings to a state file. For each actionable item it opens an isolated worktree; one
+sub-agent drafts a fix and a second reviews it against the project skills and tests; connectors
+open the PR and update the ticket; anything unhandled lands in a triage inbox for a human. The next
+day's run resumes from the saved state — designed once, operated without continuous prompting.
+
 ## The verifier principle
 
 The verifier is what separates a loop from vague iteration: without it you have *repeated
@@ -78,10 +110,30 @@ form of in-loop verification.
   produces plausible but problematic work.
 - Treating expanded autonomy as a reason to *relax* constraints rather than strengthen them.
 
+## Cautions for the human in the loop
+
+Automating the loop sharpens three problems rather than removing them:
+
+- **Verification burden remains.** "A loop running unattended is also a loop making mistakes
+  unattended." Maker/checker separation raises confidence but does not transfer responsibility —
+  "done" is a claim, not proof.
+- **Comprehension debt.** The faster loops ship, the wider the gap between code that exists and
+  code anyone understands — unless developers actively read what is generated. This is the
+  understanding-side analogue of [change absorption capacity](change-absorption-capacity.md).
+- **Cognitive surrender.** As loops succeed it becomes tempting to stop forming independent
+  judgements and simply accept outputs. The same loop accelerates deep work for one engineer and
+  replaces thinking for another — "the loop doesn't know the difference. You do."
+
+> Build the loop, but build it "like someone who intends to stay the engineer, not just the person
+> who presses go."
+
 ## References
 
-The piece credits Martin Fowler (TDD), the ReAct paper, AutoGPT, and Addy Osmani's "loop
-engineering" framing.
+The TDD-to-loops framing credits Martin Fowler (TDD), the ReAct paper, and AutoGPT. The
+loop-engineering anatomy and cautions draw on Addy Osmani's
+[Loop Engineering](https://addyo.substack.com/p/loop-engineering), which in turn cites Peter
+Steinberger (stop prompting agents; build loops that prompt them) and Boris Cherny ("my job is to
+write loops").
 
 ## Relationship to other notes
 

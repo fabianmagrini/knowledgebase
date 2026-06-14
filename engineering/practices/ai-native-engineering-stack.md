@@ -16,6 +16,7 @@ related:
   - engineering/practices/ai-augmented-engineering-team.md
   - engineering/practices/agentic-ai-strategy-frameworks.md
   - engineering/practices/harness-engineering.md
+  - engineering/practices/loop-driven-development.md
 source: "https://gist.github.com/fabianmagrini/9543a6a750d904f66744d7fbfb3d3ec3"
 ---
 

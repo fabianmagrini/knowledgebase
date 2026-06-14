@@ -18,6 +18,7 @@ related:
   - engineering/architecture/architectural-change-cases.md
   - engineering/practices/agile-in-the-age-of-ai.md
   - engineering/practices/modern-engineering-values.md
+  - engineering/practices/loop-driven-development.md
 source: "https://stackoverflow.blog/2026/05/12/you-shipped-it-fast-but-did-you-ship-it-right/"
 updated: 2026-06-14
 ---
