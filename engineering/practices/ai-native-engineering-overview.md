@@ -71,7 +71,8 @@ A map of the notes on building software with AI agents. They answer different qu
   stop babysitting.
 - [Loop-Driven Development](loop-driven-development.md) — the connective map: TDD scaled to agent
   loops (trigger/goal/harness/verifier/state) and the autocomplete→prompt→context→harness→loop
-  leverage stack.
+  leverage stack; plus the loop-engineering anatomy and the comprehension-debt / cognitive-surrender
+  cautions.
 - [Change Absorption Capacity (CATS)](change-absorption-capacity.md) — raising a system's
   capacity to safely absorb agent-speed change: contracts, automated verification, telemetry,
   simplification.
