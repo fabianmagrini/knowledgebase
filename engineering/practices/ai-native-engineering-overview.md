@@ -1,6 +1,6 @@
 ---
 title: AI-Native Engineering — Overview
-tags: [meta, ai-engineering]
+tags: [meta, ai-engineering, agentic-workflows]
 topic: engineering/practices
 status: complete
 related:
@@ -23,7 +23,7 @@ related:
   - standards/open-knowledge-format.md
   - leadership/learning-organisation.md
   - engineering/architecture/design-systems-ai-control-plane.md
-updated: 2026-06-13
+updated: 2026-06-15
 ---
 
 # AI-Native Engineering — Overview

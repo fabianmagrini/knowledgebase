@@ -1,6 +1,6 @@
 ---
 title: Loop-Driven Development
-tags: [ai-engineering, testing, ci-cd, reading]
+tags: [ai-engineering, testing, ci-cd, reading, agentic-workflows]
 topic: engineering/practices
 status: notes
 level: intermediate
@@ -17,7 +17,7 @@ related:
 source:
   - "https://generativeprogrammer.com/p/from-test-driven-to-loop-driven-development"
   - "https://addyo.substack.com/p/loop-engineering"
-updated: 2026-06-14
+updated: 2026-06-15
 ---
 
 # Loop-Driven Development

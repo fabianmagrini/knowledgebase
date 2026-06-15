@@ -1,6 +1,6 @@
 ---
 title: First-Principles Thinking
-tags: [leadership, reading]
+tags: [leadership, reading, decision-making]
 topic: leadership
 status: notes
 level: intermediate
@@ -12,7 +12,7 @@ related:
   - leadership/designing-with-constraints.md
   - leadership/raising-problems-without-complaining.md
 source: "https://www.philmckinney.com/how-to-improve-your-first-principles-thinking-skills/"
-updated: 2026-06-14
+updated: 2026-06-15
 ---
 
 # First-Principles Thinking

@@ -1,6 +1,6 @@
 ---
 title: Managed Disruption
-tags: [architecture, ci-cd, refactoring, code-review]
+tags: [architecture, ci-cd, refactoring, decision-making]
 topic: leadership
 status: notes
 related:
@@ -11,7 +11,7 @@ related:
   - leadership/start-with-why.md
   - engineering/architecture/strangler-fig.md
 source: "https://gist.github.com/fabianmagrini/8d7a465df449ea54881c86f563ec6f6d"
-updated: 2026-06-13
+updated: 2026-06-15
 ---
 
 # Managed Disruption

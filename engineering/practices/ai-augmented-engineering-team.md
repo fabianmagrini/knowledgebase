@@ -1,6 +1,6 @@
 ---
 title: The AI-Augmented Engineering Team
-tags: [ai-engineering, leadership, architecture]
+tags: [ai-engineering, leadership, architecture, agentic-workflows]
 topic: engineering/practices
 status: notes
 related:
@@ -14,7 +14,7 @@ related:
   - leadership/learning-organisation.md
   - engineering/practices/modern-engineering-values.md
 source: "https://gist.github.com/fabianmagrini/61ce6e1b381227755048dbd90704924b"
-updated: 2026-06-13
+updated: 2026-06-15
 ---
 
 # The AI-Augmented Engineering Team

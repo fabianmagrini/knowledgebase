@@ -1,6 +1,6 @@
 ---
 title: Start with the Why
-tags: [leadership, communication]
+tags: [leadership, communication, decision-making]
 topic: leadership
 status: notes
 related:
@@ -11,7 +11,7 @@ related:
   - leadership/first-principles-thinking.md
   - leadership/designing-with-constraints.md
 source: "https://gist.github.com/fabianmagrini/a9419029286fb2277dc7b2bc5fc0d43d"
-updated: 2026-06-13
+updated: 2026-06-15
 ---
 
 # Start with the Why

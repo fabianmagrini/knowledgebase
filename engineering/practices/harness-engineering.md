@@ -1,6 +1,6 @@
 ---
 title: Harness Engineering
-tags: [ai-engineering, architecture, reading]
+tags: [ai-engineering, architecture, reading, agentic-workflows]
 topic: engineering/practices
 status: notes
 level: intermediate
@@ -15,7 +15,7 @@ related:
   - engineering/practices/loop-driven-development.md
   - engineering/practices/prompt-engineering-for-programmers.md
 source: "https://diego-pacheco.blogspot.com/2026/05/harness-engineering.html"
-updated: 2026-06-14
+updated: 2026-06-15
 ---
 
 # Harness Engineering

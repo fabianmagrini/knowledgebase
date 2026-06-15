@@ -2,7 +2,7 @@
 title: Knowledge Base Conventions
 tags: [meta]
 status: complete
-updated: 2026-06-13
+updated: 2026-06-15
 ---
 
 # Conventions
@@ -45,36 +45,38 @@ updated: YYYY-MM-DD
 
 ## Tag Conventions
 
-- Lowercase and hyphenated: `distributed-systems`, not `Distributed Systems`
-- Prefer specific over generic: `event-driven` over `architecture`
-- Use consistent vocabulary — see common tags below
+- Lowercase and hyphenated: `system-design`, not `System Design`
+- Tags name a **facet shared across notes**, not the note's topic — a tag used by
+  only one note restates the title and adds no navigational value
+- Reuse the vocabulary below before coining a new tag; `scripts/lint-notes.py`
+  warns on single-use tags
+- New tags are welcome when a real cluster emerges (roughly two or more notes)
 
 ### Common tags
 
-**Engineering domains**
-`architecture`, `distributed-systems`, `system-design`, `microservices`, `event-driven`,
-`messaging`, `databases`, `api-design`, `observability`, `security`, `performance`
+This is the active vocabulary in use, grouped by facet. Counts shift as notes are
+added; the point is the shape, not the exact numbers.
 
-**Practices**
-`testing`, `ci-cd`, `code-review`, `refactoring`, `debugging`, `documentation`
+**Architecture & systems**
+`architecture`, `system-design`, `microservices`, `api-design`, `observability`, `performance`
 
-**Concepts**
-`algorithms`, `data-structures`, `concurrency`, `networking`, `caching`, `consistency`
-
-**Tools & platforms**
-`docker`, `kubernetes`, `aws`, `gcp`, `azure`, `terraform`, `git`
-
-**Languages**
-`go`, `python`, `typescript`, `java`, `rust`, `sql`
+**Delivery & practices**
+`ci-cd`, `testing`, `code-review`, `refactoring`, `git`, `documentation`, `security`
 
 **AI engineering**
-`ai-engineering`
+`ai-engineering` (umbrella — pair it with a sub-facet), `agentic-workflows`
+
+**Process & governance**
+`governance`, `decision-making`
 
 **People & culture**
-`leadership`, `culture`, `communication`
+`leadership`, `communication`, `culture`
+
+**Languages** (seed tags — extend as language notes appear)
+`typescript`
 
 **Meta**
-`meta`, `reading`, `paper`, `book`, `talk`
+`meta`, `reading`
 
 ## File Naming
 

@@ -1,6 +1,6 @@
 ---
 title: Designing with Constraints
-tags: [leadership, reading]
+tags: [leadership, reading, decision-making]
 topic: leadership
 status: notes
 level: intermediate
@@ -9,7 +9,7 @@ related:
   - leadership/start-with-why.md
   - engineering/architecture/agile-design-decisions.md
 source: "https://jordanlord.co.uk/blog/3-constraints/"
-updated: 2026-06-14
+updated: 2026-06-15
 ---
 
 # Designing with Constraints

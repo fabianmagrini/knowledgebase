@@ -1,6 +1,6 @@
 ---
 title: Agile Design Decisions and Principles
-tags: [architecture, system-design, code-review, refactoring]
+tags: [architecture, system-design, refactoring, decision-making]
 topic: engineering/architecture
 status: notes
 related:
@@ -18,7 +18,7 @@ related:
   - leadership/designing-with-constraints.md
   - engineering/architecture/micro-frontend-canvas.md
 source: "https://gist.github.com/fabianmagrini/76071cbc06aa1a5eafd19a7fb5ea2457"
-updated: 2026-06-13
+updated: 2026-06-15
 ---
 
 # Agile Design Decisions and Principles

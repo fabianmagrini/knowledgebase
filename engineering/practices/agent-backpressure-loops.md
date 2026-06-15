@@ -1,6 +1,6 @@
 ---
 title: Backpressure Loops for Coding Agents
-tags: [ai-engineering, ci-cd, testing, reading]
+tags: [ai-engineering, ci-cd, testing, reading, agentic-workflows]
 topic: engineering/practices
 status: notes
 level: intermediate
@@ -12,7 +12,7 @@ related:
   - engineering/practices/modern-engineering-values.md
   - engineering/practices/loop-driven-development.md
 source: "https://generativeprogrammer.com/p/stop-babysitting-your-coding-agent"
-updated: 2026-06-14
+updated: 2026-06-15
 ---
 
 # Backpressure Loops for Coding Agents
