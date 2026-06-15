@@ -3,7 +3,7 @@ title: Trunk-Based Development
 tags: [git, ci-cd]
 topic: engineering/practices
 status: notes
-updated: 2026-06-12
+updated: 2026-06-15
 related:
   - engineering/practices/polyrepo-branching-strategy.md
   - engineering/practices/regulated-service-release-process.md
@@ -14,6 +14,7 @@ related:
   - engineering/practices/code-review-policy.md
   - engineering/practices/release-confidence.md
   - tools/git.md
+  - concepts/continuous-delivery.md
 ---
 
 # Trunk-Based Development

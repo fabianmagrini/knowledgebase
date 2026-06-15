@@ -14,6 +14,7 @@ related:
   - engineering/practices/federated-pr-review.md
   - engineering/security/secure-sdlc.md
   - engineering/practices/release-confidence.md
+  - concepts/continuous-delivery.md
 ---
 
 # Release Process for Regulated and High-Risk Services

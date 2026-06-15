@@ -1,10 +1,15 @@
 ---
 title: Concepts
-tags: [meta, algorithms, data-structures, networking]
+tags: [meta, ci-cd]
 status: complete
-updated: 2026-06-04
+updated: 2026-06-15
 ---
 
 # Concepts
 
-Foundational CS concepts: algorithms, data structures, complexity, networking.
+Foundational concepts — CS fundamentals (algorithms, data structures, complexity,
+networking) and the underlying ideas that practice notes build on.
+
+## Notes
+
+- [Continuous Delivery](continuous-delivery.md)
