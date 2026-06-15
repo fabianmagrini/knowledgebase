@@ -1,6 +1,6 @@
 ---
 title: Architecture Decision Forum
-tags: [architecture, code-review, system-design, leadership]
+tags: [architecture, system-design, leadership, decision-making, governance]
 topic: leadership
 status: notes
 related:
@@ -13,7 +13,7 @@ related:
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/practices/ai-augmented-engineering-team.md
 source: "https://gist.github.com/fabianmagrini/15ea9a5d1d053a42b1d22ab788290e91"
-updated: 2026-06-13
+updated: 2026-06-15
 ---
 
 # Architecture Decision Forum

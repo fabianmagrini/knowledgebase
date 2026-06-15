@@ -1,6 +1,6 @@
 ---
 title: AI-DLC and the Reimagined SDLC
-tags: [ai-engineering, architecture, reading]
+tags: [ai-engineering, architecture, reading, agentic-workflows]
 topic: engineering/practices
 status: notes
 level: intermediate
@@ -12,7 +12,7 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/agile-in-the-age-of-ai.md
 source: "https://specs.md/methodology/sdlc-reimagined"
-updated: 2026-06-14
+updated: 2026-06-15
 ---
 
 # AI-DLC and the Reimagined SDLC

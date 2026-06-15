@@ -1,9 +1,9 @@
 ---
 title: Federated PR Review and Governance
-tags: [code-review, ci-cd, microservices, ai-engineering]
+tags: [code-review, ci-cd, microservices, ai-engineering, governance]
 topic: engineering/practices
 status: notes
-updated: 2026-06-12
+updated: 2026-06-15
 related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/polyrepo-branching-strategy.md

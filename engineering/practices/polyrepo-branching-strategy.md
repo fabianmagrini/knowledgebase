@@ -1,9 +1,9 @@
 ---
 title: Polyrepo Branching Strategy
-tags: [git, microservices, ci-cd, distributed-systems]
+tags: [git, microservices, ci-cd]
 topic: engineering/practices
 status: notes
-updated: 2026-06-11
+updated: 2026-06-15
 related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/api-contract-functional-testing.md

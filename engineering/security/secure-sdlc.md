@@ -1,13 +1,13 @@
 ---
 title: Secure SDLC (DevSecOps)
-tags: [security, ci-cd, ai-engineering]
+tags: [security, ci-cd, ai-engineering, governance]
 topic: engineering/security
 status: draft
 related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/code-review-policy.md
-updated: 2026-06-13
+updated: 2026-06-15
 ---
 
 # Secure SDLC (DevSecOps)

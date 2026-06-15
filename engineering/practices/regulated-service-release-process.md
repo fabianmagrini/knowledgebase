@@ -1,9 +1,9 @@
 ---
 title: Release Process for Regulated and High-Risk Services
-tags: [ci-cd, git, security, microservices]
+tags: [ci-cd, git, security, microservices, governance]
 topic: engineering/practices
 status: notes
-updated: 2026-06-12
+updated: 2026-06-15
 related:
   - engineering/practices/polyrepo-branching-strategy.md
   - engineering/practices/ci-cd-ai-engineering.md

@@ -1,9 +1,9 @@
 ---
 title: The Agentic SDLC
-tags: [ai-engineering, architecture, ci-cd]
+tags: [ai-engineering, architecture, ci-cd, agentic-workflows]
 topic: engineering/practices
 status: notes
-updated: 2026-06-13
+updated: 2026-06-15
 related:
   - engineering/practices/ai-native-engineering-stack.md
   - engineering/practices/ci-cd-ai-engineering.md

@@ -1,9 +1,9 @@
 ---
 title: Code Review Policy
-tags: [code-review, ci-cd, ai-engineering]
+tags: [code-review, ci-cd, ai-engineering, governance]
 topic: engineering/practices
 status: notes
-updated: 2026-06-13
+updated: 2026-06-15
 related:
   - engineering/practices/federated-pr-review.md
   - engineering/practices/engineering-playbook.md

@@ -1,9 +1,9 @@
 ---
 title: Test Coverage Policy
-tags: [testing, ci-cd, ai-engineering]
+tags: [testing, ci-cd, ai-engineering, governance]
 topic: engineering/practices
 status: notes
-updated: 2026-06-13
+updated: 2026-06-15
 related:
   - engineering/practices/api-contract-functional-testing.md
   - engineering/practices/engineering-playbook.md

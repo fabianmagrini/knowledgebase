@@ -1,6 +1,6 @@
 ---
 title: Facilitating Technical Decisions
-tags: [leadership, communication, code-review]
+tags: [leadership, communication, decision-making]
 topic: leadership
 status: notes
 related:
@@ -12,7 +12,7 @@ related:
   - leadership/first-principles-thinking.md
   - leadership/raising-problems-without-complaining.md
 source: "https://gist.github.com/fabianmagrini/10e09bb9cef680c07cad82e7bfbcb441"
-updated: 2026-06-13
+updated: 2026-06-15
 ---
 
 # Facilitating Technical Decisions
