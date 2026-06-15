@@ -13,6 +13,7 @@ related:
   - engineering/practices/performance-testing-strategy.md
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/loop-driven-development.md
+  - concepts/continuous-delivery.md
 source: "https://gist.github.com/fabianmagrini/e95a24606e7108a7e0673de02d739be3"
 ---
 
