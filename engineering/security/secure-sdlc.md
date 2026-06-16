@@ -7,7 +7,8 @@ related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/code-review-policy.md
-updated: 2026-06-15
+  - concepts/continuous-delivery.md
+updated: 2026-06-16
 ---
 
 # Secure SDLC (DevSecOps)

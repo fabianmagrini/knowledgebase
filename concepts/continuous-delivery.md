@@ -10,8 +10,9 @@ related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/test-coverage-policy.md
-source: "Jez Humble & David Farley — Continuous Delivery (Addison-Wesley, 2010)"
-updated: 2026-06-15
+  - engineering/security/secure-sdlc.md
+source: "Jez Humble & David Farley — Continuous Delivery (2010); Forsgren, Humble & Kim — Accelerate (2018)"
+updated: 2026-06-16
 ---
 
 # Continuous Delivery
@@ -111,3 +112,42 @@ bearing — see
 [CI/CD as the Control Plane for AI-Assisted Engineering](../engineering/practices/ci-cd-ai-engineering.md),
 where the automated pipeline is what makes high-volume machine-generated change
 safe to absorb.
+
+## CD in the Accelerate capability model
+
+*Accelerate* (Forsgren, Humble & Kim) identifies 24 capabilities that drive
+software delivery performance, grouped into five categories: **continuous
+delivery**, **architecture**, **product and process**, **lean management and
+monitoring**, and **cultural**. Continuous Delivery is not a single practice but
+a capability cluster — the eight capabilities below are what it takes to make CD
+real:
+
+- Use version control for **all** production artifacts (code, config, infra).
+- Automate the deployment process.
+- Implement continuous integration.
+- Use trunk-based development methods —
+  see [Trunk-Based Development](../engineering/practices/trunk-based-development.md).
+- Implement test automation.
+- Support test data management.
+- Shift left on security — integrate it into design and test, not as a late gate.
+  See [Secure SDLC (DevSecOps)](../engineering/security/secure-sdlc.md).
+- Implement continuous delivery (the outcome the others enable).
+
+The other four categories matter because CD does not succeed in isolation:
+loosely coupled architecture and empowered teams remove deployment bottlenecks;
+working in small batches and making flow visible shorten lead time; lightweight
+change approval and proactive monitoring keep the pipeline trustworthy; and a
+generative, learning-oriented culture is what sustains all of it. CD is the
+technical core, but delivery performance is a whole-system property.
+
+## Further reading
+
+- **Books** — *Continuous Delivery* (Humble & Farley); *Accelerate* (Forsgren,
+  Humble & Kim); *Modern Software Engineering* (Farley); *Site Reliability
+  Engineering* (Google).
+- **Talks** — Dave Farley, *Optimising Continuous Delivery* (PIPELINE 2018);
+  Jez Humble, *Building and Scaling High Performing Technology Organizations*;
+  Ken Mugrage, *Modern Continuous Delivery* (GOTO 2019); Sander Hoogendoorn,
+  *How Thinking Small is Changing Software Development* (GOTO 2019).
+- **Topics to follow on** — DevOps and GitOps, the DevOps engineer's handbook,
+  trunk-based development.
