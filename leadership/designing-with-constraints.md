@@ -8,8 +8,9 @@ related:
   - leadership/first-principles-thinking.md
   - leadership/start-with-why.md
   - engineering/architecture/agile-design-decisions.md
+  - engineering/architecture/thinking-in-constraints.md
 source: "https://jordanlord.co.uk/blog/3-constraints/"
-updated: 2026-06-15
+updated: 2026-06-17
 ---
 
 # Designing with Constraints

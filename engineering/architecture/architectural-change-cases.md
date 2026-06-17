@@ -11,8 +11,9 @@ related:
   - engineering/architecture/composable-architecture.md
   - engineering/practices/change-absorption-capacity.md
   - engineering/architecture/micro-frontend-canvas.md
+  - engineering/architecture/thinking-in-constraints.md
 source: "https://www.infoq.com/articles/architectural-change-cases/"
-updated: 2026-06-14
+updated: 2026-06-17
 ---
 
 # Architectural Change Cases

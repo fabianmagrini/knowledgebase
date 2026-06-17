@@ -17,8 +17,9 @@ related:
   - engineering/architecture/architectural-change-cases.md
   - leadership/designing-with-constraints.md
   - engineering/architecture/micro-frontend-canvas.md
+  - engineering/architecture/thinking-in-constraints.md
 source: "https://gist.github.com/fabianmagrini/76071cbc06aa1a5eafd19a7fb5ea2457"
-updated: 2026-06-15
+updated: 2026-06-17
 ---
 
 # Agile Design Decisions and Principles

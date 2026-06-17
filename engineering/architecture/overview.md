@@ -13,7 +13,8 @@ related:
   - engineering/architecture/design-systems-ai-control-plane.md
   - leadership/architecture-decision-forum.md
   - engineering/architecture/strangler-fig.md
-updated: 2026-06-13
+  - engineering/architecture/thinking-in-constraints.md
+updated: 2026-06-17
 ---
 
 # Architecture — Overview
@@ -48,11 +49,17 @@ systems.
 - [Architecture Decision Forum](../../leadership/architecture-decision-forum.md) — the advisory
   body where cross-cutting decisions are made and logged as ADRs *(in practices)*.
 
+## Constraining systems
+
+- [Thinking in Constraints](thinking-in-constraints.md) — surface, classify, and
+  challenge the boundary conditions (business, regulatory, technical, operational,
+  organisational, NFRs) that bound the solution space before any design is chosen.
+
 ## The through-line
 
 Describe with C4, shape with composable + design-system primitives, decide with the
-reversibility/blast-radius frameworks, and record in ADRs ratified through the decision
-forum. The decision-making side connects to the
+reversibility/blast-radius frameworks within explicit constraints, and record in ADRs
+ratified through the decision forum. The decision-making side connects to the
 [engineering leadership overview](../../leadership/engineering-leadership-overview.md); the
 AI-era constraints connect to the
 [AI-native engineering overview](../practices/ai-native-engineering-overview.md).
