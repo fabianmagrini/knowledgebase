@@ -2,7 +2,7 @@
 title: Concepts
 tags: [meta, ci-cd]
 status: complete
-updated: 2026-06-15
+updated: 2026-06-17
 ---
 
 # Concepts
@@ -13,3 +13,4 @@ networking) and the underlying ideas that practice notes build on.
 ## Notes
 
 - [Continuous Delivery](continuous-delivery.md)
+- [Theory of Constraints](theory-of-constraints.md)

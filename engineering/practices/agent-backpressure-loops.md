@@ -11,8 +11,9 @@ related:
   - engineering/practices/eval-driven-ai-development.md
   - engineering/practices/modern-engineering-values.md
   - engineering/practices/loop-driven-development.md
+  - concepts/theory-of-constraints.md
 source: "https://generativeprogrammer.com/p/stop-babysitting-your-coding-agent"
-updated: 2026-06-15
+updated: 2026-06-17
 ---
 
 # Backpressure Loops for Coding Agents
