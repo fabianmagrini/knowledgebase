@@ -13,4 +13,5 @@ networking) and the underlying ideas that practice notes build on.
 ## Notes
 
 - [Continuous Delivery](continuous-delivery.md)
+- [Constraints as a Lens](constraints-as-a-lens.md) — hub unifying the three constraint senses (throughput, structure, selection)
 - [Theory of Constraints](theory-of-constraints.md)

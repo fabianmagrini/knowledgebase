@@ -11,6 +11,7 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - leadership/managed-disruption.md
   - engineering/architecture/thinking-in-constraints.md
+  - concepts/constraints-as-a-lens.md
 source: "Eliyahu M. Goldratt — The Goal (1984) and Theory of Constraints (1990)"
 updated: 2026-06-17
 ---
@@ -94,6 +95,18 @@ testing, integration, and the human judgement needed to keep change safe.**
 The practical takeaway: when you adopt AI to remove the coding constraint, **find
 the new constraint before celebrating.** Throughput is set by wherever the work
 now queues, not by how much code you can generate.
+
+## Two faces of one principle
+
+ToC is the **dynamic** (run-time) face of a single law — *a system's behaviour is
+governed by its binding constraint, and effort spent anywhere else is wasted*. The
+**static** (design-time) face is
+[Thinking in Constraints](../engineering/architecture/thinking-in-constraints.md):
+constraints as the boundary conditions that bound a solution's structure. The two
+feed each other — a design constraint becomes a runtime bottleneck, and a
+discovered bottleneck (step 5 — *the constraint always moves*) becomes the next
+design constraint. The full three-way synthesis is in
+**[Constraints as a Lens](constraints-as-a-lens.md)**.
 
 ## Related ideas
 
