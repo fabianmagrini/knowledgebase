@@ -10,8 +10,9 @@ related:
   - leadership/protecting-mavericks.md
   - leadership/start-with-why.md
   - engineering/architecture/strangler-fig.md
+  - concepts/theory-of-constraints.md
 source: "https://gist.github.com/fabianmagrini/8d7a465df449ea54881c86f563ec6f6d"
-updated: 2026-06-15
+updated: 2026-06-17
 ---
 
 # Managed Disruption

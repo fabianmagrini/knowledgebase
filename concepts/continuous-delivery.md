@@ -11,8 +11,9 @@ related:
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/test-coverage-policy.md
   - engineering/security/secure-sdlc.md
+  - concepts/theory-of-constraints.md
 source: "Jez Humble & David Farley — Continuous Delivery (2010); Forsgren, Humble & Kim — Accelerate (2018)"
-updated: 2026-06-16
+updated: 2026-06-17
 ---
 
 # Continuous Delivery
