@@ -11,6 +11,7 @@ related:
   - leadership/designing-with-constraints.md
   - leadership/first-principles-thinking.md
   - concepts/theory-of-constraints.md
+  - concepts/constraints-as-a-lens.md
 updated: 2026-06-17
 ---
 
@@ -103,9 +104,16 @@ are deliberately different:
   product; this one *surfaces and reconciles* the constraints a solution must
   live within.
 - **[Theory of Constraints](../../concepts/theory-of-constraints.md)** —
-  constraint as the single *bottleneck that limits throughput* in a flow. Same
-  word, different sense: there it is the thing to relieve; here it is the boundary
-  to design within.
+  constraint as the single *bottleneck that limits throughput* in a flow. This
+  looks like a different sense of the word, but it is the same principle at a
+  different phase: this note is the **static** (design-time) face, ToC the
+  **dynamic** (run-time) face, and the two feed each other — a design constraint
+  becomes a runtime bottleneck, and a discovered bottleneck becomes the next
+  design constraint.
 - **[First-Principles Thinking](../../leadership/first-principles-thinking.md)** —
-  the move that tells the two apart in practice: which constraints are real
-  (keep), and which are inherited assumptions (discard)?
+  the move that tells real constraints from inherited ones in *both* senses:
+  which limits are genuine (keep), and which are unvalidated assumptions
+  (discard)?
+
+For the full synthesis of how these lenses share one underlying law and feed each
+other, see **[Constraints as a Lens](../../concepts/constraints-as-a-lens.md)**.

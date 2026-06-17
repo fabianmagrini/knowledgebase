@@ -9,6 +9,7 @@ related:
   - leadership/start-with-why.md
   - engineering/architecture/agile-design-decisions.md
   - engineering/architecture/thinking-in-constraints.md
+  - concepts/constraints-as-a-lens.md
 source: "https://jordanlord.co.uk/blog/3-constraints/"
 updated: 2026-06-17
 ---
