@@ -11,8 +11,9 @@ related:
   - engineering/architecture/agile-design-decisions.md
   - leadership/designing-with-constraints.md
   - leadership/raising-problems-without-complaining.md
+  - engineering/architecture/thinking-in-constraints.md
 source: "https://www.philmckinney.com/how-to-improve-your-first-principles-thinking-skills/"
-updated: 2026-06-15
+updated: 2026-06-17
 ---
 
 # First-Principles Thinking

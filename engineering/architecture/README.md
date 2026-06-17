@@ -2,7 +2,7 @@
 title: Architecture
 tags: [meta, architecture, system-design]
 status: complete
-updated: 2026-06-04
+updated: 2026-06-17
 ---
 
 # Architecture
@@ -21,3 +21,4 @@ Notes on software architecture, system design, and distributed systems.
 - [Strangler Fig Pattern](strangler-fig.md) — incremental legacy modernisation behind a facade, without a big-bang rewrite
 - [Architectural Change Cases](architectural-change-cases.md) — anticipating future change: structured change cases that extend ADRs forward, with t-shirt costs, fitness functions, and evolutionary-architecture framing
 - [The Micro-Frontend Canvas](micro-frontend-canvas.md) — a single-page tool for designing and validating micro-frontend boundaries before coding (business capability, boundaries, dependencies, communication, governance)
+- [Thinking in Constraints](thinking-in-constraints.md) — surfacing, classifying, and challenging the constraints that bound a solution; constraints as the architect's primary input

@@ -10,6 +10,7 @@ related:
   - engineering/practices/ai-augmented-engineering-team.md
   - engineering/practices/change-absorption-capacity.md
   - leadership/managed-disruption.md
+  - engineering/architecture/thinking-in-constraints.md
 source: "Eliyahu M. Goldratt — The Goal (1984) and Theory of Constraints (1990)"
 updated: 2026-06-17
 ---
