@@ -22,6 +22,11 @@ that determine whether it accelerates delivery or becomes a distributed monolith
 Where [The Micro-Frontend Canvas](micro-frontend-canvas.md) is the *tool* for
 deciding one boundary, these are the *principles* a good boundary must satisfy.
 
+At this scale, bounded contexts, explicit contracts, and team ownership do more
+for maintainability than strict adherence to all five SOLID principles. SOLID and
+the other [code-level design principles](../practices/software-design-principles.md)
+support the architecture; they do not drive it.
+
 ## The principles
 
 1. **Bounded contexts (most important).** Borrowed from Domain-Driven Design: a
