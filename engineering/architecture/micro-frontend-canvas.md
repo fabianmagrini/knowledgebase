@@ -10,8 +10,9 @@ related:
   - engineering/architecture/agile-design-decisions.md
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/practices/engineering-playbook.md
+  - engineering/architecture/generative-ui.md
 source: "https://lucamezzalira.medium.com/the-micro-frontend-canvas-a-practical-tool-for-better-boundaries-99da1a7b858d"
-updated: 2026-06-14
+updated: 2026-06-19
 ---
 
 # The Micro-Frontend Canvas

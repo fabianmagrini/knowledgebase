@@ -3,7 +3,7 @@ title: The AI-Native Engineering Stack
 tags: [ai-engineering, architecture, agentic-workflows]
 topic: engineering/practices
 status: notes
-updated: 2026-06-15
+updated: 2026-06-19
 related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/engineering-playbook.md
@@ -19,6 +19,7 @@ related:
   - engineering/practices/loop-driven-development.md
   - engineering/practices/prompt-engineering-for-programmers.md
   - standards/open-knowledge-format.md
+  - engineering/architecture/generative-ui.md
 source: "https://gist.github.com/fabianmagrini/9543a6a750d904f66744d7fbfb3d3ec3"
 ---
 
