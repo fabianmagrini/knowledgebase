@@ -19,6 +19,7 @@ related:
   - engineering/architecture/micro-frontend-canvas.md
   - engineering/architecture/thinking-in-constraints.md
   - engineering/practices/software-design-principles.md
+  - concepts/clean-code-and-solid.md
 source: "https://gist.github.com/fabianmagrini/76071cbc06aa1a5eafd19a7fb5ea2457"
 updated: 2026-06-19
 ---

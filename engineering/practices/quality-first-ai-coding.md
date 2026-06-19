@@ -13,6 +13,7 @@ related:
   - engineering/practices/modern-engineering-values.md
   - engineering/practices/prompt-engineering-for-programmers.md
   - engineering/practices/software-design-principles.md
+  - concepts/clean-code-and-solid.md
 source: "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/"
 updated: 2026-06-19
 ---
