@@ -10,6 +10,7 @@ related:
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/architecture/thinking-in-constraints.md
   - engineering/practices/engineering-playbook.md
+  - engineering/practices/software-design-principles.md
 updated: 2026-06-19
 ---
 
