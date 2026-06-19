@@ -16,6 +16,7 @@ related:
   - engineering/architecture/thinking-in-constraints.md
   - engineering/architecture/generative-ui.md
   - engineering/architecture/micro-frontend-principles.md
+  - engineering/architecture/bounded-context-canvas.md
 updated: 2026-06-19
 ---
 
@@ -34,6 +35,8 @@ systems.
   API gateway/BFF, journey APIs, GraphQL federation.
 - [The Micro-Frontend Canvas](micro-frontend-canvas.md) — a single-page tool for deciding and
   validating micro-frontend boundaries (capability, ownership, communication) before coding.
+- [Bounded Context Canvas](bounded-context-canvas.md) — the DDD domain/service-layer sibling: a
+  single-page canvas for designing one bounded context (purpose, language, communication, decisions).
 - [Microfrontend Architecture Principles](micro-frontend-principles.md) — the principles a good
   boundary must satisfy at scale (bounded contexts, autonomy, contracts, independent deploy).
 - [Strangler Fig Pattern](strangler-fig.md) — modernise legacy incrementally behind a

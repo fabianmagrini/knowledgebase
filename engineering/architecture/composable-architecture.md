@@ -17,6 +17,7 @@ related:
   - engineering/architecture/micro-frontend-canvas.md
   - engineering/architecture/generative-ui.md
   - engineering/architecture/micro-frontend-principles.md
+  - engineering/architecture/bounded-context-canvas.md
 source: "https://gist.github.com/fabianmagrini/3b93d3db8189f663053489dd554d311d"
 ---
 
