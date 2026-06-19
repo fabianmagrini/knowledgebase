@@ -68,6 +68,19 @@ deployable boundaries.
    [Change Absorption Capacity](change-absorption-capacity.md). Generation makes it
    cheap to *add*; refactoring is what keeps the result coherent.
 
+## SOLID supports the architecture — it doesn't drive it
+
+These principles (and SOLID more broadly) earn their keep *within* a boundary, but
+they are not the organising force of a system. In modern React and microfrontend
+architectures, the **boundary-level** principles —
+[bounded contexts, explicit contracts, and team ownership](../architecture/micro-frontend-principles.md) —
+have a bigger impact on maintainability than strict adherence to all five SOLID
+principles. SOLID stays useful as a tool for shaping the code inside a module; it
+should *serve* the architecture, not dictate it. When the two pull in different
+directions at scale, the boundary wins — a clean bounded context with a sharp
+contract survives imperfect internals, but flawless SOLID cannot rescue a system
+whose boundaries and ownership are wrong.
+
 ## The through-line
 
 The first five principles **localise change** — they ensure any single edit, human
