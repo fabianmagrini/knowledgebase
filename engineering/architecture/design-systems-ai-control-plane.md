@@ -11,8 +11,9 @@ related:
   - engineering/practices/agentic-sdlc.md
   - engineering/practices/ai-augmented-engineering-team.md
   - engineering/architecture/micro-frontend-canvas.md
+  - engineering/architecture/generative-ui.md
 source: "https://gist.github.com/fabianmagrini/3bf21095225b78d8b30db9437f4477b9"
-updated: 2026-06-13
+updated: 2026-06-19
 ---
 
 # Design Systems as the AI Control Plane

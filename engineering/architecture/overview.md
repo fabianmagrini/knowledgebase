@@ -14,7 +14,8 @@ related:
   - leadership/architecture-decision-forum.md
   - engineering/architecture/strangler-fig.md
   - engineering/architecture/thinking-in-constraints.md
-updated: 2026-06-17
+  - engineering/architecture/generative-ui.md
+updated: 2026-06-19
 ---
 
 # Architecture — Overview
@@ -36,6 +37,8 @@ systems.
   facade, without a big-bang rewrite.
 - [Design Systems as the AI Control Plane](design-systems-ai-control-plane.md) — the design
   system as constraint layer and platform for AI-generated UI.
+- [Generative UI](generative-ui.md) — producing UI with AI at build time (generated code) and
+  run time (LLM-assembled interfaces from a whitelisted component registry).
 
 ## Deciding & recording
 
