@@ -12,8 +12,9 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - engineering/architecture/micro-frontend-canvas.md
   - engineering/architecture/thinking-in-constraints.md
+  - engineering/architecture/bounded-context-canvas.md
 source: "https://www.infoq.com/articles/architectural-change-cases/"
-updated: 2026-06-17
+updated: 2026-06-19
 ---
 
 # Architectural Change Cases
