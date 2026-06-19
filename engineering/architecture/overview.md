@@ -15,6 +15,7 @@ related:
   - engineering/architecture/strangler-fig.md
   - engineering/architecture/thinking-in-constraints.md
   - engineering/architecture/generative-ui.md
+  - engineering/architecture/micro-frontend-principles.md
 updated: 2026-06-19
 ---
 
@@ -33,6 +34,8 @@ systems.
   API gateway/BFF, journey APIs, GraphQL federation.
 - [The Micro-Frontend Canvas](micro-frontend-canvas.md) — a single-page tool for deciding and
   validating micro-frontend boundaries (capability, ownership, communication) before coding.
+- [Microfrontend Architecture Principles](micro-frontend-principles.md) — the principles a good
+  boundary must satisfy at scale (bounded contexts, autonomy, contracts, independent deploy).
 - [Strangler Fig Pattern](strangler-fig.md) — modernise legacy incrementally behind a
   facade, without a big-bang rewrite.
 - [Design Systems as the AI Control Plane](design-systems-ai-control-plane.md) — the design
