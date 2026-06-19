@@ -3,7 +3,7 @@ title: Modern Web Engineering Playbook
 tags: [architecture, microservices, ci-cd, ai-engineering, testing, observability, security]
 topic: engineering/practices
 status: notes
-updated: 2026-06-13
+updated: 2026-06-19
 related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/federated-pr-review.md
@@ -19,6 +19,7 @@ related:
   - engineering/architecture/composable-architecture.md
   - languages/typescript.md
   - engineering/architecture/micro-frontend-canvas.md
+  - engineering/architecture/micro-frontend-principles.md
 source: "https://gist.github.com/fabianmagrini/a970c210fd3267b50a1484721297c6eb"
 ---
 

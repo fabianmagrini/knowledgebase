@@ -12,7 +12,8 @@ related:
   - leadership/first-principles-thinking.md
   - concepts/theory-of-constraints.md
   - concepts/constraints-as-a-lens.md
-updated: 2026-06-17
+  - engineering/architecture/micro-frontend-principles.md
+updated: 2026-06-19
 ---
 
 # Thinking in Constraints
