@@ -10,6 +10,7 @@ related:
   - engineering/architecture/agile-design-decisions.md
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/code-review-policy.md
+  - concepts/clean-code-and-solid.md
 updated: 2026-06-19
 ---
 
@@ -53,7 +54,10 @@ deployable boundaries.
    concretions, where modules meet. Inverting dependencies at the boundary keeps
    the core independent of volatile details (frameworks, providers, transports)
    and makes the system testable and substitutable — and it gives AI a stable
-   contract to code against on either side of the seam.
+   contract to code against on either side of the seam. Note the boundary: invert
+   *at service seams*, not everywhere — an interface with a single implementation
+   added "for SOLID" is just indirection.
+   [Prefer simplicity until abstraction is justified](../../concepts/clean-code-and-solid.md).
 
 6. **Readability over cleverness.** Optimise for the reader, not for the author's
    ingenuity. This rises in priority in an AI-native workflow for two reasons: a

@@ -11,6 +11,7 @@ related:
   - engineering/architecture/thinking-in-constraints.md
   - engineering/practices/engineering-playbook.md
   - engineering/practices/software-design-principles.md
+  - concepts/clean-code-and-solid.md
 updated: 2026-06-19
 ---
 
