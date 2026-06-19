@@ -2,7 +2,7 @@
 title: Practices
 tags: [meta, testing, ci-cd, observability, code-review]
 status: complete
-updated: 2026-06-04
+updated: 2026-06-19
 ---
 
 # Practices
@@ -39,3 +39,4 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Modern Engineering Values](modern-engineering-values.md)
 - [Loop-Driven Development](loop-driven-development.md)
 - [Prompt Engineering for Programmers](prompt-engineering-for-programmers.md)
+- [Software Design Principles](software-design-principles.md)
