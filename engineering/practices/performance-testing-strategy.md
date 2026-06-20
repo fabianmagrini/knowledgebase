@@ -10,6 +10,7 @@ related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/release-confidence.md
   - concepts/resilient-software-design.md
+  - tools/containers/postgresql-ha-kubernetes.md
 source: "https://gist.github.com/fabianmagrini/dbf422910023dc8460f1331dd27c6f21"
 updated: 2026-06-20
 ---
