@@ -20,8 +20,9 @@ related:
   - engineering/architecture/thinking-in-constraints.md
   - engineering/practices/software-design-principles.md
   - concepts/clean-code-and-solid.md
+  - engineering/practices/spec-driven-development.md
 source: "https://gist.github.com/fabianmagrini/76071cbc06aa1a5eafd19a7fb5ea2457"
-updated: 2026-06-19
+updated: 2026-06-20
 ---
 
 # Agile Design Decisions and Principles

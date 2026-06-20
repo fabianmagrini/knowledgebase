@@ -11,8 +11,9 @@ related:
   - engineering/practices/ai-augmented-engineering-team.md
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/agile-in-the-age-of-ai.md
+  - engineering/practices/spec-driven-development.md
 source: "https://specs.md/methodology/sdlc-reimagined"
-updated: 2026-06-15
+updated: 2026-06-20
 ---
 
 # AI-DLC and the Reimagined SDLC

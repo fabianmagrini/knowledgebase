@@ -23,7 +23,8 @@ related:
   - standards/open-knowledge-format.md
   - leadership/learning-organisation.md
   - engineering/architecture/design-systems-ai-control-plane.md
-updated: 2026-06-15
+  - engineering/practices/spec-driven-development.md
+updated: 2026-06-20
 ---
 
 # AI-Native Engineering — Overview
@@ -45,6 +46,8 @@ A map of the notes on building software with AI agents. They answer different qu
   pipeline as the guardrail that makes agent-speed delivery safe.
 - [AI-DLC and the Reimagined SDLC](ai-dlc-methodology.md) — a concrete, ceremony-level
   methodology (AI-DLC, V-Bounce, Bolts/Units/Intents) instantiating the agentic loop.
+- [Spec-Driven Development](spec-driven-development.md) — the spec, not the code, as the
+  primary living artifact; why "up" (raised abstraction) is not "up-front" (waterfall).
 - [Agile in the Age of AI](agile-in-the-age-of-ai.md) — the counterpoint: Agile principles
   persist; sustainable pace and human cognitive load bind how many agents you can direct.
 

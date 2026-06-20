@@ -3,7 +3,7 @@ title: The Agentic SDLC
 tags: [ai-engineering, architecture, ci-cd, agentic-workflows]
 topic: engineering/practices
 status: notes
-updated: 2026-06-15
+updated: 2026-06-20
 related:
   - engineering/practices/ai-native-engineering-stack.md
   - engineering/practices/ci-cd-ai-engineering.md
@@ -21,6 +21,7 @@ related:
   - engineering/architecture/c4-model.md
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/design-systems-ai-control-plane.md
+  - engineering/practices/spec-driven-development.md
 source: "https://gist.github.com/fabianmagrini/4862954cd301634ab4bfd595c00ea52c"
 ---
 

@@ -14,10 +14,11 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/prompt-engineering-for-programmers.md
   - standards/open-knowledge-format.md
+  - engineering/practices/spec-driven-development.md
 source:
   - "https://generativeprogrammer.com/p/from-test-driven-to-loop-driven-development"
   - "https://addyo.substack.com/p/loop-engineering"
-updated: 2026-06-15
+updated: 2026-06-20
 ---
 
 # Loop-Driven Development
