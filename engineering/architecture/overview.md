@@ -17,7 +17,8 @@ related:
   - engineering/architecture/generative-ui.md
   - engineering/architecture/micro-frontend-principles.md
   - engineering/architecture/bounded-context-canvas.md
-updated: 2026-06-19
+  - engineering/architecture/ddd-strategic-design.md
+updated: 2026-06-20
 ---
 
 # Architecture — Overview
@@ -35,6 +36,9 @@ systems.
   API gateway/BFF, journey APIs, GraphQL federation.
 - [The Micro-Frontend Canvas](micro-frontend-canvas.md) — a single-page tool for deciding and
   validating micro-frontend boundaries (capability, ownership, communication) before coding.
+- [Domain-Driven Design: Strategic Design](ddd-strategic-design.md) — the problem-space theory:
+  subdomains (core/supporting/generic), bounded contexts, ubiquitous language, and the eight
+  context-mapping patterns.
 - [Bounded Context Canvas](bounded-context-canvas.md) — the DDD domain/service-layer sibling: a
   single-page canvas for designing one bounded context (purpose, language, communication, decisions).
 - [Microfrontend Architecture Principles](micro-frontend-principles.md) — the principles a good

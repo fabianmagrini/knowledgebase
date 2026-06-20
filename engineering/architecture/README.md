@@ -2,7 +2,7 @@
 title: Architecture
 tags: [meta, architecture, system-design]
 status: complete
-updated: 2026-06-19
+updated: 2026-06-20
 ---
 
 # Architecture
@@ -21,6 +21,7 @@ Notes on software architecture, system design, and distributed systems.
 - [Strangler Fig Pattern](strangler-fig.md) — incremental legacy modernisation behind a facade, without a big-bang rewrite
 - [Architectural Change Cases](architectural-change-cases.md) — anticipating future change: structured change cases that extend ADRs forward, with t-shirt costs, fitness functions, and evolutionary-architecture framing
 - [The Micro-Frontend Canvas](micro-frontend-canvas.md) — a single-page tool for designing and validating micro-frontend boundaries before coding (business capability, boundaries, dependencies, communication, governance)
+- [Domain-Driven Design: Strategic Design](ddd-strategic-design.md) — the problem-space theory: subdomains (core/supporting/generic), bounded contexts, ubiquitous language, the big ball of mud, and the eight context-mapping relationship patterns
 - [Bounded Context Canvas](bounded-context-canvas.md) — the DDD domain/service-layer canvas for designing one bounded context (purpose, strategic classification, ubiquitous language, inbound/outbound communication, business decisions); the backend sibling of the micro-frontend canvas
 - [Microfrontend Architecture Principles](micro-frontend-principles.md) — the principles a good microfrontend boundary must satisfy at scale (bounded contexts, team autonomy, explicit contracts, independent deployability, platform over governance, Conway's Law), with a pre-creation checklist
 - [Thinking in Constraints](thinking-in-constraints.md) — surfacing, classifying, and challenging the constraints that bound a solution; constraints as the architect's primary input

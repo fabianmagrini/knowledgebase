@@ -3,7 +3,7 @@ title: Composable Architecture
 tags: [architecture, microservices, system-design, api-design]
 topic: engineering/architecture
 status: notes
-updated: 2026-06-19
+updated: 2026-06-20
 related:
   - engineering/practices/engineering-playbook.md
   - engineering/architecture/c4-model.md
@@ -18,6 +18,7 @@ related:
   - engineering/architecture/generative-ui.md
   - engineering/architecture/micro-frontend-principles.md
   - engineering/architecture/bounded-context-canvas.md
+  - engineering/architecture/ddd-strategic-design.md
 source: "https://gist.github.com/fabianmagrini/3b93d3db8189f663053489dd554d311d"
 ---
 

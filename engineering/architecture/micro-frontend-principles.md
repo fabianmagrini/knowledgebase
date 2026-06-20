@@ -13,7 +13,8 @@ related:
   - engineering/practices/software-design-principles.md
   - concepts/clean-code-and-solid.md
   - engineering/architecture/bounded-context-canvas.md
-updated: 2026-06-19
+  - engineering/architecture/ddd-strategic-design.md
+updated: 2026-06-20
 ---
 
 # Microfrontend Architecture Principles
