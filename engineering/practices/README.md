@@ -41,3 +41,4 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Prompt Engineering for Programmers](prompt-engineering-for-programmers.md)
 - [Software Design Principles](software-design-principles.md)
 - [Spec-Driven Development](spec-driven-development.md)
+- [Agentic Code Review](agentic-code-review.md)

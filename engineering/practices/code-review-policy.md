@@ -3,7 +3,7 @@ title: Code Review Policy
 tags: [code-review, ci-cd, ai-engineering, governance]
 topic: engineering/practices
 status: notes
-updated: 2026-06-19
+updated: 2026-06-20
 related:
   - engineering/practices/federated-pr-review.md
   - engineering/practices/engineering-playbook.md
@@ -19,6 +19,7 @@ related:
   - engineering/practices/quality-first-ai-coding.md
   - engineering/practices/agile-in-the-age-of-ai.md
   - engineering/practices/software-design-principles.md
+  - engineering/practices/agentic-code-review.md
 source: "https://gist.github.com/fabianmagrini/e95a24606e7108a7e0673de02d739be3"
 ---
 
