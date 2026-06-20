@@ -3,7 +3,7 @@ title: CI/CD as the Control Plane for AI-Assisted Engineering
 tags: [ci-cd, ai-engineering, testing, code-review, observability]
 topic: engineering/practices
 status: notes
-updated: 2026-06-15
+updated: 2026-06-20
 related:
   - engineering/practices/README.md
   - engineering/practices/api-contract-functional-testing.md
@@ -26,6 +26,7 @@ related:
   - engineering/practices/agent-backpressure-loops.md
   - engineering/security/secure-sdlc.md
   - concepts/continuous-delivery.md
+  - engineering/practices/agentic-code-review.md
 ---
 
 # CI/CD as the Control Plane for AI-Assisted Engineering

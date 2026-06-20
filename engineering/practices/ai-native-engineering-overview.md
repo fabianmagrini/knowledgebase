@@ -24,6 +24,7 @@ related:
   - leadership/learning-organisation.md
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/practices/spec-driven-development.md
+  - engineering/practices/agentic-code-review.md
 updated: 2026-06-20
 ---
 
@@ -65,6 +66,9 @@ A map of the notes on building software with AI agents. They answer different qu
 
 ## Control & quality — how do we keep it correct?
 
+- [Agentic Code Review](agentic-code-review.md) — review as the new bottleneck:
+  tiered risk-based review, the human-on-the-loop shift, the AI-reviewer tool landscape, and the
+  failure modes (borrowed confidence, test manipulation, AI slop).
 - [Design Systems as the AI Control Plane](../architecture/design-systems-ai-control-plane.md)
   — codified constraints as the control plane for AI-generated UI.
 - [Eval-Driven Development for AI Capabilities](eval-driven-ai-development.md) — testing the
