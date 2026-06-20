@@ -43,3 +43,4 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Spec-Driven Development](spec-driven-development.md)
 - [Agentic Code Review](agentic-code-review.md)
 - [Long-Running Agents](long-running-agents.md)
+- [AI Demands More Engineering Discipline](ai-engineering-discipline.md)

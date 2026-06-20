@@ -15,6 +15,7 @@ related:
   - engineering/practices/software-design-principles.md
   - concepts/clean-code-and-solid.md
   - engineering/practices/agentic-code-review.md
+  - engineering/practices/ai-engineering-discipline.md
 source: "https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/"
 updated: 2026-06-20
 ---

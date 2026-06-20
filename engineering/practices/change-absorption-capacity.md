@@ -23,6 +23,7 @@ related:
   - engineering/practices/software-design-principles.md
   - concepts/resilient-software-design.md
   - engineering/practices/agentic-code-review.md
+  - engineering/practices/ai-engineering-discipline.md
 source: "https://stackoverflow.blog/2026/05/12/you-shipped-it-fast-but-did-you-ship-it-right/"
 updated: 2026-06-20
 ---

@@ -27,6 +27,7 @@ related:
   - engineering/practices/agentic-code-review.md
   - engineering/practices/long-running-agents.md
   - leadership/revised-rules-engineering-leadership.md
+  - engineering/practices/ai-engineering-discipline.md
 updated: 2026-06-20
 ---
 
@@ -74,6 +75,9 @@ A map of the notes on building software with AI agents. They answer different qu
 - [Agentic Code Review](agentic-code-review.md) — review as the new bottleneck:
   tiered risk-based review, the human-on-the-loop shift, the AI-reviewer tool landscape, and the
   failure modes (borrowed confidence, test manipulation, AI slop).
+- [AI Demands More Engineering Discipline](ai-engineering-discipline.md) — discipline shifts from
+  reviewing code to validating behaviour: observability, production-as-dev-stage, regenerability,
+  and encoding knowledge outside disposable code.
 - [Design Systems as the AI Control Plane](../architecture/design-systems-ai-control-plane.md)
   — codified constraints as the control plane for AI-generated UI.
 - [Eval-Driven Development for AI Capabilities](eval-driven-ai-development.md) — testing the
