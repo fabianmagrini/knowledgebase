@@ -15,7 +15,8 @@ related:
   - leadership/designing-with-constraints.md
   - leadership/learning-organisation.md
   - engineering/architecture/agile-design-decisions.md
-updated: 2026-06-13
+  - sre/incident-swarming.md
+updated: 2026-06-20
 ---
 
 # Engineering Leadership — Overview
