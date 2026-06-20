@@ -11,6 +11,7 @@ related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/quality-first-ai-coding.md
   - engineering/practices/ai-native-engineering-overview.md
+  - engineering/practices/trust-factory.md
 source: "https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline"
 updated: 2026-06-20
 ---

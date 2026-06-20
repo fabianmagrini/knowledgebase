@@ -15,6 +15,7 @@ related:
   - sre/incident-swarming.md
   - leadership/new-leader-credibility.md
   - product/explore-vs-exploit.md
+  - engineering/practices/trust-factory.md
 source: "https://erik.wiffin.com/posts/you-are-failing-at-ai-because-you-havent-built-a-learning-organization/"
 updated: 2026-06-20
 ---
