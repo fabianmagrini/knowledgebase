@@ -13,6 +13,7 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/agile-in-the-age-of-ai.md
   - sre/incident-swarming.md
+  - leadership/new-leader-credibility.md
 source: "https://erik.wiffin.com/posts/you-are-failing-at-ai-because-you-havent-built-a-learning-organization/"
 updated: 2026-06-20
 ---

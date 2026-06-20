@@ -8,8 +8,9 @@ related:
   - leadership/principal-engineer-influence.md
   - leadership/decision-facilitation.md
   - leadership/first-principles-thinking.md
+  - leadership/new-leader-credibility.md
 source: "https://adlerhsieh.com/p/what-your-manager-is-thinking-when-you-complain"
-updated: 2026-06-14
+updated: 2026-06-20
 ---
 
 # Raising Problems Without Complaining
