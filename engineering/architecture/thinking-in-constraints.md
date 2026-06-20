@@ -13,7 +13,8 @@ related:
   - concepts/theory-of-constraints.md
   - concepts/constraints-as-a-lens.md
   - engineering/architecture/micro-frontend-principles.md
-updated: 2026-06-19
+  - engineering/architecture/ddd-strategic-design.md
+updated: 2026-06-20
 ---
 
 # Thinking in Constraints

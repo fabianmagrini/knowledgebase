@@ -9,8 +9,9 @@ related:
   - engineering/architecture/micro-frontend-principles.md
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/architectural-change-cases.md
+  - engineering/architecture/ddd-strategic-design.md
 source: "https://github.com/ddd-crew/bounded-context-canvas"
-updated: 2026-06-19
+updated: 2026-06-20
 ---
 
 # Bounded Context Canvas
