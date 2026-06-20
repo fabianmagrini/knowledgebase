@@ -11,6 +11,7 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - tools/containers/postgresql-ha-kubernetes.md
   - tools/containers/dynamic-configuration-sidecar.md
+  - sre/incident-swarming.md
 source:
   - "https://www.ufried.com/blog/why_resilient_software_design_1/"
   - "https://www.ufried.com/blog/why_resilient_software_design_2/"
