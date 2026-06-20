@@ -15,6 +15,7 @@ related:
   - engineering/practices/prompt-engineering-for-programmers.md
   - standards/open-knowledge-format.md
   - engineering/practices/spec-driven-development.md
+  - engineering/practices/long-running-agents.md
 source:
   - "https://generativeprogrammer.com/p/from-test-driven-to-loop-driven-development"
   - "https://addyo.substack.com/p/loop-engineering"

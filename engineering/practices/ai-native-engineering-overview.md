@@ -25,6 +25,7 @@ related:
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/practices/spec-driven-development.md
   - engineering/practices/agentic-code-review.md
+  - engineering/practices/long-running-agents.md
 updated: 2026-06-20
 ---
 
@@ -75,6 +76,8 @@ A map of the notes on building software with AI agents. They answer different qu
   prompts/skills/agents themselves, not just the code they emit.
 - [Harness Engineering](harness-engineering.md) — the component-level anatomy of an agent
   harness (the program agents run inside): core loop, tools, memory, patterns, trade-offs.
+- [Long-Running Agents](long-running-agents.md) — the durability layer: the three walls (context
+  rot, no persistent state, no self-verification), brain/hands/session, checkpoints, and memory.
 - [Quality-First AI Coding](quality-first-ai-coding.md) — the practitioner workflow: multi-model
   bug review and quality-over-velocity use of AI to write better code more slowly.
 - [Backpressure Loops for Coding Agents](agent-backpressure-loops.md) — move mechanical

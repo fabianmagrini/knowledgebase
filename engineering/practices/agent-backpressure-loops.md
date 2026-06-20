@@ -13,6 +13,7 @@ related:
   - engineering/practices/loop-driven-development.md
   - concepts/theory-of-constraints.md
   - engineering/practices/agentic-code-review.md
+  - engineering/practices/long-running-agents.md
 source: "https://generativeprogrammer.com/p/stop-babysitting-your-coding-agent"
 updated: 2026-06-20
 ---
