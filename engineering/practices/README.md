@@ -44,3 +44,4 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Agentic Code Review](agentic-code-review.md)
 - [Long-Running Agents](long-running-agents.md)
 - [AI Demands More Engineering Discipline](ai-engineering-discipline.md)
+- [The APEX Framework — Measuring AI Engineering Impact](apex-framework.md)

@@ -28,6 +28,7 @@ related:
   - concepts/continuous-delivery.md
   - engineering/practices/agentic-code-review.md
   - engineering/practices/ai-engineering-discipline.md
+  - engineering/practices/apex-framework.md
 ---
 
 # CI/CD as the Control Plane for AI-Assisted Engineering

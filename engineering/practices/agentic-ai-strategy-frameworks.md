@@ -10,6 +10,7 @@ related:
   - engineering/practices/engineering-playbook.md
   - engineering/practices/ai-native-engineering-stack.md
   - leadership/learning-organisation.md
+  - engineering/practices/apex-framework.md
 source: "https://gist.github.com/fabianmagrini/58ece8f11d73cc33cf5c706ac5d37488"
 ---
 
