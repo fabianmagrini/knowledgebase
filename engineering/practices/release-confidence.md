@@ -12,6 +12,7 @@ related:
   - engineering/practices/performance-testing-strategy.md
   - concepts/continuous-delivery.md
   - concepts/resilient-software-design.md
+  - engineering/practices/trust-factory.md
 source: "https://newsletter.optimistengineer.com/p/why-your-releases-feel-harder-than"
 updated: 2026-06-20
 ---

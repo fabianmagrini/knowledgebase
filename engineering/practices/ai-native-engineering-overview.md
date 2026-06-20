@@ -29,6 +29,7 @@ related:
   - leadership/revised-rules-engineering-leadership.md
   - engineering/practices/ai-engineering-discipline.md
   - engineering/practices/apex-framework.md
+  - engineering/practices/trust-factory.md
 updated: 2026-06-20
 ---
 
@@ -68,6 +69,9 @@ A map of the notes on building software with AI agents. They answer different qu
   is cheap *(in leadership)*.
 - [Modern Engineering Values](modern-engineering-values.md) — a solo/small-team practitioner's
   values: ownership, taste, guardrails, context-in-the-repo, own your stack, option value.
+- [The Trust Factory](trust-factory.md) — Kent Beck reframes XP as a system for *manufacturing
+  trust*: code and trust are asymmetrical (trust builds slowly, evaporates instantly), AI
+  accumulates code faster than trust, and "genie" development erodes the loops that build it.
 - [Open Knowledge Format (OKF)](../../standards/open-knowledge-format.md) — a portable
   markdown+YAML format for the knowledge/context agents consume *(in standards)*.
 

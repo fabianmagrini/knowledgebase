@@ -11,6 +11,7 @@ related:
   - engineering/practices/quality-first-ai-coding.md
   - engineering/practices/change-absorption-capacity.md
   - standards/open-knowledge-format.md
+  - engineering/practices/trust-factory.md
 source: "https://cpojer.net/posts/modern-engineering-values"
 updated: 2026-06-14
 ---
