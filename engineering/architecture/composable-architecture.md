@@ -19,6 +19,7 @@ related:
   - engineering/architecture/micro-frontend-principles.md
   - engineering/architecture/bounded-context-canvas.md
   - engineering/architecture/ddd-strategic-design.md
+  - concepts/resilient-software-design.md
 source: "https://gist.github.com/fabianmagrini/3b93d3db8189f663053489dd554d311d"
 ---
 

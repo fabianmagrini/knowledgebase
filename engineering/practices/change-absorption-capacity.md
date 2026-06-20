@@ -21,8 +21,9 @@ related:
   - engineering/practices/loop-driven-development.md
   - concepts/theory-of-constraints.md
   - engineering/practices/software-design-principles.md
+  - concepts/resilient-software-design.md
 source: "https://stackoverflow.blog/2026/05/12/you-shipped-it-fast-but-did-you-ship-it-right/"
-updated: 2026-06-19
+updated: 2026-06-20
 ---
 
 # Change Absorption Capacity (CATS)

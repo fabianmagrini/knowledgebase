@@ -11,8 +11,9 @@ related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/performance-testing-strategy.md
   - concepts/continuous-delivery.md
+  - concepts/resilient-software-design.md
 source: "https://newsletter.optimistengineer.com/p/why-your-releases-feel-harder-than"
-updated: 2026-06-15
+updated: 2026-06-20
 ---
 
 # Release Confidence as a System Property
