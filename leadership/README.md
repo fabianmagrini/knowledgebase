@@ -27,3 +27,4 @@ make good decisions with others.
 - [Designing with Constraints](designing-with-constraints.md)
 - [The Learning Organisation and AI Adoption](learning-organisation.md)
 - [The New Leader's Credibility Problem](new-leader-credibility.md)
+- [Revised Rules of Engineering Leadership](revised-rules-engineering-leadership.md)

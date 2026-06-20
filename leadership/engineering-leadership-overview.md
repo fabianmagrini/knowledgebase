@@ -17,6 +17,7 @@ related:
   - engineering/architecture/agile-design-decisions.md
   - sre/incident-swarming.md
   - leadership/new-leader-credibility.md
+  - leadership/revised-rules-engineering-leadership.md
 updated: 2026-06-20
 ---
 
@@ -58,6 +59,9 @@ how to set direction and make good decisions with other people.
 - [The Learning Organisation and AI Adoption](learning-organisation.md) — the cultural
   prerequisites (psychological safety, slack, intelligent failure) that let teams absorb new
   technology faster than it changes.
+- [Revised Rules of Engineering Leadership](revised-rules-engineering-leadership.md) — how
+  leadership shifts when AI makes execution cheap: durable teams and fast, good decisions become
+  the scarce goods (bridges to the AI-native cluster).
 
 ## The through-line
 

@@ -26,6 +26,7 @@ related:
   - engineering/practices/spec-driven-development.md
   - engineering/practices/agentic-code-review.md
   - engineering/practices/long-running-agents.md
+  - leadership/revised-rules-engineering-leadership.md
 updated: 2026-06-20
 ---
 
@@ -60,6 +61,9 @@ A map of the notes on building software with AI agents. They answer different qu
 - [The AI-Augmented Engineering Team](ai-augmented-engineering-team.md) — the operating
   model: team composition, Intent Specs, the delivery loop, transition roadmap. The capstone
   that ties the rest together.
+- [Revised Rules of Engineering Leadership](../../leadership/revised-rules-engineering-leadership.md) —
+  the leadership-altitude rules behind it: durable teams + fast, good decisions when execution
+  is cheap *(in leadership)*.
 - [Modern Engineering Values](modern-engineering-values.md) — a solo/small-team practitioner's
   values: ownership, taste, guardrails, context-in-the-repo, own your stack, option value.
 - [Open Knowledge Format (OKF)](../../standards/open-knowledge-format.md) — a portable

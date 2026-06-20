@@ -12,8 +12,9 @@ related:
   - leadership/managed-disruption.md
   - engineering/architecture/thinking-in-constraints.md
   - concepts/constraints-as-a-lens.md
+  - leadership/revised-rules-engineering-leadership.md
 source: "Eliyahu M. Goldratt — The Goal (1984) and Theory of Constraints (1990)"
-updated: 2026-06-17
+updated: 2026-06-20
 ---
 
 # Theory of Constraints

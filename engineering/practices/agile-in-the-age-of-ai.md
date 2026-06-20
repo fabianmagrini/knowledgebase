@@ -10,8 +10,9 @@ related:
   - engineering/practices/code-review-policy.md
   - engineering/practices/change-absorption-capacity.md
   - leadership/learning-organisation.md
+  - leadership/revised-rules-engineering-leadership.md
 source: "https://miren.dev/blog/agile-in-the-age-of-ai"
-updated: 2026-06-14
+updated: 2026-06-20
 ---
 
 # Agile in the Age of AI
