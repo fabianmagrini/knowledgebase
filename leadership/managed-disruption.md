@@ -12,6 +12,7 @@ related:
   - engineering/architecture/strangler-fig.md
   - concepts/theory-of-constraints.md
   - sre/incident-swarming.md
+  - product/explore-vs-exploit.md
 source: "https://gist.github.com/fabianmagrini/8d7a465df449ea54881c86f563ec6f6d"
 updated: 2026-06-20
 ---

@@ -10,8 +10,9 @@ related:
   - engineering/architecture/agile-design-decisions.md
   - engineering/architecture/thinking-in-constraints.md
   - concepts/constraints-as-a-lens.md
+  - product/explore-vs-exploit.md
 source: "https://jordanlord.co.uk/blog/3-constraints/"
-updated: 2026-06-17
+updated: 2026-06-20
 ---
 
 # Designing with Constraints

@@ -20,6 +20,7 @@ All conventions are documented in [conventions.md](conventions.md). Read it befo
 ```
 engineering/        # architecture, practices, security
 leadership/         # leadership, communication, decision governance, culture
+product/            # product management and discovery
 languages/          # per-language notes
 tools/              # cloud, containers, editors
 sre/                # site reliability, incident response, operations

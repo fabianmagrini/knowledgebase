@@ -13,6 +13,7 @@ Personal engineering knowledge base.
 
 - [Engineering](engineering/) — architecture, system design, patterns, practices
 - [Leadership](leadership/) — leadership, communication, decision governance, culture
+- [Product](product/) — product management and discovery
 - [Languages](languages/) — programming language notes
 - [Tools](tools/) — CLI tools, editors, platforms, infrastructure
 - [SRE](sre/) — site reliability, incident response, operations
