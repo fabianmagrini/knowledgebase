@@ -28,6 +28,7 @@ related:
   - engineering/practices/long-running-agents.md
   - leadership/revised-rules-engineering-leadership.md
   - engineering/practices/ai-engineering-discipline.md
+  - engineering/practices/apex-framework.md
 updated: 2026-06-20
 ---
 
@@ -101,6 +102,12 @@ A map of the notes on building software with AI agents. They answer different qu
 - [Change Absorption Capacity (CATS)](change-absorption-capacity.md) — raising a system's
   capacity to safely absorb agent-speed change: contracts, automated verification, telemetry,
   simplification.
+
+## Measurement — is it working?
+
+- [The APEX Framework](apex-framework.md) — a measurement operating model (AI Leverage,
+  Predictability, Flow Efficiency, Developer Experience) for judging whether AI adoption creates
+  *sustainable* value, measured at the PR and in the critical path rather than by tool adoption.
 
 ## The through-line
 
