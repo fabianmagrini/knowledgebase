@@ -9,6 +9,8 @@ related:
   - engineering/practices/performance-testing-strategy.md
   - engineering/practices/release-confidence.md
   - engineering/practices/change-absorption-capacity.md
+  - tools/containers/postgresql-ha-kubernetes.md
+  - tools/containers/dynamic-configuration-sidecar.md
 source:
   - "https://www.ufried.com/blog/why_resilient_software_design_1/"
   - "https://www.ufried.com/blog/why_resilient_software_design_2/"
