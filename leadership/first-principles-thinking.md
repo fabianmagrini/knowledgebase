@@ -13,8 +13,9 @@ related:
   - leadership/raising-problems-without-complaining.md
   - engineering/architecture/thinking-in-constraints.md
   - concepts/constraints-as-a-lens.md
+  - product/explore-vs-exploit.md
 source: "https://www.philmckinney.com/how-to-improve-your-first-principles-thinking-skills/"
-updated: 2026-06-17
+updated: 2026-06-20
 ---
 
 # First-Principles Thinking
