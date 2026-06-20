@@ -16,6 +16,7 @@ related:
   - leadership/learning-organisation.md
   - engineering/architecture/agile-design-decisions.md
   - sre/incident-swarming.md
+  - leadership/new-leader-credibility.md
 updated: 2026-06-20
 ---
 
@@ -31,6 +32,8 @@ how to set direction and make good decisions with other people.
   strategy; give feedback early and privately so forums validate rather than surprise.
 - [Raising Problems Without Complaining](raising-problems-without-complaining.md) — managing up:
   raise blockers so they signal ownership, not a collaboration gap; "what's my move here?"
+- [The New Leader's Credibility Problem](new-leader-credibility.md) — a new leader's diagnosis
+  won't be believed; earn credibility by listening ("find the mystery") and a communication cascade.
 
 ## Running the decision — facilitation
 

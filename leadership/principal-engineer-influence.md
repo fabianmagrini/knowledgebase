@@ -10,8 +10,9 @@ related:
   - leadership/protecting-mavericks.md
   - engineering/practices/ai-augmented-engineering-team.md
   - leadership/raising-problems-without-complaining.md
+  - leadership/new-leader-credibility.md
 source: "https://gist.github.com/fabianmagrini/220ed6ab9e5d206a96a55177175e3fa1"
-updated: 2026-06-13
+updated: 2026-06-20
 ---
 
 # Principal Engineer Influence

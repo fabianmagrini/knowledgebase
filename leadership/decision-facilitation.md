@@ -12,6 +12,7 @@ related:
   - leadership/first-principles-thinking.md
   - leadership/raising-problems-without-complaining.md
   - sre/incident-swarming.md
+  - leadership/new-leader-credibility.md
 source: "https://gist.github.com/fabianmagrini/10e09bb9cef680c07cad82e7bfbcb441"
 updated: 2026-06-20
 ---

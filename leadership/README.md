@@ -2,7 +2,7 @@
 title: Leadership
 tags: [meta, leadership, culture, communication]
 status: complete
-updated: 2026-06-14
+updated: 2026-06-20
 ---
 
 # Leadership
@@ -26,3 +26,4 @@ make good decisions with others.
 - [First-Principles Thinking](first-principles-thinking.md)
 - [Designing with Constraints](designing-with-constraints.md)
 - [The Learning Organisation and AI Adoption](learning-organisation.md)
+- [The New Leader's Credibility Problem](new-leader-credibility.md)
