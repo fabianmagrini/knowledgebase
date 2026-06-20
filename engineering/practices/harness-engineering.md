@@ -14,8 +14,9 @@ related:
   - engineering/practices/agent-backpressure-loops.md
   - engineering/practices/loop-driven-development.md
   - engineering/practices/prompt-engineering-for-programmers.md
+  - engineering/practices/long-running-agents.md
 source: "https://diego-pacheco.blogspot.com/2026/05/harness-engineering.html"
-updated: 2026-06-15
+updated: 2026-06-20
 ---
 
 # Harness Engineering
