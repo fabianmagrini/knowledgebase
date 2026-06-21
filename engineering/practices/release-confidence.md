@@ -15,6 +15,7 @@ related:
   - concepts/resilient-software-design.md
   - concepts/progressive-delivery.md
   - engineering/practices/feature-flags-and-branch-by-abstraction.md
+  - engineering/practices/rollback-and-roll-forward.md
   - engineering/practices/trust-factory.md
 source: "https://newsletter.optimistengineer.com/p/why-your-releases-feel-harder-than"
 updated: 2026-06-20
