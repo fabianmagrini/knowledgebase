@@ -17,6 +17,7 @@ related:
   - concepts/continuous-delivery.md
   - concepts/ci-cd-continuous-deployment.md
   - concepts/devops-capability-model.md
+  - engineering/practices/feature-flags-and-branch-by-abstraction.md
 ---
 
 # Trunk-Based Development

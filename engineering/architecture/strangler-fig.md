@@ -9,6 +9,7 @@ related:
   - leadership/managed-disruption.md
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/architectural-change-cases.md
+  - engineering/practices/feature-flags-and-branch-by-abstraction.md
 updated: 2026-06-13
 ---
 

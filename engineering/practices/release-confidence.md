@@ -13,6 +13,7 @@ related:
   - concepts/continuous-delivery.md
   - concepts/ci-cd-continuous-deployment.md
   - concepts/resilient-software-design.md
+  - engineering/practices/feature-flags-and-branch-by-abstraction.md
   - engineering/practices/trust-factory.md
 source: "https://newsletter.optimistengineer.com/p/why-your-releases-feel-harder-than"
 updated: 2026-06-20
