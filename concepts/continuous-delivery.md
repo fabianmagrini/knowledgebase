@@ -5,6 +5,7 @@ topic: concepts
 status: notes
 level: intermediate
 related:
+  - concepts/devops-capability-model.md
   - engineering/practices/trunk-based-development.md
   - engineering/practices/release-confidence.md
   - engineering/practices/ci-cd-ai-engineering.md
@@ -117,11 +118,11 @@ safe to absorb.
 ## CD in the Accelerate capability model
 
 *Accelerate* (Forsgren, Humble & Kim) identifies 24 capabilities that drive
-software delivery performance, grouped into five categories: **continuous
-delivery**, **architecture**, **product and process**, **lean management and
-monitoring**, and **cultural**. Continuous Delivery is not a single practice but
-a capability cluster — the eight capabilities below are what it takes to make CD
-real:
+software delivery performance, grouped into five categories — see
+[The DevOps Capability Model (Accelerate / DORA)](devops-capability-model.md) for
+the full 24 and the four delivery metrics they move. Continuous Delivery is the
+technical core of that model: not a single practice but a capability cluster, the
+eight capabilities below being what it takes to make CD real:
 
 - Use version control for **all** production artifacts (code, config, infra).
 - Automate the deployment process.
@@ -134,11 +135,9 @@ real:
   See [Secure SDLC (DevSecOps)](../engineering/security/secure-sdlc.md).
 - Implement continuous delivery (the outcome the others enable).
 
-The other four categories matter because CD does not succeed in isolation:
-loosely coupled architecture and empowered teams remove deployment bottlenecks;
-working in small batches and making flow visible shorten lead time; lightweight
-change approval and proactive monitoring keep the pipeline trustworthy; and a
-generative, learning-oriented culture is what sustains all of it. CD is the
+The other four categories — architecture, product and process, lean management and
+monitoring, and cultural — matter because CD does not succeed in isolation; they are
+enumerated in [the capability-model note](devops-capability-model.md). CD is the
 technical core, but delivery performance is a whole-system property.
 
 ## Further reading
