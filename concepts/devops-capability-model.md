@@ -6,6 +6,7 @@ status: notes
 level: intermediate
 related:
   - concepts/continuous-delivery.md
+  - concepts/ci-cd-continuous-deployment.md
   - engineering/practices/trunk-based-development.md
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/engineering-playbook.md

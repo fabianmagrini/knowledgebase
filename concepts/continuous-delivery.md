@@ -5,6 +5,7 @@ topic: concepts
 status: notes
 level: intermediate
 related:
+  - concepts/ci-cd-continuous-deployment.md
   - concepts/devops-capability-model.md
   - engineering/practices/trunk-based-development.md
   - engineering/practices/release-confidence.md
@@ -46,6 +47,8 @@ These three are routinely conflated:
 CD is the property; Continuous Deployment is the policy of removing the last
 manual approval. Many regulated contexts deliberately stop at Continuous Delivery
 — see [Release Process for Regulated and High-Risk Services](../engineering/practices/regulated-service-release-process.md).
+For a focused treatment of the three-way distinction, see
+[CI vs Continuous Delivery vs Continuous Deployment](ci-cd-continuous-deployment.md).
 
 ## The deployment pipeline
 

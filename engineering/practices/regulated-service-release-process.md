@@ -15,6 +15,7 @@ related:
   - engineering/security/secure-sdlc.md
   - engineering/practices/release-confidence.md
   - concepts/continuous-delivery.md
+  - concepts/ci-cd-continuous-deployment.md
 ---
 
 # Release Process for Regulated and High-Risk Services
