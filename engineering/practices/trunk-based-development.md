@@ -19,6 +19,7 @@ related:
   - concepts/devops-capability-model.md
   - engineering/practices/feature-flags-and-branch-by-abstraction.md
   - engineering/practices/gitops.md
+  - engineering/practices/ci-speed-with-ai-agents.md
 ---
 
 # Trunk-Based Development

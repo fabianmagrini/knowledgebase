@@ -50,6 +50,8 @@ A map of the notes on building software with AI agents. They answer different qu
 - [The Agentic SDLC](agentic-sdlc.md) — the AI-assisted software delivery lifecycle.
 - [CI/CD as the Control Plane for AI-Assisted Engineering](ci-cd-ai-engineering.md) — the
   pipeline as the guardrail that makes agent-speed delivery safe.
+- [CI Speed When Agents Write the Code](ci-speed-with-ai-agents.md) — why fast CI's
+  context-switching rationale weakens once agents, not humans, wait on the pipeline.
 - [AI-DLC and the Reimagined SDLC](ai-dlc-methodology.md) — a concrete, ceremony-level
   methodology (AI-DLC, V-Bounce, Bolts/Units/Intents) instantiating the agentic loop.
 - [Spec-Driven Development](spec-driven-development.md) — the spec, not the code, as the

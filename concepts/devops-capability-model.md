@@ -11,6 +11,7 @@ related:
   - engineering/practices/trunk-based-development.md
   - engineering/practices/gitops.md
   - engineering/practices/rollback-and-roll-forward.md
+  - engineering/practices/ci-speed-with-ai-agents.md
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/engineering-playbook.md
   - engineering/practices/apex-framework.md

@@ -11,6 +11,7 @@ related:
   - engineering/practices/eval-driven-ai-development.md
   - engineering/practices/ai-native-engineering-stack.md
   - engineering/practices/ai-native-engineering-overview.md
+  - engineering/practices/ci-speed-with-ai-agents.md
 source: "https://addyo.substack.com/p/long-running-agents"
 updated: 2026-06-20
 ---

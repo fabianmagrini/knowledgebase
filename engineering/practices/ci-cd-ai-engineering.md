@@ -25,6 +25,7 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/release-confidence.md
   - engineering/practices/agent-backpressure-loops.md
+  - engineering/practices/ci-speed-with-ai-agents.md
   - engineering/security/secure-sdlc.md
   - concepts/continuous-delivery.md
   - engineering/practices/agentic-code-review.md
