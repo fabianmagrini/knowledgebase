@@ -22,6 +22,7 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [GitOps](gitops.md)
 - [Rollback and Roll Forward](rollback-and-roll-forward.md)
 - [CI Speed When Agents Write the Code](ci-speed-with-ai-agents.md)
+- [Database Migration Strategies](database-migration-strategies.md)
 - [Federated PR Review and Governance](federated-pr-review.md)
 - [Modern Web Engineering Playbook](engineering-playbook.md)
 - [Code Review Policy](code-review-policy.md)

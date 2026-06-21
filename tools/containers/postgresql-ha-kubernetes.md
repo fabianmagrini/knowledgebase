@@ -7,6 +7,7 @@ level: intermediate
 related:
   - concepts/resilient-software-design.md
   - engineering/practices/performance-testing-strategy.md
+  - engineering/practices/database-migration-strategies.md
   - engineering/architecture/thinking-in-constraints.md
   - tools/containers/dynamic-configuration-sidecar.md
 source: "https://www.datadoghq.com/blog/engineering/postgresql-ha-kubernetes/"
