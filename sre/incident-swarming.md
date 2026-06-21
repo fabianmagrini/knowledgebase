@@ -10,6 +10,7 @@ related:
   - leadership/managed-disruption.md
   - leadership/engineering-leadership-overview.md
   - concepts/resilient-software-design.md
+  - engineering/practices/rollback-and-roll-forward.md
 source: "https://greatcircle.com/blog/2026/03/24/swarming-is-a-feature/"
 updated: 2026-06-20
 ---

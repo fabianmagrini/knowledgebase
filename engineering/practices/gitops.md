@@ -11,6 +11,7 @@ related:
   - engineering/practices/trunk-based-development.md
   - concepts/devops-capability-model.md
   - concepts/resilient-software-design.md
+  - engineering/practices/rollback-and-roll-forward.md
   - tools/git.md
 source: "Weaveworks / Alexis Richardson — GitOps (2017); OpenGitOps (CNCF) — https://opengitops.dev"
 updated: 2026-06-21

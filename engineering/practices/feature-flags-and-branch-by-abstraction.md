@@ -13,6 +13,7 @@ related:
   - leadership/managed-disruption.md
   - engineering/architecture/strangler-fig.md
   - concepts/progressive-delivery.md
+  - engineering/practices/rollback-and-roll-forward.md
 source: "Pete Hodgson — Feature Toggles (martinfowler.com); Martin Fowler — BranchByAbstraction; Jez Humble & David Farley — Continuous Delivery (2010)"
 updated: 2026-06-21
 ---
