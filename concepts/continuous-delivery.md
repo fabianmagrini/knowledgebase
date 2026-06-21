@@ -6,6 +6,7 @@ status: notes
 level: intermediate
 related:
   - concepts/ci-cd-continuous-deployment.md
+  - concepts/progressive-delivery.md
   - concepts/devops-capability-model.md
   - engineering/practices/trunk-based-development.md
   - engineering/practices/feature-flags-and-branch-by-abstraction.md
