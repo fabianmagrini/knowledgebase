@@ -10,6 +10,7 @@ related:
   - engineering/practices/release-confidence.md
   - engineering/practices/change-absorption-capacity.md
   - concepts/progressive-delivery.md
+  - engineering/practices/gitops.md
   - tools/containers/postgresql-ha-kubernetes.md
   - tools/containers/dynamic-configuration-sidecar.md
   - sre/incident-swarming.md

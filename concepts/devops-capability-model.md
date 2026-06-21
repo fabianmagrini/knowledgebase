@@ -9,6 +9,7 @@ related:
   - concepts/ci-cd-continuous-deployment.md
   - concepts/progressive-delivery.md
   - engineering/practices/trunk-based-development.md
+  - engineering/practices/gitops.md
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/engineering-playbook.md
   - engineering/practices/apex-framework.md

@@ -18,6 +18,7 @@ related:
   - concepts/ci-cd-continuous-deployment.md
   - concepts/devops-capability-model.md
   - engineering/practices/feature-flags-and-branch-by-abstraction.md
+  - engineering/practices/gitops.md
 ---
 
 # Trunk-Based Development

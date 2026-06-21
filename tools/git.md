@@ -8,6 +8,7 @@ related:
   - engineering/practices/trunk-based-development.md
   - engineering/practices/polyrepo-branching-strategy.md
   - engineering/practices/code-review-policy.md
+  - engineering/practices/gitops.md
 source: "https://gist.github.com/fabianmagrini/155e09d4ff0e49aaa8b66017aa7b96e5"
 ---
 
