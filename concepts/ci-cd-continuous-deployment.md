@@ -13,6 +13,7 @@ related:
   - engineering/practices/release-confidence.md
   - engineering/practices/feature-flags-and-branch-by-abstraction.md
   - concepts/progressive-delivery.md
+  - engineering/practices/gitops.md
 source: "Jez Humble & David Farley — Continuous Delivery (2010)"
 updated: 2026-06-21
 ---
