@@ -16,6 +16,7 @@ related:
   - engineering/practices/release-confidence.md
   - concepts/continuous-delivery.md
   - concepts/ci-cd-continuous-deployment.md
+  - engineering/practices/feature-flags-and-branch-by-abstraction.md
 ---
 
 # Release Process for Regulated and High-Risk Services
