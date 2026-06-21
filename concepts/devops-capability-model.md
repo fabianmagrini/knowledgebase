@@ -7,6 +7,7 @@ level: intermediate
 related:
   - concepts/continuous-delivery.md
   - concepts/ci-cd-continuous-deployment.md
+  - concepts/progressive-delivery.md
   - engineering/practices/trunk-based-development.md
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/engineering-playbook.md

@@ -9,6 +9,7 @@ related:
   - engineering/practices/performance-testing-strategy.md
   - engineering/practices/release-confidence.md
   - engineering/practices/change-absorption-capacity.md
+  - concepts/progressive-delivery.md
   - tools/containers/postgresql-ha-kubernetes.md
   - tools/containers/dynamic-configuration-sidecar.md
   - sre/incident-swarming.md

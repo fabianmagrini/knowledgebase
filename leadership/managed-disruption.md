@@ -11,6 +11,7 @@ related:
   - leadership/start-with-why.md
   - engineering/architecture/strangler-fig.md
   - engineering/practices/feature-flags-and-branch-by-abstraction.md
+  - concepts/progressive-delivery.md
   - concepts/theory-of-constraints.md
   - sre/incident-swarming.md
   - product/explore-vs-exploit.md
