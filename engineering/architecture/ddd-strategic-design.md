@@ -9,6 +9,8 @@ related:
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/micro-frontend-principles.md
   - engineering/architecture/thinking-in-constraints.md
+  - engineering/architecture/event-storming.md
+  - engineering/architecture/team-topologies.md
 source: "https://medium.com/@lambrych/domain-driven-design-ddd-strategic-design-explained-55e10b7ecc0f"
 updated: 2026-06-20
 ---

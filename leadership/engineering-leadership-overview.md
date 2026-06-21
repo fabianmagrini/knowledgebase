@@ -18,6 +18,7 @@ related:
   - sre/incident-swarming.md
   - leadership/new-leader-credibility.md
   - leadership/revised-rules-engineering-leadership.md
+  - engineering/architecture/team-topologies.md
 updated: 2026-06-20
 ---
 
@@ -56,6 +57,9 @@ how to set direction and make good decisions with other people.
   without letting disruption damage the team.
 - [Managed Disruption](managed-disruption.md) — introducing change into delivery safely and
   deliberately.
+- [Team Topologies and Socio-Technical Architecture](../engineering/architecture/team-topologies.md) —
+  shaping teams as a design material: Conway's Law, the four team types, and cognitive load as the
+  binding constraint *(in architecture)*.
 - [The Learning Organisation and AI Adoption](learning-organisation.md) — the cultural
   prerequisites (psychological safety, slack, intelligent failure) that let teams absorb new
   technology faster than it changes.

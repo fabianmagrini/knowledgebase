@@ -14,6 +14,7 @@ related:
   - concepts/clean-code-and-solid.md
   - engineering/architecture/bounded-context-canvas.md
   - engineering/architecture/ddd-strategic-design.md
+  - engineering/architecture/team-topologies.md
 updated: 2026-06-20
 ---
 

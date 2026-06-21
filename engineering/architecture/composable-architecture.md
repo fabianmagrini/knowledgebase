@@ -14,6 +14,7 @@ related:
   - engineering/architecture/agile-design-decisions.md
   - engineering/architecture/strangler-fig.md
   - engineering/architecture/architectural-change-cases.md
+  - engineering/architecture/team-topologies.md
   - engineering/architecture/micro-frontend-canvas.md
   - engineering/architecture/generative-ui.md
   - engineering/architecture/micro-frontend-principles.md

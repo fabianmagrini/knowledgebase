@@ -10,6 +10,8 @@ related:
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/architectural-change-cases.md
   - engineering/architecture/ddd-strategic-design.md
+  - engineering/architecture/event-storming.md
+  - engineering/architecture/team-topologies.md
 source: "https://github.com/ddd-crew/bounded-context-canvas"
 updated: 2026-06-20
 ---
