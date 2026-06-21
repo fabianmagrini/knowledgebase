@@ -18,6 +18,7 @@ related:
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/practices/ai-native-engineering-stack.md
   - engineering/practices/agentic-sdlc.md
+  - concepts/ci-cd-continuous-deployment.md
   - engineering/practices/agentic-sdlc-maturity-model.md
   - engineering/practices/eval-driven-ai-development.md
   - engineering/practices/performance-testing-strategy.md

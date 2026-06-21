@@ -11,6 +11,7 @@ related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/performance-testing-strategy.md
   - concepts/continuous-delivery.md
+  - concepts/ci-cd-continuous-deployment.md
   - concepts/resilient-software-design.md
   - engineering/practices/trust-factory.md
 source: "https://newsletter.optimistengineer.com/p/why-your-releases-feel-harder-than"

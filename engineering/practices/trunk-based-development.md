@@ -15,6 +15,7 @@ related:
   - engineering/practices/release-confidence.md
   - tools/git.md
   - concepts/continuous-delivery.md
+  - concepts/ci-cd-continuous-deployment.md
   - concepts/devops-capability-model.md
 ---
 
