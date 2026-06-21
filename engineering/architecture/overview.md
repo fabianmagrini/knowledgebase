@@ -18,6 +18,8 @@ related:
   - engineering/architecture/micro-frontend-principles.md
   - engineering/architecture/bounded-context-canvas.md
   - engineering/architecture/ddd-strategic-design.md
+  - engineering/architecture/event-storming.md
+  - engineering/architecture/team-topologies.md
 updated: 2026-06-20
 ---
 
@@ -39,6 +41,11 @@ systems.
 - [Domain-Driven Design: Strategic Design](ddd-strategic-design.md) — the problem-space theory:
   subdomains (core/supporting/generic), bounded contexts, ubiquitous language, and the eight
   context-mapping patterns.
+- [Event Storming](event-storming.md) — the collaborative discovery workshop that feeds DDD:
+  map domain events on a wall, and the clusters reveal candidate bounded contexts.
+- [Team Topologies and Socio-Technical Architecture](team-topologies.md) — the organisational
+  mirror of the architecture: Conway's Law, the four team types, interaction modes, and aligning
+  team boundaries to bounded contexts (the inverse Conway manoeuvre).
 - [Bounded Context Canvas](bounded-context-canvas.md) — the DDD domain/service-layer sibling: a
   single-page canvas for designing one bounded context (purpose, language, communication, decisions).
 - [Microfrontend Architecture Principles](micro-frontend-principles.md) — the principles a good

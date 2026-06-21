@@ -14,6 +14,7 @@ related:
   - sre/incident-swarming.md
   - leadership/new-leader-credibility.md
   - leadership/revised-rules-engineering-leadership.md
+  - engineering/architecture/event-storming.md
 source: "https://gist.github.com/fabianmagrini/10e09bb9cef680c07cad82e7bfbcb441"
 updated: 2026-06-20
 ---
