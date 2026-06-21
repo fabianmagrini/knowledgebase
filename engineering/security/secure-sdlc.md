@@ -8,6 +8,7 @@ related:
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/code-review-policy.md
   - concepts/continuous-delivery.md
+  - concepts/devops-capability-model.md
 updated: 2026-06-16
 ---
 

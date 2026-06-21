@@ -29,6 +29,7 @@ related:
   - engineering/practices/agentic-code-review.md
   - engineering/practices/ai-engineering-discipline.md
   - engineering/practices/apex-framework.md
+  - concepts/devops-capability-model.md
 ---
 
 # CI/CD as the Control Plane for AI-Assisted Engineering

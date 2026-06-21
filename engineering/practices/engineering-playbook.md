@@ -5,6 +5,7 @@ topic: engineering/practices
 status: notes
 updated: 2026-06-19
 related:
+  - concepts/devops-capability-model.md
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/federated-pr-review.md
   - engineering/practices/trunk-based-development.md
