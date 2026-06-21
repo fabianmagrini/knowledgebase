@@ -14,6 +14,7 @@ related:
   - engineering/architecture/thinking-in-constraints.md
   - concepts/constraints-as-a-lens.md
   - product/explore-vs-exploit.md
+  - leadership/plan-is-not-a-strategy.md
 source: "https://www.philmckinney.com/how-to-improve-your-first-principles-thinking-skills/"
 updated: 2026-06-20
 ---

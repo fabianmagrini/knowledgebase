@@ -5,6 +5,7 @@ topic: leadership
 status: complete
 related:
   - leadership/start-with-why.md
+  - leadership/plan-is-not-a-strategy.md
   - leadership/decision-facilitation.md
   - leadership/principal-engineer-influence.md
   - leadership/raising-problems-without-complaining.md
@@ -30,6 +31,8 @@ how to set direction and make good decisions with other people.
 ## Purpose & influence — setting direction
 
 - [Start with the Why](start-with-why.md) — lead with purpose before approach or output.
+- [A Plan Is Not a Strategy](plan-is-not-a-strategy.md) — strategy is an integrative set of
+  choices (where to play / how to win), not a controllable list of initiatives.
 - [Principal Engineer Influence](principal-engineer-influence.md) — your words signal
   strategy; give feedback early and privately so forums validate rather than surprise.
 - [Raising Problems Without Complaining](raising-problems-without-complaining.md) — managing up:
