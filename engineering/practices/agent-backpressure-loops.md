@@ -14,6 +14,7 @@ related:
   - concepts/theory-of-constraints.md
   - engineering/practices/agentic-code-review.md
   - engineering/practices/long-running-agents.md
+  - engineering/practices/ci-speed-with-ai-agents.md
 source: "https://generativeprogrammer.com/p/stop-babysitting-your-coding-agent"
 updated: 2026-06-20
 ---

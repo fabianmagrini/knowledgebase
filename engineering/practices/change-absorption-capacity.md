@@ -19,6 +19,7 @@ related:
   - engineering/practices/agile-in-the-age-of-ai.md
   - engineering/practices/modern-engineering-values.md
   - engineering/practices/loop-driven-development.md
+  - engineering/practices/ci-speed-with-ai-agents.md
   - concepts/theory-of-constraints.md
   - engineering/practices/software-design-principles.md
   - concepts/resilient-software-design.md
