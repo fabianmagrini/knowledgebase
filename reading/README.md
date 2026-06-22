@@ -29,3 +29,7 @@ Each note should include:
 - [Common Code Review Mistakes to Avoid](https://graphite.dev/guides/common-code-review-mistakes-to-avoid) — Graphite
 - [Code Review Techniques](https://www.awesomecodereviews.com/code-reading/code-review-techniques/) — Awesome Code Reviews
 - [Common Code Review Mistakes Developers Make](https://axolo.co/blog/p/common-code-review-mistakes-developers-make) — Axolo
+
+### Architecture & Performance
+
+- [How is Linear so fast? A technical breakdown](https://performance.dev/how-is-linear-so-fast-a-technical-breakdown) — performance.dev → see case study: [Linear's Performance Architecture](../case-studies/linear-performance-architecture.md)

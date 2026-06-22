@@ -15,6 +15,7 @@ related:
   - engineering/architecture/bounded-context-canvas.md
   - engineering/architecture/ddd-strategic-design.md
   - engineering/architecture/team-topologies.md
+  - case-studies/linear-performance-architecture.md
 updated: 2026-06-20
 ---
 
