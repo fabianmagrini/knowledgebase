@@ -13,6 +13,7 @@ related:
   - engineering/architecture/micro-frontend-canvas.md
   - engineering/architecture/generative-ui.md
   - engineering/architecture/micro-frontend-principles.md
+  - engineering/architecture/microfrontend-shell-platform.md
 source: "https://gist.github.com/fabianmagrini/3bf21095225b78d8b30db9437f4477b9"
 updated: 2026-06-19
 ---

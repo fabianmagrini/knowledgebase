@@ -12,6 +12,7 @@ related:
   - engineering/practices/engineering-playbook.md
   - engineering/architecture/generative-ui.md
   - engineering/architecture/micro-frontend-principles.md
+  - engineering/architecture/microfrontend-shell-platform.md
   - engineering/architecture/bounded-context-canvas.md
 source: "https://lucamezzalira.medium.com/the-micro-frontend-canvas-a-practical-tool-for-better-boundaries-99da1a7b858d"
 updated: 2026-06-19
