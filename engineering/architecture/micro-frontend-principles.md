@@ -16,6 +16,7 @@ related:
   - engineering/architecture/ddd-strategic-design.md
   - engineering/architecture/team-topologies.md
   - engineering/architecture/microfrontend-shell-platform.md
+  - engineering/architecture/thin-shell-platform-runtime.md
   - case-studies/linear-performance-architecture.md
 updated: 2026-06-20
 ---

@@ -17,6 +17,7 @@ related:
   - engineering/architecture/generative-ui.md
   - engineering/architecture/micro-frontend-principles.md
   - engineering/architecture/microfrontend-shell-platform.md
+  - engineering/architecture/thin-shell-platform-runtime.md
   - engineering/architecture/bounded-context-canvas.md
   - engineering/architecture/ddd-strategic-design.md
   - engineering/architecture/event-storming.md
@@ -53,6 +54,8 @@ systems.
   boundary must satisfy at scale (bounded contexts, autonomy, contracts, independent deploy).
 - [The Micro-Frontend Shell as Platform Runtime](microfrontend-shell-platform.md) — the host shell
   as a platform runtime: shell-owned services, the `ShellPlatform` contract, and what to keep out.
+- [Thin Shell + Platform Runtime Remote](thin-shell-platform-runtime.md) — the packaging variant:
+  shell as bootloader, platform services extracted into a separately deployed, versioned remote.
 - [Strangler Fig Pattern](strangler-fig.md) — modernise legacy incrementally behind a
   facade, without a big-bang rewrite.
 - [Design Systems as the AI Control Plane](design-systems-ai-control-plane.md) — the design
