@@ -6,6 +6,7 @@ status: notes
 level: intermediate
 related:
   - engineering/architecture/microfrontend-shell-platform.md
+  - engineering/architecture/thin-shell-startup-performance.md
   - engineering/architecture/micro-frontend-principles.md
   - engineering/architecture/composable-architecture.md
 updated: 2026-06-22

@@ -8,6 +8,7 @@ related:
   - engineering/architecture/micro-frontend-principles.md
   - engineering/architecture/micro-frontend-canvas.md
   - engineering/architecture/thin-shell-platform-runtime.md
+  - engineering/architecture/thin-shell-startup-performance.md
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/design-systems-ai-control-plane.md
 updated: 2026-06-22

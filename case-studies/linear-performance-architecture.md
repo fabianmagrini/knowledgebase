@@ -7,6 +7,7 @@ level: intermediate
 related:
   - engineering/architecture/micro-frontend-principles.md
   - engineering/architecture/composable-architecture.md
+  - engineering/architecture/thin-shell-startup-performance.md
   - engineering/practices/performance-testing-strategy.md
 source: "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown"
 updated: 2026-06-22
