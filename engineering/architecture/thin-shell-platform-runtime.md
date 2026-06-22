@@ -111,6 +111,75 @@ remote.mount(container, {
 })
 ```
 
+## Layout: who renders the frame
+
+A common question in this model is whether the *thin shell* or the *platform
+runtime* owns the application layout. It should be the **platform runtime** — the
+thin shell only boots and provides a fatal fallback. Layout is bound to platform
+concerns:
+
+```txt
+layout = header + nav + breadcrumbs + permissions + session + notifications + theme
+```
+
+so it belongs alongside the navigation, session, permissions, theme/design-system,
+notification, and accessibility services that already live in the runtime. In
+practice the shell hands rendering to the platform, which wraps the active remote:
+
+```tsx
+// thin shell
+const platform = await loadPlatformRuntime()
+platform.renderApp({ container: document.getElementById("root"), remoteManifest })
+```
+
+```tsx
+// inside the platform runtime
+<AppProviders>
+  <AppLayout>
+    <Header />
+    <SideNav />
+    <Breadcrumbs />
+    <NotificationHost />
+    <MainContent>
+      <RemotePage />
+    </MainContent>
+  </AppLayout>
+</AppProviders>
+```
+
+The MFE renders only the page content for its layout slot:
+
+```tsx
+export function AccountsPage() {
+  return <AccountDashboard />
+}
+```
+
+### Ownership split
+
+| Concern | Owner |
+|---|---|
+| HTML bootstrap | Thin shell |
+| App frame | Platform runtime |
+| Header / sidebar / nav | Platform runtime |
+| Breadcrumb rules | Platform runtime, with route metadata from MFEs |
+| Page title | Platform runtime, with MFE input |
+| Product page content | MFE |
+| Product-specific layout | MFE |
+| Full-screen escape mode | Platform runtime controls, MFE requests |
+
+### Outer frame vs. inner product layout
+
+The platform owns the **outer** layout; the MFE still owns its **inner** layout:
+
+```txt
+Platform layout:  header / side nav / global frame / notifications
+MFE layout:       tabs / filters / product subnav / master-detail / page sections
+```
+
+The rule of thumb: **the platform owns anything that should feel consistent across
+the whole enterprise app; the MFE owns anything specific to its product journey.**
+
 ## Why extract it
 
 The main benefit is **decoupling the shell's release cadence from the platform's
