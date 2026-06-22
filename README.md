@@ -19,6 +19,7 @@ Personal engineering knowledge base.
 - [SRE](sre/) — site reliability, incident response, operations
 - [Standards](standards/) — specifications, protocols, and formats
 - [Concepts](concepts/) — algorithms, data structures, CS fundamentals
+- [Case Studies](case-studies/) — deep-dives into how real-world production systems are built
 - [Reading](reading/) — notes from books, papers, and articles
 
 ## Meta
