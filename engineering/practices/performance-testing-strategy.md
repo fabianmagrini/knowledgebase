@@ -12,6 +12,7 @@ related:
   - concepts/resilient-software-design.md
   - tools/containers/postgresql-ha-kubernetes.md
   - case-studies/linear-performance-architecture.md
+  - engineering/architecture/thin-shell-startup-performance.md
 source: "https://gist.github.com/fabianmagrini/dbf422910023dc8460f1331dd27c6f21"
 updated: 2026-06-20
 ---
