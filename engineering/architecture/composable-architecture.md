@@ -19,6 +19,7 @@ related:
   - engineering/architecture/generative-ui.md
   - engineering/architecture/micro-frontend-principles.md
   - engineering/architecture/microfrontend-shell-platform.md
+  - engineering/architecture/thin-shell-platform-runtime.md
   - engineering/architecture/bounded-context-canvas.md
   - engineering/architecture/ddd-strategic-design.md
   - concepts/resilient-software-design.md

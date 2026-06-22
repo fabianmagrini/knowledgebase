@@ -7,6 +7,7 @@ level: intermediate
 related:
   - engineering/architecture/micro-frontend-principles.md
   - engineering/architecture/micro-frontend-canvas.md
+  - engineering/architecture/thin-shell-platform-runtime.md
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/design-systems-ai-control-plane.md
 updated: 2026-06-22
@@ -25,6 +26,12 @@ This is the concrete operationalisation of several
 provide *guardrails, not dependencies* (autonomy), MFEs should *consume shared
 platform services rather than reimplement them* (shared-nothing-by-default), and
 navigation/identity/design are *shell-owned* to keep the experience seamless.
+
+> **Variant:** in larger programs these services need not live *inside* the shell.
+> The [thin shell + platform runtime remote](thin-shell-platform-runtime.md)
+> model keeps the shell a bootloader and extracts the same services into a
+> separately deployed platform remote. This note describes *what* the runtime
+> contains either way; that note describes *where* it lives.
 
 ## Core shell services
 
@@ -162,6 +169,9 @@ event bus, shared state) are added as the platform matures.
   principles this shell embodies: platform-over-governance, shared-nothing-by-
   default, shell-owned navigation, and team autonomy. This note is the *runtime*
   that delivers them.
+- [Thin Shell + Platform Runtime Remote](thin-shell-platform-runtime.md) — the
+  packaging variant: extract these services out of the shell into a separately
+  deployed platform remote, leaving the shell as a thin bootloader.
 - [The Micro-Frontend Canvas](micro-frontend-canvas.md) — designs one remote's
   boundary; this note designs the host that composes the remotes.
 - [Composable Architecture](composable-architecture.md) — the wider
