@@ -16,6 +16,7 @@ related:
   - engineering/architecture/thinking-in-constraints.md
   - engineering/architecture/generative-ui.md
   - engineering/architecture/micro-frontend-principles.md
+  - engineering/architecture/microfrontend-shell-platform.md
   - engineering/architecture/bounded-context-canvas.md
   - engineering/architecture/ddd-strategic-design.md
   - engineering/architecture/event-storming.md
@@ -50,6 +51,8 @@ systems.
   single-page canvas for designing one bounded context (purpose, language, communication, decisions).
 - [Microfrontend Architecture Principles](micro-frontend-principles.md) — the principles a good
   boundary must satisfy at scale (bounded contexts, autonomy, contracts, independent deploy).
+- [The Micro-Frontend Shell as Platform Runtime](microfrontend-shell-platform.md) — the host shell
+  as a platform runtime: shell-owned services, the `ShellPlatform` contract, and what to keep out.
 - [Strangler Fig Pattern](strangler-fig.md) — modernise legacy incrementally behind a
   facade, without a big-bang rewrite.
 - [Design Systems as the AI Control Plane](design-systems-ai-control-plane.md) — the design
