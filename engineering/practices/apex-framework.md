@@ -12,6 +12,7 @@ related:
   - engineering/practices/ai-augmented-engineering-team.md
   - engineering/practices/ai-native-engineering-overview.md
   - concepts/devops-capability-model.md
+  - reading/agentic-sdlc-survey.md
 source: "https://linearb.io/resources/apex-framework"
 updated: 2026-06-20
 ---

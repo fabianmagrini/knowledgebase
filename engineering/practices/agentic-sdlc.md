@@ -22,6 +22,7 @@ related:
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/practices/spec-driven-development.md
+  - reading/agentic-sdlc-survey.md
 source: "https://gist.github.com/fabianmagrini/4862954cd301634ab4bfd595c00ea52c"
 ---
 
