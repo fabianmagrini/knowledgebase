@@ -13,6 +13,7 @@ related:
   - engineering/practices/ai-native-engineering-overview.md
   - engineering/practices/ai-engineering-discipline.md
   - engineering/practices/apex-framework.md
+  - reading/agentic-sdlc-survey.md
 source: "https://addyo.substack.com/p/agentic-code-review"
 updated: 2026-06-20
 ---

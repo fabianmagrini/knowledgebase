@@ -30,7 +30,8 @@ related:
   - engineering/practices/ai-engineering-discipline.md
   - engineering/practices/apex-framework.md
   - engineering/practices/trust-factory.md
-updated: 2026-06-20
+  - reading/agentic-sdlc-survey.md
+updated: 2026-06-26
 ---
 
 # AI-Native Engineering — Overview
@@ -114,6 +115,10 @@ A map of the notes on building software with AI agents. They answer different qu
 - [The APEX Framework](apex-framework.md) — a measurement operating model (AI Leverage,
   Predictability, Flow Efficiency, Developer Experience) for judging whether AI adoption creates
   *sustainable* value, measured at the PR and in the critical path rather than by tool adoption.
+- [Agentic AI in the SDLC — A Research Survey](../../reading/agentic-sdlc-survey.md) — the empirical
+  anchor under the cluster: a six-layer reference architecture, the SWE-bench/productivity evidence
+  (and why benchmark gains ≠ team throughput), and five open problems mapped onto these notes
+  *(in reading)*.
 
 ## The through-line
 

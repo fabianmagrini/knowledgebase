@@ -33,3 +33,7 @@ Each note should include:
 ### Architecture & Performance
 
 - [How is Linear so fast? A technical breakdown](https://performance.dev/how-is-linear-so-fast-a-technical-breakdown) — performance.dev → see case study: [Linear's Performance Architecture](../case-studies/linear-performance-architecture.md)
+
+### AI Engineering
+
+- [Agentic AI in the Software Development Lifecycle](https://arxiv.org/abs/2604.26275) — Happy Bhati (arXiv 2604.26275) → notes: [Agentic AI in the SDLC — A Research Survey](agentic-sdlc-survey.md)
