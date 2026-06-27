@@ -33,6 +33,7 @@ related:
   - reading/agentic-sdlc-survey.md
   - reading/building-effective-agents.md
   - reading/multi-agent-coding-coordination.md
+  - reading/how-i-use-llms-2026.md
 updated: 2026-06-27
 ---
 
@@ -105,6 +106,9 @@ A map of the notes on building software with AI agents. They answer different qu
   reservations, and a coordinator, rather than one worktree per agent *(in reading)*.
 - [Quality-First AI Coding](quality-first-ai-coding.md) — the practitioner workflow: multi-model
   bug review and quality-over-velocity use of AI to write better code more slowly.
+- [How I Use LLMs as a Staff Engineer (2026)](../../reading/how-i-use-llms-2026.md) — a
+  practitioner's delegation map: what to hand to agents (bugs, tests, config), what to review
+  hard (code changes), and what to keep human (PR descriptions, ADRs, comms) *(in reading)*.
 - [Backpressure Loops for Coding Agents](agent-backpressure-loops.md) — move mechanical
   correctness feedback into agent-actionable loops (sensors) so agents self-correct and humans
   stop babysitting.

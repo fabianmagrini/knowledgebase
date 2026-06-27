@@ -14,6 +14,7 @@ related:
   - engineering/practices/ai-engineering-discipline.md
   - engineering/practices/apex-framework.md
   - reading/agentic-sdlc-survey.md
+  - reading/how-i-use-llms-2026.md
 source: "https://addyo.substack.com/p/agentic-code-review"
 updated: 2026-06-20
 ---
