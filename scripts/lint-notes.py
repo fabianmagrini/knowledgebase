@@ -34,7 +34,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 # Directories never scanned.
-EXCLUDE_DIRS = {".git", ".claude", ".obsidian", "node_modules", "scripts"}
+EXCLUDE_DIRS = {".git", ".claude", ".obsidian", "node_modules", "scripts", "drafts"}
 # Agent/instruction files that are not notes and carry no frontmatter.
 EXCLUDE_FILES = {"CLAUDE.md", "AGENTS.md"}
 
