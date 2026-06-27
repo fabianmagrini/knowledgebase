@@ -13,6 +13,7 @@ related:
   - standards/open-knowledge-format.md
   - engineering/practices/trust-factory.md
   - reading/how-i-use-llms-2026.md
+  - case-studies/portkey-product-engineer-company.md
 source: "https://cpojer.net/posts/modern-engineering-values"
 updated: 2026-06-14
 ---

@@ -11,6 +11,7 @@ related:
   - concepts/theory-of-constraints.md
   - leadership/engineering-leadership-overview.md
   - engineering/practices/ai-native-engineering-overview.md
+  - case-studies/portkey-product-engineer-company.md
 source: "https://lethain.com/revised-rules-of-engineering-leadership/"
 updated: 2026-06-20
 ---

@@ -20,7 +20,8 @@ related:
   - leadership/new-leader-credibility.md
   - leadership/revised-rules-engineering-leadership.md
   - engineering/architecture/team-topologies.md
-updated: 2026-06-20
+  - case-studies/portkey-product-engineer-company.md
+updated: 2026-06-27
 ---
 
 # Engineering Leadership — Overview
@@ -69,6 +70,9 @@ how to set direction and make good decisions with other people.
 - [Revised Rules of Engineering Leadership](revised-rules-engineering-leadership.md) — how
   leadership shifts when AI makes execution cheap: durable teams and fast, good decisions become
   the scarce goods (bridges to the AI-native cluster).
+- [The Product Engineer Company (Portkey)](../case-studies/portkey-product-engineer-company.md) —
+  a case study of the no-PM, end-to-end-ownership operating model: barbell teams, disciplined
+  scope, and AI in reliability-critical work *(in case studies)*.
 
 ## The through-line
 
