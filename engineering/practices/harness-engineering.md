@@ -16,6 +16,7 @@ related:
   - engineering/practices/prompt-engineering-for-programmers.md
   - reading/agentic-sdlc-survey.md
   - reading/building-effective-agents.md
+  - reading/llm-maintained-wiki.md
   - engineering/practices/long-running-agents.md
 source: "https://diego-pacheco.blogspot.com/2026/05/harness-engineering.html"
 updated: 2026-06-20

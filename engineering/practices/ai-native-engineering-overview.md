@@ -34,6 +34,7 @@ related:
   - reading/building-effective-agents.md
   - reading/multi-agent-coding-coordination.md
   - reading/how-i-use-llms-2026.md
+  - reading/llm-maintained-wiki.md
 updated: 2026-06-27
 ---
 
@@ -80,6 +81,9 @@ A map of the notes on building software with AI agents. They answer different qu
   accumulates code faster than trust, and "genie" development erodes the loops that build it.
 - [Open Knowledge Format (OKF)](../../standards/open-knowledge-format.md) — a portable
   markdown+YAML format for the knowledge/context agents consume *(in standards)*.
+- [The LLM-Maintained Wiki](../../reading/llm-maintained-wiki.md) — Karpathy's pattern of an LLM
+  compiling and maintaining a persistent wiki (raw → wiki → schema; ingest/query/lint) instead of
+  RAG over raw docs; the maintenance discipline behind context-in-the-repo *(in reading)*.
 
 ## Control & quality — how do we keep it correct?
 
