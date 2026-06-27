@@ -12,6 +12,7 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - standards/open-knowledge-format.md
   - engineering/practices/trust-factory.md
+  - reading/how-i-use-llms-2026.md
 source: "https://cpojer.net/posts/modern-engineering-values"
 updated: 2026-06-14
 ---
