@@ -13,6 +13,7 @@ related:
   - leadership/revised-rules-engineering-leadership.md
   - engineering/practices/trust-factory.md
   - reading/multi-agent-coding-coordination.md
+  - reading/what-is-software-engineering-ai.md
 source: "https://miren.dev/blog/agile-in-the-age-of-ai"
 updated: 2026-06-20
 ---

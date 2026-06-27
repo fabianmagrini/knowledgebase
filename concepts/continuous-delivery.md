@@ -14,6 +14,7 @@ related:
   - engineering/practices/rollback-and-roll-forward.md
   - engineering/practices/database-migration-strategies.md
   - engineering/practices/release-confidence.md
+  - reading/what-is-software-engineering-ai.md
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/test-coverage-policy.md

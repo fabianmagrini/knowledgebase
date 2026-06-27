@@ -37,6 +37,7 @@ related:
   - reading/llm-maintained-wiki.md
   - reading/factory-engineers.md
   - case-studies/cloudflare-ai-code-review.md
+  - reading/what-is-software-engineering-ai.md
 updated: 2026-06-27
 ---
 
@@ -65,6 +66,9 @@ A map of the notes on building software with AI agents. They answer different qu
   primary living artifact; why "up" (raised abstraction) is not "up-front" (waterfall).
 - [Agile in the Age of AI](agile-in-the-age-of-ai.md) — the counterpoint: Agile principles
   persist; sustainable pace and human cognitive load bind how many agents you can direct.
+- [What Is Software Engineering? (Adapting to AI)](../../reading/what-is-software-engineering-ai.md)
+  — Breck's fundamentals-endure case via Farley: AI changes tempo not principles; build speed is
+  the existential investment and the cost of integration is the killer *(in reading)*.
 
 ## Platform & team — who and what enables it?
 
