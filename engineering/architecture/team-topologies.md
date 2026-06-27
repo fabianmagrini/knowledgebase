@@ -13,6 +13,7 @@ related:
   - concepts/devops-capability-model.md
   - leadership/engineering-leadership-overview.md
   - leadership/learning-organisation.md
+  - reading/what-is-software-engineering-ai.md
 source: "Skelton & Pais — Team Topologies (2019); Conway (1968)"
 updated: 2026-06-21
 ---

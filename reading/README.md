@@ -42,3 +42,4 @@ Each note should include:
 - [How I use LLMs as a Staff Engineer in 2026](https://www.seangoedecke.com/how-i-use-llms-in-2026/) — Sean Goedecke → notes: [How I Use LLMs as a Staff Engineer (2026)](how-i-use-llms-2026.md)
 - [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) — Andrej Karpathy → notes: [The LLM-Maintained Wiki](llm-maintained-wiki.md)
 - [We are now factory engineers, not product engineers](https://www.warp.dev/blog/we-are-now-factory-engineers-not-product-engineers) — Warp → notes: [Factory Engineers, Not Product Engineers](factory-engineers.md)
+- [Adapting to AI: What Is Software Engineering?](https://blog.colinbreck.com/adapting-to-ai-what-is-software-engineering/) — Colin Breck → notes: [What Is Software Engineering? (Adapting to AI)](what-is-software-engineering-ai.md)

@@ -15,6 +15,7 @@ related:
   - engineering/practices/code-review-policy.md
   - engineering/practices/test-coverage-policy.md
   - case-studies/cloudflare-ai-code-review.md
+  - reading/what-is-software-engineering-ai.md
   - leadership/managed-disruption.md
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/practices/ai-native-engineering-stack.md
