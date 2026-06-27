@@ -18,6 +18,7 @@ make good decisions with others.
 - [Engineering Leadership — Overview](engineering-leadership-overview.md)
 - [Start with the Why](start-with-why.md)
 - [A Plan Is Not a Strategy](plan-is-not-a-strategy.md)
+- [The Senior IC Role](senior-ic-role.md)
 - [Principal Engineer Influence](principal-engineer-influence.md)
 - [Raising Problems Without Complaining](raising-problems-without-complaining.md)
 - [Facilitating Technical Decisions](decision-facilitation.md)

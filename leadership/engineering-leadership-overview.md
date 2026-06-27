@@ -21,6 +21,7 @@ related:
   - leadership/revised-rules-engineering-leadership.md
   - engineering/architecture/team-topologies.md
   - case-studies/portkey-product-engineer-company.md
+  - leadership/senior-ic-role.md
 updated: 2026-06-27
 ---
 
@@ -34,6 +35,9 @@ how to set direction and make good decisions with other people.
 - [Start with the Why](start-with-why.md) — lead with purpose before approach or output.
 - [A Plan Is Not a Strategy](plan-is-not-a-strategy.md) — strategy is an integrative set of
   choices (where to play / how to win), not a controllable list of initiatives.
+- [The Senior IC Role](senior-ic-role.md) — what Staff/Principal/Architect ICs actually do
+  (cross-team improvements, technical direction, leading initiatives, growing leaders) and why
+  it is leadership through influence, not authority.
 - [Principal Engineer Influence](principal-engineer-influence.md) — your words signal
   strategy; give feedback early and privately so forums validate rather than surprise.
 - [Raising Problems Without Complaining](raising-problems-without-complaining.md) — managing up:
