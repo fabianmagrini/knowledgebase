@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your Micro-Frontend Shell Should Be a Platform Runtime, Not a Layout Wrapper</title>
+<meta name="description" content="Build the host shell as an enterprise runtime, extract it into its own remote, and keep startup fast.">
+<style>
+  :root { --fg:#1b1f24; --muted:#57606a; --bg:#ffffff; --code-bg:#f6f8fa; --border:#d0d7de; --accent:#0969da; }
+  * { box-sizing: border-box; }
+  body {
+    color: var(--fg); background: var(--bg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 820px; margin: 0 auto; padding: 3rem 1.25rem 6rem;
+  }
+  h1 { font-size: 2.1rem; line-height: 1.2; margin: 0 0 1.5rem; letter-spacing: -0.02em; }
+  h2 { font-size: 1.5rem; margin: 3rem 0 1rem; padding-top: 1rem; border-top: 1px solid var(--border); letter-spacing: -0.01em; }
+  h3 { font-size: 1.15rem; margin: 2rem 0 0.75rem; }
+  p, li { color: var(--fg); }
+  a { color: var(--accent); }
+  strong { font-weight: 650; }
+  ul, ol { padding-left: 1.4rem; }
+  li { margin: 0.25rem 0; }
+  hr { border: none; border-top: 1px solid var(--border); margin: 2.5rem 0; }
+  code {
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.86em; background: var(--code-bg); padding: 0.15em 0.4em; border-radius: 6px;
+  }
+  pre {
+    background: var(--code-bg); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.1rem; overflow-x: auto; line-height: 1.5; font-size: 0.85rem;
+  }
+  pre code { background: none; padding: 0; font-size: inherit; }
+  table { border-collapse: collapse; width: 100%; margin: 1.25rem 0; font-size: 0.9rem; display: block; overflow-x: auto; }
+  th, td { border: 1px solid var(--border); padding: 0.5rem 0.7rem; text-align: left; vertical-align: top; }
+  th { background: var(--code-bg); font-weight: 650; }
+  blockquote { margin: 1.25rem 0; padding: 0.25rem 1rem; border-left: 3px solid var(--border); color: var(--muted); }
+  .subtitle { color: var(--muted); font-size: 1.05rem; margin: -0.75rem 0 2.5rem; }
+</style>
+</head>
+<body>
+
+<h1>Your Micro-Frontend Shell Should Be a Platform Runtime, Not a Layout Wrapper</h1>
+<p class="subtitle">Build the host shell as an enterprise runtime, extract it into its own remote, and keep startup fast.</p>
+
+<p>Most teams that adopt Module Federation start by treating the host shell as a layout wrapper: a header, a sidebar, and a <code>&lt;div&gt;</code> where the active micro-frontend (MFE) mounts. That works until the second team ships. Then every remote reinvents auth, every remote wires up its own HTTP client, navigation drifts, and telemetry is a different shape in every product area.</p>
+
+<p>The shell is the wrong place to be minimal. In an enterprise SPA hosting Module Federation MFEs, the shell should be a <strong>platform runtime</strong> — it owns the cross-cutting <em>enterprise runtime</em> so each remote can focus on its own domain.</p>
+
+<p>This post walks through three decisions, in order:</p>
+<ol>
+  <li><strong>What</strong> the runtime should own (and what it shouldn't).</li>
+  <li><strong>Where</strong> that runtime should live — and why, at scale, you extract it out of the shell entirely.</li>
+  <li><strong>How</strong> to keep the result fast, because extracting the runtime puts it squarely on the critical rendering path.</li>
+</ol>
+
+<hr>
+
+<h2>Part 1 — The shell as a platform runtime</h2>
+
+<p>The shell's job is to provide the services every product area needs, so remotes <em>consume</em> them rather than reimplement them. Concretely, that's around eighteen services.</p>
+
+<table>
+<thead><tr><th>#</th><th>Service</th><th>Owns</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td>1</td><td><strong>Routing</strong></td><td>Top-level routing; which MFE mounts for each route</td><td>Route registry, lazy remote loading, guards, fallbacks, 404/unauthorized, deep links</td></tr>
+<tr><td>2</td><td><strong>Session / authentication</strong></td><td>The user session</td><td>Login/logout orchestration, token refresh, timeout, SSO, secure token handoff to remotes</td></tr>
+<tr><td>3</td><td><strong>Authorization / entitlements</strong></td><td>What the user may see and do</td><td>Role/permission lookup, route + menu + action-level checks</td></tr>
+<tr><td>4</td><td><strong>Navigation / menu</strong></td><td>Global navigation</td><td>Primary/side nav, breadcrumbs, active state, permission-filtered menus, cross-MFE nav APIs</td></tr>
+<tr><td>5</td><td><strong>Layout</strong></td><td>The application frame</td><td>Header, sidebar, footer, content container, skeletons, error boundaries, full-screen mode</td></tr>
+<tr><td>6</td><td><strong>Remote module registry</strong></td><td>Where MFEs live</td><td>Remote manifest loading, env-specific URLs, version metadata, health/fallback, canary rollout</td></tr>
+<tr><td>7</td><td><strong>Feature flags</strong></td><td>Flag evaluation</td><td>Enable/disable MFEs, experiments, phased rollout, kill switches, cohort targeting</td></tr>
+<tr><td>8</td><td><strong>Configuration</strong></td><td>Runtime config</td><td>API base URLs, env metadata, CDN paths, tenant/brand config, telemetry keys</td></tr>
+<tr><td>9</td><td><strong>Event bus / messaging</strong></td><td>Loose shell↔MFE communication</td><td>Cross-MFE events, commands, session/navigation events — <em>use sparingly</em></td></tr>
+<tr><td>10</td><td><strong>Notifications</strong></td><td>Toasts, alerts, banners</td><td>Outage/maintenance banners, contextual notifications</td></tr>
+<tr><td>11</td><td><strong>Error handling</strong></td><td>Consistent error UX</td><td>Global boundary, remote-load-failure handling, forbidden/unauthorized, retry, correlation IDs</td></tr>
+<tr><td>12</td><td><strong>Observability / telemetry</strong></td><td>Standardised instrumentation</td><td>Page/route views, remote load times, Core Web Vitals, errors, tracing headers</td></tr>
+<tr><td>13</td><td><strong>API client / platform HTTP</strong></td><td>Shared HTTP abstraction</td><td>Auth headers, correlation IDs, retry/timeout, error mapping, interceptors</td></tr>
+<tr><td>14</td><td><strong>Design system integration</strong></td><td>Shared UI foundations</td><td>Theme provider, tokens, CSS baseline, dark/light, density, brand switching</td></tr>
+<tr><td>15</td><td><strong>State / context</strong></td><td>A <em>small</em> set of global state</td><td>Current user, selected account/customer, tenant/brand, locale, workspace, session status</td></tr>
+<tr><td>16</td><td><strong>Localisation</strong></td><td>Language and formatting</td><td>Locale selection, date/currency formatting, translation loading, timezone handling</td></tr>
+<tr><td>17</td><td><strong>Accessibility / focus</strong></td><td>Cross-MFE a11y conventions</td><td>Focus restore on navigation, skip links, page-title and route announcements, modal stacking</td></tr>
+<tr><td>18</td><td><strong>MFE lifecycle</strong></td><td>How remotes mount/unmount/fail</td><td>Mount/unmount contract, cleanup hooks, readiness signals, version checks, degraded mode</td></tr>
+</tbody>
+</table>
+
+<p>Four of these are worth dwelling on:</p>
+<ul>
+<li><strong>Authorization</strong> is a capability check, not a UI concern. Expose it as a simple predicate the shell and remotes share:
+<pre><code>can("accounts.transfer")
+can("cards.freeze")
+can("admin.viewAudit")</code></pre></li>
+<li><strong>Remote registry</strong> decouples deployment from the build. The shell loads a manifest at runtime rather than baking remote URLs into the bundle:
+<pre><code>{
+  "accounts": {
+    "remoteEntry": "https://cdn/app/accounts/remoteEntry.js",
+    "scope": "accounts",
+    "module": "./Routes"
+  }
+}</code></pre></li>
+<li><strong>Event bus</strong> is powerful and easily abused. Prefer explicit contracts over a global free-for-all; reserve the bus for genuinely cross-cutting signals such as <code>session:expired</code> or <code>customer:selected</code>.</li>
+<li><strong>Error handling</strong> matters more here than in a monolith, because remotes load <em>independently</em> — a single remote failing to load must not take down the frame.</li>
+</ul>
+
+<h3>The platform contract</h3>
+<p>Expose a small, typed contract to remotes rather than letting each one wire up its own cross-cutting concerns:</p>
+<pre><code>type ShellPlatform = {
+  auth: AuthService
+  navigation: NavigationService
+  permissions: PermissionService
+  config: ConfigService
+  notifications: NotificationService
+  telemetry: TelemetryService
+  http: HttpService
+  eventBus: EventBus
+  logger: LoggerService
+}</code></pre>
+
+<p>Remotes receive it through the mount contract:</p>
+<pre><code>mount(container, { platform, routeParams, initialContext })</code></pre>
+<p>or a shared provider:</p>
+<pre><code>&lt;ShellPlatformProvider value={platform}&gt;
+  &lt;RemoteApp /&gt;
+&lt;/ShellPlatformProvider&gt;</code></pre>
+
+<h3>What <em>not</em> to put in the shell</h3>
+<p>The failure mode is a shell that grows into a giant shared application — a distributed monolith with a single chokepoint. Keep product concerns out:</p>
+<ul>
+<li>individual product workflows and domain business rules</li>
+<li>MFE-specific forms and page-level UI state</li>
+<li>feature-specific API orchestration and validation</li>
+<li>complex shared stores used by everyone</li>
+</ul>
+<p>The cleanest test is on state. <em>Good</em> shell-owned state is global context: current user, tenant, locale, selected account. <em>Bad</em> shell-owned state is page/form state and domain state owned by a single product area. The shell owns the <strong>enterprise runtime</strong>, not every product concern.</p>
+
+<h3>Where to start</h3>
+<p>You don't need all eighteen on day one. A strong foundation is twelve: routing, auth/session, authorization, navigation, layout, remote registry, runtime config, notifications, error handling, observability, HTTP client, and feature flags. Add localisation, a11y conventions, design-system providers, lifecycle, the event bus, and shared state as the platform matures.</p>
+
+<hr>
+
+<h2>Part 2 — Extract the runtime: the thin shell</h2>
+
+<p>Owning those services is right. Putting them all <em>inside</em> the shell is not — at least not once you have several teams and a platform team that wants to ship on its own cadence.</p>
+
+<p>The refinement: keep the shell a <strong>thin runtime host</strong> and load the platform services from a separate, independently deployed <strong>Platform Services Remote</strong>. The shell boots the runtime; the runtime provides the services; the product MFEs consume the runtime contract.</p>
+
+<pre><code>┌──────────────────────────┐
+│ Thin SPA Shell            │
+│ - bootstraps app          │
+│ - loads platform runtime  │
+│ - mounts MFEs             │
+└─────────────┬────────────┘
+              ▼
+┌──────────────────────────┐
+│ Platform Services Remote  │
+│ - auth/session            │
+│ - navigation              │
+│ - permissions             │
+│ - telemetry               │
+│ - config                  │
+│ - notifications           │
+│ - HTTP client             │
+│ - feature flags           │
+└─────────────┬────────────┘
+              ▼
+┌──────────────────────────┐
+│ Product Microfrontends    │
+│ - accounts                │
+│ - cards                   │
+│ - payments                │
+└──────────────────────────┘</code></pre>
+
+<p>The clearest mental model is an operating system:</p>
+<pre><code>Shell                      = bootloader
+Platform Services Remote   = operating system
+MFEs                       = applications</code></pre>
+
+<p>The shell starts the runtime. The platform module provides the services. The MFEs consume the contract. The shell is deliberately small, stable, and boring.</p>
+
+<h3>What the thin shell owns</h3>
+<p>Only bootstrapping concerns: app bootstrap and loading screen, remote manifest discovery, loading the platform module, a top-level error boundary, a fallback if platform loading fails, mounting the active MFE, and a very small routing bootstrap if required.</p>
+<p>It does <strong>not</strong> own auth, permissions, navigation, HTTP, telemetry, or product context. Those move into the platform remote, which becomes the real application runtime:</p>
+<pre><code>export type PlatformRuntime = {
+  auth: AuthService
+  session: SessionService
+  permissions: PermissionService
+  navigation: NavigationService
+  config: ConfigService
+  telemetry: TelemetryService
+  logger: LoggerService
+  http: HttpService
+  notifications: NotificationService
+  featureFlags: FeatureFlagService
+  eventBus: EventBus
+}</code></pre>
+
+<p>The shell loads and initialises it first, then passes it to each MFE:</p>
+<pre><code>const platform = await loadRemote&lt;PlatformRuntime&gt;("platform/Runtime")
+await platform.init({ environment, tenant, manifestUrl })
+
+remote.mount(container, {
+  platform,
+  route,
+  userContext: platform.session.currentUser,
+})</code></pre>
+
+<h3>Who renders the layout?</h3>
+<p>A common question: in this model, does the <em>thin shell</em> or the <em>platform runtime</em> own the application layout? It should be the <strong>platform runtime</strong> — the thin shell only boots and provides a fatal fallback. Layout is bound to platform concerns:</p>
+<pre><code>layout = header + nav + breadcrumbs + permissions + session + notifications + theme</code></pre>
+<p>So the shell hands rendering to the platform, which wraps the active remote:</p>
+<pre><code>// thin shell
+const platform = await loadPlatformRuntime()
+platform.renderApp({ container: document.getElementById("root"), remoteManifest })</code></pre>
+<pre><code>// inside the platform runtime
+&lt;AppProviders&gt;
+  &lt;AppLayout&gt;
+    &lt;Header /&gt;
+    &lt;SideNav /&gt;
+    &lt;Breadcrumbs /&gt;
+    &lt;NotificationHost /&gt;
+    &lt;MainContent&gt;
+      &lt;RemotePage /&gt;
+    &lt;/MainContent&gt;
+  &lt;/AppLayout&gt;
+&lt;/AppProviders&gt;</code></pre>
+<p>The MFE renders only the content for its slot:</p>
+<pre><code>export function AccountsPage() {
+  return &lt;AccountDashboard /&gt;
+}</code></pre>
+
+<table>
+<thead><tr><th>Concern</th><th>Owner</th></tr></thead>
+<tbody>
+<tr><td>HTML bootstrap</td><td>Thin shell</td></tr>
+<tr><td>App frame</td><td>Platform runtime</td></tr>
+<tr><td>Header / sidebar / nav</td><td>Platform runtime</td></tr>
+<tr><td>Breadcrumb rules</td><td>Platform runtime, with route metadata from MFEs</td></tr>
+<tr><td>Page title</td><td>Platform runtime, with MFE input</td></tr>
+<tr><td>Product page content</td><td>MFE</td></tr>
+<tr><td>Product-specific layout</td><td>MFE</td></tr>
+<tr><td>Full-screen escape mode</td><td>Platform runtime controls, MFE requests</td></tr>
+</tbody>
+</table>
+
+<p>The rule of thumb: <strong>the platform owns anything that should feel consistent across the whole enterprise app; the MFE owns anything specific to its product journey</strong> — its tabs, filters, sub-nav, and master-detail layout.</p>
+
+<h3>Why bother extracting it?</h3>
+<p>The payoff is <strong>decoupling the shell's release cadence from the platform's</strong>. You get a thinner shell that rarely redeploys, independently deployable platform services with clear platform-team ownership, consistent services across all MFEs, separately versioned platform contracts, and platform services you can test in isolation. It also keeps the shell from quietly becoming a frontend monolith.</p>
+
+<h3>Depend on the contract, not the implementation</h3>
+<p>The decoupling only holds if the shell and MFEs depend on a <strong>stable platform contract</strong>, never on internals:</p>
+<pre><code>// Good — public contract
+platform.auth.getAccessToken()
+platform.navigation.navigate("/accounts")
+platform.telemetry.trackPageView(...)
+
+// Bad — reaching into internals
+platformAuthStore.dispatch(...)
+platformInternalRouter._history.push(...)
+platformAxiosInstance.interceptors...</code></pre>
+
+<p>Version that contract explicitly so the runtime and its consumers evolve independently, and let each MFE declare what it needs:</p>
+<pre><code>{
+  "name": "accounts",
+  "requiresPlatform": "^1.4.0",
+  "capabilities": ["auth", "navigation", "telemetry", "notifications"]
+}</code></pre>
+
+<p>The risk to watch is the same one from Part 1, relocated: the platform remote becomes a distributed monolith if you let product logic leak in. Keep it strictly to cross-cutting concerns (auth, session, navigation, config, telemetry, permissions, notifications, HTTP, feature flags) and keep account business rules, payment workflows, and product form state out.</p>
+
+<p>The end state is a clean three-part topology:</p>
+<pre><code>app-shell             = boot and host
+app-platform-runtime  = shared enterprise runtime
+app-accounts-mfe      ┐
+app-cards-mfe         ├ business capabilities
+app-payments-mfe      ┘</code></pre>
+
+<hr>
+
+<h2>Part 3 — Keep startup fast</h2>
+
+<p>Extraction buys deployment independence, but it isn't free. You've added a critical dependency to the startup path, and a naive implementation turns first render into a <strong>waterfall</strong>:</p>
+<pre><code>index.html
+  → shell bundle
+    → remote manifest
+      → platform runtime remote
+        → platform init
+          → layout render
+            → active MFE remote</code></pre>
+
+<p>The platform runtime now sits on the <strong>critical rendering path</strong>: the user can't see the real frame until it loads. If the platform remote is large or slow, the whole app feels slow even when the product MFE is fast.</p>
+
+<table>
+<thead><tr><th></th><th>Fat shell (services in shell)</th><th>Thin shell + platform remote</th></tr></thead>
+<tbody>
+<tr><td>First render</td><td>Faster — fewer remote steps</td><td>Slower — extra network hop</td></tr>
+<tr><td>Startup</td><td>Simpler, fewer failure points</td><td>More steps; platform remote is critical</td></tr>
+<tr><td>Caching / versioning</td><td>Simpler</td><td>More complex</td></tr>
+<tr><td>Releaseability</td><td>Grows into a monolith</td><td>Independent deploy, cleaner ownership, reusable</td></tr>
+</tbody>
+</table>
+
+<p>The thin-shell model trades startup simplicity for deployment independence — so you have to engineer the startup path deliberately to win the trade. Six risks, with their mitigations:</p>
+
+<p><strong>1. The startup waterfall.</strong> A sequential chain is the default and it's slow. Parallelise everything without a hard ordering dependency:</p>
+<pre><code>load shell
+parallel:
+  - manifest
+  - platform remote
+  - runtime config
+  - auth / session check
+  - active MFE prefetch</code></pre>
+
+<p><strong>2. Platform runtime bloat.</strong> A runtime that contains <em>everything</em> makes first meaningful render slow. Split it into a small critical core and a deferred remainder:</p>
+<pre><code>platform-core (required for first render)   platform-deferred (loaded after start)
+- config                                     - analytics SDK
+- session                                    - full telemetry
+- layout shell                               - help widgets
+- routing                                    - experimentation SDK
+- nav skeleton                               - complex notification providers
+- auth guard</code></pre>
+
+<p><strong>3. Shared dependency duplication.</strong> Module Federation will happily load multiple copies of <code>react</code>, <code>react-dom</code>, the router, and your design system — hurting load time and causing subtle runtime bugs. Pin the genuinely cross-cutting core as strict singletons:</p>
+<pre><code>shared: {
+  react: { singleton: true, requiredVersion: "^18.x" },
+  "react-dom": { singleton: true, requiredVersion: "^18.x" }
+}</code></pre>
+<p>But don't over-share — a shared dependency is a contract.</p>
+
+<p><strong>4. Layout delayed by remote loading.</strong> Because the platform owns layout, users can see a blank screen until it loads. The thin shell should render an immediate, minimal branded loading frame (logo, skeleton, fatal-error fallback, retry) that the platform then replaces.</p>
+
+<p><strong>5. MFE load time.</strong> Once the platform is ready, the active MFE is another remote load. Prefetch on intent:</p>
+<pre><code>current route MFE: load immediately
+primary nav MFEs:  prefetch after idle
+next likely route: prefetch on hover</code></pre>
+
+<p><strong>6. Remote manifest latency.</strong> A manifest fetched before anything else is itself critical. Keep it tiny and strongly cacheable with versioned URLs.</p>
+
+<p>Put together, the performance architecture looks like this:</p>
+<pre><code>Thin Shell          tiny bundle · loading frame · fetch manifest · load platform · prefetch active MFE
+Platform Core       layout · routing · session · config · nav shell · error handling
+Platform Deferred   analytics SDKs · experimentation · help widgets · non-critical notifications
+Product MFEs        route-level chunks · lazy page modules · product-specific state</code></pre>
+
+<p>And the target for first render is <em>progressive reveal</em>, not a chain of empty states:</p>
+<pre><code>HTML → shell skeleton → platform layout → active MFE content</code></pre>
+<p>not <code>blank → spinner → spinner → spinner → app</code>.</p>
+
+<hr>
+
+<h2>Three rules to take away</h2>
+<ol>
+<li><strong>The shell renders an immediate skeleton.</strong> Never a blank page waiting on a remote.</li>
+<li><strong>The platform runtime has a tiny critical core.</strong> Everything non-essential is deferred.</li>
+<li><strong>MFEs are prefetched on route and navigation intent.</strong></li>
+</ol>
+<p>The single biggest mistake is letting <code>app-platform-runtime</code> swell into a large remote bundle that blocks everything. Treat it like a performance-critical kernel and the thin-shell model gives you the best of both worlds: a small, stable, boring shell, and a platform and products that evolve on their own cadence.</p>
+
+</body>
+</html>
