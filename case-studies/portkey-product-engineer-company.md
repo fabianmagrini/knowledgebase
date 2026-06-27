@@ -10,6 +10,7 @@ related:
   - engineering/practices/modern-engineering-values.md
   - product/explore-vs-exploit.md
   - leadership/engineering-leadership-overview.md
+  - reading/factory-engineers.md
 source: "https://newsletter.eng-leadership.com/p/the-product-engineer-company-how"
 updated: 2026-06-27
 ---

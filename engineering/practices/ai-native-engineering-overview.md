@@ -35,6 +35,7 @@ related:
   - reading/multi-agent-coding-coordination.md
   - reading/how-i-use-llms-2026.md
   - reading/llm-maintained-wiki.md
+  - reading/factory-engineers.md
 updated: 2026-06-27
 ---
 
@@ -71,6 +72,9 @@ A map of the notes on building software with AI agents. They answer different qu
 - [The AI-Augmented Engineering Team](ai-augmented-engineering-team.md) — the operating
   model: team composition, Intent Specs, the delivery loop, transition roadmap. The capstone
   that ties the rest together.
+- [Factory Engineers, Not Product Engineers](../../reading/factory-engineers.md) — the radical
+  end of the operating-model spectrum: engineers build the *factory* that ships products, every
+  manual change is process debt, and success is factory efficiency *(in reading)*.
 - [Revised Rules of Engineering Leadership](../../leadership/revised-rules-engineering-leadership.md) —
   the leadership-altitude rules behind it: durable teams + fast, good decisions when execution
   is cheap *(in leadership)*.
