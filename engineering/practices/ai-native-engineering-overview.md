@@ -32,6 +32,7 @@ related:
   - engineering/practices/trust-factory.md
   - reading/agentic-sdlc-survey.md
   - reading/building-effective-agents.md
+  - reading/multi-agent-coding-coordination.md
 updated: 2026-06-27
 ---
 
@@ -99,6 +100,9 @@ A map of the notes on building software with AI agents. They answer different qu
   to use agents *(in reading)*.
 - [Long-Running Agents](long-running-agents.md) — the durability layer: the three walls (context
   rot, no persistent state, no self-verification), brain/hands/session, checkpoints, and memory.
+- [Multi-Agent Coding Without Worktree Chaos](../../reading/multi-agent-coding-coordination.md) —
+  coordinating a *swarm* of coding agents on one branch via planning, a task graph, file
+  reservations, and a coordinator, rather than one worktree per agent *(in reading)*.
 - [Quality-First AI Coding](quality-first-ai-coding.md) — the practitioner workflow: multi-model
   bug review and quality-over-velocity use of AI to write better code more slowly.
 - [Backpressure Loops for Coding Agents](agent-backpressure-loops.md) — move mechanical
