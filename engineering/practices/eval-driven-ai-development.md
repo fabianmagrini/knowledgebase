@@ -15,6 +15,7 @@ related:
   - engineering/practices/loop-driven-development.md
   - engineering/practices/spec-driven-development.md
   - reading/agentic-sdlc-survey.md
+  - reading/building-effective-agents.md
   - engineering/practices/long-running-agents.md
   - engineering/practices/ai-engineering-discipline.md
 source: "https://gist.github.com/fabianmagrini/4399048fc0f1dd2261a1c126589f29ec"
