@@ -12,6 +12,7 @@ related:
   - engineering/practices/agile-in-the-age-of-ai.md
   - engineering/practices/ai-native-engineering-overview.md
   - reading/factory-engineers.md
+  - case-studies/cloudflare-ai-code-review.md
 source: "https://davidwells.io/blog/multi-agent-coding-without-worktree-chaos"
 updated: 2026-06-27
 ---
