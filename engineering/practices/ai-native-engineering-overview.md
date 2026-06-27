@@ -36,6 +36,7 @@ related:
   - reading/how-i-use-llms-2026.md
   - reading/llm-maintained-wiki.md
   - reading/factory-engineers.md
+  - case-studies/cloudflare-ai-code-review.md
 updated: 2026-06-27
 ---
 
@@ -94,6 +95,9 @@ A map of the notes on building software with AI agents. They answer different qu
 - [Agentic Code Review](agentic-code-review.md) — review as the new bottleneck:
   tiered risk-based review, the human-on-the-loop shift, the AI-reviewer tool landscape, and the
   failure modes (borrowed confidence, test manipulation, AI slop).
+- [Cloudflare's AI Code Review System](../../case-studies/cloudflare-ai-code-review.md) — the
+  production instance of those principles: seven specialised reviewers plus a judge, "What NOT to
+  Flag" negative prompting, risk/model tiering, and the cost/resilience engineering *(in case studies)*.
 - [AI Demands More Engineering Discipline](ai-engineering-discipline.md) — discipline shifts from
   reviewing code to validating behaviour: observability, production-as-dev-stage, regenerability,
   and encoding knowledge outside disposable code.

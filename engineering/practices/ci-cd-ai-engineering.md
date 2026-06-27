@@ -14,6 +14,7 @@ related:
   - engineering/practices/engineering-playbook.md
   - engineering/practices/code-review-policy.md
   - engineering/practices/test-coverage-policy.md
+  - case-studies/cloudflare-ai-code-review.md
   - leadership/managed-disruption.md
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/practices/ai-native-engineering-stack.md
