@@ -12,6 +12,7 @@ related:
   - leadership/principal-engineer-influence.md
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/practices/ai-augmented-engineering-team.md
+  - leadership/senior-ic-role.md
 source: "https://gist.github.com/fabianmagrini/15ea9a5d1d053a42b1d22ab788290e91"
 updated: 2026-06-15
 ---

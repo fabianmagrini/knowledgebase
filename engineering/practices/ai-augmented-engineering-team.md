@@ -17,6 +17,7 @@ related:
   - reading/agentic-sdlc-survey.md
   - case-studies/portkey-product-engineer-company.md
   - reading/factory-engineers.md
+  - leadership/senior-ic-role.md
   - leadership/revised-rules-engineering-leadership.md
   - engineering/practices/apex-framework.md
 source: "https://gist.github.com/fabianmagrini/61ce6e1b381227755048dbd90704924b"
