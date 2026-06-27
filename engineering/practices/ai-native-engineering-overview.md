@@ -31,7 +31,8 @@ related:
   - engineering/practices/apex-framework.md
   - engineering/practices/trust-factory.md
   - reading/agentic-sdlc-survey.md
-updated: 2026-06-26
+  - reading/building-effective-agents.md
+updated: 2026-06-27
 ---
 
 # AI-Native Engineering — Overview
@@ -92,6 +93,10 @@ A map of the notes on building software with AI agents. They answer different qu
   prompts/skills/agents themselves, not just the code they emit.
 - [Harness Engineering](harness-engineering.md) — the component-level anatomy of an agent
   harness (the program agents run inside): core loop, tools, memory, patterns, trade-offs.
+- [Building Effective Agents — Workflow & Agent Patterns](../../reading/building-effective-agents.md)
+  — Anthropic's composition patterns (prompt chaining, routing, parallelization,
+  orchestrator–workers, evaluator–optimizer, autonomous agents), simplicity-first, and when *not*
+  to use agents *(in reading)*.
 - [Long-Running Agents](long-running-agents.md) — the durability layer: the three walls (context
   rot, no persistent state, no self-verification), brain/hands/session, checkpoints, and memory.
 - [Quality-First AI Coding](quality-first-ai-coding.md) — the practitioner workflow: multi-model
