@@ -9,6 +9,7 @@ related:
   - engineering/practices/modern-engineering-values.md
   - engineering/practices/loop-driven-development.md
   - engineering/practices/ai-native-engineering-stack.md
+  - reading/llm-maintained-wiki.md
 source: "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/"
 updated: 2026-06-14
 ---

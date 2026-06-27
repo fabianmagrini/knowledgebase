@@ -24,6 +24,7 @@ related:
   - engineering/practices/spec-driven-development.md
   - reading/agentic-sdlc-survey.md
   - reading/building-effective-agents.md
+  - reading/llm-maintained-wiki.md
 source: "https://gist.github.com/fabianmagrini/4862954cd301634ab4bfd595c00ea52c"
 ---
 
