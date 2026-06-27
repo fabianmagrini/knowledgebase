@@ -14,6 +14,7 @@ related:
   - engineering/practices/agentic-sdlc-maturity-model.md
   - engineering/practices/ai-native-engineering-overview.md
   - reading/building-effective-agents.md
+  - reading/multi-agent-coding-coordination.md
 source: "https://arxiv.org/abs/2604.26275"
 updated: 2026-06-26
 ---

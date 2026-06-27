@@ -17,6 +17,7 @@ related:
   - engineering/practices/spec-driven-development.md
   - engineering/practices/long-running-agents.md
   - reading/building-effective-agents.md
+  - reading/multi-agent-coding-coordination.md
   - engineering/practices/ci-speed-with-ai-agents.md
 source:
   - "https://generativeprogrammer.com/p/from-test-driven-to-loop-driven-development"

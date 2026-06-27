@@ -38,3 +38,4 @@ Each note should include:
 
 - [Agentic AI in the Software Development Lifecycle](https://arxiv.org/abs/2604.26275) — Happy Bhati (arXiv 2604.26275) → notes: [Agentic AI in the SDLC — A Research Survey](agentic-sdlc-survey.md)
 - [Building Effective AI Agents: Architecture Patterns and Implementation Frameworks](https://resources.anthropic.com/hubfs/Building%20Effective%20AI%20Agents-%20Architecture%20Patterns%20and%20Implementation%20Frameworks.pdf) — Anthropic → notes: [Building Effective Agents — Workflow & Agent Patterns](building-effective-agents.md)
+- [Multi-Agent Coding Without Worktree Chaos](https://davidwells.io/blog/multi-agent-coding-without-worktree-chaos) — David Wells → notes: [Multi-Agent Coding Without Worktree Chaos](multi-agent-coding-coordination.md)
