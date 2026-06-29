@@ -13,6 +13,7 @@ related:
   - engineering/practices/code-review-policy.md
   - engineering/practices/ai-native-engineering-stack.md
   - leadership/architecture-decision-forum.md
+  - leadership/principal-engineer-consensus.md
   - engineering/architecture/agile-design-decisions.md
   - engineering/practices/quality-first-ai-coding.md
 source: "https://gist.github.com/fabianmagrini/a44c8ec5efdee0ebf57a4c7d31ed2f4d"
