@@ -10,6 +10,7 @@ related:
   - engineering/practices/code-review-policy.md
   - leadership/decision-facilitation.md
   - leadership/principal-engineer-influence.md
+  - leadership/principal-engineer-consensus.md
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/practices/ai-augmented-engineering-team.md
   - leadership/senior-ic-role.md

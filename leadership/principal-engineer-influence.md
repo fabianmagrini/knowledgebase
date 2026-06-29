@@ -6,6 +6,7 @@ status: notes
 related:
   - leadership/decision-facilitation.md
   - leadership/architecture-decision-forum.md
+  - leadership/principal-engineer-consensus.md
   - leadership/start-with-why.md
   - leadership/protecting-mavericks.md
   - engineering/practices/ai-augmented-engineering-team.md

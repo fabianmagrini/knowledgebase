@@ -9,6 +9,7 @@ related:
   - engineering/architecture/agile-design-decisions.md
   - leadership/protecting-mavericks.md
   - leadership/principal-engineer-influence.md
+  - leadership/principal-engineer-consensus.md
   - leadership/first-principles-thinking.md
   - leadership/raising-problems-without-complaining.md
   - sre/incident-swarming.md
