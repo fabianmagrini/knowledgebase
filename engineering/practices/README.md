@@ -52,3 +52,4 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [The APEX Framework — Measuring AI Engineering Impact](apex-framework.md)
 - [The Trust Factory](trust-factory.md)
 - [Naming Conventions](naming-conventions.md)
+- [Visual Regression Testing (Chromatic + Storybook)](visual-regression-testing.md)
