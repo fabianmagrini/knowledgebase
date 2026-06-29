@@ -99,6 +99,51 @@ so strictly use lowercase `kebab-case` for repos, directories, and files
 conventional files (`README.md`, `Dockerfile`) and language-mandated names (Java
 files must match the `PascalCase` class name).
 
+## The macro-level exception: branded and productised names
+
+The strict, descriptive rules above are right at the micro level — variables,
+functions, columns. They invert at the macro level: internal tools, design
+systems, project initiatives, teams, and repositories. When the goal shifts from
+*describing* a thing to *motivating a team, driving internal adoption, or
+productising* an engineering effort, you move from descriptive engineering to
+product marketing, and branded names earn their keep.
+
+- **Internal developer platforms and tools.** A name like
+  `automated-testing-framework-v3` sounds like a chore to adopt; a product name
+  builds identity and a shared vocabulary. Netflix's **Chaos Monkey** (the Simian
+  Army), Google's **Borg** cluster manager, Twitter's **Snowflake** ID generator.
+  "Are we running Chaos Monkey on this?" is stickier than "the random instance
+  termination script."
+- **Design systems.** Internal products that dictate look and feel get abstract,
+  thematic, branded names: Google **Material**, Shopify **Polaris**, Microsoft
+  **Fluent**, Atlassian **AtlasKit** — a cohesive brand, not a
+  `css-component-library`.
+- **Project codenames.** For a major rewrite or launch, a descriptive name can go
+  stale before ship. Mythological/astronomical/thematic names (**Apollo**,
+  **Titan**, **Phoenix**) rally the team and survive a pivot — `legacy-total-
+  rewrite-2026` looks silly once the rewrite becomes a strangler-fig migration.
+- **Agile team / squad names.** Function names (`Backend Database Maintenance
+  Pod`) feel rigid; motivational or pop-culture names ("Team Avengers," "The
+  Honeybadgers") build camaraderie and let a team's mandate shift without a
+  rename.
+- **Open-source readiness.** A company prefix or boring descriptor hurts adoption
+  in the wild. Facebook shipped **React**, not `facebook-ui-rendering-engine`;
+  Airbnb shipped **Airflow**, not `airbnb-data-pipeline`.
+
+### Bridging rules — keeping it from becoming chaos
+
+Too many branded names and new hires can't parse "Project Falcon talks to Zeus to
+bypass Honeybadger." Three rules keep the exception safe:
+
+1. **Keep it out of the micro-code.** The repo can be `zeus-engine`, but inside,
+   classes stay `QueryParser` and `AuthMiddleware` — never `zeusInstance`.
+2. **Brand + descriptor for repos.** Append a descriptive suffix so it's
+   searchable: `apollo-graphql-gateway`, `titan-billing-service` — not bare
+   `apollo` or `titan`.
+3. **Maintain a lexicon.** Engineering leadership keeps a central glossary that
+   translates codenames and product names to actual business functions for new
+   hires.
+
 ## PR review checklist
 
 When reviewing or designing, ask:
