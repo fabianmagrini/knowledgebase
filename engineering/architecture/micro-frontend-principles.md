@@ -18,6 +18,7 @@ related:
   - engineering/architecture/microfrontend-shell-platform.md
   - engineering/architecture/thin-shell-platform-runtime.md
   - case-studies/linear-performance-architecture.md
+  - engineering/practices/visual-regression-testing.md
 updated: 2026-06-20
 ---
 
