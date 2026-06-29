@@ -12,6 +12,7 @@ related:
   - engineering/practices/eval-driven-ai-development.md
   - engineering/architecture/design-systems-ai-control-plane.md
   - leadership/learning-organisation.md
+  - leadership/learning-culture-ai-agents.md
   - engineering/practices/modern-engineering-values.md
   - concepts/theory-of-constraints.md
   - reading/agentic-sdlc-survey.md
