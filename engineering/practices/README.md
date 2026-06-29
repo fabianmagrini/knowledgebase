@@ -51,3 +51,4 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [AI Demands More Engineering Discipline](ai-engineering-discipline.md)
 - [The APEX Framework — Measuring AI Engineering Impact](apex-framework.md)
 - [The Trust Factory](trust-factory.md)
+- [Naming Conventions](naming-conventions.md)
