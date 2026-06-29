@@ -29,5 +29,6 @@ make good decisions with others.
 - [First-Principles Thinking](first-principles-thinking.md)
 - [Designing with Constraints](designing-with-constraints.md)
 - [The Learning Organisation and AI Adoption](learning-organisation.md)
+- [A Learning Culture for AI-Augmented Teams](learning-culture-ai-agents.md)
 - [The New Leader's Credibility Problem](new-leader-credibility.md)
 - [Revised Rules of Engineering Leadership](revised-rules-engineering-leadership.md)

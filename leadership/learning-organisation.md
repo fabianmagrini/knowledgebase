@@ -6,6 +6,7 @@ status: notes
 level: intermediate
 related:
   - leadership/engineering-leadership-overview.md
+  - leadership/learning-culture-ai-agents.md
   - leadership/protecting-mavericks.md
   - leadership/managed-disruption.md
   - engineering/practices/ai-augmented-engineering-team.md
