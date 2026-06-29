@@ -14,6 +14,7 @@ related:
   - engineering/architecture/agile-design-decisions.md
   - engineering/architecture/adr.md
   - leadership/architecture-decision-forum.md
+  - engineering/practices/naming-conventions.md
   - tools/git.md
   - engineering/security/secure-sdlc.md
   - engineering/practices/quality-first-ai-coding.md
