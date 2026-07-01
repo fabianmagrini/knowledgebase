@@ -13,6 +13,7 @@ related:
   - engineering/architecture/composable-architecture.md
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/change-absorption-capacity.md
+  - engineering/architecture/caching-reference-data-apis.md
 ---
 
 # API Spec, Contract, and Functional Testing

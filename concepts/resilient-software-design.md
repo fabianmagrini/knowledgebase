@@ -15,6 +15,7 @@ related:
   - tools/containers/postgresql-ha-kubernetes.md
   - tools/containers/dynamic-configuration-sidecar.md
   - sre/incident-swarming.md
+  - engineering/architecture/caching-reference-data-apis.md
 source:
   - "https://www.ufried.com/blog/why_resilient_software_design_1/"
   - "https://www.ufried.com/blog/why_resilient_software_design_2/"
