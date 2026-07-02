@@ -12,6 +12,7 @@ related:
   - engineering/practices/apex-framework.md
   - engineering/practices/ai-factory.md
   - leadership/learning-culture-ai-agents.md
+  - reading/new-sdlc-vibe-coding.md
 updated: 2026-07-03
 ---
 

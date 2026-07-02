@@ -25,6 +25,7 @@ related:
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/practices/spec-driven-development.md
   - reading/agentic-sdlc-survey.md
+  - reading/new-sdlc-vibe-coding.md
   - reading/building-effective-agents.md
   - reading/llm-maintained-wiki.md
   - reading/factory-engineers.md
