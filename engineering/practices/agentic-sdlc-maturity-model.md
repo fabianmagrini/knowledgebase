@@ -11,6 +11,8 @@ related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/agentic-ai-strategy-frameworks.md
   - engineering/practices/ai-augmented-engineering-team.md
+  - engineering/practices/ai-sdlc-terminology.md
+  - engineering/practices/scaling-ai-adoption.md
   - reading/agentic-sdlc-survey.md
 source: "https://gist.github.com/fabianmagrini/4862954cd301634ab4bfd595c00ea52c"
 ---

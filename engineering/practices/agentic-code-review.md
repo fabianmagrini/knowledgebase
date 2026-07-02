@@ -17,6 +17,7 @@ related:
   - reading/how-i-use-llms-2026.md
   - case-studies/cloudflare-ai-code-review.md
   - leadership/learning-culture-ai-agents.md
+  - engineering/practices/scaling-ai-adoption.md
 source: "https://addyo.substack.com/p/agentic-code-review"
 updated: 2026-06-20
 ---

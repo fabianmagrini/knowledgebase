@@ -12,6 +12,7 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/agile-in-the-age-of-ai.md
   - engineering/practices/spec-driven-development.md
+  - engineering/practices/ai-sdlc-terminology.md
 source: "https://specs.md/methodology/sdlc-reimagined"
 updated: 2026-06-20
 ---

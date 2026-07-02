@@ -11,6 +11,7 @@ related:
   - engineering/practices/agentic-code-review.md
   - engineering/practices/quality-first-ai-coding.md
   - engineering/practices/visual-regression-testing.md
+  - engineering/practices/scaling-ai-adoption.md
   - leadership/protecting-mavericks.md
 updated: 2026-06-29
 ---
