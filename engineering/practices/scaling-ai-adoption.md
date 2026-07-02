@@ -10,6 +10,7 @@ related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/agentic-code-review.md
   - engineering/practices/apex-framework.md
+  - engineering/practices/ai-factory.md
   - leadership/learning-culture-ai-agents.md
 updated: 2026-07-03
 ---

@@ -15,6 +15,7 @@ related:
   - reading/agentic-sdlc-survey.md
   - reading/factory-engineers.md
   - engineering/practices/scaling-ai-adoption.md
+  - engineering/practices/ai-factory.md
 source: "https://linearb.io/resources/apex-framework"
 updated: 2026-06-20
 ---

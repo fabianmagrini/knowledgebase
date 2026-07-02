@@ -22,6 +22,7 @@ related:
   - engineering/architecture/generative-ui.md
   - engineering/practices/long-running-agents.md
   - engineering/practices/scaling-ai-adoption.md
+  - engineering/practices/ai-factory.md
 source: "https://gist.github.com/fabianmagrini/9543a6a750d904f66744d7fbfb3d3ec3"
 ---
 

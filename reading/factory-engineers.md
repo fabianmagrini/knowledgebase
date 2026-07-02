@@ -11,6 +11,7 @@ related:
   - engineering/practices/apex-framework.md
   - engineering/practices/ai-augmented-engineering-team.md
   - engineering/practices/ai-native-engineering-overview.md
+  - engineering/practices/ai-factory.md
 source: "https://www.warp.dev/blog/we-are-now-factory-engineers-not-product-engineers"
 updated: 2026-06-27
 ---
