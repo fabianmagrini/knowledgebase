@@ -43,3 +43,4 @@ Each note should include:
 - [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) — Andrej Karpathy → notes: [The LLM-Maintained Wiki](llm-maintained-wiki.md)
 - [We are now factory engineers, not product engineers](https://www.warp.dev/blog/we-are-now-factory-engineers-not-product-engineers) — Warp → notes: [Factory Engineers, Not Product Engineers](factory-engineers.md)
 - [Adapting to AI: What Is Software Engineering?](https://blog.colinbreck.com/adapting-to-ai-what-is-software-engineering/) — Colin Breck → notes: [What Is Software Engineering? (Adapting to AI)](what-is-software-engineering-ai.md)
+- [The New SDLC With Vibe Coding](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding) — Addy Osmani, Shubham Saboo & Sokratis Kartakis (Kaggle) → notes: [The New SDLC with Vibe Coding](new-sdlc-vibe-coding.md)

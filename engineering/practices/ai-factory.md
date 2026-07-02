@@ -11,6 +11,7 @@ related:
   - engineering/practices/scaling-ai-adoption.md
   - engineering/practices/apex-framework.md
   - engineering/practices/harness-engineering.md
+  - reading/new-sdlc-vibe-coding.md
 updated: 2026-07-03
 ---
 

@@ -11,6 +11,7 @@ related:
   - engineering/practices/agentic-sdlc.md
   - engineering/architecture/agile-design-decisions.md
   - engineering/practices/ai-native-engineering-overview.md
+  - reading/new-sdlc-vibe-coding.md
 source: "https://brooker.co.za/blog/2026/04/09/waterfall-vs-spec"
 updated: 2026-06-20
 ---

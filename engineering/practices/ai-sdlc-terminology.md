@@ -9,6 +9,7 @@ related:
   - engineering/practices/agentic-sdlc.md
   - engineering/practices/ai-dlc-methodology.md
   - engineering/practices/ai-native-engineering-overview.md
+  - reading/new-sdlc-vibe-coding.md
 updated: 2026-07-03
 ---
 
