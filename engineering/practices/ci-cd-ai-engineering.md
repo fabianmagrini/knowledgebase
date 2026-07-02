@@ -35,6 +35,7 @@ related:
   - engineering/practices/apex-framework.md
   - concepts/devops-capability-model.md
   - engineering/practices/visual-regression-testing.md
+  - engineering/practices/scaling-ai-adoption.md
 ---
 
 # CI/CD as the Control Plane for AI-Assisted Engineering

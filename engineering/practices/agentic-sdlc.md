@@ -5,6 +5,7 @@ topic: engineering/practices
 status: notes
 updated: 2026-06-20
 related:
+  - engineering/practices/ai-sdlc-terminology.md
   - engineering/practices/ai-native-engineering-stack.md
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/engineering-playbook.md

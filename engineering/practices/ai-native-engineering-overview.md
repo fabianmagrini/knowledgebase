@@ -7,6 +7,7 @@ related:
   - engineering/practices/ai-native-engineering-stack.md
   - engineering/practices/agentic-sdlc.md
   - engineering/practices/agentic-sdlc-maturity-model.md
+  - engineering/practices/ai-sdlc-terminology.md
   - engineering/practices/agentic-ai-strategy-frameworks.md
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/eval-driven-ai-development.md
@@ -52,6 +53,8 @@ A map of the notes on building software with AI agents. They answer different qu
   adopting agentic AI at the organisation level.
 - [Agentic SDLC Maturity Model](agentic-sdlc-maturity-model.md) — staged progression from
   assisted coding to controlled autonomy.
+- [AI in the SDLC — Terminology](ai-sdlc-terminology.md) — disambiguating the competing
+  umbrella terms (AI-Augmented, AI SDLC, Agentic, AI-Native).
 
 ## Process — how does work flow?
 

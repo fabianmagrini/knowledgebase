@@ -29,6 +29,8 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Test Coverage Policy](test-coverage-policy.md)
 - [The AI-Native Engineering Stack](ai-native-engineering-stack.md)
 - [The Agentic SDLC](agentic-sdlc.md)
+- [AI in the SDLC — Terminology](ai-sdlc-terminology.md)
+- [Scaling AI Adoption in the SDLC](scaling-ai-adoption.md)
 - [Agentic SDLC Maturity Model](agentic-sdlc-maturity-model.md)
 - [Agentic AI Strategy Frameworks](agentic-ai-strategy-frameworks.md)
 - [Eval-Driven Development for AI Capabilities](eval-driven-ai-development.md)
