@@ -4,6 +4,7 @@ tags: [security, ci-cd, ai-engineering, governance]
 topic: engineering/security
 status: draft
 related:
+  - engineering/security/governing-ai-in-the-cloud.md
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/code-review-policy.md
