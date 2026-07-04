@@ -11,6 +11,7 @@ related:
   - engineering/architecture/micro-frontend-principles.md
   - engineering/architecture/composable-architecture.md
   - concepts/devops-capability-model.md
+  - engineering/practices/team-topologies-agentic-platform.md
   - leadership/engineering-leadership-overview.md
   - leadership/learning-organisation.md
   - reading/what-is-software-engineering-ai.md

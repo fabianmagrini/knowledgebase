@@ -36,6 +36,7 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Agentic AI Strategy Frameworks](agentic-ai-strategy-frameworks.md)
 - [Eval-Driven Development for AI Capabilities](eval-driven-ai-development.md)
 - [The AI-Augmented Engineering Team](ai-augmented-engineering-team.md)
+- [Team Topologies for the Agentic Platform](team-topologies-agentic-platform.md)
 - [Performance Testing Strategy](performance-testing-strategy.md)
 - [Change Absorption Capacity (CATS)](change-absorption-capacity.md)
 - [AI-DLC and the Reimagined SDLC](ai-dlc-methodology.md)
