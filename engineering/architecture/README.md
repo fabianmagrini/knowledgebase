@@ -18,6 +18,7 @@ Notes on software architecture, system design, and distributed systems.
 - [Caching Reference Data APIs](caching-reference-data-apis.md) — cache patterns for slow-moving lookup data (long TTL + ETag, versioned datasets, Redis cache-aside, event invalidation, stale-while-revalidate) and a recommended enterprise topology
 - [Agile Design Decisions and Principles](agile-design-decisions.md) — continuous design, reversibility and blast-radius frameworks, delegation, emergent architecture, technical debt
 - [Architectural Decision Records (ADRs)](adr.md) — lightweight, version-controlled records of significant decisions
+- [Writing an Effective Design Doc](design-docs.md) — the design doc as an artifact: when it's worth writing, how much to invest, a selective component catalogue (goals/non-goals, scenarios, SLOs, alternatives considered, trust boundaries), and concrete practices; the larger up-front cousin of the ADR
 - [Design Systems as the AI Control Plane](design-systems-ai-control-plane.md) — the design system as constraint layer and platform for AI-generated UI
 - [Strangler Fig Pattern](strangler-fig.md) — incremental legacy modernisation behind a facade, without a big-bang rewrite
 - [Architectural Change Cases](architectural-change-cases.md) — anticipating future change: structured change cases that extend ADRs forward, with t-shirt costs, fitness functions, and evolutionary-architecture framing
