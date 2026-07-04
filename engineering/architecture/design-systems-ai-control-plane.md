@@ -11,6 +11,7 @@ related:
   - engineering/practices/agentic-sdlc.md
   - engineering/practices/ai-augmented-engineering-team.md
   - engineering/practices/team-topologies-agentic-platform.md
+  - engineering/security/governing-ai-in-the-cloud.md
   - engineering/architecture/micro-frontend-canvas.md
   - engineering/architecture/generative-ui.md
   - engineering/architecture/micro-frontend-principles.md
