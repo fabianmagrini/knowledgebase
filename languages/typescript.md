@@ -6,6 +6,7 @@ status: notes
 level: intermediate
 related:
   - engineering/practices/engineering-playbook.md
+  - languages/nodejs-cli-best-practices.md
 source: "https://github.com/AllThingsSmitty/typescript-tips-everyone-should-know"
 updated: 2026-06-14
 ---
