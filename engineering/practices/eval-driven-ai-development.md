@@ -11,6 +11,7 @@ related:
   - engineering/practices/ai-augmented-engineering-team.md
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/harness-engineering.md
+  - engineering/practices/cress-context-engineering.md
   - engineering/practices/agent-backpressure-loops.md
   - engineering/practices/loop-driven-development.md
   - engineering/practices/spec-driven-development.md
