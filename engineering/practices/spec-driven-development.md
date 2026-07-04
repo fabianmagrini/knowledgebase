@@ -10,6 +10,7 @@ related:
   - engineering/practices/eval-driven-ai-development.md
   - engineering/practices/agentic-sdlc.md
   - engineering/architecture/agile-design-decisions.md
+  - engineering/architecture/design-docs.md
   - engineering/practices/ai-native-engineering-overview.md
   - reading/new-sdlc-vibe-coding.md
 source: "https://brooker.co.za/blog/2026/04/09/waterfall-vs-spec"
