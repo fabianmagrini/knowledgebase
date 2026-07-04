@@ -8,6 +8,7 @@ related:
   - leadership/plan-is-not-a-strategy.md
   - engineering/practices/agentic-ai-strategy-frameworks.md
   - engineering/practices/harness-engineering.md
+  - engineering/practices/model-routing-and-ai-gateways.md
   - product/explore-vs-exploit.md
 source: "https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/"
 updated: 2026-07-05

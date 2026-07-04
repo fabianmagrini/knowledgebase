@@ -28,6 +28,7 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Code Review Policy](code-review-policy.md)
 - [Test Coverage Policy](test-coverage-policy.md)
 - [The AI-Native Engineering Stack](ai-native-engineering-stack.md)
+- [Model Routing and AI Gateways](model-routing-and-ai-gateways.md)
 - [The Agentic SDLC](agentic-sdlc.md)
 - [AI in the SDLC — Terminology](ai-sdlc-terminology.md)
 - [Scaling AI Adoption in the SDLC](scaling-ai-adoption.md)
