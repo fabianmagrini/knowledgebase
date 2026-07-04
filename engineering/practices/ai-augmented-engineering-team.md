@@ -7,6 +7,7 @@ related:
   - engineering/practices/agentic-sdlc.md
   - engineering/practices/agentic-sdlc-maturity-model.md
   - engineering/practices/team-topologies-agentic-platform.md
+  - leadership/scaling-engineering-org.md
   - engineering/practices/ai-native-engineering-stack.md
   - leadership/principal-engineer-influence.md
   - leadership/architecture-decision-forum.md

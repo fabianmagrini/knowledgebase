@@ -20,6 +20,7 @@ related:
   - leadership/new-leader-credibility.md
   - leadership/revised-rules-engineering-leadership.md
   - engineering/architecture/team-topologies.md
+  - leadership/scaling-engineering-org.md
   - case-studies/portkey-product-engineer-company.md
   - leadership/senior-ic-role.md
 updated: 2026-06-27
@@ -68,6 +69,9 @@ how to set direction and make good decisions with other people.
 - [Team Topologies and Socio-Technical Architecture](../engineering/architecture/team-topologies.md) —
   shaping teams as a design material: Conway's Law, the four team types, and cognitive load as the
   binding constraint *(in architecture)*.
+- [Scaling an Engineering Organisation (20/50/200)](scaling-engineering-org.md) — how structure
+  changes as headcount grows: the coordination tax, ownership close to the work, when a platform
+  team is worth it, on-call as the maturity diagnostic, and why AI magnifies ownership.
 - [The Learning Organisation and AI Adoption](learning-organisation.md) — the cultural
   prerequisites (psychological safety, slack, intelligent failure) that let teams absorb new
   technology faster than it changes.
