@@ -14,6 +14,7 @@ related:
   - engineering/practices/agent-backpressure-loops.md
   - engineering/practices/loop-driven-development.md
   - engineering/practices/prompt-engineering-for-programmers.md
+  - tools/coding-agents/claude-code-steering-mechanisms.md
   - reading/agentic-sdlc-survey.md
   - reading/building-effective-agents.md
   - reading/llm-maintained-wiki.md
