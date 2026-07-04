@@ -9,6 +9,7 @@ related:
   - engineering/practices/quality-first-ai-coding.md
   - engineering/practices/harness-engineering.md
   - engineering/practices/ai-native-engineering-stack.md
+  - tools/coding-agents/claude-code-steering-mechanisms.md
   - leadership/learning-culture-ai-agents.md
   - reading/how-i-use-llms-2026.md
 source: "https://addyo.substack.com/p/the-prompt-engineering-playbook-for"

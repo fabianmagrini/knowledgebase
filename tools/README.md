@@ -16,5 +16,6 @@ Notes on tools, platforms, and infrastructure.
 ## Categories
 
 - [Cloud](cloud/) — AWS, GCP, Azure
+- [Coding Agents](coding-agents/) — configuring and steering AI coding agents (Claude Code, Codex)
 - [Containers](containers/) — Docker, Kubernetes
 - [Editors](editors/) — editor and IDE setup
