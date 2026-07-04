@@ -7,6 +7,7 @@ level: intermediate
 related:
   - engineering/practices/harness-engineering.md
   - engineering/practices/prompt-engineering-for-programmers.md
+  - engineering/practices/cress-context-engineering.md
   - engineering/practices/ai-native-engineering-stack.md
 source: "https://generativeprogrammer.com/p/10-claude-code-steering-mechanisms"
 updated: 2026-07-05

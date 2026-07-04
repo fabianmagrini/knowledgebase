@@ -48,6 +48,7 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Modern Engineering Values](modern-engineering-values.md)
 - [Loop-Driven Development](loop-driven-development.md)
 - [Prompt Engineering for Programmers](prompt-engineering-for-programmers.md)
+- [CRESS Principles for Context Engineering](cress-context-engineering.md)
 - [Software Design Principles](software-design-principles.md)
 - [Spec-Driven Development](spec-driven-development.md)
 - [Agentic Code Review](agentic-code-review.md)
