@@ -19,6 +19,7 @@ related:
   - engineering/practices/loop-driven-development.md
   - engineering/practices/prompt-engineering-for-programmers.md
   - tools/coding-agents/claude-code-steering-mechanisms.md
+  - engineering/practices/model-routing-and-ai-gateways.md
   - standards/open-knowledge-format.md
   - engineering/architecture/generative-ui.md
   - engineering/practices/long-running-agents.md

@@ -9,6 +9,7 @@ related:
   - leadership/revised-rules-engineering-leadership.md
   - engineering/practices/modern-engineering-values.md
   - product/explore-vs-exploit.md
+  - engineering/practices/model-routing-and-ai-gateways.md
   - leadership/engineering-leadership-overview.md
   - reading/factory-engineers.md
 source: "https://newsletter.eng-leadership.com/p/the-product-engineer-company-how"
