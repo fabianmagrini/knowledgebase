@@ -16,6 +16,7 @@ related:
   - leadership/architecture-decision-forum.md
   - engineering/practices/naming-conventions.md
   - tools/git.md
+  - case-studies/doordash-ai-code-review.md
   - engineering/security/secure-sdlc.md
   - engineering/practices/quality-first-ai-coding.md
   - engineering/practices/agile-in-the-age-of-ai.md
