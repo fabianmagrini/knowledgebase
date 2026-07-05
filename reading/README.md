@@ -45,3 +45,4 @@ Each note should include:
 - [Adapting to AI: What Is Software Engineering?](https://blog.colinbreck.com/adapting-to-ai-what-is-software-engineering/) — Colin Breck → notes: [What Is Software Engineering? (Adapting to AI)](what-is-software-engineering-ai.md)
 - [The New SDLC With Vibe Coding](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding) — Addy Osmani, Shubham Saboo & Sokratis Kartakis (Kaggle) → notes: [The New SDLC with Vibe Coding](new-sdlc-vibe-coding.md)
 - [Building Software Is Learning](https://registerspill.thorstenball.com/p/building-software-is-learning) — Thorsten Ball → notes: [Building Software Is Learning](building-software-is-learning.md)
+- [Agentic AI Architecture](https://www.infoq.com/minibooks/agentic-ai-architecture/) — InfoQ eMag (ed. Rafał Gancarz) → notes: [Agentic AI Architecture (InfoQ eMag)](agentic-ai-architecture-emag.md) — signpost

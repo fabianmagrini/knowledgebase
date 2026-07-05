@@ -16,6 +16,7 @@ related:
   - engineering/practices/prompt-engineering-for-programmers.md
   - engineering/practices/cress-context-engineering.md
   - tools/coding-agents/claude-code-steering-mechanisms.md
+  - reading/agentic-ai-architecture-emag.md
   - reading/agentic-sdlc-survey.md
   - reading/building-effective-agents.md
   - reading/llm-maintained-wiki.md
