@@ -9,6 +9,7 @@ related:
   - engineering/practices/harness-engineering.md
   - engineering/practices/eval-driven-ai-development.md
   - tools/coding-agents/claude-code-steering-mechanisms.md
+  - reading/agentic-ai-architecture-emag.md
 source: "https://codemanship.wordpress.com/2026/05/04/c-r-e-s-s-principles-for-context-engineering/"
 updated: 2026-07-05
 ---

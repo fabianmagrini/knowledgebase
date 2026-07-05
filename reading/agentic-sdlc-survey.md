@@ -15,6 +15,7 @@ related:
   - engineering/practices/ai-native-engineering-overview.md
   - reading/building-effective-agents.md
   - reading/multi-agent-coding-coordination.md
+  - reading/agentic-ai-architecture-emag.md
 source: "https://arxiv.org/abs/2604.26275"
 updated: 2026-06-26
 ---
