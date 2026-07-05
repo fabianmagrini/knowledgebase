@@ -19,6 +19,7 @@ related:
   - sre/incident-swarming.md
   - leadership/new-leader-credibility.md
   - leadership/all-hands-meetings.md
+  - leadership/managing-sideways.md
   - leadership/revised-rules-engineering-leadership.md
   - engineering/architecture/team-topologies.md
   - leadership/scaling-engineering-org.md
@@ -70,6 +71,9 @@ how to set direction and make good decisions with other people.
   without letting disruption damage the team.
 - [Managed Disruption](managed-disruption.md) — introducing change into delivery safely and
   deliberately.
+- [Managing Sideways](managing-sideways.md) — driving change across peer teams you don't control:
+  why authority fails, the adoption-without-a-mandate play (recruit the first mover, let results
+  recruit the next), and treating resistance as fear rather than flawed logic.
 - [Team Topologies and Socio-Technical Architecture](../engineering/architecture/team-topologies.md) —
   shaping teams as a design material: Conway's Law, the four team types, and cognitive load as the
   binding constraint *(in architecture)*.

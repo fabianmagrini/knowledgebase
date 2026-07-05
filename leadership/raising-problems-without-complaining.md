@@ -9,6 +9,7 @@ related:
   - leadership/decision-facilitation.md
   - leadership/first-principles-thinking.md
   - leadership/new-leader-credibility.md
+  - leadership/managing-sideways.md
 source: "https://adlerhsieh.com/p/what-your-manager-is-thinking-when-you-complain"
 updated: 2026-06-20
 ---
