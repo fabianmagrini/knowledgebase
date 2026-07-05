@@ -1,17 +1,17 @@
 ---
 title: Agile in the Age of AI
 tags: [ai-engineering, culture, reading]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
-  - engineering/practices/ai-dlc-methodology.md
-  - engineering/practices/agentic-sdlc.md
+  - engineering/ai-native/ai-dlc-methodology.md
+  - engineering/ai-native/agentic-sdlc.md
   - engineering/practices/code-review-policy.md
   - engineering/practices/change-absorption-capacity.md
   - leadership/learning-organisation.md
   - leadership/revised-rules-engineering-leadership.md
-  - engineering/practices/trust-factory.md
+  - engineering/ai-native/trust-factory.md
   - reading/multi-agent-coding-coordination.md
   - reading/what-is-software-engineering-ai.md
 source: "https://miren.dev/blog/agile-in-the-age-of-ai"
@@ -42,7 +42,7 @@ exceeds what can be meaningfully discussed in a single meeting.
 **Review is collaboration, not a gate.** Review is reframed as being about *shared understanding*
 rather than catching bugs — it keeps humans involved to build team coherence and repeatable
 process, not primarily for defect detection. This echoes the "review for intent" stance in the
-[code review policy](code-review-policy.md).
+[code review policy](../practices/code-review-policy.md).
 
 ## What does not change: sustainable pace
 
@@ -93,7 +93,7 @@ keeps AI-generated diffs within human comprehension.
   ceremonies). The two notes together map the spectrum of the debate.
 - [The Agentic SDLC](agentic-sdlc.md) — shares the "feeling fast, delivering slow" and
   output-is-not-value cautions at the lifecycle level.
-- [Change Absorption Capacity (CATS)](change-absorption-capacity.md) — sustainable pace is the
+- [Change Absorption Capacity (CATS)](../practices/change-absorption-capacity.md) — sustainable pace is the
   human-side analogue of keeping change velocity within a system's safe absorption capacity.
 - [The Learning Organisation and AI Adoption](../../leadership/learning-organisation.md) — the
   cognitive-load and sustainable-pace concerns connect to slack and psychological safety.

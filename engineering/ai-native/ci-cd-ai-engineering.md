@@ -1,7 +1,7 @@
 ---
 title: CI/CD as the Control Plane for AI-Assisted Engineering
 tags: [ci-cd, ai-engineering, testing, code-review, observability]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 updated: 2026-06-20
 related:
@@ -18,24 +18,24 @@ related:
   - reading/what-is-software-engineering-ai.md
   - leadership/managed-disruption.md
   - engineering/architecture/design-systems-ai-control-plane.md
-  - engineering/practices/ai-native-engineering-stack.md
-  - engineering/practices/agentic-sdlc.md
+  - engineering/ai-native/ai-native-engineering-stack.md
+  - engineering/ai-native/agentic-sdlc.md
   - concepts/ci-cd-continuous-deployment.md
-  - engineering/practices/agentic-sdlc-maturity-model.md
-  - engineering/practices/eval-driven-ai-development.md
+  - engineering/ai-native/agentic-sdlc-maturity-model.md
+  - engineering/ai-native/eval-driven-ai-development.md
   - engineering/practices/performance-testing-strategy.md
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/release-confidence.md
-  - engineering/practices/agent-backpressure-loops.md
-  - engineering/practices/ci-speed-with-ai-agents.md
+  - engineering/ai-native/agent-backpressure-loops.md
+  - engineering/ai-native/ci-speed-with-ai-agents.md
   - engineering/security/secure-sdlc.md
   - concepts/continuous-delivery.md
-  - engineering/practices/agentic-code-review.md
-  - engineering/practices/ai-engineering-discipline.md
-  - engineering/practices/apex-framework.md
+  - engineering/ai-native/agentic-code-review.md
+  - engineering/ai-native/ai-engineering-discipline.md
+  - engineering/ai-native/apex-framework.md
   - concepts/devops-capability-model.md
   - engineering/practices/visual-regression-testing.md
-  - engineering/practices/scaling-ai-adoption.md
+  - engineering/ai-native/scaling-ai-adoption.md
 ---
 
 # CI/CD as the Control Plane for AI-Assisted Engineering

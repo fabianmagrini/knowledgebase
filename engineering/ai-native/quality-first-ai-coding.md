@@ -1,21 +1,21 @@
 ---
 title: Quality-First AI Coding
 tags: [ai-engineering, code-review, reading]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
   - engineering/practices/code-review-policy.md
   - engineering/practices/change-absorption-capacity.md
-  - engineering/practices/harness-engineering.md
+  - engineering/ai-native/harness-engineering.md
   - engineering/practices/federated-pr-review.md
-  - engineering/practices/agent-backpressure-loops.md
-  - engineering/practices/modern-engineering-values.md
-  - engineering/practices/prompt-engineering-for-programmers.md
+  - engineering/ai-native/agent-backpressure-loops.md
+  - engineering/ai-native/modern-engineering-values.md
+  - engineering/ai-native/prompt-engineering-for-programmers.md
   - engineering/practices/software-design-principles.md
   - concepts/clean-code-and-solid.md
-  - engineering/practices/agentic-code-review.md
-  - engineering/practices/ai-engineering-discipline.md
+  - engineering/ai-native/agentic-code-review.md
+  - engineering/ai-native/ai-engineering-discipline.md
   - leadership/learning-culture-ai-agents.md
   - engineering/practices/visual-regression-testing.md
   - reading/how-i-use-llms-2026.md
@@ -83,11 +83,11 @@ reviewer rather than the author.
 
 ## Relationship to other notes
 
-- [Change Absorption Capacity (CATS)](change-absorption-capacity.md) — the system-level
+- [Change Absorption Capacity (CATS)](../practices/change-absorption-capacity.md) — the system-level
   counterpart of the same "velocity is not the goal" stance; this note is the hands-on,
   individual-workflow version.
-- [Code Review Policy](code-review-policy.md) and
-  [Federated PR Review](federated-pr-review.md) — the organisational policy and multi-team
+- [Code Review Policy](../practices/code-review-policy.md) and
+  [Federated PR Review](../practices/federated-pr-review.md) — the organisational policy and multi-team
   governance around review; this note is a practitioner technique that runs inside those.
 - [Harness Engineering](harness-engineering.md) — multi-model review is an
   [advisor-pattern](harness-engineering.md) harness (sub-agents reviewing, a coordinator

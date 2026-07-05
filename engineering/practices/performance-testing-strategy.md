@@ -7,7 +7,7 @@ related:
   - engineering/architecture/composable-architecture.md
   - engineering/practices/api-contract-functional-testing.md
   - engineering/practices/test-coverage-policy.md
-  - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/release-confidence.md
   - concepts/resilient-software-design.md
   - tools/containers/postgresql-ha-kubernetes.md

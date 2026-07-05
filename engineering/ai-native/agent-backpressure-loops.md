@@ -1,21 +1,21 @@
 ---
 title: Backpressure Loops for Coding Agents
 tags: [ai-engineering, ci-cd, testing, reading, agentic-workflows]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
-  - engineering/practices/quality-first-ai-coding.md
-  - engineering/practices/ci-cd-ai-engineering.md
-  - engineering/practices/harness-engineering.md
-  - engineering/practices/eval-driven-ai-development.md
-  - engineering/practices/modern-engineering-values.md
-  - engineering/practices/loop-driven-development.md
+  - engineering/ai-native/quality-first-ai-coding.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
+  - engineering/ai-native/harness-engineering.md
+  - engineering/ai-native/eval-driven-ai-development.md
+  - engineering/ai-native/modern-engineering-values.md
+  - engineering/ai-native/loop-driven-development.md
   - concepts/theory-of-constraints.md
-  - engineering/practices/agentic-code-review.md
-  - engineering/practices/long-running-agents.md
-  - engineering/practices/ci-speed-with-ai-agents.md
-  - engineering/practices/agentic-autonomy-levels.md
+  - engineering/ai-native/agentic-code-review.md
+  - engineering/ai-native/long-running-agents.md
+  - engineering/ai-native/ci-speed-with-ai-agents.md
+  - engineering/ai-native/agentic-autonomy-levels.md
 source: "https://generativeprogrammer.com/p/stop-babysitting-your-coding-agent"
 updated: 2026-06-20
 ---

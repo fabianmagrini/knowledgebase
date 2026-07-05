@@ -7,10 +7,10 @@ updated: 2026-06-20
 related:
   - engineering/practices/federated-pr-review.md
   - engineering/practices/engineering-playbook.md
-  - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/trunk-based-development.md
   - engineering/practices/test-coverage-policy.md
-  - engineering/practices/ai-native-engineering-stack.md
+  - engineering/ai-native/ai-native-engineering-stack.md
   - engineering/architecture/agile-design-decisions.md
   - engineering/architecture/adr.md
   - leadership/architecture-decision-forum.md
@@ -18,10 +18,10 @@ related:
   - tools/git.md
   - case-studies/doordash-ai-code-review.md
   - engineering/security/secure-sdlc.md
-  - engineering/practices/quality-first-ai-coding.md
-  - engineering/practices/agile-in-the-age-of-ai.md
+  - engineering/ai-native/quality-first-ai-coding.md
+  - engineering/ai-native/agile-in-the-age-of-ai.md
   - engineering/practices/software-design-principles.md
-  - engineering/practices/agentic-code-review.md
+  - engineering/ai-native/agentic-code-review.md
 source: "https://gist.github.com/fabianmagrini/e95a24606e7108a7e0673de02d739be3"
 ---
 

@@ -1,18 +1,18 @@
 ---
 title: AI-DLC and the Reimagined SDLC
 tags: [ai-engineering, architecture, reading, agentic-workflows]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
-  - engineering/practices/agentic-sdlc.md
-  - engineering/practices/agentic-sdlc-maturity-model.md
-  - engineering/practices/ai-native-engineering-overview.md
-  - engineering/practices/ai-augmented-engineering-team.md
+  - engineering/ai-native/agentic-sdlc.md
+  - engineering/ai-native/agentic-sdlc-maturity-model.md
+  - engineering/ai-native/ai-native-engineering-overview.md
+  - engineering/ai-native/ai-augmented-engineering-team.md
   - engineering/practices/change-absorption-capacity.md
-  - engineering/practices/agile-in-the-age-of-ai.md
-  - engineering/practices/spec-driven-development.md
-  - engineering/practices/ai-sdlc-terminology.md
+  - engineering/ai-native/agile-in-the-age-of-ai.md
+  - engineering/ai-native/spec-driven-development.md
+  - engineering/ai-native/ai-sdlc-terminology.md
 source: "https://specs.md/methodology/sdlc-reimagined"
 updated: 2026-06-20
 ---
@@ -97,7 +97,7 @@ This note is the **concrete, ceremony-level methodology**. It complements rather
   intent→spec→generate→evaluate→govern loop. AI-DLC is one concrete instantiation of that loop.
 - [Agentic SDLC Maturity Model](agentic-sdlc-maturity-model.md) — the *staged adoption curve*.
   Running AI-DLC well looks roughly like operating at Levels 3–4.
-- [Change Absorption Capacity (CATS)](change-absorption-capacity.md) — Bolts and continuous
+- [Change Absorption Capacity (CATS)](../practices/change-absorption-capacity.md) — Bolts and continuous
   Mob validation are mechanisms for keeping change velocity within a system's safe absorption
   capacity.
 

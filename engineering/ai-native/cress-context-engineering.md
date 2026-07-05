@@ -1,13 +1,13 @@
 ---
 title: CRESS Principles for Context Engineering
 tags: [ai-engineering, agentic-workflows, reading]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
-  - engineering/practices/prompt-engineering-for-programmers.md
-  - engineering/practices/harness-engineering.md
-  - engineering/practices/eval-driven-ai-development.md
+  - engineering/ai-native/prompt-engineering-for-programmers.md
+  - engineering/ai-native/harness-engineering.md
+  - engineering/ai-native/eval-driven-ai-development.md
   - tools/coding-agents/claude-code-steering-mechanisms.md
   - reading/agentic-ai-architecture-emag.md
   - case-studies/doordash-ai-code-review.md

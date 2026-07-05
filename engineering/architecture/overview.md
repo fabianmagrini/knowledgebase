@@ -91,4 +91,4 @@ reversibility/blast-radius frameworks within explicit constraints, and record in
 ratified through the decision forum. The decision-making side connects to the
 [engineering leadership overview](../../leadership/engineering-leadership-overview.md); the
 AI-era constraints connect to the
-[AI-native engineering overview](../practices/ai-native-engineering-overview.md).
+[AI-native engineering overview](../ai-native/ai-native-engineering-overview.md).

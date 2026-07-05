@@ -6,7 +6,7 @@ status: notes
 updated: 2026-06-15
 related:
   - engineering/practices/polyrepo-branching-strategy.md
-  - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/api-contract-functional-testing.md
   - engineering/practices/trunk-based-development.md
   - engineering/practices/engineering-playbook.md

@@ -1,29 +1,29 @@
 ---
 title: The Agentic SDLC
 tags: [ai-engineering, architecture, ci-cd, agentic-workflows]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 updated: 2026-06-20
 related:
-  - engineering/practices/ai-sdlc-terminology.md
-  - engineering/practices/ai-factory.md
-  - engineering/practices/ai-native-engineering-stack.md
-  - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/ai-native/ai-sdlc-terminology.md
+  - engineering/ai-native/ai-factory.md
+  - engineering/ai-native/ai-native-engineering-stack.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/engineering-playbook.md
-  - engineering/practices/agentic-sdlc-maturity-model.md
-  - engineering/practices/ai-dlc-methodology.md
-  - engineering/practices/agentic-ai-strategy-frameworks.md
-  - engineering/practices/eval-driven-ai-development.md
-  - engineering/practices/ai-augmented-engineering-team.md
-  - engineering/practices/harness-engineering.md
-  - engineering/practices/agile-in-the-age-of-ai.md
-  - engineering/practices/modern-engineering-values.md
-  - engineering/practices/loop-driven-development.md
+  - engineering/ai-native/agentic-sdlc-maturity-model.md
+  - engineering/ai-native/ai-dlc-methodology.md
+  - engineering/ai-native/agentic-ai-strategy-frameworks.md
+  - engineering/ai-native/eval-driven-ai-development.md
+  - engineering/ai-native/ai-augmented-engineering-team.md
+  - engineering/ai-native/harness-engineering.md
+  - engineering/ai-native/agile-in-the-age-of-ai.md
+  - engineering/ai-native/modern-engineering-values.md
+  - engineering/ai-native/loop-driven-development.md
   - standards/open-knowledge-format.md
   - engineering/architecture/c4-model.md
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/design-systems-ai-control-plane.md
-  - engineering/practices/spec-driven-development.md
+  - engineering/ai-native/spec-driven-development.md
   - reading/agentic-sdlc-survey.md
   - reading/new-sdlc-vibe-coding.md
   - reading/building-effective-agents.md

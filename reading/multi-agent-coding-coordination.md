@@ -5,12 +5,12 @@ topic: reading
 status: notes
 level: intermediate
 related:
-  - engineering/practices/long-running-agents.md
+  - engineering/ai-native/long-running-agents.md
   - reading/building-effective-agents.md
-  - engineering/practices/loop-driven-development.md
+  - engineering/ai-native/loop-driven-development.md
   - reading/agentic-sdlc-survey.md
-  - engineering/practices/agile-in-the-age-of-ai.md
-  - engineering/practices/ai-native-engineering-overview.md
+  - engineering/ai-native/agile-in-the-age-of-ai.md
+  - engineering/ai-native/ai-native-engineering-overview.md
   - reading/factory-engineers.md
   - case-studies/cloudflare-ai-code-review.md
 source: "https://davidwells.io/blog/multi-agent-coding-without-worktree-chaos"
@@ -28,7 +28,7 @@ isolation does.
 
 This is the concrete coding-workflow instantiation of the orchestrator–workers
 pattern in [Building Effective Agents](building-effective-agents.md), and the
-many-agent counterpart to [Long-Running Agents](../engineering/practices/long-running-agents.md),
+many-agent counterpart to [Long-Running Agents](../engineering/ai-native/long-running-agents.md),
 which is about keeping *one* agent durable.
 
 ## "Worktree chaos"
@@ -86,7 +86,7 @@ graph → reservations → coordinator loop*, not the particular tools.
 
 - **Ring leader** — the coordinator agent running a consistent assign/detect loop.
 - **Ralph loop** — single-agent iteration (see
-  [Long-Running Agents](../engineering/practices/long-running-agents.md)) extended
+  [Long-Running Agents](../engineering/ai-native/long-running-agents.md)) extended
   to a swarm.
 - **Structured parallelism** — parallel motion comes from discipline, not terminal
   count.
@@ -99,7 +99,7 @@ exploratory worktree workflows. Worktrees remain useful for **isolated experimen
 or risky refactors**, just not routine parallel work.
 
 The natural ceiling is human, not technical:
-[Agile in the Age of AI](../engineering/practices/agile-in-the-age-of-ai.md) reports
+[Agile in the Age of AI](../engineering/ai-native/agile-in-the-age-of-ai.md) reports
 ~three parallel agents being manageable comfortably, so a swarm's coordinator and
 verification steps are what keep cognitive load bounded as agent count rises.
 
@@ -108,12 +108,12 @@ verification steps are what keep cognitive load bounded as agent count rises.
 - [Building Effective Agents](building-effective-agents.md) — the abstract
   orchestrator–workers and autonomous-agent patterns; this note is one concrete
   coding instantiation with reservations and a coordinator.
-- [Long-Running Agents](../engineering/practices/long-running-agents.md) — keeping
+- [Long-Running Agents](../engineering/ai-native/long-running-agents.md) — keeping
   *one* agent durable; this is coordinating *many*, and it borrows the Ralph loop.
-- [Loop-Driven Development](../engineering/practices/loop-driven-development.md) —
+- [Loop-Driven Development](../engineering/ai-native/loop-driven-development.md) —
   the per-agent generate→verify loop each worker runs inside the swarm.
 - [Agentic AI in the SDLC — A Research Survey](agentic-sdlc-survey.md) — its L4
   orchestration layer (single-agent loop vs multi-agent) is the architectural
   framing of this workflow.
-- [Agile in the Age of AI](../engineering/practices/agile-in-the-age-of-ai.md) —
+- [Agile in the Age of AI](../engineering/ai-native/agile-in-the-age-of-ai.md) —
   the human cognitive-load bound on how many agents one person can direct.

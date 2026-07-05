@@ -1,21 +1,21 @@
 ---
 title: The APEX Framework — Measuring AI Engineering Impact
 tags: [ai-engineering, observability, ci-cd, reading]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
-  - engineering/practices/agentic-ai-strategy-frameworks.md
-  - engineering/practices/ci-cd-ai-engineering.md
-  - engineering/practices/agentic-code-review.md
+  - engineering/ai-native/agentic-ai-strategy-frameworks.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
+  - engineering/ai-native/agentic-code-review.md
   - engineering/practices/change-absorption-capacity.md
-  - engineering/practices/ai-augmented-engineering-team.md
-  - engineering/practices/ai-native-engineering-overview.md
+  - engineering/ai-native/ai-augmented-engineering-team.md
+  - engineering/ai-native/ai-native-engineering-overview.md
   - concepts/devops-capability-model.md
   - reading/agentic-sdlc-survey.md
   - reading/factory-engineers.md
-  - engineering/practices/scaling-ai-adoption.md
-  - engineering/practices/ai-factory.md
+  - engineering/ai-native/scaling-ai-adoption.md
+  - engineering/ai-native/ai-factory.md
 source: "https://linearb.io/resources/apex-framework"
 updated: 2026-06-20
 ---
@@ -89,7 +89,7 @@ attribute PRs and measure cycle time, planning accuracy, and developer satisfact
 - [Agentic AI Strategy Frameworks](agentic-ai-strategy-frameworks.md) — those frameworks set
   *direction* (where AI should participate); APEX is the *measurement* layer that says whether the
   bet is working.
-- [Change Absorption Capacity (CATS)](change-absorption-capacity.md) — CATS raises the system's
+- [Change Absorption Capacity (CATS)](../practices/change-absorption-capacity.md) — CATS raises the system's
   capacity to absorb agent-speed change safely; APEX's Predictability and Flow pillars are how you
   observe whether that capacity is holding.
 - [The AI-Augmented Engineering Team](ai-augmented-engineering-team.md) — the operating model APEX

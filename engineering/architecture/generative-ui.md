@@ -8,7 +8,7 @@ related:
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/micro-frontend-canvas.md
-  - engineering/practices/ai-native-engineering-stack.md
+  - engineering/ai-native/ai-native-engineering-stack.md
 updated: 2026-06-19
 ---
 
@@ -83,7 +83,7 @@ what lets you accept a model's UI decision without accepting a model's UI *outpu
   directly — map structured output to a fixed component set. Treat model output as
   untrusted input.
 - **Non-determinism.** The same request can yield different UI. Test with
-  [eval-driven](../practices/eval-driven-ai-development.md) techniques: assert that
+  [eval-driven](../ai-native/eval-driven-ai-development.md) techniques: assert that
   outputs resolve to valid components with valid props, and snapshot the rendered
   result, rather than expecting one exact UI.
 - **Hallucinated components.** Constrain the model to the registry (tool schemas /
@@ -117,5 +117,5 @@ fixed UI for commitment.
 - [The Micro-Frontend Canvas](micro-frontend-canvas.md) — boundary thinking for
   *which* surfaces are owned by whom still applies when those surfaces are
   generated.
-- [The AI-Native Engineering Stack](../practices/ai-native-engineering-stack.md) —
+- [The AI-Native Engineering Stack](../ai-native/ai-native-engineering-stack.md) —
   where UI generation fits in the broader tooling stack.

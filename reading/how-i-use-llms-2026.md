@@ -5,12 +5,12 @@ topic: reading
 status: notes
 level: intermediate
 related:
-  - engineering/practices/quality-first-ai-coding.md
-  - engineering/practices/modern-engineering-values.md
+  - engineering/ai-native/quality-first-ai-coding.md
+  - engineering/ai-native/modern-engineering-values.md
   - reading/building-effective-agents.md
-  - engineering/practices/prompt-engineering-for-programmers.md
-  - engineering/practices/agentic-code-review.md
-  - engineering/practices/ai-native-engineering-overview.md
+  - engineering/ai-native/prompt-engineering-for-programmers.md
+  - engineering/ai-native/agentic-code-review.md
+  - engineering/ai-native/ai-native-engineering-overview.md
 source: "https://www.seangoedecke.com/how-i-use-llms-in-2026/"
 updated: 2026-06-27
 ---
@@ -49,7 +49,7 @@ drawn task by task from daily practice.
   the agent would bury. This is a social, not just a quality, choice.
 - **Context curation is the job.** His leverage comes from feeding the agent the
   right context, echoing
-  [Prompt Engineering for Programmers](../engineering/practices/prompt-engineering-for-programmers.md).
+  [Prompt Engineering for Programmers](../engineering/ai-native/prompt-engineering-for-programmers.md).
 
 ## Evolution from a year earlier
 
@@ -65,14 +65,14 @@ workflow, the tool choices are incidental — the transferable content is the
 
 ## Relationship to other notes
 
-- [Quality-First AI Coding](../engineering/practices/quality-first-ai-coding.md) —
+- [Quality-First AI Coding](../engineering/ai-native/quality-first-ai-coding.md) —
   a complementary practitioner note: that one is a *technique* (multi-model bug
   review, quality over velocity); this is a *delegation taxonomy* (what to hand
   over at all). Both treat careful human review as the non-negotiable.
-- [Modern Engineering Values](../engineering/practices/modern-engineering-values.md)
+- [Modern Engineering Values](../engineering/ai-native/modern-engineering-values.md)
   — the values (taste, guardrails, ownership) behind where this engineer draws the
   line.
 - [Building Effective Agents](building-effective-agents.md) — the principled
   "when not to use agents"; this note is the lived version.
-- [Agentic Code Review](../engineering/practices/agentic-code-review.md) — the
+- [Agentic Code Review](../engineering/ai-native/agentic-code-review.md) — the
   human-on-the-loop review that his "review hard" posture depends on.

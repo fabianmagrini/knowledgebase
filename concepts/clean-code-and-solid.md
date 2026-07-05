@@ -7,7 +7,7 @@ level: intermediate
 related:
   - engineering/practices/software-design-principles.md
   - engineering/architecture/micro-frontend-principles.md
-  - engineering/practices/quality-first-ai-coding.md
+  - engineering/ai-native/quality-first-ai-coding.md
   - engineering/architecture/agile-design-decisions.md
   - engineering/practices/naming-conventions.md
 updated: 2026-06-19

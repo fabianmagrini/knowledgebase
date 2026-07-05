@@ -15,7 +15,7 @@ related:
   - engineering/practices/database-migration-strategies.md
   - engineering/practices/release-confidence.md
   - reading/what-is-software-engineering-ai.md
-  - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/test-coverage-policy.md
   - engineering/security/secure-sdlc.md
@@ -120,7 +120,7 @@ CD is one of the practices most strongly correlated with software delivery
 performance in the DORA research (deployment frequency, lead time, change-failure
 rate, and time to restore). In an AI-assisted workflow it becomes even more load-
 bearing — see
-[CI/CD as the Control Plane for AI-Assisted Engineering](../engineering/practices/ci-cd-ai-engineering.md),
+[CI/CD as the Control Plane for AI-Assisted Engineering](../engineering/ai-native/ci-cd-ai-engineering.md),
 where the automated pipeline is what makes high-volume machine-generated change
 safe to absorb.
 

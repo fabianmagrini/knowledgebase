@@ -1,30 +1,30 @@
 ---
 title: The AI-Native Engineering Stack
 tags: [ai-engineering, architecture, agentic-workflows]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 updated: 2026-06-20
 related:
-  - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/engineering-playbook.md
   - engineering/practices/federated-pr-review.md
   - engineering/practices/code-review-policy.md
-  - engineering/practices/agentic-sdlc.md
-  - engineering/practices/agentic-sdlc-maturity-model.md
-  - engineering/practices/eval-driven-ai-development.md
+  - engineering/ai-native/agentic-sdlc.md
+  - engineering/ai-native/agentic-sdlc-maturity-model.md
+  - engineering/ai-native/eval-driven-ai-development.md
   - engineering/architecture/design-systems-ai-control-plane.md
-  - engineering/practices/ai-augmented-engineering-team.md
-  - engineering/practices/agentic-ai-strategy-frameworks.md
-  - engineering/practices/harness-engineering.md
-  - engineering/practices/loop-driven-development.md
-  - engineering/practices/prompt-engineering-for-programmers.md
+  - engineering/ai-native/ai-augmented-engineering-team.md
+  - engineering/ai-native/agentic-ai-strategy-frameworks.md
+  - engineering/ai-native/harness-engineering.md
+  - engineering/ai-native/loop-driven-development.md
+  - engineering/ai-native/prompt-engineering-for-programmers.md
   - tools/coding-agents/claude-code-steering-mechanisms.md
-  - engineering/practices/model-routing-and-ai-gateways.md
+  - engineering/ai-native/model-routing-and-ai-gateways.md
   - standards/open-knowledge-format.md
   - engineering/architecture/generative-ui.md
-  - engineering/practices/long-running-agents.md
-  - engineering/practices/scaling-ai-adoption.md
-  - engineering/practices/ai-factory.md
+  - engineering/ai-native/long-running-agents.md
+  - engineering/ai-native/scaling-ai-adoption.md
+  - engineering/ai-native/ai-factory.md
 source: "https://gist.github.com/fabianmagrini/9543a6a750d904f66744d7fbfb3d3ec3"
 ---
 

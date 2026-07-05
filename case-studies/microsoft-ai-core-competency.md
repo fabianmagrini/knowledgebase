@@ -6,9 +6,9 @@ status: notes
 level: intermediate
 related:
   - leadership/plan-is-not-a-strategy.md
-  - engineering/practices/agentic-ai-strategy-frameworks.md
-  - engineering/practices/harness-engineering.md
-  - engineering/practices/model-routing-and-ai-gateways.md
+  - engineering/ai-native/agentic-ai-strategy-frameworks.md
+  - engineering/ai-native/harness-engineering.md
+  - engineering/ai-native/model-routing-and-ai-gateways.md
   - product/explore-vs-exploit.md
 source: "https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/"
 updated: 2026-07-05
@@ -85,7 +85,7 @@ Two deliberate structural choices:
   by early OpenAI advantages — while noting the partnership runs to 2032.
 - **Harness independence** — GitHub Copilot and security platforms are model-agnostic, letting
   OpenAI, Anthropic, and Microsoft models compete behind one interface. This is the commercial
-  expression of the [harness](../engineering/practices/harness-engineering.md) idea: own the
+  expression of the [harness](../engineering/ai-native/harness-engineering.md) idea: own the
   orchestration layer, rent the model.
 
 ## Relationship to other notes
@@ -93,10 +93,10 @@ Two deliberate structural choices:
 - **[A Plan Is Not a Strategy](../leadership/plan-is-not-a-strategy.md)** — "do the one thing"
   and the capital-allocation choices are where-to-play / how-to-win decisions; this is that
   framework observed in a real corporate strategy.
-- **[Agentic AI Strategy Frameworks](../engineering/practices/agentic-ai-strategy-frameworks.md)**
+- **[Agentic AI Strategy Frameworks](../engineering/ai-native/agentic-ai-strategy-frameworks.md)**
   — the private-evals-as-moat and hill-climbing ideas are the enterprise-strategy layer above
   those planning frameworks.
-- **[Harness Engineering](../engineering/practices/harness-engineering.md)** — model-agnostic
+- **[Harness Engineering](../engineering/ai-native/harness-engineering.md)** — model-agnostic
   harness independence is the business rationale for "own the harness, rent the model."
 - **[Exploring vs Exploiting in Product Discovery](../product/explore-vs-exploit.md)** — the
   hill-climbing machine is continuous exploitation toward a firm's objective; core-competency

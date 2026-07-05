@@ -8,7 +8,7 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/trunk-based-development.md
-  - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/performance-testing-strategy.md
   - concepts/continuous-delivery.md
   - concepts/ci-cd-continuous-deployment.md
@@ -16,7 +16,7 @@ related:
   - concepts/progressive-delivery.md
   - engineering/practices/feature-flags-and-branch-by-abstraction.md
   - engineering/practices/rollback-and-roll-forward.md
-  - engineering/practices/trust-factory.md
+  - engineering/ai-native/trust-factory.md
 source: "https://newsletter.optimistengineer.com/p/why-your-releases-feel-harder-than"
 updated: 2026-06-20
 ---

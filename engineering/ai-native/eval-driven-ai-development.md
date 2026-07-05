@@ -1,24 +1,24 @@
 ---
 title: Eval-Driven Development for AI Capabilities
 tags: [testing, ai-engineering, ci-cd]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 related:
   - engineering/practices/test-coverage-policy.md
-  - engineering/practices/ai-native-engineering-stack.md
-  - engineering/practices/agentic-sdlc.md
-  - engineering/practices/ci-cd-ai-engineering.md
-  - engineering/practices/ai-augmented-engineering-team.md
+  - engineering/ai-native/ai-native-engineering-stack.md
+  - engineering/ai-native/agentic-sdlc.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
+  - engineering/ai-native/ai-augmented-engineering-team.md
   - engineering/practices/change-absorption-capacity.md
-  - engineering/practices/harness-engineering.md
-  - engineering/practices/cress-context-engineering.md
-  - engineering/practices/agent-backpressure-loops.md
-  - engineering/practices/loop-driven-development.md
-  - engineering/practices/spec-driven-development.md
+  - engineering/ai-native/harness-engineering.md
+  - engineering/ai-native/cress-context-engineering.md
+  - engineering/ai-native/agent-backpressure-loops.md
+  - engineering/ai-native/loop-driven-development.md
+  - engineering/ai-native/spec-driven-development.md
   - reading/agentic-sdlc-survey.md
   - reading/building-effective-agents.md
-  - engineering/practices/long-running-agents.md
-  - engineering/practices/ai-engineering-discipline.md
+  - engineering/ai-native/long-running-agents.md
+  - engineering/ai-native/ai-engineering-discipline.md
   - reading/new-sdlc-vibe-coding.md
 source: "https://gist.github.com/fabianmagrini/4399048fc0f1dd2261a1c126589f29ec"
 updated: 2026-06-20
@@ -35,7 +35,7 @@ the behaviour is reliable.
 > You wouldn't ship a library without a test suite — so don't ship a prompt or skill without
 > one either. Don't just prompt; engineer the context.
 
-This is the AI-behaviour counterpart to the [test coverage policy](test-coverage-policy.md)
+This is the AI-behaviour counterpart to the [test coverage policy](../practices/test-coverage-policy.md)
 and a core practice in the [AI-native engineering stack](ai-native-engineering-stack.md).
 
 ## The loop

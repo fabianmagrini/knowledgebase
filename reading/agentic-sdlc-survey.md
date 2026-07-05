@@ -5,14 +5,14 @@ topic: reading
 status: notes
 level: intermediate
 related:
-  - engineering/practices/agentic-sdlc.md
-  - engineering/practices/harness-engineering.md
-  - engineering/practices/eval-driven-ai-development.md
-  - engineering/practices/agentic-code-review.md
-  - engineering/practices/apex-framework.md
-  - engineering/practices/ai-augmented-engineering-team.md
-  - engineering/practices/agentic-sdlc-maturity-model.md
-  - engineering/practices/ai-native-engineering-overview.md
+  - engineering/ai-native/agentic-sdlc.md
+  - engineering/ai-native/harness-engineering.md
+  - engineering/ai-native/eval-driven-ai-development.md
+  - engineering/ai-native/agentic-code-review.md
+  - engineering/ai-native/apex-framework.md
+  - engineering/ai-native/ai-augmented-engineering-team.md
+  - engineering/ai-native/agentic-sdlc-maturity-model.md
+  - engineering/ai-native/ai-native-engineering-overview.md
   - reading/building-effective-agents.md
   - reading/multi-agent-coding-coordination.md
   - reading/agentic-ai-architecture-emag.md
@@ -26,8 +26,8 @@ Notes on Happy Bhati's 2026 survey *Agentic AI in the Software Development
 Lifecycle: Architecture, Empirical Evidence, and the Reshaping of Software
 Engineering* (arXiv 2604.26275). It is useful here as the **empirical anchor**
 under an otherwise framework- and practitioner-opinion-driven cluster: where
-[The Agentic SDLC](../engineering/practices/agentic-sdlc.md) and the
-[APEX framework](../engineering/practices/apex-framework.md) *assert* that AI
+[The Agentic SDLC](../engineering/ai-native/agentic-sdlc.md) and the
+[APEX framework](../engineering/ai-native/apex-framework.md) *assert* that AI
 shifts leverage upstream and that local speed ≠ system throughput, this survey
 supplies the benchmarks and controlled-study numbers behind those claims.
 
@@ -39,7 +39,7 @@ existing processes and **agentic systems performing autonomous engineering work*
 
 The survey proposes a six-layer stack for agentic software-engineering systems.
 It maps closely onto the component anatomy in
-[Harness Engineering](../engineering/practices/harness-engineering.md).
+[Harness Engineering](../engineering/ai-native/harness-engineering.md).
 
 | Layer | Concern | Notes |
 |---|---|---|
@@ -69,7 +69,7 @@ Three structural shifts:
   and directing* — the survey's "delegation interface".
 - **Behavioural metrics** (agent acceptance rate, escalation quality) displace
   process metrics — the same move
-  [APEX](../engineering/practices/apex-framework.md) makes by measuring at the PR.
+  [APEX](../engineering/ai-native/apex-framework.md) makes by measuring at the PR.
 
 ## Empirical evidence
 
@@ -98,7 +98,7 @@ capability* (reinforcing the L2/L4 claims above).
 SWE-bench is dominated by Python bug-fixing with ground-truth tests that
 real-world tasks lack, and task-level speed-ups do not equal team-level
 throughput. This is the measured basis for "Feeling Fast, Delivering Slow" in
-[The Agentic SDLC](../engineering/practices/agentic-sdlc.md) and for APEX's
+[The Agentic SDLC](../engineering/ai-native/agentic-sdlc.md) and for APEX's
 insistence on measuring in the critical path rather than by tool adoption.
 
 ## Five open problems
@@ -108,11 +108,11 @@ knowledge base:
 
 | Open problem | Summary | Where it lands |
 |---|---|---|
-| Evaluation beyond SWE-bench | SWE-bench is Python/bug-fix biased and assumes ground-truth tests; SWE-bench Pro/Multimodal, Terminal-Bench, SWE-Compass extend it | [Eval-Driven Development](../engineering/practices/eval-driven-ai-development.md) |
-| Governance, safety, audit | "Proliferation of deployed agents alongside a deficit in governance"; human–agent responsibility mapping as a non-optional design step | [The Agentic SDLC](../engineering/practices/agentic-sdlc.md), [Change Absorption Capacity](../engineering/practices/change-absorption-capacity.md) |
-| The technical-debt hypothesis | Agents bias toward *more code and local fixes* over global redesign; long-term repository-health studies are missing | [Loop-Driven Development](../engineering/practices/loop-driven-development.md) (comprehension debt) |
-| Skill redistribution | A two-track market: experienced engineers compound gains, newcomers underperform; teaching decomposition/judgement matters | [The AI-Augmented Engineering Team](../engineering/practices/ai-augmented-engineering-team.md) |
-| The economics of attention | If agents emit plausible patches fast, *human review is the rate-limiting resource* | [Agentic Code Review](../engineering/practices/agentic-code-review.md) |
+| Evaluation beyond SWE-bench | SWE-bench is Python/bug-fix biased and assumes ground-truth tests; SWE-bench Pro/Multimodal, Terminal-Bench, SWE-Compass extend it | [Eval-Driven Development](../engineering/ai-native/eval-driven-ai-development.md) |
+| Governance, safety, audit | "Proliferation of deployed agents alongside a deficit in governance"; human–agent responsibility mapping as a non-optional design step | [The Agentic SDLC](../engineering/ai-native/agentic-sdlc.md), [Change Absorption Capacity](../engineering/practices/change-absorption-capacity.md) |
+| The technical-debt hypothesis | Agents bias toward *more code and local fixes* over global redesign; long-term repository-health studies are missing | [Loop-Driven Development](../engineering/ai-native/loop-driven-development.md) (comprehension debt) |
+| Skill redistribution | A two-track market: experienced engineers compound gains, newcomers underperform; teaching decomposition/judgement matters | [The AI-Augmented Engineering Team](../engineering/ai-native/ai-augmented-engineering-team.md) |
+| The economics of attention | If agents emit plausible patches fast, *human review is the rate-limiting resource* | [Agentic Code Review](../engineering/ai-native/agentic-code-review.md) |
 
 ## Distinctive vocabulary
 
@@ -122,18 +122,18 @@ knowledge base:
   guiding steps.
 - **Capability–autonomy plane** — positioning systems on two axes (capability %,
   autonomy level); a sharper version of the
-  [maturity model](../engineering/practices/agentic-sdlc-maturity-model.md)'s stages.
+  [maturity model](../engineering/ai-native/agentic-sdlc-maturity-model.md)'s stages.
 - **Human–agent responsibility mapping** — explicit authority allocation and
   approval-gate design as a governance primitive.
 
 ## Relationship to other notes
 
 This is the research-grounded counterpart to the cluster's opinion and framework
-notes. It supplies evidence for [The Agentic SDLC](../engineering/practices/agentic-sdlc.md),
-a published architecture that parallels [Harness Engineering](../engineering/practices/harness-engineering.md),
+notes. It supplies evidence for [The Agentic SDLC](../engineering/ai-native/agentic-sdlc.md),
+a published architecture that parallels [Harness Engineering](../engineering/ai-native/harness-engineering.md),
 and a problem list whose five items map onto
-[eval-driven development](../engineering/practices/eval-driven-ai-development.md),
-[agentic code review](../engineering/practices/agentic-code-review.md),
-[the AI-augmented team](../engineering/practices/ai-augmented-engineering-team.md),
-and the [AI-native overview](../engineering/practices/ai-native-engineering-overview.md)
+[eval-driven development](../engineering/ai-native/eval-driven-ai-development.md),
+[agentic code review](../engineering/ai-native/agentic-code-review.md),
+[the AI-augmented team](../engineering/ai-native/ai-augmented-engineering-team.md),
+and the [AI-native overview](../engineering/ai-native/ai-native-engineering-overview.md)
 map it sits under.

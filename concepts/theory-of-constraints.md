@@ -6,8 +6,8 @@ status: draft
 level: intermediate
 related:
   - concepts/continuous-delivery.md
-  - engineering/practices/agent-backpressure-loops.md
-  - engineering/practices/ai-augmented-engineering-team.md
+  - engineering/ai-native/agent-backpressure-loops.md
+  - engineering/ai-native/ai-augmented-engineering-team.md
   - engineering/practices/change-absorption-capacity.md
   - leadership/managed-disruption.md
   - engineering/architecture/thinking-in-constraints.md
@@ -84,9 +84,9 @@ to make developers type faster. AI coding agents largely break that constraint â
 and, exactly as step 5 predicts, the bottleneck moves downstream to **review,
 testing, integration, and the human judgement needed to keep change safe.**
 
-- [The AI-Augmented Engineering Team](../engineering/practices/ai-augmented-engineering-team.md)
+- [The AI-Augmented Engineering Team](../engineering/ai-native/ai-augmented-engineering-team.md)
   describes this re-balancing of where human effort is the limit.
-- [Backpressure Loops for Coding Agents](../engineering/practices/agent-backpressure-loops.md)
+- [Backpressure Loops for Coding Agents](../engineering/ai-native/agent-backpressure-loops.md)
   is, in ToC terms, subordination made explicit: agents are throttled to the pace
   the verification stage can absorb, instead of flooding it.
 - [Change Absorption Capacity](../engineering/practices/change-absorption-capacity.md)

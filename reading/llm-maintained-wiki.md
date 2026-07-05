@@ -6,10 +6,10 @@ status: notes
 level: intermediate
 related:
   - standards/open-knowledge-format.md
-  - engineering/practices/agentic-sdlc.md
-  - engineering/practices/modern-engineering-values.md
-  - engineering/practices/harness-engineering.md
-  - engineering/practices/ai-native-engineering-overview.md
+  - engineering/ai-native/agentic-sdlc.md
+  - engineering/ai-native/modern-engineering-values.md
+  - engineering/ai-native/harness-engineering.md
+  - engineering/ai-native/ai-native-engineering-overview.md
 source: "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
 updated: 2026-06-27
 ---
@@ -84,12 +84,12 @@ the synthesis, where Karpathy pushes for the LLM to own maintenance end-to-end.
 - [Open Knowledge Format (OKF)](../standards/open-knowledge-format.md) — a portable
   *format* for agent-consumable knowledge; this note is the *maintenance pattern*
   that would produce and curate such knowledge.
-- [The Agentic SDLC](../engineering/practices/agentic-sdlc.md) — its Context
+- [The Agentic SDLC](../engineering/ai-native/agentic-sdlc.md) — its Context
   Development Lifecycle (curate, version, prune context) is the same discipline
   applied to an agent's working context rather than a personal wiki.
-- [Modern Engineering Values](../engineering/practices/modern-engineering-values.md)
+- [Modern Engineering Values](../engineering/ai-native/modern-engineering-values.md)
   — "context in the repo" as a value; the LLM wiki is that idea taken to a
   standalone knowledge artifact.
-- [Harness Engineering](../engineering/practices/harness-engineering.md) — the
+- [Harness Engineering](../engineering/ai-native/harness-engineering.md) — the
   wiki-vs-RAG contrast is a memory-architecture choice: a compiled, maintained
   store rather than retrieval over raw documents.

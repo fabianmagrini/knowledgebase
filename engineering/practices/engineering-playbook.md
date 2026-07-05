@@ -6,16 +6,16 @@ status: notes
 updated: 2026-06-19
 related:
   - concepts/devops-capability-model.md
-  - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/federated-pr-review.md
   - engineering/practices/trunk-based-development.md
   - engineering/practices/api-contract-functional-testing.md
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/code-review-policy.md
   - engineering/practices/test-coverage-policy.md
-  - engineering/practices/ai-native-engineering-stack.md
-  - engineering/practices/agentic-sdlc.md
-  - engineering/practices/agentic-ai-strategy-frameworks.md
+  - engineering/ai-native/ai-native-engineering-stack.md
+  - engineering/ai-native/agentic-sdlc.md
+  - engineering/ai-native/agentic-ai-strategy-frameworks.md
   - engineering/architecture/c4-model.md
   - engineering/architecture/composable-architecture.md
   - languages/typescript.md

@@ -1,13 +1,13 @@
 ---
 title: Model Routing and AI Gateways
 tags: [ai-engineering, agentic-workflows, reading]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
   - case-studies/cloudflare-ai-code-review.md
   - case-studies/portkey-product-engineer-company.md
-  - engineering/practices/ai-native-engineering-stack.md
+  - engineering/ai-native/ai-native-engineering-stack.md
   - case-studies/microsoft-ai-core-competency.md
   - case-studies/zalando-client-side-load-balancing.md
 source: "https://newsletter.pragmaticengineer.com/p/the-pulse-a-new-trend-smart-model"

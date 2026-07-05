@@ -11,10 +11,10 @@ related:
   - engineering/practices/trunk-based-development.md
   - engineering/practices/gitops.md
   - engineering/practices/rollback-and-roll-forward.md
-  - engineering/practices/ci-speed-with-ai-agents.md
-  - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/ai-native/ci-speed-with-ai-agents.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/engineering-playbook.md
-  - engineering/practices/apex-framework.md
+  - engineering/ai-native/apex-framework.md
   - engineering/security/secure-sdlc.md
   - leadership/learning-organisation.md
   - engineering/architecture/team-topologies.md
@@ -32,8 +32,8 @@ organisational performance. The capabilities are *causes you can invest in*; the
 
 This note is the canonical reference the rest of the knowledge base points at when it says "DORA"
 or "Accelerate" — see [Continuous Delivery](continuous-delivery.md) (the technical core),
-[CI/CD as the Control Plane](../engineering/practices/ci-cd-ai-engineering.md), and
-[The APEX Framework](../engineering/practices/apex-framework.md) (which folds DORA's AI-readiness
+[CI/CD as the Control Plane](../engineering/ai-native/ci-cd-ai-engineering.md), and
+[The APEX Framework](../engineering/ai-native/apex-framework.md) (which folds DORA's AI-readiness
 capabilities into its diagnostics).
 
 ## The four delivery metrics
@@ -122,9 +122,9 @@ is needed. This is the same psychological-safety thread as
 
 - [Continuous Delivery](continuous-delivery.md) — the deep dive on the technical core (category 1);
   this note is the wider model that CD is one category of.
-- [The APEX Framework](../engineering/practices/apex-framework.md) — uses DORA's AI-readiness
+- [The APEX Framework](../engineering/ai-native/apex-framework.md) — uses DORA's AI-readiness
   capabilities as diagnostics; where this note describes the *capabilities*, APEX is a *scoreboard*
   for the AI era.
 - [Engineering Playbook](../engineering/practices/engineering-playbook.md) and
-  [CI/CD as the Control Plane](../engineering/practices/ci-cd-ai-engineering.md) — both track the
+  [CI/CD as the Control Plane](../engineering/ai-native/ci-cd-ai-engineering.md) — both track the
   four delivery metrics; this note is where the metrics and their drivers are defined.

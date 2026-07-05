@@ -1,15 +1,15 @@
 ---
 title: Prompt Engineering for Programmers
 tags: [ai-engineering, reading]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
-  - engineering/practices/loop-driven-development.md
-  - engineering/practices/quality-first-ai-coding.md
-  - engineering/practices/harness-engineering.md
-  - engineering/practices/ai-native-engineering-stack.md
-  - engineering/practices/cress-context-engineering.md
+  - engineering/ai-native/loop-driven-development.md
+  - engineering/ai-native/quality-first-ai-coding.md
+  - engineering/ai-native/harness-engineering.md
+  - engineering/ai-native/ai-native-engineering-stack.md
+  - engineering/ai-native/cress-context-engineering.md
   - tools/coding-agents/claude-code-steering-mechanisms.md
   - leadership/learning-culture-ai-agents.md
   - reading/how-i-use-llms-2026.md

@@ -7,8 +7,8 @@ level: intermediate
 related:
   - reading/building-effective-agents.md
   - reading/agentic-sdlc-survey.md
-  - engineering/practices/harness-engineering.md
-  - engineering/practices/cress-context-engineering.md
+  - engineering/ai-native/harness-engineering.md
+  - engineering/ai-native/cress-context-engineering.md
 source: "https://www.infoq.com/minibooks/agentic-ai-architecture/"
 updated: 2026-07-05
 ---
@@ -42,9 +42,9 @@ rather than a fresh deep-dive:
   chapters.
 - **[Agentic AI in the SDLC — A Research Survey](agentic-sdlc-survey.md)** — the academic
   six-layer agent architecture, adjacent to the "microservices → agents" framing.
-- **[Harness Engineering](../engineering/practices/harness-engineering.md)** — the anatomy of the
+- **[Harness Engineering](../engineering/ai-native/harness-engineering.md)** — the anatomy of the
   harness program that the "chains → graphs → code" maturation describes at a pattern level.
-- **[CRESS Principles for Context Engineering](../engineering/practices/cress-context-engineering.md)**
+- **[CRESS Principles for Context Engineering](../engineering/ai-native/cress-context-engineering.md)**
   — directly covers the memory/knowledge/context chapter's territory.
 
 ## If revisited

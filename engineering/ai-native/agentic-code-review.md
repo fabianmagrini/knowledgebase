@@ -1,24 +1,24 @@
 ---
 title: Agentic Code Review
 tags: [ai-engineering, code-review, agentic-workflows, reading]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
   - engineering/practices/code-review-policy.md
-  - engineering/practices/quality-first-ai-coding.md
-  - engineering/practices/agent-backpressure-loops.md
+  - engineering/ai-native/quality-first-ai-coding.md
+  - engineering/ai-native/agent-backpressure-loops.md
   - engineering/practices/change-absorption-capacity.md
-  - engineering/practices/ci-cd-ai-engineering.md
-  - engineering/practices/ai-native-engineering-overview.md
-  - engineering/practices/ai-engineering-discipline.md
-  - engineering/practices/apex-framework.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
+  - engineering/ai-native/ai-native-engineering-overview.md
+  - engineering/ai-native/ai-engineering-discipline.md
+  - engineering/ai-native/apex-framework.md
   - reading/agentic-sdlc-survey.md
   - reading/how-i-use-llms-2026.md
   - case-studies/cloudflare-ai-code-review.md
   - case-studies/doordash-ai-code-review.md
   - leadership/learning-culture-ai-agents.md
-  - engineering/practices/scaling-ai-adoption.md
+  - engineering/ai-native/scaling-ai-adoption.md
 source: "https://addyo.substack.com/p/agentic-code-review"
 updated: 2026-06-20
 ---
@@ -47,7 +47,7 @@ The article marshals figures that are worth recording but should be read as
   substantive-review rate raised from 16% to 54%.
 
 The author's reading: mature teams were **not** protected — process could not
-absorb the volume (the [change-absorption](change-absorption-capacity.md) limit).
+absorb the volume (the [change-absorption](../practices/change-absorption-capacity.md) limit).
 
 ## Tiered, risk-based review
 
@@ -65,7 +65,7 @@ author**:
    get rejected or rubber-stamped.
 5. **Read the test changes first.** Agents often rewrite assertions to match broken
    behaviour instead of fixing the code — mutation testing helps tell the
-   difference. See [Test Coverage Policy](test-coverage-policy.md).
+   difference. See [Test Coverage Policy](../practices/test-coverage-policy.md).
 6. **Treat CI as immovable.** Watch for removed tests, skipped lint, lowered
    coverage thresholds, and prompt-injection paths — agents optimise toward green
    checkmarks. The deterministic gates are the
@@ -123,7 +123,7 @@ reviewable. *"The human does not leave; the human moves up a loop."*
 
 ## Relationship to other notes
 
-- [Code Review Policy](code-review-policy.md) — the *standards* reviewers enforce;
+- [Code Review Policy](../practices/code-review-policy.md) — the *standards* reviewers enforce;
   this note is the *system and reasoning* of reviewing agent-generated code at
   volume.
 - [Quality-First AI Coding](quality-first-ai-coding.md) — the *writing* side
@@ -131,7 +131,7 @@ reviewable. *"The human does not leave; the human moves up a loop."*
 - [Backpressure Loops for Coding Agents](agent-backpressure-loops.md) — moving
   mechanical feedback into agent-actionable loops is how the human gets *onto* the
   loop instead of inside it.
-- [Change Absorption Capacity](change-absorption-capacity.md) — the system property
+- [Change Absorption Capacity](../practices/change-absorption-capacity.md) — the system property
   whose limits the review-volume data illustrates.
 - [CI/CD as the Control Plane](ci-cd-ai-engineering.md) — the immovable
   deterministic gates the tiered pipeline depends on.

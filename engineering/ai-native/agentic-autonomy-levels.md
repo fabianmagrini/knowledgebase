@@ -1,13 +1,13 @@
 ---
 title: Agentic Autonomy Levels
 tags: [ai-engineering, agentic-workflows, reading]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
-  - engineering/practices/long-running-agents.md
-  - engineering/practices/agentic-sdlc-maturity-model.md
-  - engineering/practices/agent-backpressure-loops.md
+  - engineering/ai-native/long-running-agents.md
+  - engineering/ai-native/agentic-sdlc-maturity-model.md
+  - engineering/ai-native/agent-backpressure-loops.md
   - engineering/architecture/agile-design-decisions.md
 source: "https://addyo.substack.com/p/agentic-autonomy-levels"
 updated: 2026-07-05

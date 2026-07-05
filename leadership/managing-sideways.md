@@ -8,7 +8,7 @@ related:
   - leadership/principal-engineer-influence.md
   - leadership/raising-problems-without-complaining.md
   - leadership/principal-engineer-consensus.md
-  - engineering/practices/scaling-ai-adoption.md
+  - engineering/ai-native/scaling-ai-adoption.md
   - leadership/engineering-leadership-overview.md
 source: "https://kevingoldsmith.substack.com/p/managing-sideways"
 updated: 2026-07-05
@@ -53,7 +53,7 @@ Goldsmith's sequential four-move play:
 Resistance usually stems from threats to **autonomy, job security, or professional identity**,
 not from flaws in your reasoning. Goldsmith's example: developer resistance to AI tooling is
 often fear of losing a *coding identity*, not a judgement about the tool — so arguing the tool's
-merits misses the point. (See [Scaling AI Adoption](../engineering/practices/scaling-ai-adoption.md)
+merits misses the point. (See [Scaling AI Adoption](../engineering/ai-native/scaling-ai-adoption.md)
 for the organisational version of this change-adoption problem.)
 
 ## When a mandate makes sense
@@ -78,5 +78,5 @@ such team exists, the change doesn't yet solve anyone's real problem.
 - **[Consensus Among Principal Engineers](principal-engineer-consensus.md)** — how a peer group
   *reaches* a decision; managing sideways is what it takes to make the agreed change actually
   happen afterwards ("agreeing was free").
-- **[Scaling AI Adoption](../engineering/practices/scaling-ai-adoption.md)** — the same
+- **[Scaling AI Adoption](../engineering/ai-native/scaling-ai-adoption.md)** — the same
   recruit-the-willing, let-results-recruit adoption dynamics applied to rolling AI across an org.

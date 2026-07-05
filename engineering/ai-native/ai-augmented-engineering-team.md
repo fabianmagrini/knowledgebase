@@ -1,28 +1,28 @@
 ---
 title: The AI-Augmented Engineering Team
 tags: [ai-engineering, leadership, architecture, agentic-workflows]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 related:
-  - engineering/practices/agentic-sdlc.md
-  - engineering/practices/agentic-sdlc-maturity-model.md
-  - engineering/practices/team-topologies-agentic-platform.md
+  - engineering/ai-native/agentic-sdlc.md
+  - engineering/ai-native/agentic-sdlc-maturity-model.md
+  - engineering/ai-native/team-topologies-agentic-platform.md
   - leadership/scaling-engineering-org.md
-  - engineering/practices/ai-native-engineering-stack.md
+  - engineering/ai-native/ai-native-engineering-stack.md
   - leadership/principal-engineer-influence.md
   - leadership/architecture-decision-forum.md
-  - engineering/practices/eval-driven-ai-development.md
+  - engineering/ai-native/eval-driven-ai-development.md
   - engineering/architecture/design-systems-ai-control-plane.md
   - leadership/learning-organisation.md
   - leadership/learning-culture-ai-agents.md
-  - engineering/practices/modern-engineering-values.md
+  - engineering/ai-native/modern-engineering-values.md
   - concepts/theory-of-constraints.md
   - reading/agentic-sdlc-survey.md
   - case-studies/portkey-product-engineer-company.md
   - reading/factory-engineers.md
   - leadership/senior-ic-role.md
   - leadership/revised-rules-engineering-leadership.md
-  - engineering/practices/apex-framework.md
+  - engineering/ai-native/apex-framework.md
 source: "https://gist.github.com/fabianmagrini/61ce6e1b381227755048dbd90704924b"
 updated: 2026-06-20
 ---

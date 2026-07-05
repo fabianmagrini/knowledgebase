@@ -5,14 +5,14 @@ topic: case-studies
 status: notes
 level: intermediate
 related:
-  - engineering/practices/agentic-code-review.md
+  - engineering/ai-native/agentic-code-review.md
   - reading/building-effective-agents.md
-  - engineering/practices/ci-cd-ai-engineering.md
-  - engineering/practices/harness-engineering.md
-  - engineering/practices/model-routing-and-ai-gateways.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
+  - engineering/ai-native/harness-engineering.md
+  - engineering/ai-native/model-routing-and-ai-gateways.md
   - case-studies/doordash-ai-code-review.md
   - reading/multi-agent-coding-coordination.md
-  - engineering/practices/ai-native-engineering-overview.md
+  - engineering/ai-native/ai-native-engineering-overview.md
 source: "https://blog.cloudflare.com/ai-code-review/"
 updated: 2026-06-27
 ---
@@ -22,7 +22,7 @@ updated: 2026-06-27
 A Cloudflare engineering case study of a production AI code-review system — 131,246
 reviews across 48,095 merge requests in a single month. It is the concrete,
 operational counterpart to the principles in
-[Agentic Code Review](../engineering/practices/agentic-code-review.md): where that
+[Agentic Code Review](../engineering/ai-native/agentic-code-review.md): where that
 note argues *why* review is the bottleneck and how to tier it, this shows one team
 *building* it at scale. The metrics are Cloudflare's own and self-reported.
 
@@ -45,7 +45,7 @@ applied to review.
   changes.
 - **Control plane** — a Cloudflare Worker + KV serves runtime config; disabling a
   provider filters it from model selection within ~5 seconds, no redeploy. This is
-  a literal instance of the [CI/CD control plane](../engineering/practices/ci-cd-ai-engineering.md)
+  a literal instance of the [CI/CD control plane](../engineering/ai-native/ci-cd-ai-engineering.md)
   idea.
 
 ## The load-bearing insight: "What NOT to Flag"
@@ -59,7 +59,7 @@ suggestions". Scoping, not raw model power, is what controls false positives.
 ## Risk and model tiering
 
 Cost and agent count scale with diff size — the production form of
-[risk-based tiering](../engineering/practices/agentic-code-review.md):
+[risk-based tiering](../engineering/ai-native/agentic-code-review.md):
 
 | Tier | Agents | Model tier | ~Cost |
 |---|---|---|---|
@@ -84,7 +84,7 @@ that the principles note recommends.
   later passes.
 - **"Break glass"** — commenting it forces approval (provider outages, urgent
   hotfixes); used on 0.6% of MRs and tracked in telemetry. This is the
-  [escape hatch](../engineering/practices/harness-engineering.md) made operational.
+  [escape hatch](../engineering/ai-native/harness-engineering.md) made operational.
 
 ## Economics and resilience
 
@@ -114,15 +114,15 @@ human-on-the-loop.
 
 ## Relationship to other notes
 
-- [Agentic Code Review](../engineering/practices/agentic-code-review.md) — the
+- [Agentic Code Review](../engineering/ai-native/agentic-code-review.md) — the
   principles (tiering, different model families, judge synthesis, escape hatch,
   human-on-the-loop) this system implements in production.
 - [Building Effective Agents](../reading/building-effective-agents.md) — the
   orchestrator–workers + evaluator patterns the seven-reviewers-plus-judge design
   instantiates.
-- [CI/CD as the Control Plane](../engineering/practices/ci-cd-ai-engineering.md) —
+- [CI/CD as the Control Plane](../engineering/ai-native/ci-cd-ai-engineering.md) —
   the deterministic, CI-native gating the system plugs into.
-- [Harness Engineering](../engineering/practices/harness-engineering.md) — the
+- [Harness Engineering](../engineering/ai-native/harness-engineering.md) — the
   orchestration harness anatomy: sessions, tools, resilience, token management.
 - [Multi-Agent Coding Without Worktree Chaos](../reading/multi-agent-coding-coordination.md)
   — a coordinated agent *swarm* for writing; this is the same shape for *reviewing*.

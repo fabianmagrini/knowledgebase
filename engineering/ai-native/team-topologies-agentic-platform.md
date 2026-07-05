@@ -1,13 +1,13 @@
 ---
 title: Team Topologies for the Agentic Platform
 tags: [ai-engineering, agentic-workflows, leadership, architecture, reading]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
   - engineering/architecture/team-topologies.md
-  - engineering/practices/ai-augmented-engineering-team.md
-  - engineering/practices/agentic-sdlc-maturity-model.md
+  - engineering/ai-native/ai-augmented-engineering-team.md
+  - engineering/ai-native/agentic-sdlc-maturity-model.md
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/security/governing-ai-in-the-cloud.md
   - leadership/scaling-engineering-org.md

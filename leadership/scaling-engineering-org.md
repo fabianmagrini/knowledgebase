@@ -6,8 +6,8 @@ status: notes
 level: intermediate
 related:
   - engineering/architecture/team-topologies.md
-  - engineering/practices/team-topologies-agentic-platform.md
-  - engineering/practices/ai-augmented-engineering-team.md
+  - engineering/ai-native/team-topologies-agentic-platform.md
+  - engineering/ai-native/ai-augmented-engineering-team.md
   - leadership/all-hands-meetings.md
   - leadership/engineering-leadership-overview.md
 source: "https://greenido.dev/2026/06/11/what-changes-at-20-50-and-200-engineers/"
@@ -47,7 +47,7 @@ hard rules.
 - **Platform team as product, not gatekeeper.** A well-designed platform team has internal
   customers (engineers), measures success by whether they move faster, and acts as an
   accelerator — the same reframing in
-  [Team Topologies for the Agentic Platform](../engineering/practices/team-topologies-agentic-platform.md).
+  [Team Topologies for the Agentic Platform](../engineering/ai-native/team-topologies-agentic-platform.md).
 - **On-call as the maturity diagnostic.** Green's claim: to gauge how mature an org really is,
   skip the dashboards and look at on-call. Healthy cultures treat incidents as learning feedback
   loops; unhealthy ones treat them as punishment.
@@ -63,7 +63,7 @@ Green argues AI *magnifies* the need for ownership rather than reducing it:
 The bottleneck shifts from **code production to code confidence** — reviewing, understanding,
 and maintaining changes while preserving architectural integrity. This is the org-structure
 counterpart to the recomposition in
-[The AI-Augmented Engineering Team](../engineering/practices/ai-augmented-engineering-team.md),
+[The AI-Augmented Engineering Team](../engineering/ai-native/ai-augmented-engineering-team.md),
 where value moves from typing to judgement and system design. The public-company transition
 (JFrog) adds a further constraint: optimising for **speed *and* predictability** at once, which
 Green frames as harder than pure startup scaling.
@@ -73,9 +73,9 @@ Green frames as harder than pure startup scaling.
 - **[Team Topologies and Socio-Technical Architecture](../engineering/architecture/team-topologies.md)**
   — the model (team types, cognitive load, Conway, platform teams). This note narrates *when*
   those forces bite as headcount grows and *when* a platform team is worth its coordination cost.
-- **[Team Topologies for the Agentic Platform](../engineering/practices/team-topologies-agentic-platform.md)**
+- **[Team Topologies for the Agentic Platform](../engineering/ai-native/team-topologies-agentic-platform.md)**
   — shares the platform-team-as-product reframing and the AI-era ownership argument.
-- **[The AI-Augmented Engineering Team](../engineering/practices/ai-augmented-engineering-team.md)**
+- **[The AI-Augmented Engineering Team](../engineering/ai-native/ai-augmented-engineering-team.md)**
   — the same "AI makes ownership matter more" thesis, viewed as role recomposition rather than
   org scaling.
 - **[Engineering Leadership — Overview](engineering-leadership-overview.md)** — the leadership

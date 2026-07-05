@@ -95,6 +95,6 @@ how to set direction and make good decisions with other people.
 Leadership here is **advisory, not authoritarian**: set direction through purpose and clear
 signals, facilitate decisions the group owns, govern only the choices whose blast radius
 demands it, and protect the people who drive change. Much of the
-[AI-native engineering](../engineering/practices/ai-native-engineering-overview.md) operating model rests on these
+[AI-native engineering](../engineering/ai-native/ai-native-engineering-overview.md) operating model rests on these
 practices — Intent Specs are *start with the why*; the governance forum is a *constraint
 authority*; Principals become *orchestrators*.

@@ -6,9 +6,9 @@ status: notes
 level: intermediate
 related:
   - case-studies/cloudflare-ai-code-review.md
-  - engineering/practices/agentic-code-review.md
+  - engineering/ai-native/agentic-code-review.md
   - engineering/practices/code-review-policy.md
-  - engineering/practices/cress-context-engineering.md
+  - engineering/ai-native/cress-context-engineering.md
 source: "https://careersatdoordash.com/blog/doordash-built-an-ai-code-reviewer-engineers-actually-listen-to/"
 updated: 2026-07-05
 ---
@@ -65,7 +65,7 @@ Every candidate rule must survive a three-part cut — drop it if:
 3. there's **no concrete file-and-line evidence** in the codebase.
 
 What survives is genuinely *DoorDash-specific* review knowledge — the stuff a senior engineer on
-that team would catch. This is essentially the [CRESS](../engineering/practices/cress-context-engineering.md)
+that team would catch. This is essentially the [CRESS](../engineering/ai-native/cress-context-engineering.md)
 **Empirical** and **Small** principles applied to review context: keep only what's grounded in the
 real codebase and not already covered elsewhere.
 
@@ -76,7 +76,7 @@ real codebase and not already covered elsewhere.
 Before any comment posts, it survives a **"disprove-it pass"** — the system explicitly tries to
 *falsify its own finding*; claims that can't withstand scrutiny are dropped. Posted comments are
 anchored to specific lines with **quoted evidence** from the actual code. The disprove-it pass is
-the [CRESS](../engineering/practices/cress-context-engineering.md) **Refutable** principle turned
+the [CRESS](../engineering/ai-native/cress-context-engineering.md) **Refutable** principle turned
 into a gate: a finding must be defensible or it doesn't ship. The payoff is trust — low false
 positives prevent engineers muting notifications.
 
@@ -103,10 +103,10 @@ different runtime semantics), **soft vs hard timeout** (layered handling of stuc
   routes: Cloudflare uses 7 specialists + a judge with "What NOT to Flag" negative prompting and
   risk/model tiering; DoorDash uses a scout→verify split, company-mined domain profiles, and a
   disprove-it pass, measuring success by *acceptance rate*.
-- **[Agentic Code Review](../engineering/practices/agentic-code-review.md)** — the general pattern
+- **[Agentic Code Review](../engineering/ai-native/agentic-code-review.md)** — the general pattern
   and policy; this is one production realisation.
 - **[Code Review Policy](../engineering/practices/code-review-policy.md)** — how AI review fits the
   human review/approval policy.
-- **[CRESS Principles for Context Engineering](../engineering/practices/cress-context-engineering.md)**
+- **[CRESS Principles for Context Engineering](../engineering/ai-native/cress-context-engineering.md)**
   — the false-positive filter and disprove-it pass are the Empirical/Small/Refutable principles
   applied to review context.

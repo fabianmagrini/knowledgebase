@@ -6,10 +6,10 @@ status: notes
 level: intermediate
 related:
   - engineering/practices/performance-testing-strategy.md
-  - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/architecture/micro-frontend-principles.md
-  - engineering/practices/quality-first-ai-coding.md
+  - engineering/ai-native/quality-first-ai-coding.md
   - leadership/learning-culture-ai-agents.md
 source: "https://www.chromatic.com"
 updated: 2026-06-29
@@ -32,7 +32,7 @@ intelligent diffing) against a previously approved baseline.
 this for frontend teams: a cloud platform for visual testing, UI review, and
 component documentation, built to integrate with Storybook. It catches
 unintended visual change before it ships — the visual analogue to the automated
-gates in [CI/CD as the Control Plane](ci-cd-ai-engineering.md).
+gates in [CI/CD as the Control Plane](../ai-native/ci-cd-ai-engineering.md).
 
 ## How it works
 
@@ -130,7 +130,7 @@ regression is especially valuable as an automated quality gate:
   changes haven't silently altered layout or styling. This is the visual arm of
   the "red-team AI code" discipline in
   [A Learning Culture for AI-Augmented Teams](../../leadership/learning-culture-ai-agents.md)
-  and complements [Quality-First AI Coding](quality-first-ai-coding.md).
+  and complements [Quality-First AI Coding](../ai-native/quality-first-ai-coding.md).
 - **Design collaboration** — designers review UI changes from the PR without a
   local setup.
 

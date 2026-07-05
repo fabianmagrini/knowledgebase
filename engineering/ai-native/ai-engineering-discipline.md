@@ -1,17 +1,17 @@
 ---
 title: AI Demands More Engineering Discipline
 tags: [ai-engineering, observability, testing, reading]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
-  - engineering/practices/agentic-code-review.md
-  - engineering/practices/eval-driven-ai-development.md
+  - engineering/ai-native/agentic-code-review.md
+  - engineering/ai-native/eval-driven-ai-development.md
   - engineering/practices/change-absorption-capacity.md
-  - engineering/practices/ci-cd-ai-engineering.md
-  - engineering/practices/quality-first-ai-coding.md
-  - engineering/practices/ai-native-engineering-overview.md
-  - engineering/practices/trust-factory.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
+  - engineering/ai-native/quality-first-ai-coding.md
+  - engineering/ai-native/ai-native-engineering-overview.md
+  - engineering/ai-native/trust-factory.md
   - reading/what-is-software-engineering-ai.md
 source: "https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline"
 updated: 2026-06-20
@@ -88,7 +88,7 @@ Fowler's "Relocating Rigor".
   argues it moves into observability and production.
 - [Eval-Driven Development](eval-driven-ai-development.md) — evals and behavioural
   tests are the externalised knowledge Majors wants standing in for precious code.
-- [Change Absorption Capacity](change-absorption-capacity.md) — "instrument
+- [Change Absorption Capacity](../practices/change-absorption-capacity.md) — "instrument
   everything" and behavioural verification are exactly the telemetry that raises a
   system's capacity to absorb agent-speed change.
 - [CI/CD as the Control Plane](ci-cd-ai-engineering.md) — the deterministic gates

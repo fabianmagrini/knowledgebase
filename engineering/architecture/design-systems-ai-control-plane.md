@@ -5,12 +5,12 @@ topic: engineering/architecture
 status: notes
 related:
   - engineering/architecture/composable-architecture.md
-  - engineering/practices/ci-cd-ai-engineering.md
-  - engineering/practices/ai-native-engineering-stack.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
+  - engineering/ai-native/ai-native-engineering-stack.md
   - leadership/architecture-decision-forum.md
-  - engineering/practices/agentic-sdlc.md
-  - engineering/practices/ai-augmented-engineering-team.md
-  - engineering/practices/team-topologies-agentic-platform.md
+  - engineering/ai-native/agentic-sdlc.md
+  - engineering/ai-native/ai-augmented-engineering-team.md
+  - engineering/ai-native/team-topologies-agentic-platform.md
   - engineering/security/governing-ai-in-the-cloud.md
   - engineering/architecture/micro-frontend-canvas.md
   - engineering/architecture/generative-ui.md
@@ -26,7 +26,7 @@ updated: 2026-06-19
 When AI agents generate UI, a design system stops being just a consistency aid and becomes
 infrastructure: **the control plane for AI-generated UI**. It is the constraint layer that
 keeps agent output correct, consistent, and accessible — the UI counterpart to
-[CI/CD as the control plane](../practices/ci-cd-ai-engineering.md) for engineering at large.
+[CI/CD as the control plane](../ai-native/ci-cd-ai-engineering.md) for engineering at large.
 
 > Humans create inconsistency slowly. AI creates it instantly and everywhere.
 

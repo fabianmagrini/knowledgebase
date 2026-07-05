@@ -6,7 +6,7 @@ status: draft
 related:
   - engineering/security/governing-ai-in-the-cloud.md
   - languages/nodejs-cli-best-practices.md
-  - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/code-review-policy.md
   - concepts/continuous-delivery.md
@@ -19,7 +19,7 @@ updated: 2026-06-16
 Security is a property of the whole delivery lifecycle, not a gate at the end. **DevSecOps**
 shifts security *left* and *everywhere*: into design, into the pipeline, and into runtime —
 as automated guardrails rather than a manual review bottleneck. This matters more as AI
-agents generate code at speed (see [CI/CD as the control plane](../practices/ci-cd-ai-engineering.md)):
+agents generate code at speed (see [CI/CD as the control plane](../ai-native/ci-cd-ai-engineering.md)):
 AI can reproduce credential patterns, introduce injection flaws, or pull vulnerable
 dependencies, so the automated checks must absorb what human review no longer can.
 

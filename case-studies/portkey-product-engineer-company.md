@@ -5,11 +5,11 @@ topic: case-studies
 status: notes
 level: intermediate
 related:
-  - engineering/practices/ai-augmented-engineering-team.md
+  - engineering/ai-native/ai-augmented-engineering-team.md
   - leadership/revised-rules-engineering-leadership.md
-  - engineering/practices/modern-engineering-values.md
+  - engineering/ai-native/modern-engineering-values.md
   - product/explore-vs-exploit.md
-  - engineering/practices/model-routing-and-ai-gateways.md
+  - engineering/ai-native/model-routing-and-ai-gateways.md
   - leadership/engineering-leadership-overview.md
   - reading/factory-engineers.md
 source: "https://newsletter.eng-leadership.com/p/the-product-engineer-company-how"
@@ -23,7 +23,7 @@ A case study of Portkey — an AI gateway/observability platform — running a
 designer**, where every engineer owns end-to-end decision-making rather than
 receiving specs from a separate PM layer. It is the concrete, single-company
 instantiation of the operating model sketched abstractly in
-[The AI-Augmented Engineering Team](../engineering/practices/ai-augmented-engineering-team.md).
+[The AI-Augmented Engineering Team](../engineering/ai-native/ai-augmented-engineering-team.md).
 
 The account is from Portkey's head of GTM/CS (via Gregor Ojstersek's newsletter),
 so it is one company's self-description, not a generalisable prescription.
@@ -70,7 +70,7 @@ non-technical PM*. The model is presented as fitting this domain, not as univers
 - **Documentation as infrastructure** — docs live as markdown in the GitHub repo
   rather than a separate tool, so agents can read the context. The same
   context-in-the-repo principle in
-  [Modern Engineering Values](../engineering/practices/modern-engineering-values.md).
+  [Modern Engineering Values](../engineering/ai-native/modern-engineering-values.md).
 
 ## Hiring for end-to-end ownership
 
@@ -93,11 +93,11 @@ generalises to product areas where domain depth *can* be abstracted.
 
 ## Relationship to other notes
 
-- [The AI-Augmented Engineering Team](../engineering/practices/ai-augmented-engineering-team.md)
+- [The AI-Augmented Engineering Team](../engineering/ai-native/ai-augmented-engineering-team.md)
   — the operating-model *framework*; this note is one company's lived *instance*.
 - [Revised Rules of Engineering Leadership](../leadership/revised-rules-engineering-leadership.md)
   — durable teams + fast decisions when execution is cheap.
-- [Modern Engineering Values](../engineering/practices/modern-engineering-values.md)
+- [Modern Engineering Values](../engineering/ai-native/modern-engineering-values.md)
   — end-to-end ownership and context-in-the-repo as values.
 - [Exploring vs Exploiting in Product Discovery](../product/explore-vs-exploit.md)
   — "staying in their lane" as a deliberate exploit posture.

@@ -9,14 +9,14 @@ related:
   - leadership/learning-culture-ai-agents.md
   - leadership/protecting-mavericks.md
   - leadership/managed-disruption.md
-  - engineering/practices/ai-augmented-engineering-team.md
-  - engineering/practices/agentic-ai-strategy-frameworks.md
+  - engineering/ai-native/ai-augmented-engineering-team.md
+  - engineering/ai-native/agentic-ai-strategy-frameworks.md
   - engineering/practices/change-absorption-capacity.md
-  - engineering/practices/agile-in-the-age-of-ai.md
+  - engineering/ai-native/agile-in-the-age-of-ai.md
   - sre/incident-swarming.md
   - leadership/new-leader-credibility.md
   - product/explore-vs-exploit.md
-  - engineering/practices/trust-factory.md
+  - engineering/ai-native/trust-factory.md
   - concepts/devops-capability-model.md
   - engineering/architecture/team-topologies.md
 source: "https://erik.wiffin.com/posts/you-are-failing-at-ai-because-you-havent-built-a-learning-organization/"
@@ -43,7 +43,7 @@ A few characteristics make AI work harder to manage than ordinary software deliv
   demo never surfaced.
 
 These dynamics overlap with [Change Absorption Capacity](../engineering/practices/change-absorption-capacity.md)
-and the "feeling fast, delivering slow" caution in [The Agentic SDLC](../engineering/practices/agentic-sdlc.md);
+and the "feeling fast, delivering slow" caution in [The Agentic SDLC](../engineering/ai-native/agentic-sdlc.md);
 this note focuses on the organisational rather than the technical response.
 
 ## What a learning organisation is
@@ -105,8 +105,8 @@ This is the cultural prerequisite that several other notes assume:
 
 - [Protecting Mavericks](protecting-mavericks.md) and [Managed Disruption](managed-disruption.md)
   — the people-and-change practices that psychological safety and intelligent failure underpin.
-- [The AI-Augmented Engineering Team](../engineering/practices/ai-augmented-engineering-team.md)
-  and [Agentic AI Strategy Frameworks](../engineering/practices/agentic-ai-strategy-frameworks.md)
+- [The AI-Augmented Engineering Team](../engineering/ai-native/ai-augmented-engineering-team.md)
+  and [Agentic AI Strategy Frameworks](../engineering/ai-native/agentic-ai-strategy-frameworks.md)
   — operating models that depend on an organisation able to learn at the pace the tooling changes.
 
 > Reference: Amy C. Edmondson, "Learning from Mistakes Is Easier Said Than Done" (1996), on

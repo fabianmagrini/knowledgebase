@@ -1,17 +1,17 @@
 ---
 title: Spec-Driven Development
 tags: [ai-engineering, agentic-workflows, reading]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
-  - engineering/practices/ai-dlc-methodology.md
-  - engineering/practices/loop-driven-development.md
-  - engineering/practices/eval-driven-ai-development.md
-  - engineering/practices/agentic-sdlc.md
+  - engineering/ai-native/ai-dlc-methodology.md
+  - engineering/ai-native/loop-driven-development.md
+  - engineering/ai-native/eval-driven-ai-development.md
+  - engineering/ai-native/agentic-sdlc.md
   - engineering/architecture/agile-design-decisions.md
   - engineering/architecture/design-docs.md
-  - engineering/practices/ai-native-engineering-overview.md
+  - engineering/ai-native/ai-native-engineering-overview.md
   - reading/building-software-is-learning.md
   - reading/new-sdlc-vibe-coding.md
 source: "https://brooker.co.za/blog/2026/04/09/waterfall-vs-spec"

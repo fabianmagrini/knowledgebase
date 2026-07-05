@@ -7,12 +7,12 @@ updated: 2026-06-15
 related:
   - engineering/practices/api-contract-functional-testing.md
   - engineering/practices/engineering-playbook.md
-  - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/code-review-policy.md
-  - engineering/practices/eval-driven-ai-development.md
+  - engineering/ai-native/eval-driven-ai-development.md
   - engineering/practices/performance-testing-strategy.md
   - engineering/practices/change-absorption-capacity.md
-  - engineering/practices/loop-driven-development.md
+  - engineering/ai-native/loop-driven-development.md
   - concepts/continuous-delivery.md
 source: "https://gist.github.com/fabianmagrini/e95a24606e7108a7e0673de02d739be3"
 ---

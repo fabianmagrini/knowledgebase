@@ -8,7 +8,7 @@ related:
   - case-studies/linear-performance-architecture.md
   - concepts/resilient-software-design.md
   - engineering/architecture/caching-reference-data-apis.md
-  - engineering/practices/model-routing-and-ai-gateways.md
+  - engineering/ai-native/model-routing-and-ai-gateways.md
 source: "https://engineering.zalando.com/posts/2026/06/client-side-load-balancing.html"
 updated: 2026-07-05
 ---
@@ -102,7 +102,7 @@ Plus cost savings from fewer Skipper pods and tighter occupancy-based scaling (6
 - **[Caching Reference Data APIs](../engineering/architecture/caching-reference-data-apis.md)** —
   PRAPI serves cached product reference data, so the load-balancer's routing directly governs
   cache-hit locality; the AZ-affinity-vs-cache-fragmentation tension lives at that seam.
-- **[Model Routing and AI Gateways](../engineering/practices/model-routing-and-ai-gateways.md)** —
+- **[Model Routing and AI Gateways](../engineering/ai-native/model-routing-and-ai-gateways.md)** —
   a cross-domain parallel: both distribute requests across backends from the client side, though
   here the backends are identical replicas chosen by *load* rather than models chosen by
   *cost/capability*.

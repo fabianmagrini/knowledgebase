@@ -6,7 +6,7 @@ status: notes
 related:
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/trunk-based-development.md
-  - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
   - leadership/protecting-mavericks.md
   - leadership/start-with-why.md
   - engineering/architecture/strangler-fig.md

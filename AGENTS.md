@@ -18,18 +18,25 @@ All conventions are documented in [conventions.md](conventions.md). Read it befo
 ## Structure
 
 ```
-engineering/        # architecture, practices, security
-leadership/         # leadership, communication, decision governance, culture
-product/            # product management and discovery
-languages/          # per-language notes
-tools/              # cloud, containers, editors
-sre/                # site reliability, incident response, operations
-standards/          # specifications, protocols, formats
-concepts/           # algorithms, data structures, CS fundamentals
-reading/            # notes from books, papers, articles
+engineering/            # architecture, practices, security
+  architecture/         # system design, distributed systems, patterns
+  practices/            # testing, CI/CD, release engineering, code review
+  ai-native/            # the agentic SDLC, AI adoption, agent operation, context engineering
+  security/             # security principles, threat modeling, vulnerabilities
+leadership/             # leadership, communication, decision governance, culture
+product/                # product management and discovery
+languages/              # per-language notes
+tools/                  # cloud, containers, editors, coding-agents
+sre/                    # site reliability, incident response, operations
+standards/              # specifications, protocols, formats
+concepts/               # algorithms, data structures, CS fundamentals
+case-studies/           # deep-dives into how real production systems are built
+reading/                # notes from books, papers, articles
 ```
 
 Each folder has a `README.md` as its index. When adding a new note to a folder, update that folder's `README.md` to link to it.
+
+`drafts/` also exists for rough, unplaced captures, but prefer filing a note in its topical folder with `status: draft` over parking it here.
 
 ## Creating notes
 
