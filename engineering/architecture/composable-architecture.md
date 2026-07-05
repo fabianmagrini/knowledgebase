@@ -7,7 +7,7 @@ updated: 2026-06-20
 related:
   - engineering/practices/engineering-playbook.md
   - engineering/architecture/c4-model.md
-  - engineering/practices/agentic-sdlc.md
+  - engineering/ai-native/agentic-sdlc.md
   - engineering/practices/api-contract-functional-testing.md
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/practices/performance-testing-strategy.md

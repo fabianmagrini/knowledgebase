@@ -6,9 +6,9 @@ status: notes
 level: intermediate
 related:
   - reading/what-is-software-engineering-ai.md
-  - engineering/practices/loop-driven-development.md
+  - engineering/ai-native/loop-driven-development.md
   - engineering/architecture/agile-design-decisions.md
-  - engineering/practices/spec-driven-development.md
+  - engineering/ai-native/spec-driven-development.md
 source: "https://registerspill.thorstenball.com/p/building-software-is-learning"
 updated: 2026-07-05
 ---
@@ -61,11 +61,11 @@ useful feedback.
   sibling essay. Colin Breck frames engineering as "discovery and learning" (Farley's *optimising
   for learning* pillar) as one of three; Ball makes that single idea the whole thesis and supplies
   the concrete feedback-compression toolkit.
-- **[Loop-Driven Development](../engineering/practices/loop-driven-development.md)** — the same
+- **[Loop-Driven Development](../engineering/ai-native/loop-driven-development.md)** — the same
   "shorten the feedback loop" instinct as an engineering practice; this note is the essay behind
   the why.
 - **[Agile Design Decisions](../engineering/architecture/agile-design-decisions.md)** — the
   Walking Skeleton, YAGNI, and emergent-design moves are "ship to learn" applied to architecture.
-- **[Spec-Driven Development](../engineering/practices/spec-driven-development.md)** — a useful
+- **[Spec-Driven Development](../engineering/ai-native/spec-driven-development.md)** — a useful
   contrast: a written spec is *one* of Ball's feedback tools (the 30-minute outline, README-first),
   not a substitute for the learning that only real feedback provides.

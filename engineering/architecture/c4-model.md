@@ -5,7 +5,7 @@ topic: engineering/architecture
 status: notes
 updated: 2026-06-13
 related:
-  - engineering/practices/agentic-sdlc.md
+  - engineering/ai-native/agentic-sdlc.md
   - engineering/practices/engineering-playbook.md
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/agile-design-decisions.md

@@ -5,7 +5,7 @@ topic: engineering/practices
 status: notes
 updated: 2026-06-08
 related:
-  - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/polyrepo-branching-strategy.md
   - engineering/practices/engineering-playbook.md
   - engineering/practices/test-coverage-policy.md

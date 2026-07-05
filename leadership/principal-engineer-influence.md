@@ -9,7 +9,7 @@ related:
   - leadership/principal-engineer-consensus.md
   - leadership/start-with-why.md
   - leadership/protecting-mavericks.md
-  - engineering/practices/ai-augmented-engineering-team.md
+  - engineering/ai-native/ai-augmented-engineering-team.md
   - leadership/raising-problems-without-complaining.md
   - leadership/new-leader-credibility.md
   - leadership/managing-sideways.md

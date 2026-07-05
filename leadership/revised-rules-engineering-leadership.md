@@ -5,12 +5,12 @@ topic: leadership
 status: notes
 level: intermediate
 related:
-  - engineering/practices/ai-augmented-engineering-team.md
-  - engineering/practices/agile-in-the-age-of-ai.md
+  - engineering/ai-native/ai-augmented-engineering-team.md
+  - engineering/ai-native/agile-in-the-age-of-ai.md
   - leadership/decision-facilitation.md
   - concepts/theory-of-constraints.md
   - leadership/engineering-leadership-overview.md
-  - engineering/practices/ai-native-engineering-overview.md
+  - engineering/ai-native/ai-native-engineering-overview.md
   - case-studies/portkey-product-engineer-company.md
 source: "https://lethain.com/revised-rules-of-engineering-leadership/"
 updated: 2026-06-20
@@ -75,10 +75,10 @@ endorsements.
 
 ## Relationship to other notes
 
-- [The AI-Augmented Engineering Team](../engineering/practices/ai-augmented-engineering-team.md) —
+- [The AI-Augmented Engineering Team](../engineering/ai-native/ai-augmented-engineering-team.md) —
   the *operating model* these leadership rules imply (team composition, the delivery
   loop); this note is the leadership-altitude principles behind it.
-- [Agile in the Age of AI](../engineering/practices/agile-in-the-age-of-ai.md) —
+- [Agile in the Age of AI](../engineering/ai-native/agile-in-the-age-of-ai.md) —
   the complementary point that Agile principles and sustainable pace persist; both
   argue human judgement, not raw speed, is the binding factor.
 - [Facilitating Technical Decisions](decision-facilitation.md) — rule 5 in

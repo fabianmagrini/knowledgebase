@@ -1,14 +1,14 @@
 ---
 title: CI Speed When Agents Write the Code
 tags: [ci-cd, ai-engineering, testing, agentic-workflows]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
-  - engineering/practices/ci-cd-ai-engineering.md
-  - engineering/practices/agent-backpressure-loops.md
-  - engineering/practices/long-running-agents.md
-  - engineering/practices/loop-driven-development.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
+  - engineering/ai-native/agent-backpressure-loops.md
+  - engineering/ai-native/long-running-agents.md
+  - engineering/ai-native/loop-driven-development.md
   - engineering/practices/trunk-based-development.md
   - engineering/practices/change-absorption-capacity.md
   - concepts/devops-capability-model.md
@@ -19,7 +19,7 @@ updated: 2026-06-21
 # CI Speed When Agents Write the Code
 
 A long-standing rule of delivery is that **CI must be fast** — keep it under ~10
-minutes, as [trunk-based development](trunk-based-development.md) demands. The
+minutes, as [trunk-based development](../practices/trunk-based-development.md) demands. The
 usual justification is human: slow feedback forces the developer to **context
 switch**. They push, the pipeline crawls, attention wanders to something else, the
 flow state is lost, and reloading it when CI finally fails is expensive. The
@@ -95,7 +95,7 @@ rigorous pipeline than you ever would have for a human in the loop.
   waiting" is not the same as "shipping slower is fine."
 - It does not relax correctness. A slower pipeline is only worth it if the extra
   minutes buy stronger signal — see
-  [Change Absorption Capacity (CATS)](change-absorption-capacity.md).
+  [Change Absorption Capacity (CATS)](../practices/change-absorption-capacity.md).
 
 ## Relationship to other notes
 

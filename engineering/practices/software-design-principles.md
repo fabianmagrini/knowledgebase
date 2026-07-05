@@ -6,7 +6,7 @@ status: draft
 level: intermediate
 related:
   - engineering/architecture/micro-frontend-principles.md
-  - engineering/practices/quality-first-ai-coding.md
+  - engineering/ai-native/quality-first-ai-coding.md
   - engineering/architecture/agile-design-decisions.md
   - engineering/practices/change-absorption-capacity.md
   - engineering/practices/code-review-policy.md
@@ -94,7 +94,7 @@ malleable over time** so that a high rate of change does not compound into decay
 Together they are what let a team run AI for speed without trading away the ability
 to understand and safely change its own system — the same "fast flow of change,
 safely, with quality" goal that runs through the
-[quality-first](quality-first-ai-coding.md) and
+[quality-first](../ai-native/quality-first-ai-coding.md) and
 [code review](code-review-policy.md) notes.
 
 ## Relationship to other notes
@@ -102,7 +102,7 @@ safely, with quality" goal that runs through the
 - [Microfrontend Architecture Principles](../architecture/micro-frontend-principles.md) —
   the boundary-level sibling; SRP, cohesion, coupling, and contracts restated at
   the scale of deployable units and teams.
-- [Quality-First AI Coding](quality-first-ai-coding.md) — the practice of slowing
+- [Quality-First AI Coding](../ai-native/quality-first-ai-coding.md) — the practice of slowing
   down to let these principles hold even when generation is fast.
 - [Agile Design Decisions and Principles](../architecture/agile-design-decisions.md) —
   emergent design and reversibility; these principles are what make emergent design

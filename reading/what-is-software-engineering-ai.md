@@ -5,12 +5,12 @@ topic: reading
 status: notes
 level: intermediate
 related:
-  - engineering/practices/agile-in-the-age-of-ai.md
-  - engineering/practices/ai-engineering-discipline.md
-  - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/ai-native/agile-in-the-age-of-ai.md
+  - engineering/ai-native/ai-engineering-discipline.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
   - concepts/continuous-delivery.md
   - engineering/architecture/team-topologies.md
-  - engineering/practices/ai-native-engineering-overview.md
+  - engineering/ai-native/ai-native-engineering-overview.md
   - reading/building-software-is-learning.md
 source: "https://blog.colinbreck.com/adapting-to-ai-what-is-software-engineering/"
 updated: 2026-06-27
@@ -25,7 +25,7 @@ critical infrastructure (manufacturing, power, transportation), it is a grounded
 counter to the idea that AI rewrites the fundamentals.
 
 It is the engineering-discipline sibling of
-[Agile in the Age of AI](../engineering/practices/agile-in-the-age-of-ai.md): same
+[Agile in the Age of AI](../engineering/ai-native/agile-in-the-age-of-ai.md): same
 "the fundamentals endure" stance, but argued through Dave Farley's definition of
 the discipline rather than through Agile values.
 
@@ -62,7 +62,7 @@ former and amplifies the weaknesses of the latter.
 - **Build speed becomes an existential differentiator.** Organisations with
   seconds-fast build-test cycles will "far out-iterate" those measured in minutes
   or hours. Breck calls fast, scalable builds *the* most important investment — the
-  feedback loop AI leverages (see [CI/CD as the control plane](../engineering/practices/ci-cd-ai-engineering.md)).
+  feedback loop AI leverages (see [CI/CD as the control plane](../engineering/ai-native/ci-cd-ai-engineering.md)).
 - **Duplication may beat shared libraries.** When rewriting code is cheap, the
   classic DRY trade-off shifts toward local duplication over shared coupling.
 - **Information-hiding boundaries may move**, because an AI can hold far more
@@ -100,11 +100,11 @@ code generation. Full-lifecycle teams are positioned to capture it.
 
 ## Relationship to other notes
 
-- [Agile in the Age of AI](../engineering/practices/agile-in-the-age-of-ai.md) —
+- [Agile in the Age of AI](../engineering/ai-native/agile-in-the-age-of-ai.md) —
   the same fundamentals-endure thesis from the Agile/sustainable-pace angle.
-- [AI Demands More Engineering Discipline](../engineering/practices/ai-engineering-discipline.md)
+- [AI Demands More Engineering Discipline](../engineering/ai-native/ai-engineering-discipline.md)
   — the complementary "discipline shifts to validating behaviour" argument.
-- [CI/CD as the Control Plane](../engineering/practices/ci-cd-ai-engineering.md) and
+- [CI/CD as the Control Plane](../engineering/ai-native/ci-cd-ai-engineering.md) and
   [Continuous Delivery](../concepts/continuous-delivery.md) — the fast-feedback
   infrastructure Breck names as the most important investment.
 - [Team Topologies](../engineering/architecture/team-topologies.md) — the

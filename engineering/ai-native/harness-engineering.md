@@ -1,28 +1,28 @@
 ---
 title: Harness Engineering
 tags: [ai-engineering, architecture, reading, agentic-workflows]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
-  - engineering/practices/agentic-sdlc.md
-  - engineering/practices/ai-native-engineering-stack.md
-  - engineering/practices/eval-driven-ai-development.md
-  - engineering/practices/ai-native-engineering-overview.md
+  - engineering/ai-native/agentic-sdlc.md
+  - engineering/ai-native/ai-native-engineering-stack.md
+  - engineering/ai-native/eval-driven-ai-development.md
+  - engineering/ai-native/ai-native-engineering-overview.md
   - engineering/practices/change-absorption-capacity.md
-  - engineering/practices/quality-first-ai-coding.md
-  - engineering/practices/agent-backpressure-loops.md
-  - engineering/practices/loop-driven-development.md
-  - engineering/practices/prompt-engineering-for-programmers.md
-  - engineering/practices/cress-context-engineering.md
+  - engineering/ai-native/quality-first-ai-coding.md
+  - engineering/ai-native/agent-backpressure-loops.md
+  - engineering/ai-native/loop-driven-development.md
+  - engineering/ai-native/prompt-engineering-for-programmers.md
+  - engineering/ai-native/cress-context-engineering.md
   - tools/coding-agents/claude-code-steering-mechanisms.md
   - reading/agentic-ai-architecture-emag.md
   - reading/agentic-sdlc-survey.md
   - reading/building-effective-agents.md
   - reading/llm-maintained-wiki.md
   - case-studies/cloudflare-ai-code-review.md
-  - engineering/practices/long-running-agents.md
-  - engineering/practices/ai-factory.md
+  - engineering/ai-native/long-running-agents.md
+  - engineering/ai-native/ai-factory.md
   - reading/new-sdlc-vibe-coding.md
   - case-studies/microsoft-ai-core-competency.md
 source: "https://diego-pacheco.blogspot.com/2026/05/harness-engineering.html"
@@ -119,7 +119,7 @@ of "harness" elsewhere:
   orchestration/skills layers of that stack.
 - [Eval-Driven Development](eval-driven-ai-development.md) — the evaluation loops that keep a
   harness honest.
-- [Change Absorption Capacity (CATS)](change-absorption-capacity.md) — escape hatches, tools,
+- [Change Absorption Capacity (CATS)](../practices/change-absorption-capacity.md) — escape hatches, tools,
   and human review are mechanisms that keep probabilistic output within a system's safe
   absorption capacity.
 

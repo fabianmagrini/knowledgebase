@@ -6,7 +6,7 @@ status: notes
 level: intermediate
 related:
   - engineering/security/secure-sdlc.md
-  - engineering/practices/team-topologies-agentic-platform.md
+  - engineering/ai-native/team-topologies-agentic-platform.md
   - engineering/architecture/design-systems-ai-control-plane.md
 source: "https://www.infoq.com/articles/governing-ai-cloud-guide/"
 updated: 2026-07-05
@@ -29,7 +29,7 @@ weekly) — a figure worth attributing to the source rather than treating as est
 **Shadow AI** is unauthorised AI tool usage and deployment — the AI-era analogue of shadow
 IT. It widens the attack surface precisely because no one has counted it. This mirrors the
 *industrialised shadow IT* risk that the
-[Team Topologies for the Agentic Platform](../practices/team-topologies-agentic-platform.md)
+[Team Topologies for the Agentic Platform](../ai-native/team-topologies-agentic-platform.md)
 note addresses from the organisational side; this note is the **technical-controls** side.
 
 ## A layered control architecture
@@ -123,7 +123,7 @@ than an obstacle course — otherwise developers route around it and recreate sh
 - **[Secure SDLC (DevSecOps)](secure-sdlc.md)** — the sibling security note, but focused on
   *securing the delivery pipeline* (shift-left SAST/SCA/SBOM gates). This note governs
   *running AI systems and their data access* at the cloud/runtime layer.
-- **[Team Topologies for the Agentic Platform](../practices/team-topologies-agentic-platform.md)**
+- **[Team Topologies for the Agentic Platform](../ai-native/team-topologies-agentic-platform.md)**
   — the organisational side of the same problem (who owns guardrails, application governance
   vs shadow IT); this is the technical-controls implementation (IAM, OPA, classification).
 - **[Design Systems as the AI Control Plane](../architecture/design-systems-ai-control-plane.md)**

@@ -5,27 +5,27 @@ topic: engineering/practices
 status: notes
 level: intermediate
 related:
-  - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/api-contract-functional-testing.md
-  - engineering/practices/ai-native-engineering-overview.md
-  - engineering/practices/eval-driven-ai-development.md
+  - engineering/ai-native/ai-native-engineering-overview.md
+  - engineering/ai-native/eval-driven-ai-development.md
   - engineering/practices/test-coverage-policy.md
-  - engineering/practices/ai-dlc-methodology.md
-  - engineering/practices/harness-engineering.md
+  - engineering/ai-native/ai-dlc-methodology.md
+  - engineering/ai-native/harness-engineering.md
   - leadership/learning-organisation.md
   - engineering/practices/release-confidence.md
-  - engineering/practices/quality-first-ai-coding.md
+  - engineering/ai-native/quality-first-ai-coding.md
   - engineering/architecture/architectural-change-cases.md
-  - engineering/practices/agile-in-the-age-of-ai.md
-  - engineering/practices/modern-engineering-values.md
-  - engineering/practices/loop-driven-development.md
-  - engineering/practices/ci-speed-with-ai-agents.md
+  - engineering/ai-native/agile-in-the-age-of-ai.md
+  - engineering/ai-native/modern-engineering-values.md
+  - engineering/ai-native/loop-driven-development.md
+  - engineering/ai-native/ci-speed-with-ai-agents.md
   - concepts/theory-of-constraints.md
   - engineering/practices/software-design-principles.md
   - concepts/resilient-software-design.md
-  - engineering/practices/agentic-code-review.md
-  - engineering/practices/ai-engineering-discipline.md
-  - engineering/practices/apex-framework.md
+  - engineering/ai-native/agentic-code-review.md
+  - engineering/ai-native/ai-engineering-discipline.md
+  - engineering/ai-native/apex-framework.md
 source: "https://stackoverflow.blog/2026/05/12/you-shipped-it-fast-but-did-you-ship-it-right/"
 updated: 2026-06-20
 ---
@@ -71,9 +71,9 @@ Four foundational practices that raise absorption capacity:
 
 These map directly onto existing notes here: contracts and automated verification are the
 subject of [API Spec, Contract, and Functional Testing](api-contract-functional-testing.md);
-the pipeline that enforces them is [CI/CD as the Control Plane](ci-cd-ai-engineering.md);
+the pipeline that enforces them is [CI/CD as the Control Plane](../ai-native/ci-cd-ai-engineering.md);
 verifying the agents themselves (not just their output) is
-[Eval-Driven Development](eval-driven-ai-development.md).
+[Eval-Driven Development](../ai-native/eval-driven-ai-development.md).
 
 ## A two-week starting plan
 
@@ -104,5 +104,5 @@ Useful signals:
 > Fast *with* CATS: speed compounds. Fast *without* it: fragility compounds.
 
 This is the quality counterpart to the rest of the
-[AI-Native Engineering](ai-native-engineering-overview.md) notes — when generation is cheap,
+[AI-Native Engineering](../ai-native/ai-native-engineering-overview.md) notes — when generation is cheap,
 leverage moves to the boundaries, contracts, and feedback loops that let a system safely keep up.

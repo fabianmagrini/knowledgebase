@@ -1,14 +1,14 @@
 ---
 title: AI in the SDLC — Terminology
 tags: [ai-engineering, agentic-workflows, documentation]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: beginner
 related:
-  - engineering/practices/agentic-sdlc-maturity-model.md
-  - engineering/practices/agentic-sdlc.md
-  - engineering/practices/ai-dlc-methodology.md
-  - engineering/practices/ai-native-engineering-overview.md
+  - engineering/ai-native/agentic-sdlc-maturity-model.md
+  - engineering/ai-native/agentic-sdlc.md
+  - engineering/ai-native/ai-dlc-methodology.md
+  - engineering/ai-native/ai-native-engineering-overview.md
   - reading/new-sdlc-vibe-coding.md
 updated: 2026-07-03
 ---

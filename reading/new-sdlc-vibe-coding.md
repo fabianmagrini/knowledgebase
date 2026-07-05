@@ -5,13 +5,13 @@ topic: reading
 status: notes
 level: intermediate
 related:
-  - engineering/practices/ai-sdlc-terminology.md
-  - engineering/practices/harness-engineering.md
-  - engineering/practices/ai-factory.md
-  - engineering/practices/eval-driven-ai-development.md
-  - engineering/practices/agentic-sdlc.md
-  - engineering/practices/spec-driven-development.md
-  - engineering/practices/scaling-ai-adoption.md
+  - engineering/ai-native/ai-sdlc-terminology.md
+  - engineering/ai-native/harness-engineering.md
+  - engineering/ai-native/ai-factory.md
+  - engineering/ai-native/eval-driven-ai-development.md
+  - engineering/ai-native/agentic-sdlc.md
+  - engineering/ai-native/spec-driven-development.md
+  - engineering/ai-native/scaling-ai-adoption.md
 source: "https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding"
 updated: 2026-07-03
 ---
@@ -45,7 +45,7 @@ tool choice:
   cost** past the crossover point.
 
 This maps directly onto the vocabulary in
-[AI in the SDLC — Terminology](../engineering/practices/ai-sdlc-terminology.md).
+[AI in the SDLC — Terminology](../engineering/ai-native/ai-sdlc-terminology.md).
 
 ## Agent = model + harness
 
@@ -55,7 +55,7 @@ observability. Cited proof: a team reached the Terminal Bench 2.0 top 5 by
 changing *only the harness* with an identical model. **Most agent failures are
 configuration failures, not model failures** — which is encouraging, because the
 harness can be fixed immediately. This is the paper's version of
-[Harness Engineering](../engineering/practices/harness-engineering.md).
+[Harness Engineering](../engineering/ai-native/harness-engineering.md).
 
 ## How each SDLC phase changes
 
@@ -90,7 +90,7 @@ harness can be fixed immediately. This is the paper's version of
 Guardrails live in rule files (`AGENTS.md`, `CLAUDE.md`, `GEMINI.md`) and in core
 static context; progressive disclosure prevents **context collapse**. This is the
 eval-first stance of
-[Eval-Driven Development](../engineering/practices/eval-driven-ai-development.md).
+[Eval-Driven Development](../engineering/ai-native/eval-driven-ai-development.md).
 
 ## The 80% problem
 
@@ -111,9 +111,9 @@ concentrates.
 
 ## Why it matters here
 
-The "factory model" and per-agent harness echo [The AI Factory](../engineering/practices/ai-factory.md);
+The "factory model" and per-agent harness echo [The AI Factory](../engineering/ai-native/ai-factory.md);
 the spec-as-bottleneck point reinforces
-[Spec-Driven Development](../engineering/practices/spec-driven-development.md); and
+[Spec-Driven Development](../engineering/ai-native/spec-driven-development.md); and
 getting an organisation to the agentic-engineering end of the spectrum is exactly
 the readiness work in
-[Scaling AI Adoption in the SDLC](../engineering/practices/scaling-ai-adoption.md).
+[Scaling AI Adoption in the SDLC](../engineering/ai-native/scaling-ai-adoption.md).

@@ -8,7 +8,7 @@ related:
   - engineering/architecture/adr.md
   - engineering/architecture/agile-design-decisions.md
   - engineering/architecture/c4-model.md
-  - engineering/practices/spec-driven-development.md
+  - engineering/ai-native/spec-driven-development.md
 source: "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/"
 updated: 2026-07-05
 ---
@@ -106,6 +106,6 @@ this project.
   blast-radius* frameworks that tell you how much to invest here; the design doc is where
   that thinking gets written down for the high-penalty decisions.
 - **[C4 Model](c4-model.md)** — a concrete diagramming approach for the Diagrams section.
-- **[Spec-Driven Development](../practices/spec-driven-development.md)** — an adjacent design
+- **[Spec-Driven Development](../ai-native/spec-driven-development.md)** — an adjacent design
   artifact from the AI-agent world, where an executable spec (not prose) is the primary
   thing engineers iterate on.

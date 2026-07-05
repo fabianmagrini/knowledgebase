@@ -1,16 +1,16 @@
 ---
 title: Scaling AI Adoption in the SDLC
 tags: [ai-engineering, agentic-workflows, governance]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
-  - engineering/practices/agentic-sdlc-maturity-model.md
-  - engineering/practices/ai-native-engineering-stack.md
-  - engineering/practices/ci-cd-ai-engineering.md
-  - engineering/practices/agentic-code-review.md
-  - engineering/practices/apex-framework.md
-  - engineering/practices/ai-factory.md
+  - engineering/ai-native/agentic-sdlc-maturity-model.md
+  - engineering/ai-native/ai-native-engineering-stack.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
+  - engineering/ai-native/agentic-code-review.md
+  - engineering/ai-native/apex-framework.md
+  - engineering/ai-native/ai-factory.md
   - leadership/learning-culture-ai-agents.md
   - leadership/managing-sideways.md
   - reading/new-sdlc-vibe-coding.md

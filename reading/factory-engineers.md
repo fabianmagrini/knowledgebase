@@ -6,12 +6,12 @@ status: notes
 level: intermediate
 related:
   - case-studies/portkey-product-engineer-company.md
-  - engineering/practices/agentic-sdlc.md
+  - engineering/ai-native/agentic-sdlc.md
   - reading/multi-agent-coding-coordination.md
-  - engineering/practices/apex-framework.md
-  - engineering/practices/ai-augmented-engineering-team.md
-  - engineering/practices/ai-native-engineering-overview.md
-  - engineering/practices/ai-factory.md
+  - engineering/ai-native/apex-framework.md
+  - engineering/ai-native/ai-augmented-engineering-team.md
+  - engineering/ai-native/ai-native-engineering-overview.md
+  - engineering/ai-native/ai-factory.md
 source: "https://www.warp.dev/blog/we-are-now-factory-engineers-not-product-engineers"
 updated: 2026-06-27
 ---
@@ -74,7 +74,7 @@ production line rather than a coordinated swarm.
   accountability rather than unlimited interactive coding.
 - **Metric shift.** From "how fast can my team code?" to "how efficiently can my
   *system* code?" — the same move from coding speed to system-level outcomes that
-  [APEX](../engineering/practices/apex-framework.md) makes by measuring at the
+  [APEX](../engineering/ai-native/apex-framework.md) makes by measuring at the
   critical path.
 
 ## Vendor caveat
@@ -91,12 +91,12 @@ metric shift; treat the autonomy claims as aspiration.
 - [The Product Engineer Company (Portkey)](../case-studies/portkey-product-engineer-company.md)
   — the matched debate: own-the-product vs. own-the-factory. Portkey keeps humans
   central to every change; Warp wants each human change to become rarer.
-- [The Agentic SDLC](../engineering/practices/agentic-sdlc.md) — "the harness is the
+- [The Agentic SDLC](../engineering/ai-native/agentic-sdlc.md) — "the harness is the
   product" and the cybernetic loop; the factory is that idea pushed to an
   org-operating model.
 - [Multi-Agent Coding Without Worktree Chaos](multi-agent-coding-coordination.md) —
   the agent-coordination machinery a factory runs on.
-- [The APEX Framework](../engineering/practices/apex-framework.md) — the measurement
+- [The APEX Framework](../engineering/ai-native/apex-framework.md) — the measurement
   discipline behind "factory efficiency" and continuous ROI.
-- [The AI-Augmented Engineering Team](../engineering/practices/ai-augmented-engineering-team.md)
+- [The AI-Augmented Engineering Team](../engineering/ai-native/ai-augmented-engineering-team.md)
   — the operating model the factory framing radicalises.

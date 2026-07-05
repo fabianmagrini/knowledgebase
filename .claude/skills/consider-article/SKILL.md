@@ -89,7 +89,7 @@ updated: YYYY-MM-DD   # today's date
 - Add the note to its folder `README.md` index.
 - Add reciprocal `related:` entries in every related note (both directions).
 - Add a bullet + frontmatter entry to any relevant overview/thematic map
-  (e.g. `engineering/practices/ai-native-engineering-overview.md`,
+  (e.g. `engineering/ai-native/ai-native-engineering-overview.md`,
   `leadership/engineering-leadership-overview.md`).
 - Inline-link related notes from the body where it aids navigation.
 

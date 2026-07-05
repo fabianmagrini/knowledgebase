@@ -5,10 +5,10 @@ topic: standards
 status: notes
 level: intermediate
 related:
-  - engineering/practices/agentic-sdlc.md
-  - engineering/practices/modern-engineering-values.md
-  - engineering/practices/loop-driven-development.md
-  - engineering/practices/ai-native-engineering-stack.md
+  - engineering/ai-native/agentic-sdlc.md
+  - engineering/ai-native/modern-engineering-values.md
+  - engineering/ai-native/loop-driven-development.md
+  - engineering/ai-native/ai-native-engineering-stack.md
   - reading/llm-maintained-wiki.md
 source: "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/"
 updated: 2026-06-14
@@ -117,12 +117,12 @@ adopt it; treat it as a promising convention to watch rather than a settled stan
 
 ## Relationship to other notes
 
-- [The Agentic SDLC](../engineering/practices/agentic-sdlc.md) — its *Context Development
+- [The Agentic SDLC](../engineering/ai-native/agentic-sdlc.md) — its *Context Development
   Lifecycle* ("managing context is as important as managing source code") is the practice OKF
   gives a concrete, portable format for.
-- [Modern Engineering Values](../engineering/practices/modern-engineering-values.md) — the
+- [Modern Engineering Values](../engineering/ai-native/modern-engineering-values.md) — the
   *context in the repo* value; OKF is a standardised way to externalise that context.
-- [Loop-Driven Development](../engineering/practices/loop-driven-development.md) — *context
+- [Loop-Driven Development](../engineering/ai-native/loop-driven-development.md) — *context
   engineering* and skills as `SKILL.md`; OKF concepts are a parallel knowledge surface for agents.
-- [The AI-Native Engineering Stack](../engineering/practices/ai-native-engineering-stack.md) — OKF
+- [The AI-Native Engineering Stack](../engineering/ai-native/ai-native-engineering-stack.md) — OKF
   sits at the knowledge/context layer agents read from.

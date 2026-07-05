@@ -8,7 +8,7 @@ related:
   - leadership/principal-engineer-influence.md
   - leadership/decision-facilitation.md
   - leadership/architecture-decision-forum.md
-  - engineering/practices/ai-augmented-engineering-team.md
+  - engineering/ai-native/ai-augmented-engineering-team.md
   - leadership/engineering-leadership-overview.md
 updated: 2026-06-27
 ---
@@ -73,7 +73,7 @@ develop in detail.
   craft of helping a group reach a decision it owns, central to responsibilities 1–3.
 - [Architecture Decision Forum](architecture-decision-forum.md) — the governance
   body through which long-term technical direction is set and recorded.
-- [The AI-Augmented Engineering Team](../engineering/practices/ai-augmented-engineering-team.md)
+- [The AI-Augmented Engineering Team](../engineering/ai-native/ai-augmented-engineering-team.md)
   — where, as execution gets cheaper, Principals shift further toward orchestration
   and direction-setting.
 - [Engineering Leadership — Overview](engineering-leadership-overview.md) — the map

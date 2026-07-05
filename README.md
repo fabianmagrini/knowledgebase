@@ -11,7 +11,7 @@ Personal engineering knowledge base.
 
 ## Structure
 
-- [Engineering](engineering/) — architecture, system design, patterns, practices
+- [Engineering](engineering/) — architecture, system design, patterns, practices, AI-native engineering
 - [Leadership](leadership/) — leadership, communication, decision governance, culture
 - [Product](product/) — product management and discovery
 - [Languages](languages/) — programming language notes

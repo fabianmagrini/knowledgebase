@@ -5,12 +5,12 @@ topic: reading
 status: notes
 level: intermediate
 related:
-  - engineering/practices/harness-engineering.md
+  - engineering/ai-native/harness-engineering.md
   - reading/agentic-sdlc-survey.md
-  - engineering/practices/eval-driven-ai-development.md
-  - engineering/practices/loop-driven-development.md
-  - engineering/practices/agentic-sdlc.md
-  - engineering/practices/ai-native-engineering-overview.md
+  - engineering/ai-native/eval-driven-ai-development.md
+  - engineering/ai-native/loop-driven-development.md
+  - engineering/ai-native/agentic-sdlc.md
+  - engineering/ai-native/ai-native-engineering-overview.md
   - reading/multi-agent-coding-coordination.md
   - reading/how-i-use-llms-2026.md
   - reading/agentic-ai-architecture-emag.md
@@ -24,7 +24,7 @@ updated: 2026-06-27
 Notes on Anthropic's *Building Effective AI Agents: Architecture Patterns and
 Implementation Frameworks*. It is the **composition-pattern** reference the rest
 of the AI-native cluster leans on: where
-[Harness Engineering](../engineering/practices/harness-engineering.md) describes
+[Harness Engineering](../engineering/ai-native/harness-engineering.md) describes
 the internal anatomy of *one* agent and the
 [agentic SDLC survey](agentic-sdlc-survey.md) gives the academic six-layer
 architecture, this catalogues how to *compose* agentic systems from a few
@@ -100,16 +100,16 @@ are not field throughput** — autonomy adds cost that only some problems repay.
 
 ## Relationship to other notes
 
-- [Harness Engineering](../engineering/practices/harness-engineering.md) — the
+- [Harness Engineering](../engineering/ai-native/harness-engineering.md) — the
   *anatomy* of the program an agent runs inside; this note is the *topology* of how
   to wire one or many such agents together.
 - [Agentic AI in the SDLC — A Research Survey](agentic-sdlc-survey.md) — its L4
   orchestration layer (single-agent loop vs multi-agent) is the academic framing of
   the orchestrator–workers and autonomous-agent patterns here.
-- [Eval-Driven Development](../engineering/practices/eval-driven-ai-development.md)
+- [Eval-Driven Development](../engineering/ai-native/eval-driven-ai-development.md)
   — the evaluator–optimizer pattern is eval-driven development applied *inside* the
   agent loop.
-- [Loop-Driven Development](../engineering/practices/loop-driven-development.md) —
+- [Loop-Driven Development](../engineering/ai-native/loop-driven-development.md) —
   the generate→evaluate→repair loop these patterns run within.
-- [The Agentic SDLC](../engineering/practices/agentic-sdlc.md) — where these
+- [The Agentic SDLC](../engineering/ai-native/agentic-sdlc.md) — where these
   patterns sit in the wider delivery lifecycle.

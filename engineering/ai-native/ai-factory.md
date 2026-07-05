@@ -1,16 +1,16 @@
 ---
 title: The AI Factory
 tags: [ai-engineering, agentic-workflows, architecture]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
   - reading/factory-engineers.md
-  - engineering/practices/ai-native-engineering-stack.md
-  - engineering/practices/agentic-sdlc.md
-  - engineering/practices/scaling-ai-adoption.md
-  - engineering/practices/apex-framework.md
-  - engineering/practices/harness-engineering.md
+  - engineering/ai-native/ai-native-engineering-stack.md
+  - engineering/ai-native/agentic-sdlc.md
+  - engineering/ai-native/scaling-ai-adoption.md
+  - engineering/ai-native/apex-framework.md
+  - engineering/ai-native/harness-engineering.md
   - reading/new-sdlc-vibe-coding.md
 updated: 2026-07-03
 ---

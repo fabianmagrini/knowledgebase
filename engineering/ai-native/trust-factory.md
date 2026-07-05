@@ -1,16 +1,16 @@
 ---
 title: The Trust Factory
 tags: [ai-engineering, culture, testing, reading]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
-  - engineering/practices/agile-in-the-age-of-ai.md
+  - engineering/ai-native/agile-in-the-age-of-ai.md
   - engineering/practices/release-confidence.md
-  - engineering/practices/modern-engineering-values.md
-  - engineering/practices/ai-engineering-discipline.md
+  - engineering/ai-native/modern-engineering-values.md
+  - engineering/ai-native/ai-engineering-discipline.md
   - leadership/learning-organisation.md
-  - engineering/practices/ai-native-engineering-overview.md
+  - engineering/ai-native/ai-native-engineering-overview.md
 source: "https://newsletter.kentbeck.com/p/trust-factory"
 updated: 2026-06-20
 ---
@@ -73,7 +73,7 @@ claim is the familiar one: output is not value, and effort is not progress.
   *output ≠ value* and that AI's speed strains the feedback loops between people. That note frames
   the issue as Agile principles persisting under AI; this one names the scarce resource —
   **trust** — and gives XP's three-level structure as the factory that produces it.
-- [Release Confidence as a System Property](release-confidence.md) — a complementary sense of
+- [Release Confidence as a System Property](../practices/release-confidence.md) — a complementary sense of
   "trust." That note engineers *confidence into the technical system* (understandable, owned,
   self-explaining, consistent); Beck's trust is *interpersonal and institutional*. Together they
   cover the machine side and the human side of the same word.

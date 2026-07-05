@@ -5,10 +5,10 @@ topic: tools/coding-agents
 status: notes
 level: intermediate
 related:
-  - engineering/practices/harness-engineering.md
-  - engineering/practices/prompt-engineering-for-programmers.md
-  - engineering/practices/cress-context-engineering.md
-  - engineering/practices/ai-native-engineering-stack.md
+  - engineering/ai-native/harness-engineering.md
+  - engineering/ai-native/prompt-engineering-for-programmers.md
+  - engineering/ai-native/cress-context-engineering.md
+  - engineering/ai-native/ai-native-engineering-stack.md
 source: "https://generativeprogrammer.com/p/10-claude-code-steering-mechanisms"
 updated: 2026-07-05
 ---
@@ -23,7 +23,7 @@ and triggers into one file, turning it into a **mixed control plane** that bloat
 behaves unreliably.
 
 Although the mechanisms are Claude Code-specific, the organising principle generalises to any
-agent [harness](../../engineering/practices/harness-engineering.md): **scope controls cost,
+agent [harness](../../engineering/ai-native/harness-engineering.md): **scope controls cost,
 enforcement controls reliability.**
 
 ## Two dimensions
@@ -75,11 +75,11 @@ The author's decision tree starts with one question:
 
 ## Relationship to other notes
 
-- **[Harness Engineering](../../engineering/practices/harness-engineering.md)** — describes the
+- **[Harness Engineering](../../engineering/ai-native/harness-engineering.md)** — describes the
   harness *program* (Claude Code as an example) from the inside: its loop, tools, and patterns
   like progressive disclosure and skills. This note is the **user-facing** counterpart: how to
   *steer* that harness from outside.
-- **[Prompt Engineering for Programmers](../../engineering/practices/prompt-engineering-for-programmers.md)**
+- **[Prompt Engineering for Programmers](../../engineering/ai-native/prompt-engineering-for-programmers.md)**
   — about *writing* the prompt; this is about *where the instruction is placed* operationally.
-- **[The AI-Native Engineering Stack](../../engineering/practices/ai-native-engineering-stack.md)**
+- **[The AI-Native Engineering Stack](../../engineering/ai-native/ai-native-engineering-stack.md)**
   — these mechanisms are the concrete configuration surface of a coding agent within that stack.

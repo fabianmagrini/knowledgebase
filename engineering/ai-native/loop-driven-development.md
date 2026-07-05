@@ -1,25 +1,25 @@
 ---
 title: Loop-Driven Development
 tags: [ai-engineering, testing, ci-cd, reading, agentic-workflows]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
-  - engineering/practices/agent-backpressure-loops.md
-  - engineering/practices/harness-engineering.md
-  - engineering/practices/eval-driven-ai-development.md
-  - engineering/practices/agentic-sdlc.md
+  - engineering/ai-native/agent-backpressure-loops.md
+  - engineering/ai-native/harness-engineering.md
+  - engineering/ai-native/eval-driven-ai-development.md
+  - engineering/ai-native/agentic-sdlc.md
   - engineering/practices/test-coverage-policy.md
-  - engineering/practices/ai-native-engineering-stack.md
+  - engineering/ai-native/ai-native-engineering-stack.md
   - engineering/practices/change-absorption-capacity.md
-  - engineering/practices/prompt-engineering-for-programmers.md
+  - engineering/ai-native/prompt-engineering-for-programmers.md
   - standards/open-knowledge-format.md
-  - engineering/practices/spec-driven-development.md
-  - engineering/practices/long-running-agents.md
+  - engineering/ai-native/spec-driven-development.md
+  - engineering/ai-native/long-running-agents.md
   - reading/building-effective-agents.md
   - reading/multi-agent-coding-coordination.md
   - reading/building-software-is-learning.md
-  - engineering/practices/ci-speed-with-ai-agents.md
+  - engineering/ai-native/ci-speed-with-ai-agents.md
 source:
   - "https://generativeprogrammer.com/p/from-test-driven-to-loop-driven-development"
   - "https://addyo.substack.com/p/loop-engineering"
@@ -127,7 +127,7 @@ Automating the loop sharpens three problems rather than removing them:
   "done" is a claim, not proof.
 - **Comprehension debt.** The faster loops ship, the wider the gap between code that exists and
   code anyone understands — unless developers actively read what is generated. This is the
-  understanding-side analogue of [change absorption capacity](change-absorption-capacity.md).
+  understanding-side analogue of [change absorption capacity](../practices/change-absorption-capacity.md).
 - **Cognitive surrender.** As loops succeed it becomes tempting to stop forming independent
   judgements and simply accept outputs. The same loop accelerates deep work for one engineer and
   replaces thinking for another — "the loop doesn't know the difference. You do."
@@ -152,4 +152,4 @@ write loops").
 - [Eval-Driven Development](eval-driven-ai-development.md) — evals are probabilistic verifiers.
 - [The Agentic SDLC](agentic-sdlc.md) — the lifecycle-level cybernetic loop; this is the
   practitioner-tooling articulation of the same idea.
-- [Test Coverage Policy](test-coverage-policy.md) — the TDD lineage the loop generalises from.
+- [Test Coverage Policy](../practices/test-coverage-policy.md) — the TDD lineage the loop generalises from.

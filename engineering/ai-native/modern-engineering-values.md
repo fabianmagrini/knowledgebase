@@ -1,17 +1,17 @@
 ---
 title: Modern Engineering Values
 tags: [ai-engineering, culture, reading]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
-  - engineering/practices/ai-augmented-engineering-team.md
-  - engineering/practices/agentic-sdlc.md
-  - engineering/practices/agent-backpressure-loops.md
-  - engineering/practices/quality-first-ai-coding.md
+  - engineering/ai-native/ai-augmented-engineering-team.md
+  - engineering/ai-native/agentic-sdlc.md
+  - engineering/ai-native/agent-backpressure-loops.md
+  - engineering/ai-native/quality-first-ai-coding.md
   - engineering/practices/change-absorption-capacity.md
   - standards/open-knowledge-format.md
-  - engineering/practices/trust-factory.md
+  - engineering/ai-native/trust-factory.md
   - reading/how-i-use-llms-2026.md
   - case-studies/portkey-product-engineer-company.md
   - reading/llm-maintained-wiki.md
@@ -103,12 +103,12 @@ projects via spatial desktop organisation; push directly to main on single-perso
   files for speed.
 - [Quality-First AI Coding](quality-first-ai-coding.md) — *taste* and the `/review` and
   failing-test-first practices line up directly.
-- [Change Absorption Capacity (CATS)](change-absorption-capacity.md) — *option value* and
+- [Change Absorption Capacity (CATS)](../practices/change-absorption-capacity.md) — *option value* and
   guardrails are mechanisms for keeping a system able to absorb agent-speed change.
 
 **Tensions worth noting.** The *own your stack* and *push-to-main / avoid PRs* positions sit in
 tension with [Composable Architecture](../architecture/composable-architecture.md) (which leans on
-third-party and platform capabilities), [Code Review Policy](code-review-policy.md), and
-[Federated PR Review](federated-pr-review.md) (which treat review as essential coordination in
+third-party and platform capabilities), [Code Review Policy](../practices/code-review-policy.md), and
+[Federated PR Review](../practices/federated-pr-review.md) (which treat review as essential coordination in
 multi-team settings). The article's stance is best read as optimised for small, autonomous,
 expert teams rather than as a universal prescription.

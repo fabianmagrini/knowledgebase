@@ -5,17 +5,17 @@ topic: engineering/practices
 status: notes
 updated: 2026-06-15
 related:
-  - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/polyrepo-branching-strategy.md
   - engineering/practices/trunk-based-development.md
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/engineering-playbook.md
   - engineering/practices/code-review-policy.md
-  - engineering/practices/ai-native-engineering-stack.md
+  - engineering/ai-native/ai-native-engineering-stack.md
   - leadership/architecture-decision-forum.md
   - leadership/principal-engineer-consensus.md
   - engineering/architecture/agile-design-decisions.md
-  - engineering/practices/quality-first-ai-coding.md
+  - engineering/ai-native/quality-first-ai-coding.md
 source: "https://gist.github.com/fabianmagrini/a44c8ec5efdee0ebf57a4c7d31ed2f4d"
 ---
 

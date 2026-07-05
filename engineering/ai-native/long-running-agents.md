@@ -1,19 +1,19 @@
 ---
 title: Long-Running Agents
 tags: [ai-engineering, agentic-workflows, architecture, reading]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
-  - engineering/practices/harness-engineering.md
-  - engineering/practices/loop-driven-development.md
-  - engineering/practices/agent-backpressure-loops.md
-  - engineering/practices/eval-driven-ai-development.md
-  - engineering/practices/ai-native-engineering-stack.md
-  - engineering/practices/ai-native-engineering-overview.md
-  - engineering/practices/ci-speed-with-ai-agents.md
+  - engineering/ai-native/harness-engineering.md
+  - engineering/ai-native/loop-driven-development.md
+  - engineering/ai-native/agent-backpressure-loops.md
+  - engineering/ai-native/eval-driven-ai-development.md
+  - engineering/ai-native/ai-native-engineering-stack.md
+  - engineering/ai-native/ai-native-engineering-overview.md
+  - engineering/ai-native/ci-speed-with-ai-agents.md
   - reading/multi-agent-coding-coordination.md
-  - engineering/practices/agentic-autonomy-levels.md
+  - engineering/ai-native/agentic-autonomy-levels.md
 source: "https://addyo.substack.com/p/long-running-agents"
 updated: 2026-06-20
 ---

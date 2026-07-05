@@ -11,7 +11,7 @@ related:
   - engineering/architecture/micro-frontend-principles.md
   - engineering/architecture/composable-architecture.md
   - concepts/devops-capability-model.md
-  - engineering/practices/team-topologies-agentic-platform.md
+  - engineering/ai-native/team-topologies-agentic-platform.md
   - leadership/scaling-engineering-org.md
   - leadership/engineering-leadership-overview.md
   - leadership/learning-organisation.md
@@ -70,7 +70,7 @@ once the interface stabilises.
 
 The binding constraint is **team cognitive load**: a team can only own as much domain as it can
 hold in its head. When a team's load is too high, quality and flow degrade — the same ceiling on
-[sustainable pace](../practices/agile-in-the-age-of-ai.md) that applies to individuals. The remedy
+[sustainable pace](../ai-native/agile-in-the-age-of-ai.md) that applies to individuals. The remedy
 is to split along **fracture planes** — natural seams (bounded context, regulatory boundary, change
 cadence, risk profile) where a system divides cleanly. Bounded contexts and good
 [micro-frontend/micro-service boundaries](micro-frontend-principles.md) are fracture planes.

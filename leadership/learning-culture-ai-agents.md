@@ -6,12 +6,12 @@ status: notes
 level: intermediate
 related:
   - leadership/learning-organisation.md
-  - engineering/practices/ai-augmented-engineering-team.md
-  - engineering/practices/prompt-engineering-for-programmers.md
-  - engineering/practices/agentic-code-review.md
-  - engineering/practices/quality-first-ai-coding.md
+  - engineering/ai-native/ai-augmented-engineering-team.md
+  - engineering/ai-native/prompt-engineering-for-programmers.md
+  - engineering/ai-native/agentic-code-review.md
+  - engineering/ai-native/quality-first-ai-coding.md
   - engineering/practices/visual-regression-testing.md
-  - engineering/practices/scaling-ai-adoption.md
+  - engineering/ai-native/scaling-ai-adoption.md
   - leadership/protecting-mavericks.md
 updated: 2026-06-29
 ---
@@ -38,7 +38,7 @@ With AI handling implementation detail, engineers elevate their thinking.
   security auditing, and spotting hallucinations and subtle logic flaws.
 - **Prompt engineering as a core skill.** Treat prompting as a new language —
   providing context, constraints, and edge cases. See
-  [Prompt Engineering for Programmers](../engineering/practices/prompt-engineering-for-programmers.md).
+  [Prompt Engineering for Programmers](../engineering/ai-native/prompt-engineering-for-programmers.md).
 
 ## 2. Protect junior developers' growth
 
@@ -89,8 +89,8 @@ If developers see AI as a threat, they resist learning to use it well.
 
 AI generates convincing but subtly flawed code, so build an adversarial mindset
 toward machine output. (See
-[Agentic Code Review](../engineering/practices/agentic-code-review.md) and
-[Quality-First AI Coding](../engineering/practices/quality-first-ai-coding.md).)
+[Agentic Code Review](../engineering/ai-native/agentic-code-review.md) and
+[Quality-First AI Coding](../engineering/ai-native/quality-first-ai-coding.md).)
 
 - **Security guilds.** A small group focused on how AI introduces vulnerabilities
   — unsanitised inputs, inefficient queries.

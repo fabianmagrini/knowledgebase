@@ -7,7 +7,7 @@ updated: 2026-06-15
 related:
   - engineering/practices/polyrepo-branching-strategy.md
   - engineering/practices/regulated-service-release-process.md
-  - engineering/practices/ci-cd-ai-engineering.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/federated-pr-review.md
   - engineering/practices/engineering-playbook.md
   - leadership/managed-disruption.md
@@ -19,7 +19,7 @@ related:
   - concepts/devops-capability-model.md
   - engineering/practices/feature-flags-and-branch-by-abstraction.md
   - engineering/practices/gitops.md
-  - engineering/practices/ci-speed-with-ai-agents.md
+  - engineering/ai-native/ci-speed-with-ai-agents.md
   - engineering/practices/database-migration-strategies.md
 ---
 

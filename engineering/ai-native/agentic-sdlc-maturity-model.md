@@ -1,20 +1,20 @@
 ---
 title: Agentic SDLC Maturity Model
 tags: [ai-engineering, agentic-workflows]
-topic: engineering/practices
+topic: engineering/ai-native
 status: notes
 updated: 2026-06-15
 related:
-  - engineering/practices/agentic-sdlc.md
-  - engineering/practices/ai-dlc-methodology.md
-  - engineering/practices/ai-native-engineering-stack.md
-  - engineering/practices/ci-cd-ai-engineering.md
-  - engineering/practices/agentic-ai-strategy-frameworks.md
-  - engineering/practices/ai-augmented-engineering-team.md
-  - engineering/practices/team-topologies-agentic-platform.md
-  - engineering/practices/ai-sdlc-terminology.md
-  - engineering/practices/scaling-ai-adoption.md
-  - engineering/practices/agentic-autonomy-levels.md
+  - engineering/ai-native/agentic-sdlc.md
+  - engineering/ai-native/ai-dlc-methodology.md
+  - engineering/ai-native/ai-native-engineering-stack.md
+  - engineering/ai-native/ci-cd-ai-engineering.md
+  - engineering/ai-native/agentic-ai-strategy-frameworks.md
+  - engineering/ai-native/ai-augmented-engineering-team.md
+  - engineering/ai-native/team-topologies-agentic-platform.md
+  - engineering/ai-native/ai-sdlc-terminology.md
+  - engineering/ai-native/scaling-ai-adoption.md
+  - engineering/ai-native/agentic-autonomy-levels.md
   - reading/agentic-sdlc-survey.md
 source: "https://gist.github.com/fabianmagrini/4862954cd301634ab4bfd595c00ea52c"
 ---
