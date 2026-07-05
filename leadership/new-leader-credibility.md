@@ -7,6 +7,7 @@ level: intermediate
 related:
   - leadership/principal-engineer-influence.md
   - leadership/raising-problems-without-complaining.md
+  - leadership/all-hands-meetings.md
   - leadership/decision-facilitation.md
   - leadership/learning-organisation.md
   - leadership/engineering-leadership-overview.md

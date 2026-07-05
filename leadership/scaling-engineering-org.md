@@ -8,6 +8,7 @@ related:
   - engineering/architecture/team-topologies.md
   - engineering/practices/team-topologies-agentic-platform.md
   - engineering/practices/ai-augmented-engineering-team.md
+  - leadership/all-hands-meetings.md
   - leadership/engineering-leadership-overview.md
 source: "https://greenido.dev/2026/06/11/what-changes-at-20-50-and-200-engineers/"
 updated: 2026-07-05
