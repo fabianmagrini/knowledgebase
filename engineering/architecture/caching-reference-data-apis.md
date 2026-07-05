@@ -10,6 +10,7 @@ related:
   - engineering/practices/performance-testing-strategy.md
   - concepts/resilient-software-design.md
   - tools/containers/dynamic-configuration-sidecar.md
+  - case-studies/zalando-client-side-load-balancing.md
 updated: 2026-07-01
 ---
 

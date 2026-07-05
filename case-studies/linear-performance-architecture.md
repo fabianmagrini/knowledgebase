@@ -9,6 +9,7 @@ related:
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/thin-shell-startup-performance.md
   - engineering/practices/performance-testing-strategy.md
+  - case-studies/zalando-client-side-load-balancing.md
 source: "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown"
 updated: 2026-06-22
 ---
