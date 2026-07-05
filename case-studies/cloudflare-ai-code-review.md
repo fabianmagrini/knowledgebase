@@ -10,6 +10,7 @@ related:
   - engineering/practices/ci-cd-ai-engineering.md
   - engineering/practices/harness-engineering.md
   - engineering/practices/model-routing-and-ai-gateways.md
+  - case-studies/doordash-ai-code-review.md
   - reading/multi-agent-coding-coordination.md
   - engineering/practices/ai-native-engineering-overview.md
 source: "https://blog.cloudflare.com/ai-code-review/"
