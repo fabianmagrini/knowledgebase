@@ -54,6 +54,7 @@ Notes on development practices: testing, CI/CD, code review, observability.
 - [Spec-Driven Development](spec-driven-development.md)
 - [Agentic Code Review](agentic-code-review.md)
 - [Long-Running Agents](long-running-agents.md)
+- [Agentic Autonomy Levels](agentic-autonomy-levels.md)
 - [AI Demands More Engineering Discipline](ai-engineering-discipline.md)
 - [The APEX Framework — Measuring AI Engineering Impact](apex-framework.md)
 - [The Trust Factory](trust-factory.md)

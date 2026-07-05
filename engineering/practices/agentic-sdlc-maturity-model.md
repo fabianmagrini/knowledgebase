@@ -14,6 +14,7 @@ related:
   - engineering/practices/team-topologies-agentic-platform.md
   - engineering/practices/ai-sdlc-terminology.md
   - engineering/practices/scaling-ai-adoption.md
+  - engineering/practices/agentic-autonomy-levels.md
   - reading/agentic-sdlc-survey.md
 source: "https://gist.github.com/fabianmagrini/4862954cd301634ab4bfd595c00ea52c"
 ---
