@@ -11,6 +11,7 @@ related:
   - concepts/continuous-delivery.md
   - engineering/architecture/team-topologies.md
   - engineering/practices/ai-native-engineering-overview.md
+  - reading/building-software-is-learning.md
 source: "https://blog.colinbreck.com/adapting-to-ai-what-is-software-engineering/"
 updated: 2026-06-27
 ---

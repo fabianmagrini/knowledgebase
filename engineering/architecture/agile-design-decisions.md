@@ -22,6 +22,7 @@ related:
   - engineering/practices/software-design-principles.md
   - concepts/clean-code-and-solid.md
   - engineering/practices/spec-driven-development.md
+  - reading/building-software-is-learning.md
 source: "https://gist.github.com/fabianmagrini/76071cbc06aa1a5eafd19a7fb5ea2457"
 updated: 2026-06-20
 ---
