@@ -22,6 +22,7 @@ make good decisions with others.
 - [Principal Engineer Influence](principal-engineer-influence.md)
 - [Consensus Among Principal Engineers](principal-engineer-consensus.md)
 - [Raising Problems Without Complaining](raising-problems-without-complaining.md)
+- [Managing Sideways](managing-sideways.md)
 - [Facilitating Technical Decisions](decision-facilitation.md)
 - [Architecture Decision Forum](architecture-decision-forum.md)
 - [Protecting Mavericks](protecting-mavericks.md)
