@@ -18,6 +18,7 @@ related:
   - engineering/architecture/agile-design-decisions.md
   - sre/incident-swarming.md
   - leadership/new-leader-credibility.md
+  - leadership/all-hands-meetings.md
   - leadership/revised-rules-engineering-leadership.md
   - engineering/architecture/team-topologies.md
   - leadership/scaling-engineering-org.md
@@ -45,6 +46,9 @@ how to set direction and make good decisions with other people.
   raise blockers so they signal ownership, not a collaboration gap; "what's my move here?"
 - [The New Leader's Credibility Problem](new-leader-credibility.md) — a new leader's diagnosis
   won't be believed; earn credibility by listening ("find the mystery") and a communication cascade.
+- [Running an Effective All-Hands](all-hands-meetings.md) — the all-hands as the venue that
+  counters information decay past ~50 people: a consistent three-act format, quarterly cadence,
+  no live Q&A, and delegating the stage to direct reports.
 
 ## Running the decision — facilitation
 
