@@ -1,11 +1,11 @@
 ---
 title: Node.js CLI Apps Best Practices
 tags: [nodejs, reading]
-topic: languages
+topic: languages-and-frameworks
 status: notes
 level: intermediate
 related:
-  - languages/typescript.md
+  - languages-and-frameworks/typescript.md
   - engineering/security/secure-sdlc.md
 source: "https://github.com/lirantal/nodejs-cli-apps-best-practices"
 updated: 2026-07-05

@@ -13,7 +13,7 @@ related:
   - engineering/ai-native/modern-engineering-values.md
   - engineering/ai-native/loop-driven-development.md
   - concepts/theory-of-constraints.md
-  - languages/go-agentic-language.md
+  - languages-and-frameworks/go-agentic-language.md
   - engineering/ai-native/agentic-code-review.md
   - engineering/ai-native/long-running-agents.md
   - engineering/ai-native/ci-speed-with-ai-agents.md

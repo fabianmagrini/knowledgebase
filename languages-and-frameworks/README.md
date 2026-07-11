@@ -1,13 +1,13 @@
 ---
-title: Languages
+title: Languages & Frameworks
 tags: [meta]
 status: complete
-updated: 2026-06-04
+updated: 2026-07-11
 ---
 
-# Languages
+# Languages & Frameworks
 
-Notes organized by programming language.
+Notes organised by programming language and framework.
 
 ## Notes
 

@@ -25,7 +25,7 @@ engineering/            # architecture, practices, security
   security/             # security principles, threat modeling, vulnerabilities
 leadership/             # leadership, communication, decision governance, culture
 product/                # product management and discovery
-languages/              # per-language notes
+languages-and-frameworks/  # per-language and framework notes
 react/                  # React patterns, mental models, library choices
 tools/                  # tooling, platforms, infrastructure (flat)
 sre/                    # site reliability, incident response, operations

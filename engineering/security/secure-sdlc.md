@@ -5,7 +5,7 @@ topic: engineering/security
 status: draft
 related:
   - engineering/security/governing-ai-in-the-cloud.md
-  - languages/nodejs-cli-best-practices.md
+  - languages-and-frameworks/nodejs-cli-best-practices.md
   - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/code-review-policy.md

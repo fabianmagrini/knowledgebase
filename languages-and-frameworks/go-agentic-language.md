@@ -1,7 +1,7 @@
 ---
 title: Go as an Agentic Language
 tags: [go, ai-engineering, agentic-workflows, reading]
-topic: languages
+topic: languages-and-frameworks
 status: notes
 level: intermediate
 related:
