@@ -6,7 +6,7 @@ status: notes
 level: intermediate
 related:
   - engineering/ai-native/own-the-outer-loop.md
-  - languages/go-agentic-language.md
+  - languages-and-frameworks/go-agentic-language.md
   - engineering/ai-native/agent-backpressure-loops.md
   - engineering/ai-native/harness-engineering.md
   - engineering/ai-native/eval-driven-ai-development.md

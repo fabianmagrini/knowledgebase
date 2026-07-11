@@ -54,7 +54,7 @@ Present a concise proposal — do not create yet (unless told to). Cover:
 
 - **Whether** it earns a note at all (skip if it only duplicates existing notes).
 - **Where** it fits: folder (`engineering/{architecture,practices,security}`, `leadership/`,
-  `languages/`, `tools/`, `concepts/`, `reading/`) and why.
+  `languages-and-frameworks/`, `tools/`, `concepts/`, `reading/`) and why.
 - **New note vs. edits** to an existing note (fold in if the source only adds a section).
 - **Scope** — what's genuinely new vs. cross-linked to avoid repetition.
 - Any **bridge** role (a note relevant to two clusters belongs in both overview maps).

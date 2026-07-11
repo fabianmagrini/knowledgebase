@@ -12,7 +12,7 @@ related:
   - engineering/ai-native/ai-native-engineering-stack.md
   - engineering/ai-native/ai-native-engineering-overview.md
   - engineering/ai-native/ci-speed-with-ai-agents.md
-  - languages/go-agentic-language.md
+  - languages-and-frameworks/go-agentic-language.md
   - reading/multi-agent-coding-coordination.md
   - engineering/ai-native/agentic-autonomy-levels.md
 source: "https://addyo.substack.com/p/long-running-agents"

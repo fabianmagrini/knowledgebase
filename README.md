@@ -14,7 +14,7 @@ Personal engineering knowledge base.
 - [Engineering](engineering/) — architecture, system design, patterns, practices, AI-native engineering
 - [Leadership](leadership/) — leadership, communication, decision governance, culture
 - [Product](product/) — product management and discovery
-- [Languages](languages/) — programming language notes
+- [Languages & Frameworks](languages-and-frameworks/) — programming language and framework notes
 - [React](react/) — React patterns, mental models, and library choices
 - [Tools](tools/) — CLI tools, editors, platforms, infrastructure
 - [SRE](sre/) — site reliability, incident response, operations

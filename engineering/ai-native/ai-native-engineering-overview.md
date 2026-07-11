@@ -138,7 +138,7 @@ A map of the notes on building software with AI agents. They answer different qu
 - [Own the Outer Loop](own-the-outer-loop.md) — the human-accountability framing: agents run the
   inner execution loop; humans own the outer *accountability boundary* (constraints, sampling,
   audit, ownership, governance) and the Quality → Verdict → Answerability decision.
-- [Go as an Agentic Language](../../languages/go-agentic-language.md) — language choice as agentic
+- [Go as an Agentic Language](../../languages-and-frameworks/go-agentic-language.md) — language choice as agentic
   infrastructure: fast deterministic builds, compile-enforced types as a *gate*, and low
   distractor density tighten the loop and cut context rot *(in languages)*.
 - [Loop-Driven Development](loop-driven-development.md) — the connective map: TDD scaled to agent
