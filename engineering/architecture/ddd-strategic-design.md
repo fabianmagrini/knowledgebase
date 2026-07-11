@@ -1,5 +1,7 @@
 ---
+type: note
 title: "Domain-Driven Design: Strategic Design"
+description: "the problem-space theory: subdomains (core/supporting/generic), bounded contexts, ubiquitous language, the big ball of mud, and the eight context-mapping relationship patterns"
 tags: [architecture, system-design, microservices, reading]
 topic: engineering/architecture
 status: notes

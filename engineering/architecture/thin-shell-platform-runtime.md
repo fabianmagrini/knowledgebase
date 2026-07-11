@@ -1,5 +1,7 @@
 ---
+type: note
 title: Thin Shell + Platform Runtime Remote
+description: "the packaging variant: keep the shell a thin bootloader (kernel loader) and extract the platform services into a separately deployed runtime remote, with a versioned platform contract, startup sequence, and the distributed-monolith risk"
 tags: [architecture, system-design, microservices]
 topic: engineering/architecture
 status: notes

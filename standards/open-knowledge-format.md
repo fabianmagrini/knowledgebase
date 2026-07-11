@@ -1,5 +1,7 @@
 ---
+type: reference
 title: Open Knowledge Format (OKF)
+description: "Google Cloud's open, vendor-neutral format for the knowledge and context AI agents need — markdown files with YAML frontmatter, cross-linked into a graph."
 tags: [ai-engineering, documentation, reading]
 topic: standards
 status: notes

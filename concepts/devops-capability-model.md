@@ -1,5 +1,7 @@
 ---
+type: note
 title: The DevOps Capability Model (Accelerate / DORA)
+description: "the 24 capabilities across 5 categories and the four delivery metrics; the canonical DORA/Accelerate reference"
 tags: [ci-cd, testing, culture, observability, reading]
 topic: concepts
 status: notes

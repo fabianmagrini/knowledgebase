@@ -10,7 +10,8 @@ A personal engineering knowledge base composed entirely of Markdown files. There
 
 All conventions are documented in [conventions.md](conventions.md). Read it before creating or editing notes. Key points:
 
-- Every `.md` file must include YAML frontmatter with `title`, `tags`, `status`, and `updated`
+- Every `.md` file must include YAML frontmatter with `type`, `title`, `tags`, `status`, and `updated` (and a recommended one-line `description`)
+- `type` is the [OKF](standards/open-knowledge-format.md) concept type: `note` | `index` (folder READMEs) | `overview` (thematic maps) | `case-study` | `reading` | `reference`
 - File names are lowercase and hyphenated: `event-driven-architecture.md`
 - Tags are lowercase and hyphenated; use the established vocabulary in `conventions.md` before inventing new tags
 - Status values: `draft` → `notes` → `complete`
@@ -44,7 +45,9 @@ Use this frontmatter starter:
 
 ```yaml
 ---
+type: note
 title: 
+description: ""
 tags: []
 topic: folder/subfolder
 status: draft

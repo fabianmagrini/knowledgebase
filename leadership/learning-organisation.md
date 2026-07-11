@@ -1,5 +1,7 @@
 ---
+type: note
 title: The Learning Organisation and AI Adoption
+description: "Why organisations struggle with AI adoption for lack of learning structures, not technical limits — psychological safety, slack, and intelligent failure."
 tags: [leadership, culture, ai-engineering, reading]
 topic: leadership
 status: notes

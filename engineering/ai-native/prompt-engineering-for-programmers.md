@@ -1,5 +1,7 @@
 ---
+type: note
 title: Prompt Engineering for Programmers
+description: "Prompt quality directly determines the quality of an AI assistant's output."
 tags: [ai-engineering, reading]
 topic: engineering/ai-native
 status: notes

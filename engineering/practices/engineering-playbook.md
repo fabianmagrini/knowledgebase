@@ -1,5 +1,7 @@
 ---
+type: note
 title: Modern Web Engineering Playbook
+description: "Engineering standards for enterprise web applications built on microfrontend architecture, BFF services, continuous delivery, and 12-factor principles."
 tags: [architecture, microservices, ci-cd, ai-engineering, testing, observability, security]
 topic: engineering/practices
 status: notes

@@ -1,5 +1,7 @@
 ---
+type: note
 title: Trunk-Based Development
+description: "All developers integrate to a single branch (main or trunk) continuously."
 tags: [git, ci-cd]
 topic: engineering/practices
 status: notes

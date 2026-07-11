@@ -1,5 +1,7 @@
 ---
+type: note
 title: Swarming in Incident Response
+description: "why spontaneous responder convergence is a feature to facilitate, not a bug to suppress, and the conditions that enable it"
 tags: [leadership, culture, communication, reading]
 topic: sre
 status: notes

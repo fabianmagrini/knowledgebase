@@ -1,5 +1,7 @@
 ---
+type: note
 title: Managing Sideways
+description: "Kevin Goldsmith argues that most of a senior leader's real work is sideways, not up — driving change across peer teams you don't formally control."
 tags: [leadership, communication, reading]
 topic: leadership
 status: notes

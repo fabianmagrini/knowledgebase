@@ -1,5 +1,7 @@
 ---
+type: reading
 title: How I Use LLMs as a Staff Engineer (2026)
+description: "Notes on Sean Goedecke's account of his personal 2026 LLM workflow."
 tags: [ai-engineering, agentic-workflows, reading]
 topic: reading
 status: notes

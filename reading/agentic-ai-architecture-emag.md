@@ -1,5 +1,7 @@
 ---
+type: reading
 title: Agentic AI Architecture (InfoQ eMag)
+description: "A signpost note, not a full summary."
 tags: [ai-engineering, agentic-workflows, architecture, reading]
 topic: reading
 status: notes

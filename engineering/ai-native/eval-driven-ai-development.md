@@ -1,5 +1,7 @@
 ---
+type: note
 title: Eval-Driven Development for AI Capabilities
+description: "Prompts, agent skills, tools, and other model-defined capabilities are too often shipped on a \"vibe check\" — validated by a few manual prompts and declared done."
 tags: [testing, ai-engineering, ci-cd]
 topic: engineering/ai-native
 status: notes

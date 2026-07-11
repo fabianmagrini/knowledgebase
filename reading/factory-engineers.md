@@ -1,5 +1,7 @@
 ---
+type: reading
 title: Factory Engineers, Not Product Engineers (Warp)
+description: "Notes on Warp's argument that the unit of engineering work is moving up a level, from product engineer to factory engineer."
 tags: [ai-engineering, agentic-workflows, leadership, reading]
 topic: reading
 status: notes

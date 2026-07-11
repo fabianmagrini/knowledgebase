@@ -1,5 +1,7 @@
 ---
+type: note
 title: Agile Design Decisions and Principles
+description: "continuous design, reversibility and blast-radius frameworks, delegation, emergent architecture, technical debt"
 tags: [architecture, system-design, refactoring, decision-making]
 topic: engineering/architecture
 status: notes

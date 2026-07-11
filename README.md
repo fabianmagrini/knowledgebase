@@ -1,5 +1,7 @@
 ---
+type: index
 title: Knowledge Base
+description: "Personal engineering knowledge base."
 tags: [meta]
 status: complete
 updated: 2026-06-20

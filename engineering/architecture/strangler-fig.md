@@ -1,5 +1,7 @@
 ---
+type: note
 title: Strangler Fig Pattern
+description: "incremental legacy modernisation behind a facade, without a big-bang rewrite"
 tags: [architecture, refactoring, system-design]
 topic: engineering/architecture
 status: notes

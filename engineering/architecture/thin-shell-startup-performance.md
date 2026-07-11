@@ -1,5 +1,7 @@
 ---
+type: note
 title: Thin-Shell Startup Performance
+description: "the performance trade-off of the extracted-runtime model: the startup waterfall, fat-vs-thin shell comparison, platform-core/deferred split, shared-singleton dependencies, prefetch-on-intent, and the critical-path target"
 tags: [architecture, system-design, microservices, performance]
 topic: engineering/architecture
 status: notes

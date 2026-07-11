@@ -1,5 +1,7 @@
 ---
+type: note
 title: Visual Regression Testing (Chromatic + Storybook)
+description: "Visual regression testing asks a different question from a normal unit test."
 tags: [testing, ci-cd, code-review]
 topic: engineering/practices
 status: notes

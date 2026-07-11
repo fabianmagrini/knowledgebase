@@ -1,5 +1,7 @@
 ---
+type: note
 title: Change Absorption Capacity (CATS)
+description: "AI tools have made code production cheap, but most delivery systems haven't evolved to absorb that code safely."
 tags: [ai-engineering, refactoring, observability, testing, api-design, reading]
 topic: engineering/practices
 status: notes

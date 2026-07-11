@@ -1,5 +1,7 @@
 ---
+type: note
 title: API Spec, Contract, and Functional Testing
+description: "In distributed systems and microservice architectures, testing must be structured in complementary layers."
 tags: [testing, api-design, ci-cd]
 topic: engineering/practices
 status: notes

@@ -1,5 +1,7 @@
 ---
+type: note
 title: The Trust Factory
+description: "Kent Beck reframes Extreme Programming (XP) as a system for manufacturing trust, not just producing code."
 tags: [ai-engineering, culture, testing, reading]
 topic: engineering/ai-native
 status: notes

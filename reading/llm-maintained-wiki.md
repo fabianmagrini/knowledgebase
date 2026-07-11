@@ -1,5 +1,7 @@
 ---
+type: reading
 title: The LLM-Maintained Wiki (Karpathy)
+description: "Notes on Andrej Karpathy's LLM Wiki pattern."
 tags: [ai-engineering, documentation, agentic-workflows, reading]
 topic: reading
 status: notes

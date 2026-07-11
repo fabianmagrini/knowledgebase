@@ -1,5 +1,7 @@
 ---
+type: note
 title: The AI Factory
+description: "Narrowed to software engineering, an AI Factory is a production system for AI coding agents."
 tags: [ai-engineering, agentic-workflows, architecture]
 topic: engineering/ai-native
 status: notes

@@ -1,5 +1,7 @@
 ---
+type: index
 title: SRE
+description: "Site reliability and operations: incident response, on-call, and reliability practice."
 tags: [meta]
 status: complete
 updated: 2026-07-11

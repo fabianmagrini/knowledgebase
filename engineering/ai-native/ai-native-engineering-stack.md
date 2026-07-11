@@ -1,5 +1,7 @@
 ---
+type: note
 title: The AI-Native Engineering Stack
+description: "AI-native engineering is not just AI writing code."
 tags: [ai-engineering, architecture, agentic-workflows]
 topic: engineering/ai-native
 status: notes

@@ -1,5 +1,7 @@
 ---
+type: note
 title: Own the Outer Loop
+description: "Agents run the inner execution loop; humans own the outer accountability boundary — constraints, sampling, audit, ownership, and governance."
 tags: [ai-engineering, agentic-workflows, governance, reading]
 topic: engineering/ai-native
 status: notes

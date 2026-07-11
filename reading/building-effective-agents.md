@@ -1,5 +1,7 @@
 ---
+type: reading
 title: Building Effective Agents — Workflow & Agent Patterns
+description: "Notes on Anthropic's Building Effective AI Agents — workflow and agent composition patterns."
 tags: [ai-engineering, agentic-workflows, reading]
 topic: reading
 status: notes

@@ -1,5 +1,7 @@
 ---
+type: note
 title: Continuous Delivery
+description: "Continuous Delivery (CD) is the discipline of building software so that every change is releasable to production at any time."
 tags: [ci-cd, testing, code-review]
 topic: concepts
 status: notes

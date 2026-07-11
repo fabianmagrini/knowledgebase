@@ -1,5 +1,7 @@
 ---
+type: note
 title: Consensus Among Principal Engineers
+description: "For a group of Principal Engineers (PEs), consensus is not unanimity and it is not a democratic vote."
 tags: [leadership, decision-making, governance, communication]
 topic: leadership
 status: notes

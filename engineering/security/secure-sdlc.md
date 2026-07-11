@@ -1,5 +1,7 @@
 ---
+type: note
 title: Secure SDLC (DevSecOps)
+description: "Shifting security left with automated pipeline gates plus beyond-the-pipeline DevSecOps practices."
 tags: [security, ci-cd, ai-engineering, governance]
 topic: engineering/security
 status: draft

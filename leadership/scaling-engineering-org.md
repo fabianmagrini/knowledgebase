@@ -1,5 +1,7 @@
 ---
+type: note
 title: Scaling an Engineering Organisation (20/50/200)
+description: "Ido Green argues that scaling an engineering organisation is about ownership clarity, not headcount."
 tags: [leadership, culture, decision-making, reading]
 topic: leadership
 status: notes

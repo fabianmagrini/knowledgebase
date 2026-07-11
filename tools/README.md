@@ -1,5 +1,7 @@
 ---
+type: index
 title: Tools
+description: "Notes on tools, platforms, and infrastructure."
 tags: [meta]
 status: complete
 updated: 2026-07-11

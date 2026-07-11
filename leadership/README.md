@@ -1,5 +1,7 @@
 ---
+type: index
 title: Leadership
+description: "Notes on senior-engineer leadership, communication, decision governance, and the culture that lets teams learn and absorb change."
 tags: [meta, leadership, culture, communication]
 status: complete
 updated: 2026-06-20

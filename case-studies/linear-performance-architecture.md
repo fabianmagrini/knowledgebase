@@ -1,5 +1,7 @@
 ---
+type: case-study
 title: Linear's Performance Architecture
+description: "how Linear achieves perceived speed by treating the browser as the database and the server as a sync target: local-first sync engine, optimistic updates, granular reactivity, and disciplined build/load/animation choices"
 tags: [architecture, performance, system-design, reading]
 topic: case-studies
 status: notes

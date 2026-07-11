@@ -1,5 +1,7 @@
 ---
+type: note
 title: Code Review Policy
+description: "Code review is a core engineering practice for quality, alignment, and shared ownership."
 tags: [code-review, ci-cd, ai-engineering, governance]
 topic: engineering/practices
 status: notes

@@ -1,5 +1,7 @@
 ---
+type: note
 title: Designing with Constraints
+description: "Why deliberate constraints enable rather than restrict creativity, and how to impose them to collapse decision space."
 tags: [leadership, reading, decision-making]
 topic: leadership
 status: notes

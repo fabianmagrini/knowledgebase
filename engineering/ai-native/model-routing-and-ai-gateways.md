@@ -1,5 +1,7 @@
 ---
+type: note
 title: Model Routing and AI Gateways
+description: "Smart model routing directs each LLM request to the cheapest model that is good enough for the task, instead of sending everything to one expensive frontier model."
 tags: [ai-engineering, agentic-workflows, reading]
 topic: engineering/ai-native
 status: notes

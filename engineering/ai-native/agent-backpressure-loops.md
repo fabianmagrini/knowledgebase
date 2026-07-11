@@ -1,5 +1,7 @@
 ---
+type: note
 title: Backpressure Loops for Coding Agents
+description: "Coding agents generate output faster than humans can validate it."
 tags: [ai-engineering, ci-cd, testing, reading, agentic-workflows]
 topic: engineering/ai-native
 status: notes

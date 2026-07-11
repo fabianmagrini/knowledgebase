@@ -1,5 +1,7 @@
 ---
+type: note
 title: Governing AI in the Cloud
+description: "shadow AI and the layered control architecture for cloud AI governance: discovery (CASB/service mesh/API gateway), classification at write time, fail-secure IAM/VPC enforcement, policy-as-code (OPA/Cedar), model registries, and risk-based approvals"
 tags: [security, ai-engineering, governance, reading]
 topic: engineering/security
 status: notes

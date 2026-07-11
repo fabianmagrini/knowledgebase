@@ -1,5 +1,7 @@
 ---
+type: reading
 title: Fintech Engineering Handbook
+description: "Voytek Pituła's handbook collects the patterns that make software trustworthy when money is the primary object of the system."
 tags: [architecture, system-design, reading]
 topic: reading
 status: notes

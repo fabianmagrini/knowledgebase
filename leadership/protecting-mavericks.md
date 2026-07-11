@@ -1,5 +1,7 @@
 ---
+type: note
 title: Protecting Mavericks
+description: "Mavericks are independent thinkers and challengers of the status quo — often the source of breakthroughs and a guard against organisational stagnation."
 tags: [leadership, culture]
 topic: leadership
 status: notes

@@ -1,5 +1,7 @@
 ---
+type: index
 title: Languages & Frameworks
+description: "Notes organised by programming language and framework."
 tags: [meta]
 status: complete
 updated: 2026-07-11

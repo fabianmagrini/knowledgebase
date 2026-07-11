@@ -1,5 +1,7 @@
 ---
+type: note
 title: TypeScript Tips
+description: "A compact reference of practical TypeScript techniques."
 tags: [typescript, reading]
 topic: languages-and-frameworks
 status: notes

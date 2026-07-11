@@ -1,5 +1,7 @@
 ---
+type: note
 title: Running an Effective All-Hands
+description: "The all-hands as the venue that counters organisational information decay past ~50 people: format, cadence, and delegation."
 tags: [leadership, communication, reading]
 topic: leadership
 status: notes

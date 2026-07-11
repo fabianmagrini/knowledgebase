@@ -1,5 +1,7 @@
 ---
+type: note
 title: Forms as a State Problem
+description: "the mental model for React forms (the four jobs; controlled vs uncontrolled; touched vs dirty; the submission lifecycle) and the native-first tool-selection ladder from React 19 server actions to client form libraries"
 tags: [react, reading]
 topic: languages-and-frameworks
 status: notes

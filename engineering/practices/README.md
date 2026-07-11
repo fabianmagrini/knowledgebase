@@ -1,5 +1,7 @@
 ---
+type: index
 title: Practices
+description: "Development practices: testing, CI/CD, release engineering, code review, and change management."
 tags: [meta, testing, ci-cd, observability, code-review]
 status: complete
 updated: 2026-07-05

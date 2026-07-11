@@ -1,5 +1,7 @@
 ---
+type: index
 title: Concepts
+description: "Foundational concepts — CS fundamentals (algorithms, data structures, complexity, networking) and the underlying ideas that practice notes build on."
 tags: [meta, ci-cd]
 status: complete
 updated: 2026-06-20

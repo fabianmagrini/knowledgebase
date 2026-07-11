@@ -1,5 +1,7 @@
 ---
+type: note
 title: Scaling AI Adoption in the SDLC
+description: "Moving AI from a localised experiment (a few developers with an assistant) to a fully integrated AI-Augmented or Agentic SDLC is not a licensing exercise."
 tags: [ai-engineering, agentic-workflows, governance]
 topic: engineering/ai-native
 status: notes

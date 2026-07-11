@@ -1,5 +1,7 @@
 ---
+type: note
 title: The Senior IC Role
+description: "Companies use different titles — Staff Engineer, Principal Engineer, Architect, Distinguished Engineer — but the senior individual-contributor (IC) role shares a common shape across organisations."
 tags: [leadership, communication]
 topic: leadership
 status: notes

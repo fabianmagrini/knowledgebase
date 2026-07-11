@@ -1,5 +1,7 @@
 ---
+type: note
 title: The New Leader's Credibility Problem
+description: "The paradox a newly-hired senior leader faces — their diagnosis won't be believed — and how to earn credibility by listening."
 tags: [leadership, communication, reading]
 topic: leadership
 status: notes

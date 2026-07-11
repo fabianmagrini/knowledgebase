@@ -1,5 +1,7 @@
 ---
+type: note
 title: Resilient Software Design
+description: "why distributed systems demand designing for failure: failure modes, FLP/consensus, graceful degradation"
 tags: [architecture, system-design, microservices, reading]
 topic: concepts
 status: notes

@@ -1,5 +1,7 @@
 ---
+type: case-study
 title: ChatGPT's Web Performance Architecture
+description: "the architectural opposite of Linear, driven by serving ~1B anonymous users: streaming SSR, render-first, server-evaluated inlined flags, deferred imports until composer TTFI, prepaid bot defence, and \"the network is the enemy\" startup discipline"
 tags: [architecture, performance, system-design, reading]
 topic: case-studies
 status: notes

@@ -1,5 +1,7 @@
 ---
+type: case-study
 title: DoorDash's AI Code Reviewer
+description: "a production AI review agent optimised for precision over recall: the lead-scout→deep-reviewer (notice-then-verify) architecture, company-mined domain review profiles, the three-part false-positive filter and \"disprove-it pass\", and acceptance rate (not findings count) as the success metric"
 tags: [ai-engineering, code-review, agentic-workflows, reading]
 topic: case-studies
 status: notes

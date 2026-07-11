@@ -1,5 +1,7 @@
 ---
+type: note
 title: Modern Engineering Values
+description: "A practitioner's account (Christoph Nakazawa / cpojer) of how engineering values manifest now that coding agents write most of the code."
 tags: [ai-engineering, culture, reading]
 topic: engineering/ai-native
 status: notes

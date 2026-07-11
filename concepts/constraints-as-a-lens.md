@@ -1,5 +1,7 @@
 ---
+type: note
 title: Constraints as a Lens
+description: "hub unifying the three constraint senses (throughput, structure, selection)"
 tags: [decision-making, architecture, system-design]
 topic: concepts
 status: draft

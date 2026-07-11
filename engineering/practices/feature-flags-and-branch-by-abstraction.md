@@ -1,5 +1,7 @@
 ---
+type: note
 title: Feature Flags and Branch by Abstraction
+description: "Two techniques for decoupling deploy from release and making large changes incrementally: feature flags and branch by abstraction."
 tags: [ci-cd, git, testing, refactoring]
 topic: engineering/practices
 status: notes

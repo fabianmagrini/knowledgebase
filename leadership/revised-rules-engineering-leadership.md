@@ -1,5 +1,7 @@
 ---
+type: note
 title: Revised Rules of Engineering Leadership
+description: "Will Larson revises his rules of engineering leadership for an era where AI tooling sharply accelerates execution."
 tags: [leadership, ai-engineering, decision-making, reading]
 topic: leadership
 status: notes

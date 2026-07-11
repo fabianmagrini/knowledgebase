@@ -1,5 +1,7 @@
 ---
+type: note
 title: The AI-Augmented Engineering Team
+description: "The operating model for an engineering organisation once AI agents do most of the typing."
 tags: [ai-engineering, leadership, architecture, agentic-workflows]
 topic: engineering/ai-native
 status: notes

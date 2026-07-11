@@ -1,5 +1,7 @@
 ---
+type: note
 title: Why Arguing to Win Fails
+description: "Cong Wang describes abandoning the habit of arguing to prove himself correct, framing it as a technical mindset misapplied to people."
 tags: [leadership, communication, reading]
 topic: leadership
 status: notes

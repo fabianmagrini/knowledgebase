@@ -1,5 +1,7 @@
 ---
+type: note
 title: Polyrepo Branching Strategy
+description: "Use trunk-based development per repo, with release branches only where needed, and coordinate cross-repo change through contracts, feature flags, and progressive rollout rather than long-lived shared branches."
 tags: [git, microservices, ci-cd]
 topic: engineering/practices
 status: notes

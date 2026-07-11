@@ -1,5 +1,7 @@
 ---
+type: note
 title: Composable Architecture
+description: "PBCs, API Gateway, BFF, User Journey API, GraphQL federation, DX and maintainability progression"
 tags: [architecture, microservices, system-design, api-design]
 topic: engineering/architecture
 status: notes

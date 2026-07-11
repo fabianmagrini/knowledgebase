@@ -1,5 +1,7 @@
 ---
+type: note
 title: The Engineering Manager Role
+description: "James Samuel frames the engineering manager as existing to amplify the collective impact of a team by removing the obstacles to its effectiveness."
 tags: [leadership, communication, reading]
 topic: leadership
 status: notes

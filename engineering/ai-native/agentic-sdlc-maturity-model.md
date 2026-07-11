@@ -1,5 +1,7 @@
 ---
+type: note
 title: Agentic SDLC Maturity Model
+description: "A six-level model for assessing and transforming how an organization uses AI in software delivery."
 tags: [ai-engineering, agentic-workflows]
 topic: engineering/ai-native
 status: notes

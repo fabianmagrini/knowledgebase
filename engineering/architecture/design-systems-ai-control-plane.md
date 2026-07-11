@@ -1,5 +1,7 @@
 ---
+type: note
 title: Design Systems as the AI Control Plane
+description: "the design system as constraint layer and platform for AI-generated UI"
 tags: [architecture, ai-engineering, system-design, api-design]
 topic: engineering/architecture
 status: notes
