@@ -1,7 +1,7 @@
 ---
 title: Forms as a State Problem
 tags: [react, reading]
-topic: react
+topic: languages-and-frameworks
 status: notes
 level: intermediate
 related:

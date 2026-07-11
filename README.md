@@ -15,7 +15,6 @@ Personal engineering knowledge base.
 - [Leadership](leadership/) — leadership, communication, decision governance, culture
 - [Product](product/) — product management and discovery
 - [Languages & Frameworks](languages-and-frameworks/) — programming language and framework notes
-- [React](react/) — React patterns, mental models, and library choices
 - [Tools](tools/) — CLI tools, editors, platforms, infrastructure
 - [SRE](sre/) — site reliability, incident response, operations
 - [Standards](standards/) — specifications, protocols, and formats
