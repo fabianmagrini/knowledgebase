@@ -14,8 +14,8 @@ related:
   - concepts/constraints-as-a-lens.md
   - engineering/architecture/micro-frontend-principles.md
   - engineering/architecture/ddd-strategic-design.md
-  - tools/containers/postgresql-ha-kubernetes.md
-  - tools/containers/dynamic-configuration-sidecar.md
+  - tools/postgresql-ha-kubernetes.md
+  - tools/dynamic-configuration-sidecar.md
 updated: 2026-06-20
 ---
 

@@ -1,12 +1,12 @@
 ---
 title: Dynamic Configuration Sidecar (Airbnb Sitar)
 tags: [architecture, system-design, microservices, reading]
-topic: tools/containers
+topic: tools
 status: notes
 level: intermediate
 related:
   - concepts/resilient-software-design.md
-  - tools/containers/postgresql-ha-kubernetes.md
+  - tools/postgresql-ha-kubernetes.md
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/thinking-in-constraints.md
   - engineering/architecture/caching-reference-data-apis.md
@@ -19,7 +19,7 @@ updated: 2026-06-20
 Airbnb's **Sitar-agent** delivers configuration changes to tens of thousands of
 service pods within tens of seconds — **without redeploys** — and keeps serving
 config even when the central configuration service is down. It is a concrete
-instance of [resilient software design](../../concepts/resilient-software-design.md):
+instance of [resilient software design](../concepts/resilient-software-design.md):
 the whole architecture is shaped by the rule that *the application must keep reading
 config through a control-plane outage*.
 
@@ -94,14 +94,14 @@ each minute" org-wide; propagation to all subscribers within "tens of seconds";
 
 ## Relationship to other notes
 
-- [Resilient Software Design](../../concepts/resilient-software-design.md) — the
+- [Resilient Software Design](../concepts/resilient-software-design.md) — the
   theory this illustrates: decoupling from a dependency (the control plane), local
   caching, and graceful degradation are textbook resilience patterns.
 - [Highly Available PostgreSQL on Kubernetes](postgresql-ha-kubernetes.md) — a
   sibling Kubernetes infra case study; both choose explicit, visible degradation
   over silent failure.
-- [Composable Architecture](../../engineering/architecture/composable-architecture.md) —
+- [Composable Architecture](../engineering/architecture/composable-architecture.md) —
   the distributed-services context in which per-pod sidecars and control planes sit.
-- [Thinking in Constraints](../../engineering/architecture/thinking-in-constraints.md) —
+- [Thinking in Constraints](../engineering/architecture/thinking-in-constraints.md) —
   the pull-vs-push and SQLite-vs-RocksDB decisions are binding constraints
   (multi-language, low-ops) driving the design over raw performance.

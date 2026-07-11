@@ -18,7 +18,7 @@ related:
   - engineering/ai-native/harness-engineering.md
   - engineering/ai-native/loop-driven-development.md
   - engineering/ai-native/prompt-engineering-for-programmers.md
-  - tools/coding-agents/claude-code-steering-mechanisms.md
+  - tools/claude-code-steering-mechanisms.md
   - engineering/ai-native/model-routing-and-ai-gateways.md
   - standards/open-knowledge-format.md
   - engineering/architecture/generative-ui.md

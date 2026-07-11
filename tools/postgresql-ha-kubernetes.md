@@ -1,7 +1,7 @@
 ---
 title: Highly Available PostgreSQL on Kubernetes
 tags: [system-design, performance, observability, reading]
-topic: tools/containers
+topic: tools
 status: notes
 level: intermediate
 related:
@@ -9,7 +9,7 @@ related:
   - engineering/practices/performance-testing-strategy.md
   - engineering/practices/database-migration-strategies.md
   - engineering/architecture/thinking-in-constraints.md
-  - tools/containers/dynamic-configuration-sidecar.md
+  - tools/dynamic-configuration-sidecar.md
 source: "https://www.datadoghq.com/blog/engineering/postgresql-ha-kubernetes/"
 updated: 2026-06-20
 ---
@@ -18,7 +18,7 @@ updated: 2026-06-20
 
 A Datadog engineering case study of making Kubernetes-hosted PostgreSQL fail over
 safely. It is a concrete instance of
-[resilient software design](../../concepts/resilient-software-design.md): the
+[resilient software design](../concepts/resilient-software-design.md): the
 trade-off it works through — consistency vs availability vs latency under a network
 fault — is exactly the kind of design constraint that distributed systems force.
 
@@ -108,13 +108,13 @@ workload.
 
 ## Relationship to other notes
 
-- [Resilient Software Design](../../concepts/resilient-software-design.md) — the
+- [Resilient Software Design](../concepts/resilient-software-design.md) — the
   theory this makes concrete: failure modes (omission/timing), consensus (ZooKeeper
   leader election), and graceful degradation (strict vs non-strict fallback) in a
   real system.
-- [Performance Testing Strategy](../../engineering/practices/performance-testing-strategy.md) —
+- [Performance Testing Strategy](../engineering/practices/performance-testing-strategy.md) —
   the pgbench/TPC-B benchmarking that quantified the durability/latency trade-off
   before rollout.
-- [Thinking in Constraints](../../engineering/architecture/thinking-in-constraints.md) —
+- [Thinking in Constraints](../engineering/architecture/thinking-in-constraints.md) —
   consistency vs availability vs latency is a binding design constraint; strict mode
   chooses durability, non-strict chooses availability.

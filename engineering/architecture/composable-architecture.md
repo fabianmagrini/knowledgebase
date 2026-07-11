@@ -23,7 +23,7 @@ related:
   - engineering/architecture/bounded-context-canvas.md
   - engineering/architecture/ddd-strategic-design.md
   - concepts/resilient-software-design.md
-  - tools/containers/dynamic-configuration-sidecar.md
+  - tools/dynamic-configuration-sidecar.md
   - engineering/architecture/caching-reference-data-apis.md
   - case-studies/linear-performance-architecture.md
 source: "https://gist.github.com/fabianmagrini/3b93d3db8189f663053489dd554d311d"
