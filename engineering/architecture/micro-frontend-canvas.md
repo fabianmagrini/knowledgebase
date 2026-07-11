@@ -1,5 +1,7 @@
 ---
+type: note
 title: The Micro-Frontend Canvas
+description: "a single-page tool for designing and validating micro-frontend boundaries before coding (business capability, boundaries, dependencies, communication, governance)"
 tags: [architecture, system-design, reading]
 topic: engineering/architecture
 status: notes

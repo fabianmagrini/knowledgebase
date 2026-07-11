@@ -1,5 +1,7 @@
 ---
+type: note
 title: A Learning Culture for AI-Augmented Teams
+description: "Integrating AI coding agents (Copilot, Cursor, Devin, Codeium) is not just a tooling upgrade — it changes how software gets built."
 tags: [leadership, culture, ai-engineering, agentic-workflows]
 topic: leadership
 status: notes

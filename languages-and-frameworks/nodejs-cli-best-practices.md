@@ -1,5 +1,7 @@
 ---
+type: note
 title: Node.js CLI Apps Best Practices
+description: "Liran Tal's 37-practice checklist for empathic, user-friendly CLIs: POSIX etiquette, distribution/packaging, interoperability, errors, versioning, and security"
 tags: [nodejs, reading]
 topic: languages-and-frameworks
 status: notes

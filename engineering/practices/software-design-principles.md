@@ -1,5 +1,7 @@
 ---
+type: note
 title: Software Design Principles
+description: "A prioritised set of code-level design principles."
 tags: [system-design, refactoring, code-review]
 topic: engineering/practices
 status: draft

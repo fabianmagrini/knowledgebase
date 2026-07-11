@@ -1,5 +1,7 @@
 ---
+type: note
 title: Thinking in Constraints
+description: "surfacing, classifying, and challenging the constraints that bound a solution; constraints as the architect's primary input"
 tags: [architecture, system-design, decision-making]
 topic: engineering/architecture
 status: draft

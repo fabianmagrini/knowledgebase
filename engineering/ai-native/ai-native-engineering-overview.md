@@ -1,5 +1,7 @@
 ---
+type: overview
 title: AI-Native Engineering — Overview
+description: "A map of the notes on building software with AI agents."
 tags: [meta, ai-engineering, agentic-workflows]
 topic: engineering/ai-native
 status: complete

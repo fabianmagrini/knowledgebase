@@ -1,5 +1,7 @@
 ---
+type: note
 title: Harness Engineering
+description: "A harness is the orchestration system built around an LLM to manage its non-determinism and limitations."
 tags: [ai-engineering, architecture, reading, agentic-workflows]
 topic: engineering/ai-native
 status: notes

@@ -1,8 +1,10 @@
 ---
+type: reference
 title: Knowledge Base Conventions
+description: "The knowledge base's own conventions: frontmatter schema, OKF concept types, tag vocabulary, file naming, and the status lifecycle."
 tags: [meta]
 status: complete
-updated: 2026-06-15
+updated: 2026-07-11
 ---
 
 # Conventions
@@ -13,7 +15,9 @@ Every note should include YAML frontmatter at the top:
 
 ```yaml
 ---
+type: note           # note | index | overview | case-study | reading | reference
 title: Note Title
+description: "One-line summary — what this concept is, for humans and agents."
 tags: [tag1, tag2]
 topic: folder/subfolder
 status: draft        # draft | notes | complete
@@ -29,10 +33,17 @@ updated: YYYY-MM-DD
 
 | Field | Description |
 |---|---|
+| `type` | OKF concept type (see below) |
 | `title` | Human-readable title |
 | `tags` | Array of lowercase, hyphenated tags |
 | `status` | Completeness of the note |
 | `updated` | Date last meaningfully edited |
+
+### Recommended fields
+
+| Field | Description |
+|---|---|
+| `description` | One-line summary of the concept, readable by humans and parseable by agents |
 
 ### Optional fields
 
@@ -42,6 +53,20 @@ updated: YYYY-MM-DD
 | `level` | Assumed reader knowledge level |
 | `related` | Explicit cross-links to other notes |
 | `source` | Attribution for reading notes |
+
+## Concept Types (OKF)
+
+This knowledge base follows the [Open Knowledge Format](standards/open-knowledge-format.md):
+every concept carries a `type`. The controlled vocabulary:
+
+| Type | Used for |
+|---|---|
+| `note` | A standard content note (the default) |
+| `index` | A folder `README.md` — the directory's index / progressive-disclosure entry |
+| `overview` | A thematic map that orients a cluster of notes (`*-overview.md`) |
+| `case-study` | A deep-dive into a specific company or production system (`case-studies/`) |
+| `reading` | A summary anchored to one external source (`reading/`) |
+| `reference` | A specification, standard, or the conventions themselves (`standards/`) |
 
 ## Tag Conventions
 

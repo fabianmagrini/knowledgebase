@@ -1,5 +1,7 @@
 ---
+type: reading
 title: The New SDLC with Vibe Coding (Kaggle / Osmani et al.)
+description: "A ~50-page whitepaper by Addy Osmani, Shubham Saboo, and Dr."
 tags: [ai-engineering, agentic-workflows, reading]
 topic: reading
 status: notes

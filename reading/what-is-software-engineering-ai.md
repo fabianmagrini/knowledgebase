@@ -1,5 +1,7 @@
 ---
+type: reading
 title: What Is Software Engineering? (Adapting to AI)
+description: "Colin Breck's essay argues that AI changes the speed and economics of software engineering — how cheaply and quickly we can iterate and experiment — but not what defines good engineering."
 tags: [ai-engineering, ci-cd, reading]
 topic: reading
 status: notes

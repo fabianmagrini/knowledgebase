@@ -1,5 +1,7 @@
 ---
+type: case-study
 title: Cloudflare's AI Code Review System
+description: "a production multi-agent review system (131K reviews/month): seven specialised reviewers plus a judge, \"What NOT to Flag\" negative prompting, risk/model tiering, and the cost/resilience engineering behind it"
 tags: [ai-engineering, code-review, agentic-workflows, reading]
 topic: case-studies
 status: notes

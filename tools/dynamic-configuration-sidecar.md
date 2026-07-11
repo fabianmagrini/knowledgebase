@@ -1,5 +1,7 @@
 ---
+type: note
 title: Dynamic Configuration Sidecar (Airbnb Sitar)
+description: "a per-pod sidecar that delivers config to tens of thousands of polyglot pods without redeploys, staying available through control-plane outages (pull model, S3 preload, local SQLite cache, graceful degradation)"
 tags: [architecture, system-design, microservices, reading]
 topic: tools
 status: notes

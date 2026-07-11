@@ -1,5 +1,7 @@
 ---
+type: note
 title: The APEX Framework — Measuring AI Engineering Impact
+description: "APEX is a measurement operating model from LinearB for judging whether AI adoption in software engineering is creating sustainable value — not just whether tools are being used."
 tags: [ai-engineering, observability, ci-cd, reading]
 topic: engineering/ai-native
 status: notes

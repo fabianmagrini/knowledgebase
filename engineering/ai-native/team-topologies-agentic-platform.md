@@ -1,5 +1,7 @@
 ---
+type: note
 title: Team Topologies for the Agentic Platform
+description: "Olivier Wulveryck applies Skelton & Pais's Team Topologies to an organisation built around an agentic platform — the \"agentic factory\" where AI agents plan, code, test, and ship."
 tags: [ai-engineering, agentic-workflows, leadership, architecture, reading]
 topic: engineering/ai-native
 status: notes

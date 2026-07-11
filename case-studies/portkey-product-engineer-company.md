@@ -1,5 +1,7 @@
 ---
+type: case-study
 title: The Product Engineer Company (Portkey)
+description: "Portkey's product-engineer operating model (24 engineers, 0 PMs, 1 designer): end-to-end ownership, the barbell structure, disciplined scope, and how AI factors into reliability-critical infrastructure work"
 tags: [leadership, culture, ai-engineering, reading]
 topic: case-studies
 status: notes

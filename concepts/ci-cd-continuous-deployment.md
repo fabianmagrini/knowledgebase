@@ -1,5 +1,7 @@
 ---
+type: note
 title: CI vs Continuous Delivery vs Continuous Deployment
+description: "the three-way distinction by what each one automates, and why a team might stop at Continuous Delivery"
 tags: [ci-cd, testing]
 topic: concepts
 status: notes

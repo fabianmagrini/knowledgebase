@@ -1,5 +1,7 @@
 ---
+type: note
 title: GitOps
+description: "An operating model where a Git repo is the single source of truth and an automated agent reconciles the running system to it."
 tags: [ci-cd, git, observability, security]
 topic: engineering/practices
 status: notes

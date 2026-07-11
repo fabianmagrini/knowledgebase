@@ -1,5 +1,7 @@
 ---
+type: note
 title: Release Process for Regulated and High-Risk Services
+description: "The strategy for regulated or high-risk services is trunk + release branch + approval gates."
 tags: [ci-cd, git, security, microservices, governance]
 topic: engineering/practices
 status: notes

@@ -1,5 +1,7 @@
 ---
+type: index
 title: Security
+description: "Notes on security principles, threat modeling, and common vulnerabilities."
 tags: [meta, security]
 status: complete
 updated: 2026-06-04

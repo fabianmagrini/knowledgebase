@@ -1,5 +1,7 @@
 ---
+type: index
 title: Product
+description: "Product management and discovery."
 tags: [meta]
 status: complete
 updated: 2026-06-20

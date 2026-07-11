@@ -1,5 +1,7 @@
 ---
+type: note
 title: ADRs in an Agentic World
+description: "how agentic coding shifts the ADR from a pre-authorisation gate to a post-exploration record: the Pareto flip, spikes-as-options, evidence over rhetoric, and agents drafting ADRs"
 tags: [architecture, decision-making, ai-engineering, documentation, reading]
 topic: engineering/architecture
 status: notes

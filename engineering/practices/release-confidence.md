@@ -1,5 +1,7 @@
 ---
+type: note
 title: Release Confidence as a System Property
+description: "Stressful releases rarely originate at the deployment moment."
 tags: [ci-cd, observability, reading]
 topic: engineering/practices
 status: notes

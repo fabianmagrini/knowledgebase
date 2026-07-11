@@ -1,5 +1,7 @@
 ---
+type: reading
 title: Agentic AI in the SDLC — A Research Survey
+description: "Notes on Happy Bhati's 2026 survey of agentic AI in the software development lifecycle."
 tags: [ai-engineering, agentic-workflows, reading]
 topic: reading
 status: notes

@@ -1,5 +1,7 @@
 ---
+type: note
 title: Progressive Delivery
+description: "extending continuous delivery with gradual, measured exposure (canary, blue-green, ring, flag rollout) gated on telemetry"
 tags: [ci-cd, observability, testing]
 topic: concepts
 status: notes

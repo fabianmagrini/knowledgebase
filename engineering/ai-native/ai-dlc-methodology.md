@@ -1,5 +1,7 @@
 ---
+type: note
 title: AI-DLC and the Reimagined SDLC
+description: "Traditional methodologies — Waterfall, then Agile — evolved when code production was the expensive, slow part."
 tags: [ai-engineering, architecture, reading, agentic-workflows]
 topic: engineering/ai-native
 status: notes

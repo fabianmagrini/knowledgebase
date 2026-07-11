@@ -1,5 +1,7 @@
 ---
+type: note
 title: Claude Code Steering Mechanisms
+description: "the ten places an instruction can live in Claude Code, chosen by scope (cost) and enforcement (reliability): CLAUDE.md, rules, skills, slash commands, subagents, output styles, appended prompts, MCP servers, hooks, and permissions"
 tags: [ai-engineering, agentic-workflows, reading]
 topic: tools
 status: notes

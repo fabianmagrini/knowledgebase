@@ -1,5 +1,7 @@
 ---
+type: note
 title: Facilitating Technical Decisions
+description: "As engineers get more senior, the failure mode shifts from \"can't explain it\" to over-explaining — teaching the room instead of driving alignment."
 tags: [leadership, communication, decision-making]
 topic: leadership
 status: notes

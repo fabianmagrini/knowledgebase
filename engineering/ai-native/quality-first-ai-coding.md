@@ -1,5 +1,7 @@
 ---
+type: note
 title: Quality-First AI Coding
+description: "A counter-position to the idea that AI's value in coding is raw speed."
 tags: [ai-engineering, code-review, reading]
 topic: engineering/ai-native
 status: notes

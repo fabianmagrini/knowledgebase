@@ -1,5 +1,7 @@
 ---
+type: note
 title: Loop-Driven Development
+description: "Software engineering has always run as a feedback loop."
 tags: [ai-engineering, testing, ci-cd, reading, agentic-workflows]
 topic: engineering/ai-native
 status: notes

@@ -1,5 +1,7 @@
 ---
+type: index
 title: AI-Native Engineering
+description: "Building software when AI agents are first-class participants in the SDLC — adoption, agent operation, and context engineering."
 tags: [meta, ai-engineering, agentic-workflows]
 topic: engineering/ai-native
 status: complete

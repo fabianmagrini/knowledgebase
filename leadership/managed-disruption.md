@@ -1,5 +1,7 @@
 ---
+type: note
 title: Managed Disruption
+description: "Managed disruption is the intentional, structured introduction of innovation and change into delivery work — while preserving stability, security, and compliance."
 tags: [architecture, ci-cd, refactoring, decision-making]
 topic: leadership
 status: notes

@@ -1,5 +1,7 @@
 ---
+type: note
 title: Agentic Code Review
+description: "Review as the new binding constraint when agents write the code: tiered risk-based review, human-on-the-loop, the AI-reviewer landscape, and failure modes."
 tags: [ai-engineering, code-review, agentic-workflows, reading]
 topic: engineering/ai-native
 status: notes

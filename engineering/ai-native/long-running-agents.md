@@ -1,5 +1,7 @@
 ---
+type: note
 title: Long-Running Agents
+description: "Why the chat-window agent loop hits a ceiling, and the durability layer (context, state, self-verification) long-running agents need."
 tags: [ai-engineering, agentic-workflows, architecture, reading]
 topic: engineering/ai-native
 status: notes

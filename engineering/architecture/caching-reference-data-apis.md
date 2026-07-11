@@ -1,5 +1,7 @@
 ---
+type: note
 title: Caching Reference Data APIs
+description: "cache patterns for slow-moving lookup data (long TTL + ETag, versioned datasets, Redis cache-aside, event invalidation, stale-while-revalidate) and a recommended enterprise topology"
 tags: [api-design, performance, system-design]
 topic: engineering/architecture
 status: notes

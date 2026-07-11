@@ -1,5 +1,7 @@
 ---
+type: note
 title: AI Demands More Engineering Discipline
+description: "Charity Majors argues that AI-generated code — now competent at the level of a median engineer — does not reduce the need for engineering rigour; it increases it, while moving where the rigour lives."
 tags: [ai-engineering, observability, testing, reading]
 topic: engineering/ai-native
 status: notes

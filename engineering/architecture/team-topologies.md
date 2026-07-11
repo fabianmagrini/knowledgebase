@@ -1,5 +1,7 @@
 ---
+type: note
 title: Team Topologies and Socio-Technical Architecture
+description: "Conway's Law and the inverse manoeuvre, the four team types, three interaction modes, cognitive load and fracture planes"
 tags: [architecture, system-design, leadership, culture]
 topic: engineering/architecture
 status: notes

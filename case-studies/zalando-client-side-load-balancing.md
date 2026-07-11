@@ -1,5 +1,7 @@
 ---
+type: case-study
 title: Zalando's Client-Side Load Balancing
+description: "moving ~1M req/s off a shared edge load balancer into the calling process: watch-based discovery, consistent hashing with hash parity, occupancy (Little's Law) as the load signal, N-ring fade-in, bounded-load walk, and the cache-locality-vs-zone-cost trade-offs"
 tags: [architecture, system-design, performance, reading]
 topic: case-studies
 status: notes

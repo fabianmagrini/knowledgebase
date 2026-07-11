@@ -1,5 +1,7 @@
 ---
+type: note
 title: Agentic Autonomy Levels
+description: "Addy Osmani argues that a single-axis \"how autonomous is it\" scale is too crude for agentic engineering."
 tags: [ai-engineering, agentic-workflows, reading]
 topic: engineering/ai-native
 status: notes

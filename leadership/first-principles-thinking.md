@@ -1,5 +1,7 @@
 ---
+type: note
 title: First-Principles Thinking
+description: "First-principles thinking is the practice of breaking a problem down to its fundamental truths and building a solution up from what actually holds."
 tags: [leadership, reading, decision-making]
 topic: leadership
 status: notes

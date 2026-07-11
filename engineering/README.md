@@ -1,5 +1,7 @@
 ---
+type: index
 title: Engineering
+description: "Architecture, system design, patterns, development practices, AI-native engineering, and security."
 tags: [meta, engineering]
 status: complete
 updated: 2026-07-05

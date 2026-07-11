@@ -1,5 +1,7 @@
 ---
+type: note
 title: Highly Available PostgreSQL on Kubernetes
+description: "Datadog's hybrid synchronous-replication approach to safe PostgreSQL failover on Kubernetes (Patroni, sync vs async, failure scenarios); a concrete resilience case study"
 tags: [system-design, performance, observability, reading]
 topic: tools
 status: notes

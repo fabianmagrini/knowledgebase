@@ -1,5 +1,7 @@
 ---
+type: overview
 title: Architecture — Overview
+description: "A map of the architecture notes — how to describe, shape, decide, and constrain systems."
 tags: [meta, architecture, system-design]
 topic: engineering/architecture
 status: complete

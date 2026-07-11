@@ -1,5 +1,7 @@
 ---
+type: note
 title: Writing an Effective Design Doc
+description: "the design doc as an artifact: when it's worth writing, how much to invest, a selective component catalogue (goals/non-goals, scenarios, SLOs, alternatives considered, trust boundaries), and concrete practices; the larger up-front cousin of the ADR"
 tags: [architecture, documentation, system-design, decision-making, reading]
 topic: engineering/architecture
 status: notes

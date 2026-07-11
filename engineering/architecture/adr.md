@@ -1,5 +1,7 @@
 ---
+type: note
 title: Architectural Decision Records (ADRs)
+description: "lightweight, version-controlled records of significant decisions"
 tags: [architecture, documentation, system-design, decision-making]
 topic: engineering/architecture
 status: notes

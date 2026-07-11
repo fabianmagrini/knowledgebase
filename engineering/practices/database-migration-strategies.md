@@ -1,5 +1,7 @@
 ---
+type: note
 title: Database Migration Strategies
+description: "Database changes are the hardest part of continuous delivery because the database is stateful, shared, and not trivially reversible."
 tags: [ci-cd, system-design, testing, api-design]
 topic: engineering/practices
 status: notes

@@ -1,5 +1,7 @@
 ---
+type: note
 title: Bounded Context Canvas
+description: "the DDD domain/service-layer canvas for designing one bounded context (purpose, strategic classification, ubiquitous language, inbound/outbound communication, business decisions); the backend sibling of the micro-frontend canvas"
 tags: [architecture, system-design, microservices, reading]
 topic: engineering/architecture
 status: notes

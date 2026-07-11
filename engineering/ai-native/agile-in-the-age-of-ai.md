@@ -1,5 +1,7 @@
 ---
+type: note
 title: Agile in the Age of AI
+description: "The argument is that Agile's principles stay valid when AI coding agents become co-authors, but their application has to evolve because the participants and the pace have changed."
 tags: [ai-engineering, culture, reading]
 topic: engineering/ai-native
 status: notes

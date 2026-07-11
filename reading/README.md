@@ -1,5 +1,7 @@
 ---
+type: index
 title: Reading
+description: "Notes and summaries from books, papers, and articles."
 tags: [meta, reading]
 status: complete
 updated: 2026-06-13

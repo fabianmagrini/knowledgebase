@@ -1,5 +1,7 @@
 ---
+type: note
 title: Federated PR Review and Governance
+description: "PR review in multi-team codebases must function as a coordination, safety, and ownership system — not a universal quality gate."
 tags: [code-review, ci-cd, microservices, ai-engineering, governance]
 topic: engineering/practices
 status: notes

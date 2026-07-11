@@ -1,5 +1,7 @@
 ---
+type: note
 title: C4 Model
+description: "four-level architecture diagramming with PlantUML and Structurizr DSL examples"
 tags: [architecture, system-design, documentation]
 topic: engineering/architecture
 status: notes

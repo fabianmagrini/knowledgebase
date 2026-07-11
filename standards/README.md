@@ -1,5 +1,7 @@
 ---
+type: index
 title: Standards
+description: "Notes on specifications, protocols, and formats — external standards worth referencing and adopting, as distinct from the practices we follow (engineering/practices) or the tools we use (tools)."
 tags: [meta]
 status: complete
 updated: 2026-06-14

@@ -1,5 +1,7 @@
 ---
+type: note
 title: Rollback and Roll Forward
+description: "The two ways to recover from a bad production change, and when each is the right call."
 tags: [ci-cd, observability, testing]
 topic: engineering/practices
 status: notes

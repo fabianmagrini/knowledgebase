@@ -1,5 +1,7 @@
 ---
+type: note
 title: Go as an Agentic Language
+description: "why Go's reader-first design (fast deterministic builds, compile-enforced types as a gate, the Go 1 compatibility promise, low distractor density) suits AI coding agents running the agentic loop at machine frequency"
 tags: [go, ai-engineering, agentic-workflows, reading]
 topic: languages-and-frameworks
 status: notes

@@ -1,5 +1,7 @@
 ---
+type: note
 title: Clean Code and SOLID
+description: "the hierarchy (Craftsmanship → Clean Code → SOLID), the five principles, and the modern over-abstraction caution"
 tags: [system-design, refactoring, code-review]
 topic: concepts
 status: draft

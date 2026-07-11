@@ -1,5 +1,7 @@
 ---
+type: note
 title: Principal Engineer Influence
+description: "At a senior level influence outruns authority: your words signal strategy, so give feedback early and privately."
 tags: [leadership, communication]
 topic: leadership
 status: notes

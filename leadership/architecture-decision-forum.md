@@ -1,5 +1,7 @@
 ---
+type: note
 title: Architecture Decision Forum
+description: "An architecture decision forum is a standing, cross-team body that advises on high-blast-radius design decisions."
 tags: [architecture, system-design, leadership, decision-making, governance]
 topic: leadership
 status: notes

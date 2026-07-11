@@ -1,5 +1,7 @@
 ---
+type: note
 title: A Plan Is Not a Strategy
+description: "Roger Martin argues that most organisations confuse planning with strategy."
 tags: [leadership, decision-making, reading]
 topic: leadership
 status: notes

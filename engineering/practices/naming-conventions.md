@@ -1,5 +1,7 @@
 ---
+type: note
 title: Naming Conventions
+description: "Naming is one of the genuinely hard problems in software."
 tags: [refactoring, code-review, api-design, documentation]
 topic: engineering/practices
 status: notes

@@ -1,5 +1,7 @@
 ---
+type: note
 title: "Your Micro-Frontend Shell Should Be a Platform Runtime, Not a Layout Wrapper"
+description: "Treating the micro-frontend host shell as a platform runtime rather than a layout wrapper."
 description: "Build the host shell as an enterprise runtime, extract it into its own remote, and keep startup fast."
 date: 2026-06-28
 draft: true

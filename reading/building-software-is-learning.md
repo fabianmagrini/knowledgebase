@@ -1,5 +1,7 @@
 ---
+type: reading
 title: Building Software Is Learning
+description: "Thorsten Ball (originally an internal Amp-team message) argues that building new software is fundamentally an iterative learning process, not the linear execution of a predetermined spec."
 tags: [ai-engineering, reading]
 topic: reading
 status: notes

@@ -1,5 +1,7 @@
 ---
+type: index
 title: Case Studies
+description: "Deep-dives into how real-world production systems and teams are built, and why."
 tags: [meta]
 status: complete
 updated: 2026-06-22

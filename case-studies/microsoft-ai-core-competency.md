@@ -1,5 +1,7 @@
 ---
+type: case-study
 title: Microsoft's AI Strategy — Finding Core Competencies (Nadella)
+description: "a corporate-strategy case study from Satya Nadella's Stratechery interview: core-competency discipline, the hill-climbing machine and private evals as moat, three-bucket capital allocation, token capital, consumption pricing, and model/harness independence"
 tags: [ai-engineering, decision-making, leadership, reading]
 topic: case-studies
 status: notes

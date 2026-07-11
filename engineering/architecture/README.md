@@ -1,5 +1,7 @@
 ---
+type: index
 title: Architecture
+description: "Notes on software architecture, system design, and distributed systems."
 tags: [meta, architecture, system-design]
 status: complete
 updated: 2026-06-20

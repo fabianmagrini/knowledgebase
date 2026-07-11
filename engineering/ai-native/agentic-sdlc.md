@@ -1,5 +1,7 @@
 ---
+type: note
 title: The Agentic SDLC
+description: "How agents reshape the SDLC once implementation is cheap: the phases, the context development lifecycle, and the feeling-fast-delivering-slow trap."
 tags: [ai-engineering, architecture, ci-cd, agentic-workflows]
 topic: engineering/ai-native
 status: notes

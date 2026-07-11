@@ -1,5 +1,7 @@
 ---
+type: note
 title: AI in the SDLC — Terminology
+description: "Why the competing terms for AI in the SDLC are not synonyms — they mark different depths of integration, from assistance to autonomy."
 tags: [ai-engineering, agentic-workflows, documentation]
 topic: engineering/ai-native
 status: notes

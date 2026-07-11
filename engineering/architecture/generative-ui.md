@@ -1,5 +1,7 @@
 ---
+type: note
 title: Generative UI
+description: "producing UI with AI at build time (generated components) and run time (LLM-assembled interfaces); patterns, the whitelisted component registry as safety boundary, risks, and when to use it"
 tags: [ai-engineering, architecture, system-design]
 topic: engineering/architecture
 status: draft

@@ -1,5 +1,7 @@
 ---
+type: note
 title: CI Speed When Agents Write the Code
+description: "A long-standing rule of delivery is that CI must be fast — keep it under ~10 minutes, as trunk-based development demands."
 tags: [ci-cd, ai-engineering, testing, agentic-workflows]
 topic: engineering/ai-native
 status: notes

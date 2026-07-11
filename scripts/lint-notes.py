@@ -4,13 +4,16 @@
 Checks (see conventions.md and AGENTS.md):
   ERRORS (fail the build)
     - frontmatter present and well-formed
-    - required fields: title, tags, status, updated
+    - required fields: type, title, tags, status, updated
+    - type is one of the OKF concept types (note | index | overview |
+      case-study | reading | reference)
     - status is one of draft | notes | complete
     - updated is a YYYY-MM-DD date
     - tags are lowercase, hyphenated, non-empty
     - file names are lowercase and hyphenated
     - related: links resolve to existing files
   WARNINGS (reported; fail only with --strict)
+    - a recommended field (description) is missing
     - related: links are not reciprocated (bidirectional convention)
     - a note is not linked from its folder README index
     - a tag is used by only one note (likely sprawl, not a shared facet)
@@ -38,7 +41,11 @@ EXCLUDE_DIRS = {".git", ".claude", ".obsidian", "node_modules", "scripts", "draf
 # Agent/instruction files that are not notes and carry no frontmatter.
 EXCLUDE_FILES = {"CLAUDE.md", "AGENTS.md"}
 
-REQUIRED_FIELDS = ("title", "tags", "status", "updated")
+REQUIRED_FIELDS = ("type", "title", "tags", "status", "updated")
+RECOMMENDED_FIELDS = ("description",)
+# OKF concept types (see conventions.md). OKF requires a `type` field; this is
+# the repo's controlled vocabulary for it.
+VALID_TYPES = {"note", "index", "overview", "case-study", "reading", "reference"}
 VALID_STATUS = {"draft", "notes", "complete"}
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 TAG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
@@ -191,6 +198,19 @@ def main() -> int:
         for field in REQUIRED_FIELDS:
             if field not in note.fields or note.fields[field] in ("", [], None):
                 errors.append(f"{note.rel}: missing required field '{field}'")
+
+        # --- recommended fields ---
+        for field in RECOMMENDED_FIELDS:
+            if field not in note.fields or note.fields[field] in ("", [], None):
+                warnings.append(f"{note.rel}: missing recommended field '{field}'")
+
+        # --- type ---
+        note_type = note.fields.get("type")
+        if isinstance(note_type, str) and note_type and note_type not in VALID_TYPES:
+            errors.append(
+                f"{note.rel}: invalid type '{note_type}' "
+                f"(expected one of {', '.join(sorted(VALID_TYPES))})"
+            )
 
         # --- status ---
         status = note.fields.get("status")

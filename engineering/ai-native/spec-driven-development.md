@@ -1,5 +1,7 @@
 ---
+type: note
 title: Spec-Driven Development
+description: "In spec-driven development, the specification — not the code — is the primary artifact that engineers write and iterate on; the implementation is generated from it (increasingly by AI agents)."
 tags: [ai-engineering, agentic-workflows, reading]
 topic: engineering/ai-native
 status: notes

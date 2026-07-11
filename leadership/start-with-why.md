@@ -1,5 +1,7 @@
 ---
+type: note
 title: Start with the Why
+description: "Popularised by Simon Sinek, Start with the Why is the practice of communicating purpose before approach or output."
 tags: [leadership, communication, decision-making]
 topic: leadership
 status: notes

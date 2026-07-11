@@ -1,5 +1,7 @@
 ---
+type: note
 title: Performance Testing Strategy
+description: "Flat load tests against isolated endpoints don't reveal how a distributed system behaves under real use."
 tags: [testing, performance, observability]
 topic: engineering/practices
 status: notes

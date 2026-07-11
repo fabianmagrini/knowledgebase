@@ -1,5 +1,7 @@
 ---
+type: note
 title: Cognitive Diversity in Incident Reviews
+description: "why genuinely different mental models, not identity diversity, improve reasoning about complex systems, and how to compose reviews for it"
 tags: [leadership, culture, decision-making, reading]
 topic: sre
 status: notes

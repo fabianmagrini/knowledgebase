@@ -1,5 +1,7 @@
 ---
+type: note
 title: Agentic AI Strategy Frameworks
+description: "Practical frameworks for classifying, planning, and implementing AI participation in engineering."
 tags: [ai-engineering, agentic-workflows]
 topic: engineering/ai-native
 status: notes

@@ -1,5 +1,7 @@
 ---
+type: note
 title: CI/CD as the Control Plane for AI-Assisted Engineering
+description: "AI coding assistants and autonomous agents accelerate code generation dramatically."
 tags: [ci-cd, ai-engineering, testing, code-review, observability]
 topic: engineering/ai-native
 status: notes

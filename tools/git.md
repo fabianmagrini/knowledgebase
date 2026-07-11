@@ -1,5 +1,7 @@
 ---
+type: note
 title: Git
+description: "fundamentals, workflow, rebase, stash, bisect, cherry-pick"
 tags: [git]
 topic: tools
 status: notes

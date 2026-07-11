@@ -1,5 +1,7 @@
 ---
+type: note
 title: Raising Problems Without Complaining
+description: "Managers tend to interpret complaints differently from how they are intended."
 tags: [leadership, communication, reading]
 topic: leadership
 status: notes

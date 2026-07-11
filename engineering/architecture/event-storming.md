@@ -1,5 +1,7 @@
 ---
+type: note
 title: Event Storming
+description: "the collaborative DDD discovery workshop: the three levels (big picture → process → software design), the sticky-note grammar, and how clusters of domain events surface bounded contexts"
 tags: [architecture, system-design, microservices]
 topic: engineering/architecture
 status: notes

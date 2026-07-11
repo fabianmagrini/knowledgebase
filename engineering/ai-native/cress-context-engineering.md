@@ -1,5 +1,7 @@
 ---
+type: note
 title: CRESS Principles for Context Engineering
+description: "Jason Gorman (Codemanship) offers CRESS as a mnemonic for the properties an LLM's context should have to reliably generate code."
 tags: [ai-engineering, agentic-workflows, reading]
 topic: engineering/ai-native
 status: notes

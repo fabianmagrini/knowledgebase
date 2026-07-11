@@ -1,5 +1,7 @@
 ---
+type: note
 title: Architectural Change Cases
+description: "anticipating future change: structured change cases that extend ADRs forward, with t-shirt costs, fitness functions, and evolutionary-architecture framing"
 tags: [architecture, system-design, reading]
 topic: engineering/architecture
 status: notes

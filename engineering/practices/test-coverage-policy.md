@@ -1,5 +1,7 @@
 ---
+type: note
 title: Test Coverage Policy
+description: "Code coverage is a means to an end — confidence in changes — not a goal in itself."
 tags: [testing, ci-cd, ai-engineering, governance]
 topic: engineering/practices
 status: notes

@@ -1,5 +1,7 @@
 ---
+type: overview
 title: Engineering Leadership — Overview
+description: "A map of the notes on senior-engineer leadership, communication, and decision governance — how to set direction and make good decisions with other people."
 tags: [meta, leadership, communication]
 topic: leadership
 status: complete

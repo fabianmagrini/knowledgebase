@@ -1,5 +1,7 @@
 ---
+type: note
 title: Self-Blame in Post-Incident Reviews
+description: "why self-blame ends a review's investigation as effectively as external blame, and how facilitators redirect it toward systemic causes"
 tags: [leadership, culture, communication, reading]
 topic: sre
 status: notes

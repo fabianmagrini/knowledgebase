@@ -1,5 +1,7 @@
 ---
+type: note
 title: The Micro-Frontend Shell as Platform Runtime
+description: "the host shell as a platform runtime, not a layout wrapper: the catalogue of shell-owned services (routing, session, entitlements, navigation, remote registry, config, telemetry, HTTP, …), the typed ShellPlatform contract, and what to keep out of the shell"
 tags: [architecture, system-design, microservices]
 topic: engineering/architecture
 status: notes

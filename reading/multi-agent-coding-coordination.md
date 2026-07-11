@@ -1,5 +1,7 @@
 ---
+type: reading
 title: Multi-Agent Coding Without Worktree Chaos
+description: "Notes on David Wells' argument that git worktrees are the wrong default for running coding agents in parallel."
 tags: [ai-engineering, agentic-workflows, git, reading]
 topic: reading
 status: notes
