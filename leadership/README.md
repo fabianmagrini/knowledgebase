@@ -19,6 +19,7 @@ make good decisions with others.
 - [Start with the Why](start-with-why.md)
 - [A Plan Is Not a Strategy](plan-is-not-a-strategy.md)
 - [The Senior IC Role](senior-ic-role.md)
+- [The Engineering Manager Role](engineering-manager-role.md)
 - [Principal Engineer Influence](principal-engineer-influence.md)
 - [Consensus Among Principal Engineers](principal-engineer-consensus.md)
 - [Raising Problems Without Complaining](raising-problems-without-complaining.md)

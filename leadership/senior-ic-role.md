@@ -5,6 +5,7 @@ topic: leadership
 status: notes
 level: intermediate
 related:
+  - leadership/engineering-manager-role.md
   - leadership/principal-engineer-influence.md
   - leadership/decision-facilitation.md
   - leadership/architecture-decision-forum.md

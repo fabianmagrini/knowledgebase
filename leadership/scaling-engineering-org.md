@@ -7,6 +7,7 @@ level: intermediate
 related:
   - engineering/architecture/team-topologies.md
   - engineering/ai-native/team-topologies-agentic-platform.md
+  - leadership/engineering-manager-role.md
   - engineering/ai-native/ai-augmented-engineering-team.md
   - leadership/all-hands-meetings.md
   - leadership/engineering-leadership-overview.md
