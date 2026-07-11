@@ -5,6 +5,7 @@ topic: engineering/architecture
 status: notes
 related:
   - engineering/architecture/agile-design-decisions.md
+  - engineering/architecture/adrs-in-an-agentic-world.md
   - engineering/architecture/design-docs.md
   - engineering/architecture/c4-model.md
   - engineering/practices/code-review-policy.md
