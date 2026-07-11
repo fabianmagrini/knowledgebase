@@ -14,6 +14,7 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - engineering/ai-native/agile-in-the-age-of-ai.md
   - sre/incident-swarming.md
+  - sre/self-blame-in-incident-reviews.md
   - leadership/new-leader-credibility.md
   - product/explore-vs-exploit.md
   - engineering/ai-native/trust-factory.md
