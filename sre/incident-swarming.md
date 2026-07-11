@@ -5,6 +5,7 @@ topic: sre
 status: notes
 level: intermediate
 related:
+  - sre/self-blame-in-incident-reviews.md
   - leadership/learning-organisation.md
   - leadership/decision-facilitation.md
   - leadership/managed-disruption.md

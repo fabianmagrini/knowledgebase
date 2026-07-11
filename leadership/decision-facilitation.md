@@ -13,6 +13,7 @@ related:
   - leadership/first-principles-thinking.md
   - leadership/raising-problems-without-complaining.md
   - sre/incident-swarming.md
+  - sre/self-blame-in-incident-reviews.md
   - leadership/new-leader-credibility.md
   - leadership/revised-rules-engineering-leadership.md
   - leadership/senior-ic-role.md
