@@ -49,6 +49,7 @@ in **[Practices](../practices/)**.
 - [Agentic Autonomy Levels](agentic-autonomy-levels.md)
 - [Long-Running Agents](long-running-agents.md)
 - [Backpressure Loops for Coding Agents](agent-backpressure-loops.md)
+- [Own the Outer Loop](own-the-outer-loop.md)
 - [Agentic Code Review](agentic-code-review.md)
 - [Harness Engineering](harness-engineering.md)
 - [Quality-First AI Coding](quality-first-ai-coding.md)

@@ -6,6 +6,7 @@ status: notes
 level: intermediate
 related:
   - engineering/practices/code-review-policy.md
+  - engineering/ai-native/own-the-outer-loop.md
   - engineering/ai-native/quality-first-ai-coding.md
   - engineering/ai-native/agent-backpressure-loops.md
   - engineering/practices/change-absorption-capacity.md

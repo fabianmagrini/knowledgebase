@@ -135,6 +135,9 @@ A map of the notes on building software with AI agents. They answer different qu
 - [Backpressure Loops for Coding Agents](agent-backpressure-loops.md) — move mechanical
   correctness feedback into agent-actionable loops (sensors) so agents self-correct and humans
   stop babysitting.
+- [Own the Outer Loop](own-the-outer-loop.md) — the human-accountability framing: agents run the
+  inner execution loop; humans own the outer *accountability boundary* (constraints, sampling,
+  audit, ownership, governance) and the Quality → Verdict → Answerability decision.
 - [Loop-Driven Development](loop-driven-development.md) — the connective map: TDD scaled to agent
   loops (trigger/goal/harness/verifier/state) and the autocomplete→prompt→context→harness→loop
   leverage stack; plus the loop-engineering anatomy and the comprehension-debt / cognitive-surrender
