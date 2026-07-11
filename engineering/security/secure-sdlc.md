@@ -11,6 +11,7 @@ related:
   - engineering/practices/code-review-policy.md
   - concepts/continuous-delivery.md
   - concepts/devops-capability-model.md
+  - reading/fintech-engineering-handbook.md
 updated: 2026-06-16
 ---
 
