@@ -5,6 +5,7 @@ topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
+  - engineering/ai-native/own-the-outer-loop.md
   - engineering/ai-native/agentic-code-review.md
   - engineering/ai-native/eval-driven-ai-development.md
   - engineering/practices/change-absorption-capacity.md

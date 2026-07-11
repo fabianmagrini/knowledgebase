@@ -5,6 +5,7 @@ topic: engineering/ai-native
 status: notes
 level: intermediate
 related:
+  - engineering/ai-native/own-the-outer-loop.md
   - engineering/ai-native/long-running-agents.md
   - engineering/ai-native/agentic-sdlc-maturity-model.md
   - engineering/ai-native/agent-backpressure-loops.md
