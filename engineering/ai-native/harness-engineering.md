@@ -15,7 +15,7 @@ related:
   - engineering/ai-native/loop-driven-development.md
   - engineering/ai-native/prompt-engineering-for-programmers.md
   - engineering/ai-native/cress-context-engineering.md
-  - tools/coding-agents/claude-code-steering-mechanisms.md
+  - tools/claude-code-steering-mechanisms.md
   - reading/agentic-ai-architecture-emag.md
   - reading/agentic-sdlc-survey.md
   - reading/building-effective-agents.md

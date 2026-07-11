@@ -27,7 +27,7 @@ leadership/             # leadership, communication, decision governance, cultur
 product/                # product management and discovery
 languages/              # per-language notes
 react/                  # React patterns, mental models, library choices
-tools/                  # cloud, containers, editors, coding-agents
+tools/                  # tooling, platforms, infrastructure (flat)
 sre/                    # site reliability, incident response, operations
 standards/              # specifications, protocols, formats
 concepts/               # algorithms, data structures, CS fundamentals

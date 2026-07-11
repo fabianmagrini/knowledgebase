@@ -12,8 +12,8 @@ related:
   - concepts/progressive-delivery.md
   - engineering/practices/gitops.md
   - engineering/practices/database-migration-strategies.md
-  - tools/containers/postgresql-ha-kubernetes.md
-  - tools/containers/dynamic-configuration-sidecar.md
+  - tools/postgresql-ha-kubernetes.md
+  - tools/dynamic-configuration-sidecar.md
   - sre/incident-swarming.md
   - engineering/architecture/caching-reference-data-apis.md
   - case-studies/zalando-client-side-load-balancing.md

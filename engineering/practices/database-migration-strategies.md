@@ -12,7 +12,7 @@ related:
   - concepts/resilient-software-design.md
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/gitops.md
-  - tools/containers/postgresql-ha-kubernetes.md
+  - tools/postgresql-ha-kubernetes.md
 source: ""
 updated: 2026-06-21
 ---
@@ -152,5 +152,5 @@ the data layer is what lets callers stay stable through the swap, and a
   — the same decouple-and-migrate-incrementally pattern, applied to state.
 - [Resilient Software Design](../../concepts/resilient-software-design.md) — backward
   compatibility and reversibility are designing for failure at the data layer.
-- [Highly Available PostgreSQL on Kubernetes](../../tools/containers/postgresql-ha-kubernetes.md)
+- [Highly Available PostgreSQL on Kubernetes](../../tools/postgresql-ha-kubernetes.md)
   — a concrete case study in the operational side of running the database safely.

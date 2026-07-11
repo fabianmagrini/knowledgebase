@@ -10,7 +10,7 @@ related:
   - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/release-confidence.md
   - concepts/resilient-software-design.md
-  - tools/containers/postgresql-ha-kubernetes.md
+  - tools/postgresql-ha-kubernetes.md
   - case-studies/linear-performance-architecture.md
   - case-studies/chatgpt-web-performance.md
   - engineering/architecture/thin-shell-startup-performance.md

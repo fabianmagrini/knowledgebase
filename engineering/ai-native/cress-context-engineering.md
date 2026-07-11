@@ -8,7 +8,7 @@ related:
   - engineering/ai-native/prompt-engineering-for-programmers.md
   - engineering/ai-native/harness-engineering.md
   - engineering/ai-native/eval-driven-ai-development.md
-  - tools/coding-agents/claude-code-steering-mechanisms.md
+  - tools/claude-code-steering-mechanisms.md
   - reading/agentic-ai-architecture-emag.md
   - case-studies/doordash-ai-code-review.md
 source: "https://codemanship.wordpress.com/2026/05/04/c-r-e-s-s-principles-for-context-engineering/"
@@ -56,7 +56,7 @@ The two failure directions the acronym guards against: context that is **wrong o
 - **[Prompt Engineering for Programmers](prompt-engineering-for-programmers.md)** — about
   *writing the prompt* as an interactive dialogue. CRESS is about the *properties of the context*
   the agent operates on; the two overlap only on "Specific".
-- **[Claude Code Steering Mechanisms](../../tools/coding-agents/claude-code-steering-mechanisms.md)**
+- **[Claude Code Steering Mechanisms](../../tools/claude-code-steering-mechanisms.md)**
   — those mechanisms decide *where* context lives (CLAUDE.md, rules, skills…); CRESS decides
   *what qualities* that context needs to be worth loading.
 - **[Harness Engineering](harness-engineering.md)** — progressive disclosure and tool

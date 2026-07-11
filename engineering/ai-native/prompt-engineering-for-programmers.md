@@ -10,7 +10,7 @@ related:
   - engineering/ai-native/harness-engineering.md
   - engineering/ai-native/ai-native-engineering-stack.md
   - engineering/ai-native/cress-context-engineering.md
-  - tools/coding-agents/claude-code-steering-mechanisms.md
+  - tools/claude-code-steering-mechanisms.md
   - leadership/learning-culture-ai-agents.md
   - reading/how-i-use-llms-2026.md
 source: "https://addyo.substack.com/p/the-prompt-engineering-playbook-for"
