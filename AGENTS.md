@@ -26,7 +26,6 @@ engineering/            # architecture, practices, security
 leadership/             # leadership, communication, decision governance, culture
 product/                # product management and discovery
 languages-and-frameworks/  # per-language and framework notes
-react/                  # React patterns, mental models, library choices
 tools/                  # tooling, platforms, infrastructure (flat)
 sre/                    # site reliability, incident response, operations
 standards/              # specifications, protocols, formats
