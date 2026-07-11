@@ -25,6 +25,7 @@ related:
   - leadership/scaling-engineering-org.md
   - case-studies/portkey-product-engineer-company.md
   - leadership/senior-ic-role.md
+  - leadership/engineering-manager-role.md
 updated: 2026-06-27
 ---
 
@@ -67,6 +68,9 @@ how to set direction and make good decisions with other people.
 
 ## People & change
 
+- [The Engineering Manager Role](engineering-manager-role.md) — the management-track role
+  definition: four pillars (people, technical, product, delivery leadership) and the manager's
+  core job of removing obstacles; the sibling to [The Senior IC Role](senior-ic-role.md).
 - [Protecting Mavericks](protecting-mavericks.md) — letting unconventional talent flourish
   without letting disruption damage the team.
 - [Managed Disruption](managed-disruption.md) — introducing change into delivery safely and
