@@ -5,6 +5,7 @@ topic: sre
 status: notes
 level: intermediate
 related:
+  - sre/cognitive-diversity-in-incident-reviews.md
   - sre/incident-swarming.md
   - leadership/learning-organisation.md
   - leadership/decision-facilitation.md

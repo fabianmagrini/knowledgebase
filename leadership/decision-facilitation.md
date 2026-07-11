@@ -14,6 +14,7 @@ related:
   - leadership/raising-problems-without-complaining.md
   - sre/incident-swarming.md
   - sre/self-blame-in-incident-reviews.md
+  - sre/cognitive-diversity-in-incident-reviews.md
   - leadership/new-leader-credibility.md
   - leadership/revised-rules-engineering-leadership.md
   - leadership/senior-ic-role.md
