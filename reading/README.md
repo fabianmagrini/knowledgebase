@@ -33,6 +33,7 @@ Each note should include:
 ### Architecture & Performance
 
 - [How is Linear so fast? A technical breakdown](https://performance.dev/how-is-linear-so-fast-a-technical-breakdown) — performance.dev → see case study: [Linear's Performance Architecture](../case-studies/linear-performance-architecture.md)
+- [Reverse Engineering ChatGPT Web](https://performance.dev/chatgpt) — Dennis Brotzky (performance.dev) → see case study: [ChatGPT's Web Performance Architecture](../case-studies/chatgpt-web-performance.md)
 
 ### Domain Engineering
 

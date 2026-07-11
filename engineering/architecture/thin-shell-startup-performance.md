@@ -8,6 +8,7 @@ related:
   - engineering/architecture/thin-shell-platform-runtime.md
   - engineering/architecture/microfrontend-shell-platform.md
   - case-studies/linear-performance-architecture.md
+  - case-studies/chatgpt-web-performance.md
   - engineering/practices/performance-testing-strategy.md
 updated: 2026-06-22
 ---

@@ -12,6 +12,7 @@ related:
   - concepts/resilient-software-design.md
   - tools/containers/postgresql-ha-kubernetes.md
   - case-studies/linear-performance-architecture.md
+  - case-studies/chatgpt-web-performance.md
   - engineering/architecture/thin-shell-startup-performance.md
   - engineering/practices/visual-regression-testing.md
   - engineering/architecture/caching-reference-data-apis.md
