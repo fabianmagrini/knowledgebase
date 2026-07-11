@@ -34,6 +34,10 @@ Each note should include:
 
 - [How is Linear so fast? A technical breakdown](https://performance.dev/how-is-linear-so-fast-a-technical-breakdown) — performance.dev → see case study: [Linear's Performance Architecture](../case-studies/linear-performance-architecture.md)
 
+### Domain Engineering
+
+- [Fintech Engineering Handbook](https://w.pitula.me/fintech-engineering-handbook/) — Voytek Pituła → notes: [Fintech Engineering Handbook](fintech-engineering-handbook.md)
+
 ### AI Engineering
 
 - [Agentic AI in the Software Development Lifecycle](https://arxiv.org/abs/2604.26275) — Happy Bhati (arXiv 2604.26275) → notes: [Agentic AI in the SDLC — A Research Survey](agentic-sdlc-survey.md)
