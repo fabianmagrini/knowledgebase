@@ -5,6 +5,7 @@ topic: engineering/architecture
 status: notes
 related:
   - engineering/architecture/adr.md
+  - engineering/architecture/adrs-in-an-agentic-world.md
   - engineering/architecture/design-docs.md
   - engineering/architecture/c4-model.md
   - engineering/architecture/composable-architecture.md

@@ -24,6 +24,7 @@ related:
   - standards/open-knowledge-format.md
   - leadership/learning-organisation.md
   - engineering/architecture/design-systems-ai-control-plane.md
+  - engineering/architecture/adrs-in-an-agentic-world.md
   - engineering/ai-native/spec-driven-development.md
   - engineering/ai-native/agentic-code-review.md
   - engineering/ai-native/long-running-agents.md
@@ -110,6 +111,9 @@ A map of the notes on building software with AI agents. They answer different qu
   and encoding knowledge outside disposable code.
 - [Design Systems as the AI Control Plane](../architecture/design-systems-ai-control-plane.md)
   — codified constraints as the control plane for AI-generated UI.
+- [ADRs in an Agentic World](../architecture/adrs-in-an-agentic-world.md) — when
+  implementation is cheap, write the ADR *after* spiking the options; decisions
+  anchored in built evidence rather than rhetoric *(in architecture)*.
 - [Eval-Driven Development for AI Capabilities](eval-driven-ai-development.md) — testing the
   prompts/skills/agents themselves, not just the code they emit.
 - [Harness Engineering](harness-engineering.md) — the component-level anatomy of an agent

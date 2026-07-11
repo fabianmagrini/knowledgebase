@@ -23,6 +23,7 @@ related:
   - engineering/architecture/c4-model.md
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/design-systems-ai-control-plane.md
+  - engineering/architecture/adrs-in-an-agentic-world.md
   - engineering/ai-native/spec-driven-development.md
   - reading/agentic-sdlc-survey.md
   - reading/new-sdlc-vibe-coding.md
