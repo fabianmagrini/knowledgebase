@@ -24,6 +24,7 @@ make good decisions with others.
 - [Consensus Among Principal Engineers](principal-engineer-consensus.md)
 - [Raising Problems Without Complaining](raising-problems-without-complaining.md)
 - [Managing Sideways](managing-sideways.md)
+- [Why Arguing to Win Fails](arguing-to-win.md)
 - [Facilitating Technical Decisions](decision-facilitation.md)
 - [Architecture Decision Forum](architecture-decision-forum.md)
 - [Protecting Mavericks](protecting-mavericks.md)

@@ -15,6 +15,7 @@ related:
   - sre/incident-swarming.md
   - sre/self-blame-in-incident-reviews.md
   - sre/cognitive-diversity-in-incident-reviews.md
+  - leadership/arguing-to-win.md
   - leadership/new-leader-credibility.md
   - leadership/revised-rules-engineering-leadership.md
   - leadership/senior-ic-role.md
