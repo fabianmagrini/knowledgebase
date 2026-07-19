@@ -14,6 +14,7 @@ related:
   - engineering/ai-native/model-routing-and-ai-gateways.md
   - leadership/engineering-leadership-overview.md
   - reading/factory-engineers.md
+  - reading/ownership-thorsten-ball.md
 source: "https://newsletter.eng-leadership.com/p/the-product-engineer-company-how"
 updated: 2026-06-27
 ---

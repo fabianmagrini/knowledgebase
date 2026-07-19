@@ -17,6 +17,7 @@ related:
   - reading/how-i-use-llms-2026.md
   - case-studies/portkey-product-engineer-company.md
   - reading/llm-maintained-wiki.md
+  - reading/ownership-thorsten-ball.md
 source: "https://cpojer.net/posts/modern-engineering-values"
 updated: 2026-06-14
 ---

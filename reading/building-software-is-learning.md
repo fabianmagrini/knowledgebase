@@ -7,6 +7,7 @@ topic: reading
 status: notes
 level: intermediate
 related:
+  - reading/ownership-thorsten-ball.md
   - reading/what-is-software-engineering-ai.md
   - engineering/ai-native/loop-driven-development.md
   - engineering/architecture/agile-design-decisions.md

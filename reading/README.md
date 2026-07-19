@@ -53,3 +53,7 @@ Each note should include:
 - [The New SDLC With Vibe Coding](https://www.kaggle.com/whitepaper-the-new-SDLC-with-vibe-coding) — Addy Osmani, Shubham Saboo & Sokratis Kartakis (Kaggle) → notes: [The New SDLC with Vibe Coding](new-sdlc-vibe-coding.md)
 - [Building Software Is Learning](https://registerspill.thorstenball.com/p/building-software-is-learning) — Thorsten Ball → notes: [Building Software Is Learning](building-software-is-learning.md)
 - [Agentic AI Architecture](https://www.infoq.com/minibooks/agentic-ai-architecture/) — InfoQ eMag (ed. Rafał Gancarz) → notes: [Agentic AI Architecture (InfoQ eMag)](agentic-ai-architecture-emag.md) — signpost
+
+### Engineering Craft & Culture
+
+- [Ownership](https://registerspill.thorstenball.com/p/ownership) — Thorsten Ball → notes: [Ownership (Thorsten Ball)](ownership-thorsten-ball.md)
