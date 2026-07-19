@@ -17,6 +17,7 @@ related:
   - languages-and-frameworks/go-agentic-language.md
   - reading/multi-agent-coding-coordination.md
   - engineering/ai-native/agentic-autonomy-levels.md
+  - case-studies/oracle-ai-agent-memory.md
 source: "https://addyo.substack.com/p/long-running-agents"
 updated: 2026-06-20
 ---
