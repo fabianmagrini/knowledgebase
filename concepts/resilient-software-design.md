@@ -19,6 +19,7 @@ related:
   - sre/incident-swarming.md
   - engineering/architecture/caching-reference-data-apis.md
   - case-studies/zalando-client-side-load-balancing.md
+  - case-studies/netflix-service-topology.md
   - reading/fintech-engineering-handbook.md
 source:
   - "https://www.ufried.com/blog/why_resilient_software_design_1/"

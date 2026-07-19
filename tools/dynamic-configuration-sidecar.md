@@ -8,6 +8,7 @@ status: notes
 level: intermediate
 related:
   - concepts/resilient-software-design.md
+  - case-studies/netflix-service-topology.md
   - tools/postgresql-ha-kubernetes.md
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/thinking-in-constraints.md
