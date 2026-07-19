@@ -23,6 +23,7 @@ related:
   - reading/building-effective-agents.md
   - reading/llm-maintained-wiki.md
   - case-studies/cloudflare-ai-code-review.md
+  - case-studies/oracle-ai-agent-memory.md
   - engineering/ai-native/long-running-agents.md
   - engineering/ai-native/ai-factory.md
   - reading/new-sdlc-vibe-coding.md

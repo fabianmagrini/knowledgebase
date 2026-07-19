@@ -26,6 +26,7 @@ related:
   - standards/open-knowledge-format.md
   - leadership/learning-organisation.md
   - engineering/architecture/design-systems-ai-control-plane.md
+  - engineering/architecture/skeleton-architecture.md
   - engineering/architecture/adrs-in-an-agentic-world.md
   - engineering/ai-native/spec-driven-development.md
   - engineering/ai-native/agentic-code-review.md
@@ -113,6 +114,9 @@ A map of the notes on building software with AI agents. They answer different qu
   and encoding knowledge outside disposable code.
 - [Design Systems as the AI Control Plane](../architecture/design-systems-ai-control-plane.md)
   — codified constraints as the control plane for AI-generated UI.
+- [Skeleton Architecture](../architecture/skeleton-architecture.md) — the general-code control
+  plane: an immutable human-designed skeleton constrains AI-generated tissue via the Template
+  Method pattern, schema-first contracts, and compile-time topology checks *(in architecture)*.
 - [ADRs in an Agentic World](../architecture/adrs-in-an-agentic-world.md) — when
   implementation is cheap, write the ADR *after* spiking the options; decisions
   anchored in built evidence rather than rhetoric *(in architecture)*.

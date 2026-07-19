@@ -18,6 +18,7 @@ related:
   - engineering/architecture/ddd-strategic-design.md
   - tools/postgresql-ha-kubernetes.md
   - tools/dynamic-configuration-sidecar.md
+  - engineering/architecture/skeleton-architecture.md
 updated: 2026-06-20
 ---
 

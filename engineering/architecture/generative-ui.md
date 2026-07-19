@@ -8,6 +8,7 @@ status: draft
 level: intermediate
 related:
   - engineering/architecture/design-systems-ai-control-plane.md
+  - engineering/architecture/skeleton-architecture.md
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/micro-frontend-canvas.md
   - engineering/ai-native/ai-native-engineering-stack.md
