@@ -13,6 +13,7 @@ related:
   - tools/claude-code-steering-mechanisms.md
   - reading/agentic-ai-architecture-emag.md
   - case-studies/doordash-ai-code-review.md
+  - case-studies/oracle-ai-agent-memory.md
 source: "https://codemanship.wordpress.com/2026/05/04/c-r-e-s-s-principles-for-context-engineering/"
 updated: 2026-07-05
 ---
