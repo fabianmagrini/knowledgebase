@@ -8,6 +8,7 @@ status: notes
 level: intermediate
 related:
   - case-studies/linear-performance-architecture.md
+  - case-studies/netflix-service-topology.md
   - concepts/resilient-software-design.md
   - engineering/architecture/caching-reference-data-apis.md
   - engineering/ai-native/model-routing-and-ai-gateways.md
