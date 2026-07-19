@@ -16,6 +16,7 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - engineering/ai-native/loop-driven-development.md
   - concepts/continuous-delivery.md
+  - case-studies/slack-agentic-e2e-testing.md
 source: "https://gist.github.com/fabianmagrini/e95a24606e7108a7e0673de02d739be3"
 ---
 

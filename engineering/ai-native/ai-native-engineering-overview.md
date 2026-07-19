@@ -42,6 +42,7 @@ related:
   - reading/llm-maintained-wiki.md
   - reading/factory-engineers.md
   - case-studies/cloudflare-ai-code-review.md
+  - case-studies/slack-agentic-e2e-testing.md
   - reading/what-is-software-engineering-ai.md
 updated: 2026-06-27
 ---
@@ -122,6 +123,10 @@ A map of the notes on building software with AI agents. They answer different qu
   anchored in built evidence rather than rhetoric *(in architecture)*.
 - [Eval-Driven Development for AI Capabilities](eval-driven-ai-development.md) — testing the
   prompts/skills/agents themselves, not just the code they emit.
+- [Slack's Agentic E2E Testing Experiment](../../case-studies/slack-agentic-e2e-testing.md) — the
+  inverse of eval-driven: using agents *to run* E2E tests. Goal-based vs journey-based testing,
+  three execution models measured across 200+ runs, and the cost/reliability trade-offs that keep
+  agents at the apex of the pyramid rather than in CI *(in case studies)*.
 - [Harness Engineering](harness-engineering.md) — the component-level anatomy of an agent
   harness (the program agents run inside): core loop, tools, memory, patterns, trade-offs.
 - [Building Effective Agents — Workflow & Agent Patterns](../../reading/building-effective-agents.md)

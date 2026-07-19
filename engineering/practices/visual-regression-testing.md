@@ -13,6 +13,7 @@ related:
   - engineering/architecture/micro-frontend-principles.md
   - engineering/ai-native/quality-first-ai-coding.md
   - leadership/learning-culture-ai-agents.md
+  - case-studies/slack-agentic-e2e-testing.md
 source: "https://www.chromatic.com"
 updated: 2026-06-29
 ---
