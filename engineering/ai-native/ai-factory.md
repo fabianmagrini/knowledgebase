@@ -127,6 +127,35 @@ Task → Architecture Validation → Policy Checks → Coding Standards
   → Accessibility Tests → Human Review → Merge
 ```
 
+## Operating the factory: thinking is the bottleneck
+
+Benedict Brady's ["software factory" talk](https://www.benedict.dev/software-factory)
+(Ellipsis Labs) adds an operator's lens to the architecture above. Its sharpest
+claim is a theory-of-constraints reading of the agent workflow: **the model's
+*thinking* (reasoning/planning) is the bottleneck, so everything around it should be
+fast and parallelisable.** Harder problems warrant *more* thinking time; the way to
+go faster is not to shorten reasoning but to strip latency and serialisation out of
+every step that surrounds it (context gathering, tool calls, validation, shipping)
+and run them concurrently — often as a DAG rather than a fixed pipeline.
+
+Brady also frames the baseline an agent needs to operate like a professional
+developer as a small **toolkit**, so it can ship and *self-validate* without a human
+in each step:
+
+| Tool | Why the agent needs it |
+|---|---|
+| **CLI** | Ship, run, and debug independently |
+| **Browser** | Exercise and verify its own UI changes |
+| **Compute** | Run builds, tests, and long tasks |
+| **Wallet** | A budget to self-provision compute and paid services on demand |
+
+The **wallet** is the least obvious: giving an agent spend authority lets it acquire
+the resources it needs to finish and verify work, rather than stalling on a human to
+provision them. A separate **critic agent** with clean context then judges outputs
+and proposes process improvements — the same generation-vs-evaluation split as
+[eval-driven development](eval-driven-ai-development.md) and the
+[backpressure loop](agent-backpressure-loops.md), applied to the factory itself.
+
 ## The control-plane platform
 
 The factory runs on an engineering platform providing shared agent capabilities.

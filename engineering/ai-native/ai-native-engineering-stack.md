@@ -231,3 +231,14 @@ This structure allows agents to understand architecture, follow policies, and ge
 | Maintain code | Maintain the factory that generates code |
 
 The leverage point shifts from individual productivity to **system design quality**. A well-designed skill and a strong governance policy produce correct code at scale; a poorly designed one produces incorrect code at scale.
+
+## Toward an agent-native stack
+
+Benedict Brady's ["software factory" talk](https://www.benedict.dev/software-factory)
+(Ellipsis Labs) pushes this further: today's developer tools — GitHub, IDEs, cloud
+consoles, CI dashboards — were designed for *human* users, and much of the friction
+in running agents comes from bending human-facing surfaces to machine operators. The
+argument is that the stack itself should be redesigned **agent-native** — interfaces,
+auth, and provisioning built for agents as first-class operators rather than retrofitted
+onto tools that assume a person clicking. The seven layers above describe *what* the stack
+does; "agent-native" is a claim about *who each layer is designed for*.
