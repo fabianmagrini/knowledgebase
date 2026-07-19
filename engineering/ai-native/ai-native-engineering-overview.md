@@ -43,6 +43,7 @@ related:
   - reading/factory-engineers.md
   - case-studies/cloudflare-ai-code-review.md
   - case-studies/slack-agentic-e2e-testing.md
+  - engineering/ai-native/skill-engineering-disciplines.md
   - reading/what-is-software-engineering-ai.md
 updated: 2026-06-27
 ---
@@ -127,6 +128,9 @@ A map of the notes on building software with AI agents. They answer different qu
   inverse of eval-driven: using agents *to run* E2E tests. Goal-based vs journey-based testing,
   three execution models measured across 200+ runs, and the cost/reliability trade-offs that keep
   agents at the apex of the pyramid rather than in CI *(in case studies)*.
+- [Skill Engineering Disciplines](skill-engineering-disciplines.md) — skills decay, so treat them
+  as first-class code: linting, evals, security scanning, dependency management, and observability
+  across the context development lifecycle.
 - [Harness Engineering](harness-engineering.md) — the component-level anatomy of an agent
   harness (the program agents run inside): core loop, tools, memory, patterns, trade-offs.
 - [Building Effective Agents — Workflow & Agent Patterns](../../reading/building-effective-agents.md)

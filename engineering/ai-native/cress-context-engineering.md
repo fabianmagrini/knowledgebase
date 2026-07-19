@@ -15,6 +15,7 @@ related:
   - case-studies/doordash-ai-code-review.md
   - engineering/architecture/skeleton-architecture.md
   - case-studies/oracle-ai-agent-memory.md
+  - engineering/ai-native/skill-engineering-disciplines.md
 source: "https://codemanship.wordpress.com/2026/05/04/c-r-e-s-s-principles-for-context-engineering/"
 updated: 2026-07-05
 ---

@@ -59,6 +59,7 @@ in **[Practices](../practices/)**.
 ### Context & prompting
 - [Prompt Engineering for Programmers](prompt-engineering-for-programmers.md)
 - [CRESS Principles for Context Engineering](cress-context-engineering.md)
+- [Skill Engineering Disciplines](skill-engineering-disciplines.md)
 
 ### Pipeline & infrastructure
 - [CI/CD as the Control Plane for AI-Assisted Engineering](ci-cd-ai-engineering.md)

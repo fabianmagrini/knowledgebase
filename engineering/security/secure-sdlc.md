@@ -8,6 +8,7 @@ status: draft
 related:
   - engineering/security/governing-ai-in-the-cloud.md
   - languages-and-frameworks/nodejs-cli-best-practices.md
+  - engineering/ai-native/skill-engineering-disciplines.md
   - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/code-review-policy.md

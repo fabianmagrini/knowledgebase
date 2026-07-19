@@ -11,6 +11,7 @@ related:
   - engineering/ai-native/prompt-engineering-for-programmers.md
   - engineering/ai-native/cress-context-engineering.md
   - engineering/ai-native/ai-native-engineering-stack.md
+  - engineering/ai-native/skill-engineering-disciplines.md
 source: "https://generativeprogrammer.com/p/10-claude-code-steering-mechanisms"
 updated: 2026-07-05
 ---

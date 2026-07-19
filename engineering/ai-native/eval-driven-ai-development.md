@@ -19,6 +19,7 @@ related:
   - engineering/ai-native/spec-driven-development.md
   - reading/agentic-sdlc-survey.md
   - case-studies/slack-agentic-e2e-testing.md
+  - engineering/ai-native/skill-engineering-disciplines.md
   - reading/building-effective-agents.md
   - engineering/ai-native/long-running-agents.md
   - engineering/ai-native/ai-engineering-discipline.md
