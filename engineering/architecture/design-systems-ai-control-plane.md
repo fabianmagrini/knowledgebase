@@ -16,6 +16,7 @@ related:
   - engineering/security/governing-ai-in-the-cloud.md
   - engineering/architecture/micro-frontend-canvas.md
   - engineering/architecture/generative-ui.md
+  - engineering/architecture/skeleton-architecture.md
   - engineering/architecture/micro-frontend-principles.md
   - engineering/architecture/microfrontend-shell-platform.md
   - engineering/practices/visual-regression-testing.md
