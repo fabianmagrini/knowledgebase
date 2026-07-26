@@ -49,6 +49,13 @@ execution constraint and the constraint moves to decision-making.
    The failure mode when those boundaries are missing is what he calls **slop pull
    requests** — cheap submissions that poison context and degrade outcomes rather
    than adding to them.
+
+   > Note on terminology: Larson's "development harness" means the delivery
+   > infrastructure — tests, CI/CD, validation and preview environments. It is a
+   > different concept from the harness in
+   > [Harness Engineering](../engineering/ai-native/harness-engineering.md), which is
+   > the orchestration program an LLM runs inside. Same word, different layer.
+
 3. **Optimise base-case processes for automation.** Most steps of most processes
    can be automated in most cases; agents should handle routine, lower-risk work
    better than humans, while humans take the exceptions and higher-stakes calls.
