@@ -17,6 +17,7 @@ related:
   - concepts/constraints-as-a-lens.md
   - product/explore-vs-exploit.md
   - leadership/plan-is-not-a-strategy.md
+  - leadership/mission-to-metrics.md
 source: "https://www.philmckinney.com/how-to-improve-your-first-principles-thinking-skills/"
 updated: 2026-06-20
 ---

@@ -20,6 +20,7 @@ make good decisions with others.
 - [Engineering Leadership — Overview](engineering-leadership-overview.md)
 - [Start with the Why](start-with-why.md)
 - [A Plan Is Not a Strategy](plan-is-not-a-strategy.md)
+- [From Mission to Metrics](mission-to-metrics.md)
 - [The Senior IC Role](senior-ic-role.md)
 - [The Engineering Manager Role](engineering-manager-role.md)
 - [Staying Technical as a Manager](staying-technical-as-a-manager.md)

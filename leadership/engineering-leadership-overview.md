@@ -29,6 +29,7 @@ related:
   - leadership/senior-ic-role.md
   - leadership/engineering-manager-role.md
   - leadership/staying-technical-as-a-manager.md
+  - leadership/mission-to-metrics.md
 updated: 2026-07-26
 ---
 
@@ -42,6 +43,9 @@ how to set direction and make good decisions with other people.
 - [Start with the Why](start-with-why.md) — lead with purpose before approach or output.
 - [A Plan Is Not a Strategy](plan-is-not-a-strategy.md) — strategy is an integrative set of
   choices (where to play / how to win), not a controllable list of initiatives.
+- [From Mission to Metrics](mission-to-metrics.md) — the continuation of that: the written
+  mission → strategy → goals → metrics cascade that lets a growing organisation distribute
+  decisions, the target/guardrail/diagnostic split, and the Goodhart failure modes.
 - [The Senior IC Role](senior-ic-role.md) — what Staff/Principal/Architect ICs actually do
   (cross-team improvements, technical direction, leading initiatives, growing leaders) and why
   it is leadership through influence, not authority.
