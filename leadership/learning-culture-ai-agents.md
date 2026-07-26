@@ -16,6 +16,7 @@ related:
   - engineering/ai-native/scaling-ai-adoption.md
   - leadership/protecting-mavericks.md
   - leadership/staying-technical-as-a-manager.md
+  - reading/offloading-thinking-to-ai.md
 updated: 2026-06-29
 ---
 

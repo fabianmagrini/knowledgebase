@@ -18,6 +18,7 @@ related:
   - engineering/ai-native/apex-framework.md
   - reading/agentic-sdlc-survey.md
   - reading/how-i-use-llms-2026.md
+  - reading/offloading-thinking-to-ai.md
   - case-studies/cloudflare-ai-code-review.md
   - case-studies/doordash-ai-code-review.md
   - case-studies/rootly-pr-size-risk-labels.md

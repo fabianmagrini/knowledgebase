@@ -20,6 +20,7 @@ related:
   - sre/cognitive-diversity-in-incident-reviews.md
   - leadership/new-leader-credibility.md
   - product/explore-vs-exploit.md
+  - reading/offloading-thinking-to-ai.md
   - engineering/ai-native/trust-factory.md
   - concepts/devops-capability-model.md
   - engineering/architecture/team-topologies.md
