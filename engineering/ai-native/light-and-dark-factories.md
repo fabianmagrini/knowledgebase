@@ -16,6 +16,7 @@ related:
   - engineering/ai-native/loop-driven-development.md
   - engineering/ai-native/long-running-agents.md
   - engineering/ai-native/ai-native-engineering-overview.md
+  - engineering/ai-native/harness-design-experiments.md
 source: "https://addyosmani.com/blog/software-factories/ (also published at https://addyo.substack.com/p/software-factories-light-and-dark)"
 updated: 2026-07-26
 ---

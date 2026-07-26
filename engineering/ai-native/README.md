@@ -55,6 +55,7 @@ in **[Practices](../practices/)**.
 - [Own the Outer Loop](own-the-outer-loop.md)
 - [Agentic Code Review](agentic-code-review.md)
 - [Harness Engineering](harness-engineering.md)
+- [Harness Design for Long-Running App Development](harness-design-experiments.md)
 - [Quality-First AI Coding](quality-first-ai-coding.md)
 
 ### Context & prompting

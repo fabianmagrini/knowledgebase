@@ -18,6 +18,7 @@ related:
   - engineering/ai-native/ai-dlc-methodology.md
   - engineering/ai-native/harness-engineering.md
   - engineering/ai-native/light-and-dark-factories.md
+  - engineering/ai-native/harness-design-experiments.md
   - engineering/ai-native/quality-first-ai-coding.md
   - engineering/ai-native/agent-backpressure-loops.md
   - engineering/ai-native/agile-in-the-age-of-ai.md
@@ -138,6 +139,10 @@ A map of the notes on building software with AI agents. They answer different qu
   across the context development lifecycle.
 - [Harness Engineering](harness-engineering.md) — the component-level anatomy of an agent
   harness (the program agents run inside): core loop, tools, memory, patterns, trade-offs.
+- [Harness Design for Long-Running App Development](harness-design-experiments.md) — Anthropic's
+  measured comparison of solo agents against elaborate harnesses (a ~22× cost multiple), the
+  planner/generator/evaluator split, sprint contracts, context anxiety, and the finding that
+  harness complexity should *shrink* as models improve.
 - [Light and Dark Software Factories](light-and-dark-factories.md) — the lights-out analogy for
   deciding which loops run unattended: the loop → harness → factory nesting, why lit factories
   put judgement upstream at design, why the harness alone can't buy maintainability, and graphs

@@ -13,6 +13,7 @@ related:
   - engineering/ai-native/agent-backpressure-loops.md
   - engineering/architecture/agile-design-decisions.md
   - engineering/ai-native/light-and-dark-factories.md
+  - engineering/ai-native/harness-design-experiments.md
 source: "https://addyo.substack.com/p/agentic-autonomy-levels"
 updated: 2026-07-05
 ---
