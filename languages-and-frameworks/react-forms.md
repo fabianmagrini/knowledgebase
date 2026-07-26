@@ -8,6 +8,7 @@ status: notes
 level: intermediate
 related:
   - engineering/practices/api-contract-functional-testing.md
+  - languages-and-frameworks/react-state-management.md
 source: "https://upskills.dev/tutorials/react-forms-done-right"
 updated: 2026-07-11
 ---
