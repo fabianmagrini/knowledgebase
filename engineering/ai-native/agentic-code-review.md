@@ -20,6 +20,7 @@ related:
   - reading/how-i-use-llms-2026.md
   - case-studies/cloudflare-ai-code-review.md
   - case-studies/doordash-ai-code-review.md
+  - case-studies/rootly-pr-size-risk-labels.md
   - case-studies/slack-agentic-e2e-testing.md
   - leadership/learning-culture-ai-agents.md
   - engineering/ai-native/scaling-ai-adoption.md

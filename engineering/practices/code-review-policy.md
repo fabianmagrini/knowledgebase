@@ -19,6 +19,7 @@ related:
   - engineering/practices/naming-conventions.md
   - tools/git.md
   - case-studies/doordash-ai-code-review.md
+  - case-studies/rootly-pr-size-risk-labels.md
   - engineering/security/secure-sdlc.md
   - engineering/ai-native/quality-first-ai-coding.md
   - engineering/ai-native/agile-in-the-age-of-ai.md
