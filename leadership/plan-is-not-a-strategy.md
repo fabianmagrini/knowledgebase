@@ -13,6 +13,7 @@ related:
   - leadership/engineering-leadership-overview.md
   - product/explore-vs-exploit.md
   - case-studies/microsoft-ai-core-competency.md
+  - leadership/engineering-manager-role.md
 source: "https://www.youtube.com/watch?v=iuYlGRnC7J8"
 updated: 2026-06-21
 ---

@@ -13,6 +13,7 @@ related:
   - leadership/principal-engineer-consensus.md
   - engineering/ai-native/scaling-ai-adoption.md
   - leadership/engineering-leadership-overview.md
+  - leadership/engineering-manager-role.md
 source: "https://kevingoldsmith.substack.com/p/managing-sideways"
 updated: 2026-07-05
 ---

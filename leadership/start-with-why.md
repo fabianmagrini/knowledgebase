@@ -13,6 +13,7 @@ related:
   - leadership/first-principles-thinking.md
   - leadership/designing-with-constraints.md
   - leadership/plan-is-not-a-strategy.md
+  - leadership/engineering-manager-role.md
 source: "https://gist.github.com/fabianmagrini/a9419029286fb2277dc7b2bc5fc0d43d"
 updated: 2026-06-15
 ---
