@@ -20,6 +20,7 @@ related:
   - engineering/ai-native/long-running-agents.md
   - engineering/ai-native/ci-speed-with-ai-agents.md
   - engineering/ai-native/agentic-autonomy-levels.md
+  - engineering/ai-native/light-and-dark-factories.md
 source: "https://generativeprogrammer.com/p/stop-babysitting-your-coding-agent"
 updated: 2026-06-20
 ---

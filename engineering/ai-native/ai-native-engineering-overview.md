@@ -17,6 +17,7 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - engineering/ai-native/ai-dlc-methodology.md
   - engineering/ai-native/harness-engineering.md
+  - engineering/ai-native/light-and-dark-factories.md
   - engineering/ai-native/quality-first-ai-coding.md
   - engineering/ai-native/agent-backpressure-loops.md
   - engineering/ai-native/agile-in-the-age-of-ai.md
@@ -137,6 +138,10 @@ A map of the notes on building software with AI agents. They answer different qu
   across the context development lifecycle.
 - [Harness Engineering](harness-engineering.md) — the component-level anatomy of an agent
   harness (the program agents run inside): core loop, tools, memory, patterns, trade-offs.
+- [Light and Dark Software Factories](light-and-dark-factories.md) — the lights-out analogy for
+  deciding which loops run unattended: the loop → harness → factory nesting, why lit factories
+  put judgement upstream at design, why the harness alone can't buy maintainability, and graphs
+  over freeform loops.
 - [Building Effective Agents — Workflow & Agent Patterns](../../reading/building-effective-agents.md)
   — Anthropic's composition patterns (prompt chaining, routing, parallelization,
   orchestrator–workers, evaluator–optimizer, autonomous agents), simplicity-first, and when *not*

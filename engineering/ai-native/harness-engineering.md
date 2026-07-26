@@ -18,6 +18,7 @@ related:
   - engineering/ai-native/prompt-engineering-for-programmers.md
   - engineering/ai-native/cress-context-engineering.md
   - tools/claude-code-steering-mechanisms.md
+  - engineering/ai-native/light-and-dark-factories.md
   - reading/agentic-ai-architecture-emag.md
   - reading/agentic-sdlc-survey.md
   - reading/building-effective-agents.md

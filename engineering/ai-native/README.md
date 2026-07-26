@@ -38,6 +38,7 @@ in **[Practices](../practices/)**.
 - [Agentic SDLC Maturity Model](agentic-sdlc-maturity-model.md)
 - [Scaling AI Adoption in the SDLC](scaling-ai-adoption.md)
 - [The AI Factory](ai-factory.md)
+- [Light and Dark Software Factories](light-and-dark-factories.md)
 - [The APEX Framework — Measuring AI Engineering Impact](apex-framework.md)
 - [Modern Engineering Values](modern-engineering-values.md)
 - [AI Demands More Engineering Discipline](ai-engineering-discipline.md)

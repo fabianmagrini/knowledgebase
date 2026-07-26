@@ -14,6 +14,7 @@ related:
   - engineering/ai-native/apex-framework.md
   - engineering/ai-native/harness-engineering.md
   - reading/new-sdlc-vibe-coding.md
+  - engineering/ai-native/light-and-dark-factories.md
 updated: 2026-07-03
 ---
 

@@ -12,6 +12,7 @@ related:
   - engineering/ai-native/agentic-sdlc-maturity-model.md
   - engineering/ai-native/agent-backpressure-loops.md
   - engineering/architecture/agile-design-decisions.md
+  - engineering/ai-native/light-and-dark-factories.md
 source: "https://addyo.substack.com/p/agentic-autonomy-levels"
 updated: 2026-07-05
 ---

@@ -16,6 +16,7 @@ related:
   - engineering/ai-native/ai-native-engineering-overview.md
   - engineering/ai-native/ai-engineering-discipline.md
   - engineering/ai-native/apex-framework.md
+  - engineering/ai-native/light-and-dark-factories.md
   - reading/agentic-sdlc-survey.md
   - reading/how-i-use-llms-2026.md
   - reading/offloading-thinking-to-ai.md
