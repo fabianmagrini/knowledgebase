@@ -15,6 +15,7 @@ related:
   - engineering/ai-native/harness-engineering.md
   - reading/new-sdlc-vibe-coding.md
   - engineering/ai-native/light-and-dark-factories.md
+  - case-studies/openai-agent-first-harness.md
 updated: 2026-07-03
 ---
 

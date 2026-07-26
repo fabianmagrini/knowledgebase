@@ -25,6 +25,7 @@ related:
   - engineering/ai-native/agile-in-the-age-of-ai.md
   - engineering/practices/software-design-principles.md
   - engineering/ai-native/agentic-code-review.md
+  - case-studies/openai-agent-first-harness.md
 source: "https://gist.github.com/fabianmagrini/e95a24606e7108a7e0673de02d739be3"
 ---
 

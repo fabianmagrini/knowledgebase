@@ -13,6 +13,7 @@ related:
   - case-studies/doordash-ai-code-review.md
   - engineering/practices/feature-flags-and-branch-by-abstraction.md
   - engineering/practices/rollback-and-roll-forward.md
+  - case-studies/openai-agent-first-harness.md
 source: "https://rootly.com/blog/why-we-got-rid-of-our-small-pr-rule"
 updated: 2026-07-26
 ---

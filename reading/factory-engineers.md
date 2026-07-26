@@ -14,6 +14,7 @@ related:
   - engineering/ai-native/ai-augmented-engineering-team.md
   - engineering/ai-native/ai-native-engineering-overview.md
   - engineering/ai-native/ai-factory.md
+  - case-studies/openai-agent-first-harness.md
 source: "https://www.warp.dev/blog/we-are-now-factory-engineers-not-product-engineers"
 updated: 2026-06-27
 ---
