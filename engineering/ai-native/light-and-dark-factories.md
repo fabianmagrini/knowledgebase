@@ -16,14 +16,15 @@ related:
   - engineering/ai-native/loop-driven-development.md
   - engineering/ai-native/long-running-agents.md
   - engineering/ai-native/ai-native-engineering-overview.md
-source: "https://addyo.substack.com/p/software-factories-light-and-dark"
+source: "https://addyosmani.com/blog/software-factories/ (also published at https://addyo.substack.com/p/software-factories-light-and-dark)"
 updated: 2026-07-26
 ---
 
 # Light and Dark Software Factories
 
 Addy Osmani borrows **lights-out manufacturing** — factories where robots work in the dark
-because no human is present — as the axis for deciding which agent loops run unattended.
+because no human is present, as FANUC has run since 2001 and Xiaomi demonstrated in 2024 — as
+the axis for deciding which agent loops run unattended.
 
 | | Definition |
 |---|---|
@@ -59,6 +60,11 @@ The essay makes explicit a hierarchy this knowledge base has held only as separa
 
 The full closed loop as drawn: intent/signals → queue → harness (build) → automated checks →
 review gate → deployment → monitoring → feedback.
+
+Working at this level is what Osmani calls **loop engineering** — designing the system the
+agent runs inside, rather than steering it turn by turn through prompts. The term names the
+shift in where an engineer's effort goes once the factory framing is taken seriously: from
+composing individual instructions to specifying the loop, its constraints, and its gates.
 
 ## When a loop earns the dark
 
