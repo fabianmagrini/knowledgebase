@@ -8,6 +8,7 @@ status: notes
 level: intermediate
 related:
   - leadership/senior-ic-role.md
+  - leadership/staying-technical-as-a-manager.md
   - leadership/scaling-engineering-org.md
   - product/explore-vs-exploit.md
   - leadership/engineering-leadership-overview.md

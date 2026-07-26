@@ -10,6 +10,7 @@ related:
   - engineering/ai-native/ai-augmented-engineering-team.md
   - engineering/ai-native/agile-in-the-age-of-ai.md
   - leadership/decision-facilitation.md
+  - leadership/staying-technical-as-a-manager.md
   - concepts/theory-of-constraints.md
   - leadership/engineering-leadership-overview.md
   - engineering/ai-native/ai-native-engineering-overview.md

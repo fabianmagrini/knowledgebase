@@ -15,6 +15,7 @@ related:
   - engineering/ai-native/ai-factory.md
   - leadership/learning-culture-ai-agents.md
   - leadership/managing-sideways.md
+  - leadership/staying-technical-as-a-manager.md
   - reading/new-sdlc-vibe-coding.md
 updated: 2026-07-03
 ---

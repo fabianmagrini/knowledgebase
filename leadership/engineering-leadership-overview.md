@@ -28,7 +28,8 @@ related:
   - case-studies/portkey-product-engineer-company.md
   - leadership/senior-ic-role.md
   - leadership/engineering-manager-role.md
-updated: 2026-06-27
+  - leadership/staying-technical-as-a-manager.md
+updated: 2026-07-26
 ---
 
 # Engineering Leadership — Overview
@@ -73,6 +74,10 @@ how to set direction and make good decisions with other people.
 - [The Engineering Manager Role](engineering-manager-role.md) — the management-track role
   definition: four pillars (people, technical, product, delivery leadership) and the manager's
   core job of removing obstacles; the sibling to [The Senior IC Role](senior-ic-role.md).
+- [Staying Technical as a Manager](staying-technical-as-a-manager.md) — the dimension the four
+  pillars leave out: a small, calendared share of the week spent coding, the criteria for a task
+  that suits an unreliable contributor, and why AI makes an unfamiliar stack no longer a barrier
+  (bridges to the AI-native cluster).
 - [Protecting Mavericks](protecting-mavericks.md) — letting unconventional talent flourish
   without letting disruption damage the team.
 - [Managed Disruption](managed-disruption.md) — introducing change into delivery safely and

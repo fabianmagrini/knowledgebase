@@ -32,6 +32,7 @@ related:
   - engineering/ai-native/agentic-code-review.md
   - engineering/ai-native/long-running-agents.md
   - leadership/revised-rules-engineering-leadership.md
+  - leadership/staying-technical-as-a-manager.md
   - engineering/ai-native/ai-engineering-discipline.md
   - engineering/ai-native/apex-framework.md
   - engineering/ai-native/trust-factory.md
@@ -92,6 +93,9 @@ A map of the notes on building software with AI agents. They answer different qu
 - [Revised Rules of Engineering Leadership](../../leadership/revised-rules-engineering-leadership.md) —
   the leadership-altitude rules behind it: durable teams + fast, good decisions when execution
   is cheap *(in leadership)*.
+- [Staying Technical as a Manager](../../leadership/staying-technical-as-a-manager.md) — the
+  individual leader's habit: a bounded, calendared coding practice, made viable because a model
+  can translate an unfamiliar stack into a familiar one *(in leadership)*.
 - [Modern Engineering Values](modern-engineering-values.md) — a solo/small-team practitioner's
   values: ownership, taste, guardrails, context-in-the-repo, own your stack, option value.
 - [The Trust Factory](trust-factory.md) — Kent Beck reframes XP as a system for *manufacturing

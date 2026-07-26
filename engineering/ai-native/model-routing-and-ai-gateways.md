@@ -12,6 +12,7 @@ related:
   - engineering/ai-native/ai-native-engineering-stack.md
   - case-studies/microsoft-ai-core-competency.md
   - case-studies/zalando-client-side-load-balancing.md
+  - leadership/staying-technical-as-a-manager.md
 source: "https://newsletter.pragmaticengineer.com/p/the-pulse-a-new-trend-smart-model"
 updated: 2026-07-05
 ---

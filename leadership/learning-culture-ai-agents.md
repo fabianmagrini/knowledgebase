@@ -15,6 +15,7 @@ related:
   - engineering/practices/visual-regression-testing.md
   - engineering/ai-native/scaling-ai-adoption.md
   - leadership/protecting-mavericks.md
+  - leadership/staying-technical-as-a-manager.md
 updated: 2026-06-29
 ---
 
