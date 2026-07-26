@@ -15,15 +15,19 @@ related:
   - leadership/engineering-leadership-overview.md
   - engineering/ai-native/ai-native-engineering-overview.md
   - case-studies/portkey-product-engineer-company.md
+  - engineering/ai-native/agentic-code-review.md
 source: "https://lethain.com/revised-rules-of-engineering-leadership/"
-updated: 2026-06-20
+updated: 2026-07-26
 ---
 
 # Revised Rules of Engineering Leadership
 
 Will Larson revises his rules of engineering leadership for an era where AI tooling
 sharply accelerates execution. His central tension: **execution got cheap, but
-choosing *what* to execute stayed hard.** Success, he argues, comes not from
+choosing *what* to execute stayed hard.** The revision is prompted by working in a
+**hypergrowth environment**, which he characterises by its compressed feedback loop:
+mistakes reveal themselves monthly rather than yearly, so rules that were merely
+suboptimal at a slower pace become visibly costly. Success, he argues, comes not from
 individual genius but from **durable teams making quick, good decisions inside a
 robust development harness** that automates the base case. This is, at the
 leadership altitude, the same bottleneck shift as
@@ -42,6 +46,9 @@ execution constraint and the constraint moves to decision-making.
    validation and preview environments. Notably, "the things that were most
    valuable to speed up engineering two years ago are still the things that are
    most valuable today"; broad participation in coding still needs safe boundaries.
+   The failure mode when those boundaries are missing is what he calls **slop pull
+   requests** — cheap submissions that poison context and degrade outcomes rather
+   than adding to them.
 3. **Optimise base-case processes for automation.** Most steps of most processes
    can be automated in most cases; agents should handle routine, lower-risk work
    better than humans, while humans take the exceptions and higher-stakes calls.
@@ -65,6 +72,19 @@ individual/automated; the last two say the scarce, leadership-owned goods are
 **durable teams** and **fast, good decisions**. When technical speed rises,
 organisational decision speed has to match it or it becomes the new bottleneck.
 
+What actually slows an organisation down, once execution is no longer the
+constraint, he names as three sources of friction:
+
+| Friction | What it looks like |
+|---|---|
+| **Misalignment** | Stakeholders have not committed to the same change |
+| **Lack of clarity** | The decision exists but nobody can say what it was |
+| **Poor technical architecture** | The system itself resists the change being made |
+
+This is the diagnosis under rule 5. Two of the three are decision defects rather
+than technical ones, which is why he lands on decision-making as the leadership
+obligation rather than on tooling.
+
 ## Larson's examples (his reported figures)
 
 Treat these as the author's reported examples, not general benchmarks: deployment
@@ -72,7 +92,11 @@ frequency raised 20–30× year-over-year via an infrastructure overhaul (two
 engineers, two months); AI-tool adoption moving 25% → 100% by *removing friction*
 rather than mandating; several one-engineer, one-month migrations (frontend
 mono-repo, static typing, configuration unification); customer-issue triage
-automated with agents handling the base case and humans the exceptions. Tools he
+automated with agents handling the base case and humans the exceptions, with the
+agent given access to the data warehouse and ticket history; and code review split
+so that agents take the first pass while humans keep the higher-value feedback (the
+same division of labour argued at length in
+[Agentic Code Review](../engineering/ai-native/agentic-code-review.md)). Tools he
 names — Claude Code, Cursor, Linear, SierraAI — are cited as enabling examples, not
 endorsements.
 

@@ -25,6 +25,7 @@ related:
   - case-studies/rootly-pr-size-risk-labels.md
   - case-studies/slack-agentic-e2e-testing.md
   - leadership/learning-culture-ai-agents.md
+  - leadership/revised-rules-engineering-leadership.md
   - engineering/ai-native/scaling-ai-adoption.md
 source: "https://addyo.substack.com/p/agentic-code-review"
 updated: 2026-06-20
