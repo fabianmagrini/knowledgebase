@@ -17,6 +17,7 @@ related:
   - leadership/revised-rules-engineering-leadership.md
   - concepts/optimal-stopping.md
   - leadership/magical-thinking.md
+  - engineering/ai-native/agentic-sdlc-maturity-model.md
 source: "Eliyahu M. Goldratt — The Goal (1984) and Theory of Constraints (1990)"
 updated: 2026-06-20
 ---

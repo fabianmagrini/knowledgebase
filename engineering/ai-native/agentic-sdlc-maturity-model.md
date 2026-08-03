@@ -1,11 +1,11 @@
 ---
 type: note
 title: Agentic SDLC Maturity Model
-description: "A six-level model for assessing and transforming how an organization uses AI in software delivery."
+description: "A six-level model for assessing and transforming how an organization uses AI in software delivery, plus Cherny's complementary axis of which bottleneck currently binds."
 tags: [ai-engineering, agentic-workflows]
 topic: engineering/ai-native
 status: notes
-updated: 2026-06-15
+updated: 2026-08-03
 related:
   - engineering/ai-native/agentic-sdlc.md
   - engineering/ai-native/ai-dlc-methodology.md
@@ -18,7 +18,8 @@ related:
   - engineering/ai-native/scaling-ai-adoption.md
   - engineering/ai-native/agentic-autonomy-levels.md
   - reading/agentic-sdlc-survey.md
-source: "https://gist.github.com/fabianmagrini/4862954cd301634ab4bfd595c00ea52c"
+  - concepts/theory-of-constraints.md
+source: "https://gist.github.com/fabianmagrini/4862954cd301634ab4bfd595c00ea52c; https://generativeprogrammer.com/p/the-ai-adoption-bottleneck-keeps"
 ---
 
 # Agentic SDLC Maturity Model
@@ -268,3 +269,37 @@ Use these to assess your current level:
 6. Do agents improve other agents? *(No → below Level 5)*
 
 If most answers are "no," you are below Level 3 — and Level 2→3 is where the most transformative investment pays off.
+
+---
+
+## A second axis: which bottleneck binds
+
+Boris Cherny proposes a five-phase progression of AI adoption (relayed by Bilgin Ibryam,
+July 2026) that covers similar ground to the levels above but organises it differently:
+**each phase is named by the constraint that currently binds**, and removing one exposes the
+next.
+
+| Phase | The bottleneck |
+|---|---|
+| **Gated** | Access — security and policy gates prevent use on production work |
+| **Assisted** | Engineer attention — one person, one agent, working synchronously |
+| **Parallel** | Review capacity — concurrent agents outproduce human review |
+| **Supervised Autonomy** | Trust — autonomous loops need proven reliability before they scale |
+| **AI-Native** | Strategic judgement — deciding which work is worth automating at all |
+
+The two models are complementary rather than competing. The levels above ask **"what can we
+do, and how is it governed?"**; this asks **"what is stopping us right now?"** The second is
+often the more actionable question, because it names the single next investment instead of a
+score to improve. It is [Theory of Constraints](../../concepts/theory-of-constraints.md)
+applied to adoption: relieve the binding constraint, and the constraint moves.
+
+Two cautions. Progression is **not uniform** — different teams and workflows sit in different
+phases at the same time, so "which phase are we in?" is a question about a workflow, not a
+company. And the framework is an observed pattern rather than measured research; the source
+article's concrete recommendations are all specific product features mapped to phases, which
+date quickly and are deliberately not reproduced here.
+
+The operating advice that does transfer: add **the smallest tool and guardrail that addresses
+the current bottleneck**, rather than implementing everything at once. That is the same
+sequencing argument as [Scaling AI Adoption](scaling-ai-adoption.md), reached from the
+constraint side.
