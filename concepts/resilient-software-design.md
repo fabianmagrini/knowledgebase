@@ -22,6 +22,7 @@ related:
   - case-studies/netflix-service-topology.md
   - reading/fintech-engineering-handbook.md
   - languages-and-frameworks/react-state-management.md
+  - case-studies/slack-ai-multi-cloud.md
 source:
   - "https://www.ufried.com/blog/why_resilient_software_design_1/"
   - "https://www.ufried.com/blog/why_resilient_software_design_2/"

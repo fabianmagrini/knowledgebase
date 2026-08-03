@@ -16,6 +16,7 @@ related:
   - case-studies/rootly-pr-size-risk-labels.md
   - reading/multi-agent-coding-coordination.md
   - engineering/ai-native/ai-native-engineering-overview.md
+  - case-studies/slack-ai-multi-cloud.md
 source: "https://blog.cloudflare.com/ai-code-review/"
 updated: 2026-06-27
 ---

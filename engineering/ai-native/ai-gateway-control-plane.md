@@ -15,6 +15,7 @@ related:
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/architecture/architectural-change-cases.md
   - engineering/ai-native/ai-native-engineering-overview.md
+  - case-studies/slack-ai-multi-cloud.md
 source: "https://www.infoq.com/articles/evolutionary-architecture-pattern/"
 updated: 2026-08-03
 ---

@@ -14,6 +14,7 @@ related:
   - case-studies/zalando-client-side-load-balancing.md
   - leadership/staying-technical-as-a-manager.md
   - engineering/ai-native/ai-gateway-control-plane.md
+  - case-studies/slack-ai-multi-cloud.md
 source: "https://newsletter.pragmaticengineer.com/p/the-pulse-a-new-trend-smart-model"
 updated: 2026-07-05
 ---

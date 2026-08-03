@@ -18,6 +18,7 @@ related:
   - engineering/practices/rollback-and-roll-forward.md
   - engineering/practices/database-migration-strategies.md
   - case-studies/rootly-pr-size-risk-labels.md
+  - case-studies/slack-ai-multi-cloud.md
 source: "Pete Hodgson — Feature Toggles (martinfowler.com); Martin Fowler — BranchByAbstraction; Jez Humble & David Farley — Continuous Delivery (2010)"
 updated: 2026-06-21
 ---

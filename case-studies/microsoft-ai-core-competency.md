@@ -12,6 +12,7 @@ related:
   - engineering/ai-native/harness-engineering.md
   - engineering/ai-native/model-routing-and-ai-gateways.md
   - product/explore-vs-exploit.md
+  - case-studies/slack-ai-multi-cloud.md
 source: "https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/"
 updated: 2026-07-05
 ---
