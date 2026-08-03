@@ -1,7 +1,7 @@
 ---
 type: note
 title: Design Systems as the AI Control Plane
-description: "the design system as constraint layer and platform for AI-generated UI"
+description: "the design system as constraint layer and platform for AI-generated UI, and the schema-plus-metadata contract that makes it legible to models"
 tags: [architecture, ai-engineering, system-design, api-design]
 topic: engineering/architecture
 status: notes
@@ -22,8 +22,8 @@ related:
   - engineering/practices/visual-regression-testing.md
   - languages-and-frameworks/react-storybook.md
   - engineering/ai-native/ai-gateway-control-plane.md
-source: "https://gist.github.com/fabianmagrini/3bf21095225b78d8b30db9437f4477b9"
-updated: 2026-06-19
+source: "https://gist.github.com/fabianmagrini/3bf21095225b78d8b30db9437f4477b9; https://engineering.gusto.com/eval-driven-design-systems-8f781dc2dacb"
+updated: 2026-08-03
 ---
 
 # Design Systems as the AI Control Plane
@@ -71,6 +71,43 @@ A design system built for agents ships more than components:
 - Examples (Storybook).
 - **Prompt templates for AI agents** — give agents the canonical way to ask for UI.
 - Tests — visual and functional.
+
+## Making the system AI-legible: schemas as the contract
+
+Gusto's Builder Enablement team (Jay Johnson, July 2026) gives a concrete mechanism for the
+above, along with the clearest statement of *why* an in-house design system needs one:
+
+> Models write **the average of their training data** — largely Material-UI, Chakra, Mantine
+> and Tailwind. A private design system has **zero visibility** to them.
+
+That is why the failure is confident rather than hesitant. An assistant produces
+`intent="confirm"` because a prop like it exists somewhere public, the code looks idiomatic,
+and the hallucinated prop survives review precisely because it is plausible. The fix is to
+make the real contract machine-readable.
+
+| Mechanism | What it does |
+|---|---|
+| **Zod schemas per component** | The component's API expressed as data, not just as types |
+| **`.meta()` payloads** | Usage examples, content guidelines, character limits, accessibility rules, import paths, Figma URLs |
+| **Discriminated unions** | Illegal prop combinations become *unrepresentable* rather than merely discouraged |
+| **Published over MCP** | AI clients consume the schemas directly, rather than guessing from surrounding code |
+| **Instruction discipline** | Agents copy `.meta().examples` verbatim instead of inventing |
+
+**The load-bearing idea is that metadata carries the knowledge types cannot.** A type can say
+`variant: "danger" | "primary"`; it cannot say *keep this under 40 characters*, *never use this
+for destructive actions*, or *this pattern needs an aria-live region*. Those constraints are
+real, they are what reviewers actually enforce, and until they are attached to the component
+definition an agent has no way to know them.
+
+This is the same goal as the stories in
+[Storybook for React Component Development](../../languages-and-frameworks/react-storybook.md),
+reached with a different artefact: stories show a human what a component does, schemas tell a
+model what it may do.
+
+*Caveat: the source is part one of two — it describes the schema contract, while the
+evaluation and scoring half that would show whether this reduces hallucinated props is
+promised separately. No metrics are reported yet, so treat the mechanism as a well-reasoned
+proposal rather than a measured result.*
 
 ## Enforcement
 
