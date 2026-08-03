@@ -54,6 +54,7 @@ Each note should include:
 - [Building Software Is Learning](https://registerspill.thorstenball.com/p/building-software-is-learning) — Thorsten Ball → notes: [Building Software Is Learning](building-software-is-learning.md)
 - [Agentic AI Architecture](https://www.infoq.com/minibooks/agentic-ai-architecture/) — InfoQ eMag (ed. Rafał Gancarz) → notes: [Agentic AI Architecture (InfoQ eMag)](agentic-ai-architecture-emag.md) — signpost
 - [Are we offloading too much of our thinking to AI?](https://www.artfish.ai/p/offloading-thinking-to-ai) — Yennie Jun → notes: [Offloading Thinking to AI](offloading-thinking-to-ai.md) — personal essay; the counterweight to the delegation notes
+- [Five studies that are changing how we think about AI in software engineering](https://newsletter.getdx.com/p/five-studies-that-are-changing-how) — Brian Houck → notes: [Five Studies on AI and Software Engineering Productivity](ai-productivity-research.md) — signpost to five peer-reviewed studies; the measurement layer under the AI-native cluster
 
 ### Engineering Craft & Culture
 

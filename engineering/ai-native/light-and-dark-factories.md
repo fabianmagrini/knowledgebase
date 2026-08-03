@@ -18,6 +18,7 @@ related:
   - engineering/ai-native/ai-native-engineering-overview.md
   - engineering/ai-native/harness-design-experiments.md
   - case-studies/openai-agent-first-harness.md
+  - reading/ai-productivity-research.md
 source: "https://addyosmani.com/blog/software-factories/ (also published at https://addyo.substack.com/p/software-factories-light-and-dark)"
 updated: 2026-07-26
 ---

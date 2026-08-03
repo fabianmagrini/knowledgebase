@@ -17,6 +17,7 @@ related:
   - leadership/protecting-mavericks.md
   - leadership/staying-technical-as-a-manager.md
   - reading/offloading-thinking-to-ai.md
+  - reading/ai-productivity-research.md
 updated: 2026-06-29
 ---
 

@@ -22,6 +22,7 @@ related:
   - engineering/ai-native/agentic-autonomy-levels.md
   - engineering/ai-native/light-and-dark-factories.md
   - case-studies/openai-agent-first-harness.md
+  - reading/ai-productivity-research.md
 source: "https://generativeprogrammer.com/p/stop-babysitting-your-coding-agent"
 updated: 2026-06-20
 ---

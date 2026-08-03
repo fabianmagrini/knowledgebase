@@ -16,6 +16,7 @@ related:
   - engineering/ai-native/ai-native-engineering-overview.md
   - case-studies/portkey-product-engineer-company.md
   - engineering/ai-native/agentic-code-review.md
+  - reading/ai-productivity-research.md
 source: "https://lethain.com/revised-rules-of-engineering-leadership/"
 updated: 2026-07-26
 ---

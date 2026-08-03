@@ -18,6 +18,7 @@ related:
   - reading/factory-engineers.md
   - engineering/ai-native/scaling-ai-adoption.md
   - engineering/ai-native/ai-factory.md
+  - reading/ai-productivity-research.md
 source: "https://linearb.io/resources/apex-framework"
 updated: 2026-06-20
 ---
