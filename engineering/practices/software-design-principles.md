@@ -14,6 +14,7 @@ related:
   - engineering/practices/code-review-policy.md
   - concepts/clean-code-and-solid.md
   - engineering/practices/naming-conventions.md
+  - engineering/architecture/over-engineering.md
 updated: 2026-06-19
 ---
 

@@ -12,6 +12,7 @@ related:
   - engineering/ai-native/quality-first-ai-coding.md
   - engineering/architecture/agile-design-decisions.md
   - engineering/practices/naming-conventions.md
+  - engineering/architecture/over-engineering.md
 updated: 2026-06-19
 ---
 

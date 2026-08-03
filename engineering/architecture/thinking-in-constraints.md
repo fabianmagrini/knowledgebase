@@ -19,6 +19,7 @@ related:
   - tools/postgresql-ha-kubernetes.md
   - tools/dynamic-configuration-sidecar.md
   - engineering/architecture/skeleton-architecture.md
+  - engineering/architecture/over-engineering.md
 updated: 2026-06-20
 ---
 

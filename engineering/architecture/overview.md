@@ -25,6 +25,7 @@ related:
   - engineering/architecture/ddd-strategic-design.md
   - engineering/architecture/event-storming.md
   - engineering/architecture/team-topologies.md
+  - engineering/architecture/over-engineering.md
 updated: 2026-06-20
 ---
 
@@ -85,6 +86,10 @@ systems.
 - [Thinking in Constraints](thinking-in-constraints.md) — surface, classify, and
   challenge the boundary conditions (business, regulatory, technical, operational,
   organisational, NFRs) that bound the solution space before any design is chosen.
+- [Over-Engineering Is Solving the Wrong Problem](over-engineering.md) — the same principle
+  pushed to its limit: enough constraints leave a single solution, so over-engineering is a
+  requirements failure rather than too much design. Includes the "why is it built this way"
+  diagnostic and the three-people/five-microservices example.
 
 ## The through-line
 

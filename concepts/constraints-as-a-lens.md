@@ -11,6 +11,7 @@ related:
   - engineering/architecture/thinking-in-constraints.md
   - leadership/designing-with-constraints.md
   - leadership/first-principles-thinking.md
+  - engineering/architecture/over-engineering.md
 updated: 2026-06-17
 ---
 
