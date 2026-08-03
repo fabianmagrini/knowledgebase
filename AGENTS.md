@@ -60,6 +60,10 @@ source: ""
 
 Set `source` for notes derived from external material (books, papers, URLs). Omit it for original notes.
 
+`source` records **where the material canonically lives, not how you happened to read it**. If a URL was given, that URL is the `source` — even if the content was actually read from a saved PDF, a local file, a mirror, a cached copy, or a reader view. Never put a machine-local path (`~/Downloads/…`, `/Users/…`) in `source`; those are meaningless to anyone else and break as soon as the file moves. A local path belongs there only when there is genuinely no URL behind the material.
+
+Where a piece is published in more than one canonical place, prefer the more durable one and record the other alongside it — a personal domain generally outlasts a newsletter platform.
+
 ## Searching
 
 ```bash
