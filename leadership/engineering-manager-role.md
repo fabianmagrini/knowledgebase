@@ -17,6 +17,7 @@ related:
   - leadership/principal-engineer-influence.md
   - leadership/start-with-why.md
   - leadership/plan-is-not-a-strategy.md
+  - leadership/magical-thinking.md
 source: "https://softwareleads.substack.com/p/the-four-pillars-of-engineering-management; https://softwareleads.substack.com/p/engineering-leaders-day-to-day-activities"
 updated: 2026-07-26
 ---

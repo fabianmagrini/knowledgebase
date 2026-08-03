@@ -40,4 +40,5 @@ make good decisions with others.
 - [A Learning Culture for AI-Augmented Teams](learning-culture-ai-agents.md)
 - [The New Leader's Credibility Problem](new-leader-credibility.md)
 - [Running an Effective All-Hands](all-hands-meetings.md)
+- [Magical Thinking in Engineering Leadership](magical-thinking.md)
 - [Revised Rules of Engineering Leadership](revised-rules-engineering-leadership.md)

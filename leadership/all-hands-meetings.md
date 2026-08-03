@@ -10,6 +10,7 @@ related:
   - leadership/new-leader-credibility.md
   - leadership/scaling-engineering-org.md
   - leadership/engineering-leadership-overview.md
+  - leadership/magical-thinking.md
 source: "https://randsinrepose.com/archives/so-you-want-to-fix-your-all-hands/"
 updated: 2026-07-05
 ---

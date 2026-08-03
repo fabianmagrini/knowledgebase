@@ -13,6 +13,7 @@ related:
   - engineering/ai-native/ai-augmented-engineering-team.md
   - leadership/all-hands-meetings.md
   - leadership/engineering-leadership-overview.md
+  - leadership/magical-thinking.md
 source: "https://greenido.dev/2026/06/11/what-changes-at-20-50-and-200-engineers/"
 updated: 2026-07-05
 ---

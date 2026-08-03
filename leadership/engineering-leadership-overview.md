@@ -30,6 +30,7 @@ related:
   - leadership/engineering-manager-role.md
   - leadership/staying-technical-as-a-manager.md
   - leadership/mission-to-metrics.md
+  - leadership/magical-thinking.md
 updated: 2026-07-26
 ---
 
@@ -98,6 +99,10 @@ how to set direction and make good decisions with other people.
 - [The Learning Organisation and AI Adoption](learning-organisation.md) — the cultural
   prerequisites (psychological safety, slack, intelligent failure) that let teams absorb new
   technology faster than it changes.
+- [Magical Thinking in Engineering Leadership](magical-thinking.md) — the failure mode on the
+  other side: substituting a "one weird trick" (an inspiring speech, growth-mindset rhetoric,
+  adopting AI) for the operational work, and why blaming insufficient effort keeps the pattern
+  alive.
 - [Revised Rules of Engineering Leadership](revised-rules-engineering-leadership.md) — how
   leadership shifts when AI makes execution cheap: durable teams and fast, good decisions become
   the scarce goods (bridges to the AI-native cluster).

@@ -24,6 +24,7 @@ related:
   - engineering/ai-native/trust-factory.md
   - concepts/devops-capability-model.md
   - engineering/architecture/team-topologies.md
+  - leadership/magical-thinking.md
 source: "https://erik.wiffin.com/posts/you-are-failing-at-ai-because-you-havent-built-a-learning-organization/"
 updated: 2026-06-20
 ---

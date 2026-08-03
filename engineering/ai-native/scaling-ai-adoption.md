@@ -17,6 +17,7 @@ related:
   - leadership/managing-sideways.md
   - leadership/staying-technical-as-a-manager.md
   - reading/new-sdlc-vibe-coding.md
+  - leadership/magical-thinking.md
 updated: 2026-07-03
 ---
 
