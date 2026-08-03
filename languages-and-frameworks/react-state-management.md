@@ -10,6 +10,7 @@ related:
   - languages-and-frameworks/react-forms.md
   - case-studies/linear-performance-architecture.md
   - concepts/resilient-software-design.md
+  - languages-and-frameworks/react-storybook.md
 source: "https://infrequently.org/2026/07/state-management/"
 updated: 2026-07-26
 ---
