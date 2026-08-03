@@ -83,3 +83,33 @@ grep -rl "updated: 2024" .
 ## Cross-linking
 
 When creating a note, check for related existing notes and add `related:` entries in both directions. This keeps the knowledge graph navigable.
+
+Hub notes are the exception: folder `README.md` indexes and `type: overview` maps link *down* to a whole cluster, and the spokes are not expected to link back. `scripts/lint-notes.py` exempts them from the reciprocity check for this reason.
+
+## Reviewing the structure
+
+Adding notes one at a time optimises each note locally. Structural problems only appear in aggregate — a folder quietly reaching 35 notes, a lint rule generating 90% noise, a topic stuck at two notes while an adjacent one has thirty. Nothing in the per-note workflow surfaces these, so review the shape of the repository periodically: after a run of additions, or when a cluster visibly shifts.
+
+**Measure, don't guess.** Read the actual files before asserting a problem — a finding inferred from a `grep` excerpt is how you end up "fixing" something that was already fine.
+
+```bash
+# Notes per folder — look for imbalance, not absolute size
+for d in engineering/* leadership product languages-and-frameworks tools sre standards concepts case-studies reading drafts; do
+  [ -d "$d" ] && printf "%-32s %s\n" "$d" "$(ls "$d"/*.md 2>/dev/null | grep -vc README)"
+done
+
+# Where lint warnings actually come from — a few files dominating means the rule is wrong, not the notes
+python3 scripts/lint-notes.py 2>&1 | grep -E '^WARN  [^ ]+\.md:' | sed -E 's/^WARN  ([^:]+):.*/\1/' | sort | uniq -c | sort -rn
+
+# Status spread — if almost everything sits at one value, the lifecycle isn't discriminating
+grep -rh "^status:" --include='*.md' . | sort | uniq -c | sort -rn
+```
+
+What to look for, and the bias to apply:
+
+- **Folder balance** — a large folder is fine if its `README.md` is sectioned and its overview map is current. Prefer sectioning an index over splitting a folder: moving notes rewrites hundreds of relative links for little navigational gain.
+- **Content gaps** — a topic repeatedly referenced from other notes but with no home of its own.
+- **Linter signal-to-noise** — if most warnings come from a handful of files, question the rule before editing the notes.
+- **Conventions still serving** — a status value nothing reaches, a folder nothing is filed in, a tag that never became a cluster.
+
+Rank findings by fix-cost against value, and prefer changes that don't touch note content.
