@@ -14,7 +14,9 @@ Checks (see conventions.md and AGENTS.md):
     - related: links resolve to existing files
   WARNINGS (reported; fail only with --strict)
     - a recommended field (description) is missing
-    - related: links are not reciprocated (bidirectional convention)
+    - related: links are not reciprocated (bidirectional convention); hub notes
+      (folder READMEs and `type: overview` maps) are exempt, since they map a
+      cluster by design and spokes are not expected to link back
     - a note is not linked from its folder README index
     - a tag is used by only one note (likely sprawl, not a shared facet)
 
@@ -57,6 +59,8 @@ class Note:
         self.path = path
         self.rel = path.relative_to(REPO_ROOT).as_posix()
         self.is_index = path.name == "README.md"
+        # set after frontmatter parsing in _parse()
+        self.is_hub = False
         self.fields: dict[str, object] = {}
         self.has_frontmatter = False
         self.parse_error: str | None = None
@@ -77,6 +81,11 @@ class Note:
             return
         self.has_frontmatter = True
         self._parse_fields(lines[1:end])
+        # Hubs (folder indexes and thematic overview maps) link *down* to a whole
+        # cluster. Requiring every note in that cluster to link back would put a
+        # near-identical related: entry in almost every file, so hub links are
+        # exempt from the bidirectional convention.
+        self.is_hub = self.is_index or self.fields.get("type") == "overview"
 
     def _parse_fields(self, fm: list[str]) -> None:
         key = None
@@ -245,8 +254,15 @@ def main() -> int:
                 related_targets[note.rel].add(target.rel)
 
     # --- bidirectional related links (warning) ---
+    # Hub notes (overviews, folder indexes) are exempt as the source: they map a
+    # cluster by design, and spokes are not expected to link back to the map.
+    hubs = {n.rel for n in notes if n.is_hub}
     for src_rel, targets in related_targets.items():
+        if src_rel in hubs:
+            continue
         for tgt_rel in sorted(targets):
+            if tgt_rel in hubs:
+                continue
             if src_rel not in related_targets.get(tgt_rel, set()):
                 warnings.append(
                     f"{src_rel}: related -> {tgt_rel} is not reciprocated (no back-link)"
