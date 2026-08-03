@@ -15,6 +15,7 @@ related:
   - leadership/engineering-leadership-overview.md
   - reading/factory-engineers.md
   - reading/ownership-thorsten-ball.md
+  - product/prioritisation-as-a-symptom.md
 source: "https://newsletter.eng-leadership.com/p/the-product-engineer-company-how"
 updated: 2026-06-27
 ---

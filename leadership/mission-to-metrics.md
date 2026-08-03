@@ -12,6 +12,7 @@ related:
   - leadership/first-principles-thinking.md
   - leadership/engineering-leadership-overview.md
   - product/explore-vs-exploit.md
+  - product/prioritisation-as-a-symptom.md
 source: "https://www.anniez.xyz/p/mission-to-metrics"
 updated: 2026-07-26
 ---

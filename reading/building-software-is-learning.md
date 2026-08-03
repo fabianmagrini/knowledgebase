@@ -14,6 +14,7 @@ related:
   - engineering/ai-native/spec-driven-development.md
   - reading/offloading-thinking-to-ai.md
   - engineering/architecture/over-engineering.md
+  - product/prioritisation-as-a-symptom.md
 source: "https://registerspill.thorstenball.com/p/building-software-is-learning"
 updated: 2026-07-05
 ---
