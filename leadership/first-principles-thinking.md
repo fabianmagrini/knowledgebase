@@ -18,6 +18,7 @@ related:
   - product/explore-vs-exploit.md
   - leadership/plan-is-not-a-strategy.md
   - leadership/mission-to-metrics.md
+  - concepts/optimal-stopping.md
 source: "https://www.philmckinney.com/how-to-improve-your-first-principles-thinking-skills/"
 updated: 2026-06-20
 ---

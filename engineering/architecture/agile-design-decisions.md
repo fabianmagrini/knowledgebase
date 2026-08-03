@@ -27,6 +27,7 @@ related:
   - engineering/ai-native/spec-driven-development.md
   - reading/building-software-is-learning.md
   - engineering/ai-native/agentic-autonomy-levels.md
+  - concepts/optimal-stopping.md
 source: "https://gist.github.com/fabianmagrini/76071cbc06aa1a5eafd19a7fb5ea2457"
 updated: 2026-06-20
 ---
