@@ -67,3 +67,4 @@ in **[Practices](../practices/)**.
 - [CI/CD as the Control Plane for AI-Assisted Engineering](ci-cd-ai-engineering.md)
 - [CI Speed When Agents Write the Code](ci-speed-with-ai-agents.md)
 - [Model Routing and AI Gateways](model-routing-and-ai-gateways.md)
+- [The AI Gateway as a Governance Control Plane](ai-gateway-control-plane.md)

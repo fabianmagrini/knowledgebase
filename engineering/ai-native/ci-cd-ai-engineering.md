@@ -38,6 +38,7 @@ related:
   - concepts/devops-capability-model.md
   - engineering/practices/visual-regression-testing.md
   - engineering/ai-native/scaling-ai-adoption.md
+  - engineering/ai-native/ai-gateway-control-plane.md
 ---
 
 # CI/CD as the Control Plane for AI-Assisted Engineering

@@ -15,6 +15,7 @@ related:
   - concepts/continuous-delivery.md
   - concepts/devops-capability-model.md
   - reading/fintech-engineering-handbook.md
+  - engineering/ai-native/ai-gateway-control-plane.md
 updated: 2026-06-16
 ---
 

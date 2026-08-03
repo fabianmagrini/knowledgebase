@@ -15,6 +15,7 @@ related:
   - reading/ownership-thorsten-ball.md
   - engineering/ai-native/light-and-dark-factories.md
   - reading/ai-productivity-research.md
+  - engineering/ai-native/ai-gateway-control-plane.md
 source: "https://addyo.substack.com/p/own-the-outer-loop"
 updated: 2026-07-11
 ---

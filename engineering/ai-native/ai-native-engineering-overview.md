@@ -48,6 +48,7 @@ related:
   - case-studies/slack-agentic-e2e-testing.md
   - engineering/ai-native/skill-engineering-disciplines.md
   - reading/what-is-software-engineering-ai.md
+  - engineering/ai-native/ai-gateway-control-plane.md
 updated: 2026-06-27
 ---
 
@@ -122,6 +123,10 @@ A map of the notes on building software with AI agents. They answer different qu
   and encoding knowledge outside disposable code.
 - [Design Systems as the AI Control Plane](../architecture/design-systems-ai-control-plane.md)
   — codified constraints as the control plane for AI-generated UI.
+- [The AI Gateway as a Governance Control Plane](ai-gateway-control-plane.md) — the runtime
+  control plane: an evolutionary seam holding model routing, identity, per-action authorisation,
+  guardrails and semantic audit, and why ordinary API gateways don't fit non-deterministic,
+  semantically-failing agent traffic.
 - [Skeleton Architecture](../architecture/skeleton-architecture.md) — the general-code control
   plane: an immutable human-designed skeleton constrains AI-generated tissue via the Template
   Method pattern, schema-first contracts, and compile-time topology checks *(in architecture)*.

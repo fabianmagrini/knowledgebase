@@ -21,6 +21,7 @@ related:
   - engineering/architecture/microfrontend-shell-platform.md
   - engineering/practices/visual-regression-testing.md
   - languages-and-frameworks/react-storybook.md
+  - engineering/ai-native/ai-gateway-control-plane.md
 source: "https://gist.github.com/fabianmagrini/3bf21095225b78d8b30db9437f4477b9"
 updated: 2026-06-19
 ---

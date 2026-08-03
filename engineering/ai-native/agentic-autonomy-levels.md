@@ -15,6 +15,7 @@ related:
   - engineering/ai-native/light-and-dark-factories.md
   - engineering/ai-native/harness-design-experiments.md
   - case-studies/openai-agent-first-harness.md
+  - engineering/ai-native/ai-gateway-control-plane.md
 source: "https://addyo.substack.com/p/agentic-autonomy-levels"
 updated: 2026-07-05
 ---
