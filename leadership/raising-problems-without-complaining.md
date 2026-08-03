@@ -12,6 +12,7 @@ related:
   - leadership/first-principles-thinking.md
   - leadership/new-leader-credibility.md
   - leadership/managing-sideways.md
+  - leadership/finding-problems-to-solve.md
 source: "https://adlerhsieh.com/p/what-your-manager-is-thinking-when-you-complain"
 updated: 2026-06-20
 ---

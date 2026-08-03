@@ -17,6 +17,7 @@ related:
   - leadership/managing-sideways.md
   - leadership/senior-ic-role.md
   - leadership/engineering-manager-role.md
+  - leadership/finding-problems-to-solve.md
 source: "https://gist.github.com/fabianmagrini/220ed6ab9e5d206a96a55177175e3fa1"
 updated: 2026-06-20
 ---

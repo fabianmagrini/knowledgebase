@@ -14,6 +14,7 @@ related:
   - engineering/architecture/ddd-strategic-design.md
   - engineering/practices/software-design-principles.md
   - engineering/architecture/overview.md
+  - leadership/finding-problems-to-solve.md
 source: "https://var0.xyz/posts/perfection-is-not-over-engineering.html"
 updated: 2026-08-03
 ---

@@ -19,6 +19,7 @@ related:
   - leadership/plan-is-not-a-strategy.md
   - leadership/mission-to-metrics.md
   - concepts/optimal-stopping.md
+  - leadership/finding-problems-to-solve.md
 source: "https://www.philmckinney.com/how-to-improve-your-first-principles-thinking-skills/"
 updated: 2026-06-20
 ---

@@ -13,6 +13,7 @@ related:
   - leadership/architecture-decision-forum.md
   - engineering/ai-native/ai-augmented-engineering-team.md
   - leadership/engineering-leadership-overview.md
+  - leadership/finding-problems-to-solve.md
 updated: 2026-06-27
 ---
 

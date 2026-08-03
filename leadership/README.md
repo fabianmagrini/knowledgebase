@@ -22,6 +22,7 @@ make good decisions with others.
 - [A Plan Is Not a Strategy](plan-is-not-a-strategy.md)
 - [From Mission to Metrics](mission-to-metrics.md)
 - [The Senior IC Role](senior-ic-role.md)
+- [Finding Problems to Solve as a Staff Engineer](finding-problems-to-solve.md)
 - [The Engineering Manager Role](engineering-manager-role.md)
 - [Staying Technical as a Manager](staying-technical-as-a-manager.md)
 - [Principal Engineer Influence](principal-engineer-influence.md)

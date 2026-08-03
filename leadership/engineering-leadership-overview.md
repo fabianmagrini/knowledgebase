@@ -31,6 +31,7 @@ related:
   - leadership/staying-technical-as-a-manager.md
   - leadership/mission-to-metrics.md
   - leadership/magical-thinking.md
+  - leadership/finding-problems-to-solve.md
 updated: 2026-07-26
 ---
 
@@ -50,6 +51,10 @@ how to set direction and make good decisions with other people.
 - [The Senior IC Role](senior-ic-role.md) — what Staff/Principal/Architect ICs actually do
   (cross-team improvements, technical direction, leading initiatives, growing leaders) and why
   it is leadership through influence, not authority.
+- [Finding Problems to Solve as a Staff Engineer](finding-problems-to-solve.md) — the step
+  before that: absorb organisational noise passively, let problems accumulate until they
+  resurface, find the common shape beneath separate requests — and the counter-example where
+  an elegant unification turned out to be the wrong problem.
 - [Principal Engineer Influence](principal-engineer-influence.md) — your words signal
   strategy; give feedback early and privately so forums validate rather than surprise.
 - [Raising Problems Without Complaining](raising-problems-without-complaining.md) — managing up:
