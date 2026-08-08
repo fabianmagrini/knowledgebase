@@ -17,6 +17,7 @@ related:
   - reading/multi-agent-coding-coordination.md
   - engineering/ai-native/ai-native-engineering-overview.md
   - case-studies/slack-ai-multi-cloud.md
+  - case-studies/intercom-ai-pr-approval.md
 source: "https://blog.cloudflare.com/ai-code-review/"
 updated: 2026-06-27
 ---

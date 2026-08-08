@@ -28,6 +28,7 @@ related:
   - leadership/revised-rules-engineering-leadership.md
   - engineering/ai-native/scaling-ai-adoption.md
   - reading/ai-productivity-research.md
+  - case-studies/intercom-ai-pr-approval.md
 source: "https://addyo.substack.com/p/agentic-code-review"
 updated: 2026-06-20
 ---

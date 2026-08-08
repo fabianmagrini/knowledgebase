@@ -16,6 +16,7 @@ related:
   - engineering/ai-native/light-and-dark-factories.md
   - reading/ai-productivity-research.md
   - engineering/ai-native/ai-gateway-control-plane.md
+  - case-studies/intercom-ai-pr-approval.md
 source: "https://addyo.substack.com/p/own-the-outer-loop"
 updated: 2026-07-11
 ---

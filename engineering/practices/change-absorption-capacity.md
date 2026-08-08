@@ -28,6 +28,7 @@ related:
   - engineering/ai-native/agentic-code-review.md
   - engineering/ai-native/ai-engineering-discipline.md
   - engineering/ai-native/apex-framework.md
+  - case-studies/intercom-ai-pr-approval.md
 source: "https://stackoverflow.blog/2026/05/12/you-shipped-it-fast-but-did-you-ship-it-right/"
 updated: 2026-06-20
 ---

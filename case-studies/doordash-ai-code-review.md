@@ -12,6 +12,7 @@ related:
   - engineering/ai-native/agentic-code-review.md
   - engineering/practices/code-review-policy.md
   - engineering/ai-native/cress-context-engineering.md
+  - case-studies/intercom-ai-pr-approval.md
 source: "https://careersatdoordash.com/blog/doordash-built-an-ai-code-reviewer-engineers-actually-listen-to/"
 updated: 2026-07-05
 ---
