@@ -20,6 +20,7 @@ related:
   - concepts/ci-cd-continuous-deployment.md
   - engineering/practices/feature-flags-and-branch-by-abstraction.md
   - engineering/practices/database-migration-strategies.md
+  - case-studies/rewind-ai-pr-approval.md
 ---
 
 # Release Process for Regulated and High-Risk Services

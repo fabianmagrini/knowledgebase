@@ -16,6 +16,7 @@ related:
   - engineering/ai-native/agentic-autonomy-levels.md
   - engineering/practices/change-absorption-capacity.md
   - engineering/security/secure-sdlc.md
+  - case-studies/rewind-ai-pr-approval.md
 source: "https://www.intercom.com/blog/ai-is-approving-our-pull-requests-heres-how-we-made-it-safe/"
 updated: 2026-08-08
 ---

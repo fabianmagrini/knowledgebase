@@ -39,6 +39,7 @@ related:
   - engineering/practices/visual-regression-testing.md
   - engineering/ai-native/scaling-ai-adoption.md
   - engineering/ai-native/ai-gateway-control-plane.md
+  - case-studies/rewind-ai-pr-approval.md
 ---
 
 # CI/CD as the Control Plane for AI-Assisted Engineering

@@ -15,6 +15,7 @@ related:
   - engineering/practices/rollback-and-roll-forward.md
   - case-studies/openai-agent-first-harness.md
   - case-studies/intercom-ai-pr-approval.md
+  - case-studies/rewind-ai-pr-approval.md
 source: "https://rootly.com/blog/why-we-got-rid-of-our-small-pr-rule"
 updated: 2026-07-26
 ---

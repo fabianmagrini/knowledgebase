@@ -27,6 +27,7 @@ related:
   - engineering/ai-native/agentic-code-review.md
   - case-studies/openai-agent-first-harness.md
   - case-studies/intercom-ai-pr-approval.md
+  - case-studies/rewind-ai-pr-approval.md
 source: "https://gist.github.com/fabianmagrini/e95a24606e7108a7e0673de02d739be3"
 ---
 
