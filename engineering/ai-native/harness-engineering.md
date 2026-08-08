@@ -32,6 +32,7 @@ related:
   - case-studies/microsoft-ai-core-competency.md
   - engineering/ai-native/skill-engineering-disciplines.md
   - case-studies/openai-agent-first-harness.md
+  - case-studies/stripe-kai-agent-platform.md
 source: "https://diego-pacheco.blogspot.com/2026/05/harness-engineering.html"
 updated: 2026-06-20
 ---

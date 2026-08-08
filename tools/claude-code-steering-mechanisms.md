@@ -13,6 +13,7 @@ related:
   - engineering/ai-native/ai-native-engineering-stack.md
   - engineering/ai-native/skill-engineering-disciplines.md
   - case-studies/openai-agent-first-harness.md
+  - case-studies/stripe-kai-agent-platform.md
 source: "https://generativeprogrammer.com/p/10-claude-code-steering-mechanisms"
 updated: 2026-07-05
 ---

@@ -14,6 +14,7 @@ related:
   - engineering/architecture/composable-architecture.md
   - languages-and-frameworks/react-state-management.md
   - engineering/architecture/overview.md
+  - case-studies/stripe-kai-agent-platform.md
 source: "https://www.robinwieruch.de/agentic-coding-bet-on-primitives/"
 updated: 2026-08-08
 ---

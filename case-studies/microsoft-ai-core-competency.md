@@ -14,6 +14,7 @@ related:
   - product/explore-vs-exploit.md
   - case-studies/slack-ai-multi-cloud.md
   - engineering/architecture/primitives-over-frameworks.md
+  - case-studies/stripe-kai-agent-platform.md
 source: "https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/"
 updated: 2026-07-05
 ---

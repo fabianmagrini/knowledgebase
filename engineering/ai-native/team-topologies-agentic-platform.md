@@ -13,6 +13,7 @@ related:
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/security/governing-ai-in-the-cloud.md
   - leadership/scaling-engineering-org.md
+  - case-studies/stripe-kai-agent-platform.md
 source: "https://blog.owulveryck.info/2026/06/24/who-does-what-team-topologies-for-the-agentic-platform.html"
 updated: 2026-07-05
 ---

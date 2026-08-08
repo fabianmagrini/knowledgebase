@@ -13,6 +13,7 @@ related:
   - tools/claude-code-steering-mechanisms.md
   - engineering/ai-native/ai-native-engineering-stack.md
   - engineering/security/secure-sdlc.md
+  - case-studies/stripe-kai-agent-platform.md
 source: "https://generativeprogrammer.com/p/5-software-disciplines-that-keep"
 updated: 2026-07-19
 ---
