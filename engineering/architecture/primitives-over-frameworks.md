@@ -15,6 +15,7 @@ related:
   - languages-and-frameworks/react-state-management.md
   - engineering/architecture/overview.md
   - case-studies/stripe-kai-agent-platform.md
+  - engineering/architecture/reversibility-decays.md
 source: "https://www.robinwieruch.de/agentic-coding-bet-on-primitives/"
 updated: 2026-08-08
 ---

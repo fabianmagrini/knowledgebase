@@ -16,6 +16,7 @@ related:
   - engineering/architecture/thinking-in-constraints.md
   - engineering/architecture/bounded-context-canvas.md
   - engineering/ai-native/ai-gateway-control-plane.md
+  - engineering/architecture/reversibility-decays.md
 source: "https://www.infoq.com/articles/architectural-change-cases/"
 updated: 2026-06-19
 ---

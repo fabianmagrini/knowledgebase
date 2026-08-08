@@ -19,6 +19,7 @@ related:
   - reading/llm-maintained-wiki.md
   - reading/ownership-thorsten-ball.md
   - engineering/architecture/primitives-over-frameworks.md
+  - engineering/architecture/reversibility-decays.md
 source: "https://cpojer.net/posts/modern-engineering-values"
 updated: 2026-06-14
 ---

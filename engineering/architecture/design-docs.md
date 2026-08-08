@@ -11,6 +11,7 @@ related:
   - engineering/architecture/agile-design-decisions.md
   - engineering/architecture/c4-model.md
   - engineering/ai-native/spec-driven-development.md
+  - engineering/architecture/reversibility-decays.md
 source: "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/"
 updated: 2026-07-05
 ---

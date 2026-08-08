@@ -27,6 +27,7 @@ related:
   - engineering/architecture/team-topologies.md
   - engineering/architecture/over-engineering.md
   - engineering/architecture/primitives-over-frameworks.md
+  - engineering/architecture/reversibility-decays.md
 updated: 2026-06-20
 ---
 
@@ -79,6 +80,9 @@ systems.
   of significant decisions.
 - [Architectural Change Cases](architectural-change-cases.md) — extend ADRs forward in time:
   structured speculation about how decisions might have to change, with cost and reversibility.
+- [Reversibility Decays](reversibility-decays.md) — the qualifier on the whole reversibility
+  framework: a two-way door does not stay one, the strike price only rises, and optionality has
+  to be maintained rather than assessed once.
 - [Architecture Decision Forum](../../leadership/architecture-decision-forum.md) — the advisory
   body where cross-cutting decisions are made and logged as ADRs *(in practices)*.
 

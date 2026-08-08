@@ -11,6 +11,7 @@ related:
   - engineering/architecture/agile-design-decisions.md
   - engineering/ai-native/agentic-sdlc.md
   - engineering/ai-native/ai-native-engineering-overview.md
+  - engineering/architecture/reversibility-decays.md
 source: "https://gshutler.com/2026/06/adrs-in-a-post-flip-world/"
 updated: 2026-07-11
 ---
