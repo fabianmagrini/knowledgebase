@@ -18,6 +18,7 @@ related:
   - case-studies/portkey-product-engineer-company.md
   - reading/llm-maintained-wiki.md
   - reading/ownership-thorsten-ball.md
+  - engineering/architecture/primitives-over-frameworks.md
 source: "https://cpojer.net/posts/modern-engineering-values"
 updated: 2026-06-14
 ---

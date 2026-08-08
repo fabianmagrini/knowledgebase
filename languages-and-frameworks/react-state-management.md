@@ -11,6 +11,7 @@ related:
   - case-studies/linear-performance-architecture.md
   - concepts/resilient-software-design.md
   - languages-and-frameworks/react-storybook.md
+  - engineering/architecture/primitives-over-frameworks.md
 source: "https://infrequently.org/2026/07/state-management/"
 updated: 2026-07-26
 ---

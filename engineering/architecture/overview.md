@@ -26,6 +26,7 @@ related:
   - engineering/architecture/event-storming.md
   - engineering/architecture/team-topologies.md
   - engineering/architecture/over-engineering.md
+  - engineering/architecture/primitives-over-frameworks.md
 updated: 2026-06-20
 ---
 
@@ -90,6 +91,10 @@ systems.
   pushed to its limit: enough constraints leave a single solution, so over-engineering is a
   requirements failure rather than too much design. Includes the "why is it built this way"
   diagnostic and the three-people/five-microservices example.
+- [Primitives Over Opinionated Frameworks](primitives-over-frameworks.md) — the same reasoning
+  applied to dependencies: an opinionated library is someone else's constraint choices, so once
+  implementation labour is cheap, keep the unopinionated primitives and own the thin layer —
+  except where accessibility, commodity UI, or comprehension cost argue otherwise.
 
 ## The through-line
 
