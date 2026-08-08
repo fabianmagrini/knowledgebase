@@ -12,6 +12,7 @@ related:
   - case-studies/linear-performance-architecture.md
   - case-studies/chatgpt-web-performance.md
   - engineering/practices/performance-testing-strategy.md
+  - engineering/practices/spa-soak-testing.md
 updated: 2026-06-22
 ---
 

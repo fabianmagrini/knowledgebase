@@ -18,6 +18,7 @@ related:
   - engineering/architecture/thin-shell-startup-performance.md
   - engineering/practices/visual-regression-testing.md
   - engineering/architecture/caching-reference-data-apis.md
+  - engineering/practices/spa-soak-testing.md
 source: "https://gist.github.com/fabianmagrini/dbf422910023dc8460f1331dd27c6f21"
 updated: 2026-06-20
 ---
@@ -54,7 +55,9 @@ Tie targets to percentiles, not averages — the tail is the experience.
 - **Ramp-up** — exposes cold-start behaviour.
 - **Steady state** — the baseline.
 - **Spike** — sudden bursts; tests elasticity and shedding.
-- **Soak** — hours of load; surfaces memory leaks and slow degradation.
+- **Soak** — hours of load; surfaces memory leaks and slow degradation. The client-side
+  counterpart has a different mechanism — one browser context, one workflow repeated — see
+  [Soak Testing a Single-Page App](spa-soak-testing.md).
 
 Shape the mix too: realistic read/write split (e.g. 80/20), hot endpoints vs. cold paths,
 and geographic latency if the system is global.

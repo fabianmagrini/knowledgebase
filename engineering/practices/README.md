@@ -21,6 +21,7 @@ AI-native and agentic engineering notes now have their own section: **[AI-Native
 - [API Spec, Contract, and Functional Testing](api-contract-functional-testing.md)
 - [Test Coverage Policy](test-coverage-policy.md)
 - [Performance Testing Strategy](performance-testing-strategy.md)
+- [Soak Testing a Single-Page App](spa-soak-testing.md)
 - [Visual Regression Testing (Chromatic + Storybook)](visual-regression-testing.md)
 
 ### CI/CD & release engineering

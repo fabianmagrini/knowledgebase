@@ -14,6 +14,7 @@ related:
   - case-studies/zalando-client-side-load-balancing.md
   - case-studies/chatgpt-web-performance.md
   - languages-and-frameworks/react-state-management.md
+  - engineering/practices/spa-soak-testing.md
 source: "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown"
 updated: 2026-06-22
 ---

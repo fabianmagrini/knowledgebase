@@ -11,6 +11,7 @@ related:
   - languages-and-frameworks/react-state-management.md
   - engineering/practices/visual-regression-testing.md
   - engineering/architecture/design-systems-ai-control-plane.md
+  - engineering/practices/spa-soak-testing.md
 source: "https://flaviocopes.com/storybook-tutorial/"
 updated: 2026-08-03
 ---

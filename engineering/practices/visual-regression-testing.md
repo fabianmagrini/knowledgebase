@@ -15,6 +15,7 @@ related:
   - leadership/learning-culture-ai-agents.md
   - case-studies/slack-agentic-e2e-testing.md
   - languages-and-frameworks/react-storybook.md
+  - engineering/practices/spa-soak-testing.md
 source: "https://www.chromatic.com"
 updated: 2026-06-29
 ---
