@@ -10,6 +10,7 @@ related:
   - engineering/security/secure-sdlc.md
   - engineering/ai-native/team-topologies-agentic-platform.md
   - engineering/architecture/design-systems-ai-control-plane.md
+  - engineering/security/agent-skill-security.md
 source: "https://www.infoq.com/articles/governing-ai-cloud-guide/"
 updated: 2026-07-05
 ---

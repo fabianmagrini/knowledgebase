@@ -17,6 +17,7 @@ related:
   - reading/fintech-engineering-handbook.md
   - engineering/ai-native/ai-gateway-control-plane.md
   - case-studies/intercom-ai-pr-approval.md
+  - engineering/security/agent-skill-security.md
 updated: 2026-06-16
 ---
 

@@ -15,3 +15,4 @@ Notes on security principles, threat modeling, and common vulnerabilities.
 
 - [Secure SDLC (DevSecOps)](secure-sdlc.md) — shifting security left, automated pipeline gates, and beyond-the-pipeline practices
 - [Governing AI in the Cloud](governing-ai-in-the-cloud.md) — shadow AI and the layered control architecture for cloud AI governance: discovery (CASB/service mesh/API gateway), classification at write time, fail-secure IAM/VPC enforcement, policy-as-code (OPA/Cedar), model registries, and risk-based approvals
+- [Securing AI Agent Skills](agent-skill-security.md) — skills as a supply-chain artefact: the intent/capability/substrate model, control points from pre-install scanning through signed provenance to runtime sandboxing, and what each control structurally cannot see — notably that signatures prove origin, not harmlessness

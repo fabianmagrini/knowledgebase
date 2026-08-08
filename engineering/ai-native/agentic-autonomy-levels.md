@@ -18,6 +18,7 @@ related:
   - engineering/ai-native/ai-gateway-control-plane.md
   - case-studies/intercom-ai-pr-approval.md
   - case-studies/rewind-ai-pr-approval.md
+  - engineering/security/agent-skill-security.md
 source: "https://addyo.substack.com/p/agentic-autonomy-levels"
 updated: 2026-07-05
 ---

@@ -15,6 +15,7 @@ related:
   - engineering/ai-native/long-running-agents.md
   - engineering/architecture/primitives-over-frameworks.md
   - case-studies/microsoft-ai-core-competency.md
+  - engineering/security/agent-skill-security.md
 source: "https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents"
 updated: 2026-08-08
 ---
