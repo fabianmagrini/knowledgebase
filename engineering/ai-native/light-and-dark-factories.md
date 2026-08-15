@@ -20,6 +20,7 @@ related:
   - case-studies/openai-agent-first-harness.md
   - reading/ai-productivity-research.md
   - engineering/ai-native/dark-factories-examined.md
+  - case-studies/vercel-v0-instant-navigations.md
 source: "https://addyosmani.com/blog/software-factories/ (also published at https://addyo.substack.com/p/software-factories-light-and-dark)"
 updated: 2026-08-16
 ---

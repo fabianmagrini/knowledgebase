@@ -13,6 +13,7 @@ related:
   - languages-and-frameworks/react-storybook.md
   - case-studies/linear-performance-architecture.md
   - engineering/architecture/thin-shell-startup-performance.md
+  - case-studies/vercel-v0-instant-navigations.md
 source: "https://denodell.com/blog/your-spa-is-leaking-memory-soak-test-it"
 updated: 2026-08-08
 ---

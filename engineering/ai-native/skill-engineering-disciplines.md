@@ -15,6 +15,7 @@ related:
   - engineering/security/secure-sdlc.md
   - case-studies/stripe-kai-agent-platform.md
   - engineering/security/agent-skill-security.md
+  - case-studies/vercel-v0-instant-navigations.md
 source: "https://generativeprogrammer.com/p/5-software-disciplines-that-keep"
 updated: 2026-07-19
 ---

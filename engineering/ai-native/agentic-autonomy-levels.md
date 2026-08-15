@@ -20,6 +20,7 @@ related:
   - case-studies/rewind-ai-pr-approval.md
   - engineering/security/agent-skill-security.md
   - engineering/ai-native/dark-factories-examined.md
+  - case-studies/vercel-v0-instant-navigations.md
 source: "https://addyo.substack.com/p/agentic-autonomy-levels"
 updated: 2026-07-05
 ---
