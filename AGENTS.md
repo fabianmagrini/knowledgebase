@@ -64,6 +64,22 @@ Set `source` for notes derived from external material (books, papers, URLs). Omi
 
 Where a piece is published in more than one canonical place, prefer the more durable one and record the other alongside it — a personal domain generally outlasts a newsletter platform.
 
+## Considering a source: note, fold, or cite
+
+Not every worthwhile article earns a note. Before writing one, check whether the URL is already a `source:` anywhere (`grep -rn "<url-or-domain>" --include='*.md' .`) — repeats and cross-posts are common — then pick one of four outcomes:
+
+| Outcome | When |
+|---|---|
+| **New note** | It carries an argument, framework, or evidence the repo does not hold, at an altitude no existing note occupies |
+| **Fold into an existing note** | The core claim is already held and the source adds a section's worth — a mechanism, a caveat, a second data point. Prefer this to a near-duplicate note; a cluster with three overlapping notes on one idea is a link dump, not a map |
+| **Cite in `reading/README.md`** | On-topic and worth being findable, but the argument is covered in more depth elsewhere here. Record what it *does* add and state why there is no note, so the decision reads as deliberate rather than as an oversight |
+| **Skip** | Thin, off-topic, or resting on a contested claim that a neutral summary would launder into the repo's voice |
+
+Two habits that make the judgement easier:
+
+- **Say what is genuinely new, out loud, before writing.** If the honest answer is one idea, that is a fold or a citation.
+- **Note the provenance, always.** Vendor marketing, an author restating their own back catalogue, self-reported metrics, a sponsored post, or a single practitioner's experience are all publishable — they just need saying in the note rather than being smoothed into neutral prose.
+
 ## Searching
 
 ```bash
