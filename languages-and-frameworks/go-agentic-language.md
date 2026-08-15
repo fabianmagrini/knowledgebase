@@ -1,7 +1,7 @@
 ---
 type: note
 title: Go as an Agentic Language
-description: "why Go's reader-first design (fast deterministic builds, compile-enforced types as a gate, the Go 1 compatibility promise, low distractor density) suits AI coding agents running the agentic loop at machine frequency"
+description: "why Go's reader-first design (fast deterministic builds, compile-enforced types as a gate, the Go 1 compatibility promise, low distractor density) suits AI coding agents — plus the dependency-surface argument: a broad standard library keeps the agent's dependency graph small"
 tags: [go, ai-engineering, agentic-workflows, reading]
 topic: languages-and-frameworks
 status: notes
@@ -10,8 +10,9 @@ related:
   - engineering/ai-native/agent-backpressure-loops.md
   - engineering/ai-native/long-running-agents.md
   - engineering/ai-native/loop-driven-development.md
-source: "https://spf13.com/p/go-the-agentic-language/"
-updated: 2026-07-11
+  - engineering/security/agent-skill-security.md
+source: "https://spf13.com/p/go-the-agentic-language/; https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/"
+updated: 2026-08-16
 ---
 
 # Go as an Agentic Language
@@ -63,6 +64,37 @@ Standardised tooling reinforces this: `gofmt` gives one format for all code, `go
 ./...` needs no framework decisions, `govulncheck` and built-in fuzzing come as
 standard, and a single static binary deploys with zero runtime dependencies.
 
+## The dependency surface
+
+A second, independent argument for the same conclusion, made by Cameron Balahan (Go
+product management) and Richard Seroter in an August 2026 Google post: a **comprehensive
+standard library reduces how far an agent reaches for dependencies in the first place.**
+
+Where the context-efficiency case above is about what the agent has to *read*, this is
+about what it chooses to *pull in*. An agent asked for HTTP handling, JSON, crypto or
+templating in Go has a canonical answer in the standard library, so it has less occasion
+to reach for a package it half-remembers from training data — which is where stale,
+abandoned or malicious dependencies enter. The module checksum database and
+`govulncheck` back that up with what the authors describe as low-noise, actionable
+feedback.
+
+That matters more than it once did: agent dependency-pulling is a supply-chain surface
+in its own right — see [Securing AI Agent Skills](../engineering/security/agent-skill-security.md),
+where roughly a quarter of public agent skills tripped a suspicious-pattern check. A
+language whose defaults keep the dependency graph small is doing security work that
+would otherwise need tooling.
+
+The same piece adds **modernizers** and the rebuilt `go fix` — deterministic,
+ecosystem-scale refactoring tools. These are the other half of the Go 1 compatibility
+promise: old code keeps compiling *and* there is a mechanical path to move it forward,
+which is what stops "still compiles" from meaning "frozen".
+
+> The Google post is **language advocacy** — written by the language's own product
+> management, with no benchmarks, no comparison against Rust or Kotlin, no case studies,
+> and no discussion of where Go is a poor fit for agentic work. Its restated arguments
+> (verification bottleneck, readability over writability, types as a gate, the
+> compatibility promise) are Francia's above.
+
 ## The positioning
 
 The claim is *not* that Go replaces Python (which owns ML/training) or TypeScript
@@ -72,6 +104,11 @@ server, and in Microsoft's decision to port the TypeScript compiler (7.0) to Go.
 Supporting anecdotes — an ~10× TypeScript build speed-up, PayPal's C++→Go maintenance
 win, and Armin Ronacher porting MiniJinja Rust→Go in 45 minutes for ~$60 — are cited by
 the author from third parties rather than independently verified here.
+
+A further positioning signal, worth reading *as* advocacy rather than despite it: the
+Go team itself now publishes this argument. When a language's owners market it on
+**agent ergonomics**, that says less about whether the claim is true than about which
+audience the language is now being positioned for.
 
 ## Relationship to other notes
 

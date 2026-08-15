@@ -14,6 +14,7 @@ related:
   - engineering/ai-native/ai-gateway-control-plane.md
   - engineering/ai-native/agentic-autonomy-levels.md
   - tools/claude-code-steering-mechanisms.md
+  - languages-and-frameworks/go-agentic-language.md
 source: "https://generativeprogrammer.com/p/10-open-source-projects-for-securing"
 updated: 2026-08-08
 ---
