@@ -49,6 +49,7 @@ related:
   - engineering/ai-native/skill-engineering-disciplines.md
   - reading/what-is-software-engineering-ai.md
   - engineering/ai-native/ai-gateway-control-plane.md
+  - engineering/ai-native/dark-factories-examined.md
 updated: 2026-06-27
 ---
 
@@ -152,6 +153,10 @@ A map of the notes on building software with AI agents. They answer different qu
   deciding which loops run unattended: the loop → harness → factory nesting, why lit factories
   put judgement upstream at design, why the harness alone can't buy maintainability, and graphs
   over freeform loops.
+- [Dark Factories Examined](dark-factories-examined.md) — the audit of that concept: the coiner
+  stops short of it, the popularisers call it unproven, and the manufacturing precedent is
+  thinner than cited. The real risk is the *accidental* version — Faros data showing review
+  collapsing (+31.3% unreviewed merges, +242% incidents) while agents open under 1% of PRs.
 - [Building Effective Agents — Workflow & Agent Patterns](../../reading/building-effective-agents.md)
   — Anthropic's composition patterns (prompt chaining, routing, parallelization,
   orchestrator–workers, evaluator–optimizer, autonomous agents), simplicity-first, and when *not*

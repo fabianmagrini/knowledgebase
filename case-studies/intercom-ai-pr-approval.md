@@ -17,6 +17,7 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - engineering/security/secure-sdlc.md
   - case-studies/rewind-ai-pr-approval.md
+  - engineering/ai-native/dark-factories-examined.md
 source: "https://www.intercom.com/blog/ai-is-approving-our-pull-requests-heres-how-we-made-it-safe/"
 updated: 2026-08-08
 ---

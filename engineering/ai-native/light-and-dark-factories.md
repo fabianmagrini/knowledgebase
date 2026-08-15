@@ -19,15 +19,22 @@ related:
   - engineering/ai-native/harness-design-experiments.md
   - case-studies/openai-agent-first-harness.md
   - reading/ai-productivity-research.md
+  - engineering/ai-native/dark-factories-examined.md
 source: "https://addyosmani.com/blog/software-factories/ (also published at https://addyo.substack.com/p/software-factories-light-and-dark)"
-updated: 2026-07-26
+updated: 2026-08-16
 ---
 
 # Light and Dark Software Factories
 
 Addy Osmani borrows **lights-out manufacturing** — factories where robots work in the dark
-because no human is present, as FANUC has run since 2001 and Xiaomi demonstrated in 2024 — as
-the axis for deciding which agent loops run unattended.
+because no human is present, citing FANUC and Xiaomi as precedent — as the axis for deciding
+which agent loops run unattended.
+
+> **The precedent is contested.** [Dark Factories Examined](dark-factories-examined.md) traces
+> these citations back: FANUC's 1981 plant ran 16 hours with humans doing final assembly the
+> next morning, and the widely-repeated "30-day unattended" figure resolves to a single 2003
+> magazine paragraph. The endpoint moved rather than disappearing — which does not undermine
+> the lit/dark *placement* argument below, but does weaken the analogy it is built on.
 
 | | Definition |
 |---|---|

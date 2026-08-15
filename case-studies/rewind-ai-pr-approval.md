@@ -14,6 +14,7 @@ related:
   - engineering/practices/code-review-policy.md
   - engineering/ai-native/agentic-code-review.md
   - engineering/ai-native/agentic-autonomy-levels.md
+  - engineering/ai-native/dark-factories-examined.md
 source: "https://rewind.com/blog/ai-approve-pull-requests-safely/"
 updated: 2026-08-08
 ---
