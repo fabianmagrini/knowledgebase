@@ -55,6 +55,7 @@ Each note should include:
 - [Agentic AI Architecture](https://www.infoq.com/minibooks/agentic-ai-architecture/) — InfoQ eMag (ed. Rafał Gancarz) → notes: [Agentic AI Architecture (InfoQ eMag)](agentic-ai-architecture-emag.md) — signpost
 - [Are we offloading too much of our thinking to AI?](https://www.artfish.ai/p/offloading-thinking-to-ai) — Yennie Jun → notes: [Offloading Thinking to AI](offloading-thinking-to-ai.md) — personal essay; the counterweight to the delegation notes
 - [Five studies that are changing how we think about AI in software engineering](https://newsletter.getdx.com/p/five-studies-that-are-changing-how) — Brian Houck → notes: [Five Studies on AI and Software Engineering Productivity](ai-productivity-research.md) — signpost to five peer-reviewed studies; the measurement layer under the AI-native cluster
+- [Agentic Code Quality](https://addyo.substack.com/p/agentic-code-quality) — Addy Osmani — quality as constraints set around agents rather than a final review; the scaling trilemma (scale verification, cut velocity, or lower the bar). No note: the argument is covered in more depth by [Backpressure Loops](../engineering/ai-native/agent-backpressure-loops.md), [CI/CD as the Control Plane](../engineering/ai-native/ci-cd-ai-engineering.md) and [Agentic Code Review](../engineering/ai-native/agentic-code-review.md)
 
 ### Engineering Craft & Culture
 
