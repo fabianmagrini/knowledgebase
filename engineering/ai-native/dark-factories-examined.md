@@ -15,6 +15,7 @@ related:
   - case-studies/rewind-ai-pr-approval.md
   - engineering/ai-native/agentic-autonomy-levels.md
   - engineering/ai-native/ai-native-engineering-overview.md
+  - engineering/ai-native/tdd-in-the-agent-loop.md
 source: "https://kachar.dev/blog/the-lights-were-never-off"
 updated: 2026-08-16
 ---

@@ -50,6 +50,7 @@ related:
   - reading/what-is-software-engineering-ai.md
   - engineering/ai-native/ai-gateway-control-plane.md
   - engineering/ai-native/dark-factories-examined.md
+  - engineering/ai-native/tdd-in-the-agent-loop.md
 updated: 2026-06-27
 ---
 
@@ -136,6 +137,10 @@ A map of the notes on building software with AI agents. They answer different qu
   anchored in built evidence rather than rhetoric *(in architecture)*.
 - [Eval-Driven Development for AI Capabilities](eval-driven-ai-development.md) — testing the
   prompts/skills/agents themselves, not just the code they emit.
+- [TDD Inside the Agent Loop](tdd-in-the-agent-loop.md) — Böckeler's experiment finding
+  agent-authored test-first runs produced *worse* solutions at 3–8× the tokens, because the
+  forcing function and the psychology both depend on a human. Measure the outcome (mutation
+  testing) rather than mandating the process.
 - [Slack's Agentic E2E Testing Experiment](../../case-studies/slack-agentic-e2e-testing.md) — the
   inverse of eval-driven: using agents *to run* E2E tests. Goal-based vs journey-based testing,
   three execution models measured across 200+ runs, and the cost/reliability trade-offs that keep

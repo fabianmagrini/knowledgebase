@@ -24,6 +24,7 @@ related:
   - case-studies/openai-agent-first-harness.md
   - reading/ai-productivity-research.md
   - case-studies/vercel-v0-instant-navigations.md
+  - engineering/ai-native/tdd-in-the-agent-loop.md
 source: "https://generativeprogrammer.com/p/stop-babysitting-your-coding-agent"
 updated: 2026-06-20
 ---

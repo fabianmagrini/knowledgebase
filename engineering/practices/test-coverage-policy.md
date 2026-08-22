@@ -18,6 +18,7 @@ related:
   - concepts/continuous-delivery.md
   - case-studies/slack-agentic-e2e-testing.md
   - engineering/practices/spa-soak-testing.md
+  - engineering/ai-native/tdd-in-the-agent-loop.md
 source: "https://gist.github.com/fabianmagrini/e95a24606e7108a7e0673de02d739be3"
 ---
 

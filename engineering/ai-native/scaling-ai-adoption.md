@@ -18,7 +18,8 @@ related:
   - leadership/staying-technical-as-a-manager.md
   - reading/new-sdlc-vibe-coding.md
   - leadership/magical-thinking.md
-updated: 2026-07-03
+  - engineering/ai-native/tdd-in-the-agent-loop.md
+updated: 2026-08-23
 ---
 
 # Scaling AI Adoption in the SDLC
@@ -72,6 +73,11 @@ foundation of scale is trust.
 
 - **TDD as standard.** AI is excellent at writing code to pass a test. Tests
   written *first* form a boundary that keeps AI output honest.
+  > **Contested for autonomous loops.** [TDD Inside the Agent Loop](tdd-in-the-agent-loop.md)
+  > reports an experiment where agent-authored test-first runs produced *worse* solutions at
+  > 3–8× the tokens, because the forcing function only works when a human applies it before
+  > seeing the implementation. Tests as a gate still hold; the *sequencing* claim does not
+  > survive that test.
 - **Shift-left security.** SAST, SCA, and secret scanning on every commit —
   automated scanners instantly catch hallucinated vulnerable dependencies or bad
   crypto.

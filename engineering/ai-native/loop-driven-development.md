@@ -25,6 +25,7 @@ related:
   - reading/building-software-is-learning.md
   - engineering/ai-native/ci-speed-with-ai-agents.md
   - engineering/ai-native/light-and-dark-factories.md
+  - engineering/ai-native/tdd-in-the-agent-loop.md
 source:
   - "https://generativeprogrammer.com/p/from-test-driven-to-loop-driven-development"
   - "https://addyo.substack.com/p/loop-engineering"

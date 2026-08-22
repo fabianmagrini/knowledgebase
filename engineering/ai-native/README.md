@@ -31,6 +31,7 @@ in **[Practices](../practices/)**.
 - [Spec-Driven Development](spec-driven-development.md)
 - [Loop-Driven Development](loop-driven-development.md)
 - [Eval-Driven Development for AI Capabilities](eval-driven-ai-development.md)
+- [TDD Inside the Agent Loop](tdd-in-the-agent-loop.md)
 - [Agile in the Age of AI](agile-in-the-age-of-ai.md)
 
 ### Strategy, adoption & maturity
