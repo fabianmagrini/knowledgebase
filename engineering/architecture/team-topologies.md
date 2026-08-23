@@ -19,6 +19,7 @@ related:
   - leadership/learning-organisation.md
   - reading/what-is-software-engineering-ai.md
   - product/prioritisation-as-a-symptom.md
+  - engineering/architecture/comprehension-as-architecture.md
 source: "Skelton & Pais — Team Topologies (2019); Conway (1968)"
 updated: 2026-06-21
 ---

@@ -17,6 +17,7 @@ related:
   - reading/how-i-use-llms-2026.md
   - engineering/ai-native/own-the-outer-loop.md
   - engineering/ai-native/dark-factories-examined.md
+  - engineering/architecture/comprehension-as-architecture.md
 source: "https://newsletter.getdx.com/p/five-studies-that-are-changing-how"
 updated: 2026-08-03
 ---

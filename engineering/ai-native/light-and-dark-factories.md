@@ -22,6 +22,7 @@ related:
   - engineering/ai-native/dark-factories-examined.md
   - case-studies/vercel-v0-instant-navigations.md
   - engineering/ai-native/tdd-in-the-agent-loop.md
+  - engineering/architecture/comprehension-as-architecture.md
 source: "https://addyosmani.com/blog/software-factories/ (also published at https://addyo.substack.com/p/software-factories-light-and-dark)"
 updated: 2026-08-16
 ---

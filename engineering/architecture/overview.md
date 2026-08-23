@@ -28,6 +28,7 @@ related:
   - engineering/architecture/over-engineering.md
   - engineering/architecture/primitives-over-frameworks.md
   - engineering/architecture/reversibility-decays.md
+  - engineering/architecture/comprehension-as-architecture.md
 updated: 2026-06-20
 ---
 
@@ -85,6 +86,10 @@ systems.
   to be maintained rather than assessed once.
 - [Architecture Decision Forum](../../leadership/architecture-decision-forum.md) — the advisory
   body where cross-cutting decisions are made and logged as ADRs *(in practices)*.
+- [Comprehension as an Architectural Characteristic](comprehension-as-architecture.md) — the
+  precondition all of the above assume: you cannot evolve a system nobody understands. Naur's
+  theory-building, why GenAI erodes comprehension that used to accrue for free, and fitness
+  functions for measuring it.
 
 ## Constraining systems
 
