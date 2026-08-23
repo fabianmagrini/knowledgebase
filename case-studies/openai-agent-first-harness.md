@@ -18,6 +18,7 @@ related:
   - case-studies/rootly-pr-size-risk-labels.md
   - engineering/practices/code-review-policy.md
   - engineering/ai-native/dark-factories-examined.md
+  - engineering/architecture/enforced-architecture-rules.md
 source: "https://openai.com/index/harness-engineering/"
 updated: 2026-07-26
 ---

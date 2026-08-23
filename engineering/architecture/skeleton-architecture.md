@@ -12,6 +12,7 @@ related:
   - engineering/architecture/thinking-in-constraints.md
   - engineering/ai-native/cress-context-engineering.md
   - engineering/ai-native/agentic-sdlc.md
+  - engineering/architecture/enforced-architecture-rules.md
 source: "https://www.infoq.com/articles/skeleton-architecture/"
 updated: 2026-07-19
 ---

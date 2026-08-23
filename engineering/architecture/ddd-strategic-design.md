@@ -15,6 +15,7 @@ related:
   - engineering/architecture/team-topologies.md
   - engineering/architecture/over-engineering.md
   - engineering/architecture/change-locality.md
+  - engineering/architecture/enforced-architecture-rules.md
 source: "https://medium.com/@lambrych/domain-driven-design-ddd-strategic-design-explained-55e10b7ecc0f"
 updated: 2026-06-20
 ---

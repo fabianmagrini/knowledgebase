@@ -30,6 +30,7 @@ related:
   - engineering/architecture/reversibility-decays.md
   - engineering/architecture/comprehension-as-architecture.md
   - engineering/architecture/change-locality.md
+  - engineering/architecture/enforced-architecture-rules.md
 updated: 2026-06-20
 ---
 
@@ -109,6 +110,9 @@ systems.
   applied to dependencies: an opinionated library is someone else's constraint choices, so once
   implementation labour is cheap, keep the unopinionated primitives and own the thin layer —
   except where accessibility, commodity UI, or comprehension cost argue otherwise.
+- [Enforced Architecture Rules for Agents and Humans](enforced-architecture-rules.md) — the
+  constraints made executable: package, layer and role rules that fail the build, ordered
+  cheapest-first, making violations unrepresentable rather than discouraged.
 
 ## The through-line
 
