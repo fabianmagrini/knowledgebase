@@ -1,7 +1,7 @@
 ---
 type: note
 title: Finding Problems to Solve as a Staff Engineer
-description: "Lalit Maganti's practice for sourcing staff-level work: absorb organisational noise passively, let problems accumulate until they resurface, find the common shape beneath separate requests, and pressure-test in proportion to confidence."
+description: "Sourcing staff-level work — absorb noise, let problems accumulate, find the common shape, pressure-test — plus the other half: disambiguating a vague assignment via a timeboxed question dump."
 tags: [leadership, decision-making, reading]
 topic: leadership
 status: notes
@@ -13,9 +13,10 @@ related:
   - leadership/principal-engineer-influence.md
   - leadership/first-principles-thinking.md
   - product/explore-vs-exploit.md
+  - leadership/mission-to-metrics.md
   - leadership/engineering-leadership-overview.md
-source: "https://lalitm.com/post/find-problems-staff-engineer/"
-updated: 2026-08-03
+source: "https://lalitm.com/post/find-problems-staff-engineer/; https://alifeengineered.substack.com/p/the-art-of-dealing-with-ambiguity-89d"
+updated: 2026-08-23
 ---
 
 # Finding Problems to Solve as a Staff Engineer
@@ -68,6 +69,39 @@ This is the mirror of [Over-Engineering Is Solving the Wrong Problem](../enginee
 that note argues over-engineering is diligent work against wrongly-gathered requirements. The
 caching example is exactly that failure caught early — a unification that would have been
 "the correct answer to a problem nobody had", abandoned before it was built.
+
+## The other half: disambiguating a problem you were handed
+
+Everything above is about *sourcing* — choosing which problem to work on. Steve Huynh
+(July 2026) covers the adjacent case: an assignment has arrived and it is vague. His framing
+is the same as Maganti's inversion, stated more bluntly — **the problem *is* the solution**,
+and framing it properly is what removes the ambiguity.
+
+The procedure worth taking, because it is a method rather than a disposition:
+
+1. **Question dump** — 10–15 minutes, timeboxed, writing down every unknown exhaustively
+   before trying to answer any of them
+2. **Organise by power** — sort the questions by *how answerable* they are against *how much
+   the answer changes*, so effort goes to the high-impact and answerable ones first
+3. **Seek answers systematically** — identify who or what actually holds each answer
+4. **Iterate** as new questions surface
+5. **Document and share** the resulting framing
+
+The first two are the contribution. "Ask why repeatedly" above is a habit; a timeboxed dump
+followed by an impact sort is something a team can run together in an afternoon.
+
+His worked example: a team told to improve "reliability" found **three conflicting
+definitions** held by operations, product and leadership. Framing resolved it into something
+measurable — *reduce customer-impacting incidents by 80% within six months*. That is
+[From Mission to Metrics](mission-to-metrics.md)'s point from the receiving end: a metric that
+will not crystallise is evidence the layer above it has not been decided.
+
+> **Whoever frames the problem holds the authority.** A commenter on the piece — not Huynh —
+> makes the sharpest observation available: the person who documents the problem effectively
+> decides whose interpretation prevails. Step 5 is therefore not neutral administration. It is
+> worth naming because the framing move is usually presented as pure service, and the
+> [influence](principal-engineer-influence.md) it confers is real whether or not it is
+> intended.
 
 ## Trust compounds
 
