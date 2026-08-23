@@ -16,6 +16,7 @@ related:
   - engineering/practices/rollback-and-roll-forward.md
   - engineering/practices/database-migration-strategies.md
   - tools/git.md
+  - concepts/control-plane-data-plane.md
 source: "Weaveworks / Alexis Richardson — GitOps (2017); OpenGitOps (CNCF) — https://opengitops.dev"
 updated: 2026-06-21
 ---

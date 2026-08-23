@@ -18,6 +18,7 @@ related:
   - case-studies/slack-ai-multi-cloud.md
   - engineering/security/agent-skill-security.md
   - engineering/architecture/comprehension-as-architecture.md
+  - concepts/control-plane-data-plane.md
 source: "https://www.infoq.com/articles/evolutionary-architecture-pattern/"
 updated: 2026-08-03
 ---

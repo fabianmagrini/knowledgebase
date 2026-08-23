@@ -40,6 +40,7 @@ related:
   - engineering/ai-native/scaling-ai-adoption.md
   - engineering/ai-native/ai-gateway-control-plane.md
   - case-studies/rewind-ai-pr-approval.md
+  - concepts/control-plane-data-plane.md
 ---
 
 # CI/CD as the Control Plane for AI-Assisted Engineering

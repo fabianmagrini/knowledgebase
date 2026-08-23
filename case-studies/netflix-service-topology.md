@@ -10,6 +10,7 @@ related:
   - case-studies/zalando-client-side-load-balancing.md
   - concepts/resilient-software-design.md
   - tools/dynamic-configuration-sidecar.md
+  - concepts/control-plane-data-plane.md
 source: "https://netflixtechblog.com/building-service-topology-at-scale-architecture-challenges-and-lessons-learned-f4b792f3f0d8"
 updated: 2026-07-19
 ---

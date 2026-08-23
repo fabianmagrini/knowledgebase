@@ -16,6 +16,7 @@ networking) and the underlying ideas that practice notes build on.
 
 - [CI vs Continuous Delivery vs Continuous Deployment](ci-cd-continuous-deployment.md) — the three-way distinction by what each one automates, and why a team might stop at Continuous Delivery
 - [Clean Code and SOLID](clean-code-and-solid.md) — the hierarchy (Craftsmanship → Clean Code → SOLID), the five principles, and the modern over-abstraction caution
+- [Control Plane and Data Plane](control-plane-data-plane.md) — the distinction several notes here borrow without defining: the data plane is the capability, the control plane is the bookkeeping that reconciles desired against actual state; static stability, cells and blast radius, and why GitOps is a control plane
 - [Constraints as a Lens](constraints-as-a-lens.md) — hub unifying the three constraint senses (throughput, structure, selection)
 - [Continuous Delivery](continuous-delivery.md)
 - [The DevOps Capability Model (Accelerate / DORA)](devops-capability-model.md) — the 24 capabilities across 5 categories and the four delivery metrics; the canonical DORA/Accelerate reference

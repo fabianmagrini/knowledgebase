@@ -16,6 +16,7 @@ related:
   - case-studies/openai-agent-first-harness.md
   - case-studies/intercom-ai-pr-approval.md
   - case-studies/rewind-ai-pr-approval.md
+  - concepts/control-plane-data-plane.md
 source: "https://rootly.com/blog/why-we-got-rid-of-our-small-pr-rule"
 updated: 2026-07-26
 ---

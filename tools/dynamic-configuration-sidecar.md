@@ -13,6 +13,7 @@ related:
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/thinking-in-constraints.md
   - engineering/architecture/caching-reference-data-apis.md
+  - concepts/control-plane-data-plane.md
 source: "https://medium.com/airbnb-engineering/sitar-agent-building-a-reliable-dynamic-configuration-sidecar-at-scale-b7e00c152068"
 updated: 2026-06-20
 ---

@@ -12,6 +12,7 @@ related:
   - concepts/resilient-software-design.md
   - engineering/architecture/caching-reference-data-apis.md
   - engineering/ai-native/model-routing-and-ai-gateways.md
+  - concepts/control-plane-data-plane.md
 source: "https://engineering.zalando.com/posts/2026/06/client-side-load-balancing.html"
 updated: 2026-07-05
 ---
