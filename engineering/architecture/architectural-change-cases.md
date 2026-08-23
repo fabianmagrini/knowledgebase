@@ -18,6 +18,7 @@ related:
   - engineering/ai-native/ai-gateway-control-plane.md
   - engineering/architecture/reversibility-decays.md
   - engineering/architecture/comprehension-as-architecture.md
+  - engineering/architecture/change-locality.md
 source: "https://www.infoq.com/articles/architectural-change-cases/"
 updated: 2026-06-19
 ---

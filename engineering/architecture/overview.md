@@ -29,6 +29,7 @@ related:
   - engineering/architecture/primitives-over-frameworks.md
   - engineering/architecture/reversibility-decays.md
   - engineering/architecture/comprehension-as-architecture.md
+  - engineering/architecture/change-locality.md
 updated: 2026-06-20
 ---
 
@@ -55,6 +56,10 @@ systems.
 - [Team Topologies and Socio-Technical Architecture](team-topologies.md) — the organisational
   mirror of the architecture: Conway's Law, the four team types, interaction modes, and aligning
   team boundaries to bounded contexts (the inverse Conway manoeuvre).
+- [Change Locality and Boundary Drift](change-locality.md) — boundaries as provisional
+  hypotheses that go stale: the three-question locality test, drift patterns that move the
+  decision path while leaving the structure, and cognitive load read as a symptom rather than a
+  design input.
 - [Bounded Context Canvas](bounded-context-canvas.md) — the DDD domain/service-layer sibling: a
   single-page canvas for designing one bounded context (purpose, language, communication, decisions).
 - [Microfrontend Architecture Principles](micro-frontend-principles.md) — the principles a good

@@ -14,6 +14,7 @@ related:
   - engineering/architecture/ddd-strategic-design.md
   - engineering/architecture/event-storming.md
   - engineering/architecture/team-topologies.md
+  - engineering/architecture/change-locality.md
 source: "https://github.com/ddd-crew/bounded-context-canvas"
 updated: 2026-06-20
 ---

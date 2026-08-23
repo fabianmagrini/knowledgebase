@@ -17,6 +17,7 @@ related:
   - engineering/architecture/team-topologies.md
   - engineering/architecture/overview.md
   - engineering/ai-native/tdd-in-the-agent-loop.md
+  - engineering/architecture/change-locality.md
 source: "https://www.infoq.com/articles/system-comprehension-evolutionary-architecture/"
 updated: 2026-08-23
 ---

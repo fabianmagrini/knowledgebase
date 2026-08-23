@@ -17,6 +17,7 @@ related:
   - engineering/architecture/overview.md
   - engineering/architecture/design-docs.md
   - concepts/optimal-stopping.md
+  - engineering/architecture/change-locality.md
 source: "https://fffej.substack.com/p/two-way-doors-sometimes-lock-behind"
 updated: 2026-08-08
 ---
