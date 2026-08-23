@@ -14,6 +14,7 @@ related:
   - engineering/practices/trunk-based-development.md
   - engineering/practices/change-absorption-capacity.md
   - concepts/devops-capability-model.md
+  - case-studies/anthropic-ai-native-teams.md
 source: ""
 updated: 2026-06-21
 ---

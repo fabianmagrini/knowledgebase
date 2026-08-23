@@ -18,6 +18,7 @@ related:
   - engineering/ai-native/agentic-code-review.md
   - reading/ai-productivity-research.md
   - product/prioritisation-as-a-symptom.md
+  - case-studies/anthropic-ai-native-teams.md
 source: "https://lethain.com/revised-rules-of-engineering-leadership/"
 updated: 2026-07-26
 ---
