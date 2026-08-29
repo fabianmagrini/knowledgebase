@@ -18,6 +18,7 @@ related:
   - engineering/ai-native/tdd-in-the-agent-loop.md
   - engineering/architecture/comprehension-as-architecture.md
   - engineering/ai-native/linters-over-ai-review.md
+  - engineering/ai-native/loop-driven-development.md
 source: "https://kachar.dev/blog/the-lights-were-never-off"
 updated: 2026-08-16
 ---

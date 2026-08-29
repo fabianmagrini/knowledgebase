@@ -26,10 +26,13 @@ related:
   - engineering/ai-native/ci-speed-with-ai-agents.md
   - engineering/ai-native/light-and-dark-factories.md
   - engineering/ai-native/tdd-in-the-agent-loop.md
+  - engineering/ai-native/dark-factories-examined.md
+  - case-studies/vercel-v0-instant-navigations.md
 source:
   - "https://generativeprogrammer.com/p/from-test-driven-to-loop-driven-development"
   - "https://addyo.substack.com/p/loop-engineering"
-updated: 2026-06-20
+  - "https://www.liquid.ai/blog/agent-loops"
+updated: 2026-08-29
 ---
 
 # Loop-Driven Development
@@ -107,6 +110,36 @@ builds, linters) or **probabilistic** (reviewer models). The principle: separate
 checker, and run deterministic checks before probabilistic ones. Real-time feedback that makes the
 agent self-correct before a human is involved is [backpressure](agent-backpressure-loops.md) — one
 form of in-loop verification.
+
+### Ranking oracles by how hard they are to game
+
+Deterministic is not one category. Mathias Lechner (Liquid AI, August 2026) reports building a
+production tokenizer trainer in a loop, and the verifier that made it work was **byte-for-byte
+agreement with independent reference implementations** — `tiktoken` and HuggingFace
+`tokenizers` — across languages, numbers, currency formats, tabs, CRLF endings and source code.
+
+That is a stronger oracle than a holdout test. A holdout suite kept outside the repository, as
+in [Dark Factories Examined](dark-factories-examined.md), stops an agent editing the assertions
+it is judged against; but the suite is still written by your own team and can be wrong in the
+same way the implementation is. **A match against someone else's independent implementation
+cannot be negotiated with, and nobody on the project chose what it asserts.**
+
+Where such a reference exists — a spec with conformant implementations, an existing service to
+diff against, a competitor's output — it is the top rung of deterministic verification. Most
+work has no equivalent, which is the limit rather than an objection.
+
+The other half of his argument is that the loop must run **against production reality**, not a
+toy dataset. His failure list is the evidence: file-encoding handling, memory overhead,
+parallelisation bottlenecks, regex backtracking, rank ordering, duplicate merges and
+number-encoding discrepancies — none of which appear below the scale they were found at
+(trillions of tokens on a 2TB-RAM server). This is the *real feedback* requirement in
+[Vercel's agent loop](../../case-studies/vercel-v0-instant-navigations.md), and the reason a
+loop that converges on a fixture proves less than it appears to.
+
+*Caveats: a vendor engineering blog, and the authors concede most of their loops are
+open-ended with no single correct answer — a tokenizer has an unusually crisp oracle, so they
+do not claim the approach transfers everywhere. A parallel Codex track was abandoned
+mid-experiment; at n=1 that is not a model comparison.*
 
 ## Why judgement intensifies
 
