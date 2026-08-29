@@ -29,6 +29,7 @@ related:
   - case-studies/intercom-ai-pr-approval.md
   - case-studies/rewind-ai-pr-approval.md
   - engineering/ai-native/linters-over-ai-review.md
+  - engineering/ai-native/review-replacement.md
 source: "https://gist.github.com/fabianmagrini/e95a24606e7108a7e0673de02d739be3"
 ---
 

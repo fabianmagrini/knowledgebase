@@ -16,6 +16,7 @@ related:
   - engineering/practices/gitops.md
   - engineering/practices/rollback-and-roll-forward.md
   - leadership/managed-disruption.md
+  - engineering/ai-native/review-replacement.md
 source: "James Governor / RedMonk — Progressive Delivery (2018); Adam Zimman, Heidi Waterhouse, James Governor — Progressive Delivery (LaunchDarkly, 2019)"
 updated: 2026-06-21
 ---

@@ -19,6 +19,7 @@ related:
   - case-studies/rewind-ai-pr-approval.md
   - engineering/ai-native/dark-factories-examined.md
   - engineering/ai-native/linters-over-ai-review.md
+  - engineering/ai-native/review-replacement.md
 source: "https://www.intercom.com/blog/ai-is-approving-our-pull-requests-heres-how-we-made-it-safe/"
 updated: 2026-08-08
 ---

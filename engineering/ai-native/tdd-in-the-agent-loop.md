@@ -18,6 +18,7 @@ related:
   - engineering/ai-native/agent-backpressure-loops.md
   - engineering/ai-native/light-and-dark-factories.md
   - engineering/architecture/comprehension-as-architecture.md
+  - engineering/ai-native/review-replacement.md
 source: "https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html"
 updated: 2026-08-23
 ---

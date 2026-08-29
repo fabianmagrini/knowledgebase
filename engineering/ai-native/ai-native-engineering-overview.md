@@ -52,6 +52,7 @@ related:
   - engineering/ai-native/dark-factories-examined.md
   - engineering/ai-native/tdd-in-the-agent-loop.md
   - engineering/ai-native/linters-over-ai-review.md
+  - engineering/ai-native/review-replacement.md
 updated: 2026-06-27
 ---
 
@@ -125,6 +126,9 @@ A map of the notes on building software with AI agents. They answer different qu
   reported cost is ~$1,000/week against 27 seconds for custom linters, and AI review fires at PR
   time while a linter fires in the editor. Anything deterministic enough to lint is in the wrong
   loop if it waits for a PR.
+- [Replacing Code Review With Upstream Verification](review-replacement.md) — the far end of the
+  spectrum: review declared obsolete, replaced by five upstream layers. Cites the same Faros data
+  as dark-factories-examined and draws the opposite conclusion from it.
 - [AI Demands More Engineering Discipline](ai-engineering-discipline.md) — discipline shifts from
   reviewing code to validating behaviour: observability, production-as-dev-stage, regenerability,
   and encoding knowledge outside disposable code.

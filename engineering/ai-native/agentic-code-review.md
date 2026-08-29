@@ -34,6 +34,7 @@ related:
   - engineering/ai-native/tdd-in-the-agent-loop.md
   - engineering/architecture/comprehension-as-architecture.md
   - engineering/ai-native/linters-over-ai-review.md
+  - engineering/ai-native/review-replacement.md
 source: "https://addyo.substack.com/p/agentic-code-review"
 updated: 2026-06-20
 ---
