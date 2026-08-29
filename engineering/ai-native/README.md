@@ -56,6 +56,7 @@ in **[Practices](../practices/)**.
 - [Backpressure Loops for Coding Agents](agent-backpressure-loops.md)
 - [Own the Outer Loop](own-the-outer-loop.md)
 - [Agentic Code Review](agentic-code-review.md)
+- [Linters Over AI Review](linters-over-ai-review.md)
 - [Harness Engineering](harness-engineering.md)
 - [Harness Design for Long-Running App Development](harness-design-experiments.md)
 - [Quality-First AI Coding](quality-first-ai-coding.md)

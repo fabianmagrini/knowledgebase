@@ -51,6 +51,7 @@ related:
   - engineering/ai-native/ai-gateway-control-plane.md
   - engineering/ai-native/dark-factories-examined.md
   - engineering/ai-native/tdd-in-the-agent-loop.md
+  - engineering/ai-native/linters-over-ai-review.md
 updated: 2026-06-27
 ---
 
@@ -120,6 +121,10 @@ A map of the notes on building software with AI agents. They answer different qu
 - [Cloudflare's AI Code Review System](../../case-studies/cloudflare-ai-code-review.md) — the
   production instance of those principles: seven specialised reviewers plus a judge, "What NOT to
   Flag" negative prompting, risk/model tiering, and the cost/resilience engineering *(in case studies)*.
+- [Linters Over AI Review](linters-over-ai-review.md) — the counterweight: at 2,900 PRs the
+  reported cost is ~$1,000/week against 27 seconds for custom linters, and AI review fires at PR
+  time while a linter fires in the editor. Anything deterministic enough to lint is in the wrong
+  loop if it waits for a PR.
 - [AI Demands More Engineering Discipline](ai-engineering-discipline.md) — discipline shifts from
   reviewing code to validating behaviour: observability, production-as-dev-stage, regenerability,
   and encoding knowledge outside disposable code.

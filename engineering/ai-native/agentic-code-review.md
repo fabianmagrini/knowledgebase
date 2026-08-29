@@ -33,6 +33,7 @@ related:
   - engineering/ai-native/dark-factories-examined.md
   - engineering/ai-native/tdd-in-the-agent-loop.md
   - engineering/architecture/comprehension-as-architecture.md
+  - engineering/ai-native/linters-over-ai-review.md
 source: "https://addyo.substack.com/p/agentic-code-review"
 updated: 2026-06-20
 ---

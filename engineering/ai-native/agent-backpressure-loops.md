@@ -26,6 +26,7 @@ related:
   - case-studies/vercel-v0-instant-navigations.md
   - engineering/ai-native/tdd-in-the-agent-loop.md
   - engineering/architecture/enforced-architecture-rules.md
+  - engineering/ai-native/linters-over-ai-review.md
 source: "https://generativeprogrammer.com/p/stop-babysitting-your-coding-agent"
 updated: 2026-06-20
 ---
