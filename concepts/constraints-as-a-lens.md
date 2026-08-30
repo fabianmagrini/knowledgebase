@@ -12,6 +12,7 @@ related:
   - leadership/designing-with-constraints.md
   - leadership/first-principles-thinking.md
   - engineering/architecture/over-engineering.md
+  - concepts/control-and-complexity.md
 updated: 2026-06-17
 ---
 

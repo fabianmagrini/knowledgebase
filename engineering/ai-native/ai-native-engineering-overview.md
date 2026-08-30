@@ -53,6 +53,7 @@ related:
   - engineering/ai-native/tdd-in-the-agent-loop.md
   - engineering/ai-native/linters-over-ai-review.md
   - engineering/ai-native/review-replacement.md
+  - concepts/control-and-complexity.md
 updated: 2026-06-27
 ---
 
@@ -129,6 +130,10 @@ A map of the notes on building software with AI agents. They answer different qu
 - [Replacing Code Review With Upstream Verification](review-replacement.md) — the far end of the
   spectrum: review declared obsolete, replaced by five upstream layers. Cites the same Faros data
   as dark-factories-examined and draws the opposite conclusion from it.
+- [Control and Complexity](../../concepts/control-and-complexity.md) — the theory under this
+  section's disagreements: control-shaped and complexity-shaped design are different philosophies,
+  and a static barrier can satisfy a practice's stated purpose while deleting the emergent ones it
+  had acquired. Names both review-replacement and black-box specs as instances *(in concepts)*.
 - [AI Demands More Engineering Discipline](ai-engineering-discipline.md) — discipline shifts from
   reviewing code to validating behaviour: observability, production-as-dev-stage, regenerability,
   and encoding knowledge outside disposable code.

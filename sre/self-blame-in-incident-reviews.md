@@ -12,6 +12,7 @@ related:
   - leadership/learning-organisation.md
   - leadership/decision-facilitation.md
   - sre/heroic-saves-are-near-misses.md
+  - concepts/control-and-complexity.md
 source: "https://greatcircle.com/blog/2026/04/21/self-blame-isnt-blameless/"
 updated: 2026-07-11
 ---

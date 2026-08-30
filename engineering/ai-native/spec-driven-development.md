@@ -17,6 +17,7 @@ related:
   - reading/building-software-is-learning.md
   - reading/new-sdlc-vibe-coding.md
   - engineering/ai-native/review-replacement.md
+  - concepts/control-and-complexity.md
 source: "https://brooker.co.za/blog/2026/04/09/waterfall-vs-spec"
 updated: 2026-06-20
 ---

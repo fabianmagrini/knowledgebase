@@ -12,6 +12,7 @@ related:
   - leadership/learning-organisation.md
   - leadership/landing-the-plane.md
   - leadership/coach-and-judge.md
+  - concepts/control-and-complexity.md
 source: "https://greatcircle.com/blog/2026/07/21/heroic-saves-are-near-misses/"
 updated: 2026-08-30
 ---

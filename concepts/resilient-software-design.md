@@ -24,6 +24,7 @@ related:
   - languages-and-frameworks/react-state-management.md
   - case-studies/slack-ai-multi-cloud.md
   - concepts/control-plane-data-plane.md
+  - concepts/control-and-complexity.md
 source:
   - "https://www.ufried.com/blog/why_resilient_software_design_1/"
   - "https://www.ufried.com/blog/why_resilient_software_design_2/"

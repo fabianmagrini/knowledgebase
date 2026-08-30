@@ -18,6 +18,7 @@ related:
   - case-studies/doordash-ai-code-review.md
   - case-studies/rewind-ai-pr-approval.md
   - engineering/ai-native/review-replacement.md
+  - concepts/control-and-complexity.md
 source: "https://swizec.com/blog/stop-burning-tokens-on-code-review"
 updated: 2026-08-29
 ---
