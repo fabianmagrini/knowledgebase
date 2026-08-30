@@ -11,6 +11,7 @@ related:
   - sre/incident-swarming.md
   - leadership/learning-organisation.md
   - leadership/decision-facilitation.md
+  - sre/heroic-saves-are-near-misses.md
 source: "https://greatcircle.com/blog/2026/04/21/self-blame-isnt-blameless/"
 updated: 2026-07-11
 ---
@@ -39,7 +40,8 @@ Chapman links this to **incident heroism**: just as one person heroically holdin
 system together during an incident masks the organisational gaps that made the
 heroics necessary, one person absorbing all the blame afterwards masks the gaps that
 made the mistake possible. Both patterns concentrate risk and learning in a single
-individual instead of the system.
+individual instead of the system. He develops that half of the pairing separately in
+[Heroic Saves Are Near Misses](heroic-saves-are-near-misses.md).
 
 ## Two borrowed concepts
 

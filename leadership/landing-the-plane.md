@@ -15,6 +15,7 @@ related:
   - leadership/magical-thinking.md
   - leadership/engineering-leadership-overview.md
   - leadership/coach-and-judge.md
+  - sre/heroic-saves-are-near-misses.md
 source: "https://www.theengineeringmanager.com/growth/landing-the-plane/"
 updated: 2026-08-30
 ---
@@ -87,7 +88,7 @@ merits. The stock reply Stanier offers: **"That's great for v2."**
 | One prioritised backlog, all new requests deferred to v2 | Keeping the finish line stationary |
 | Brief daily stakeholder updates | Buying the scope protection by removing the anxiety that drives requests |
 | Explicit scope trades rather than silent absorption | Making the cost of an addition visible to the person asking |
-| Checklists over heroics | The aviation borrowing that actually transfers — a landing shouldn't depend on who is on shift |
+| Checklists over heroics | The aviation borrowing that actually transfers — a landing shouldn't depend on who is on shift (see [Heroic Saves Are Near Misses](../sre/heroic-saves-are-near-misses.md)) |
 
 The through-line is that the leader gets *closer* during the descent, not further away. Late-
 stage projects are often the ones a manager steps back from, on the reasoning that the work is
