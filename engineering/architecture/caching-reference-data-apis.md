@@ -13,6 +13,7 @@ related:
   - concepts/resilient-software-design.md
   - tools/dynamic-configuration-sidecar.md
   - case-studies/zalando-client-side-load-balancing.md
+  - concepts/latency-patterns.md
 updated: 2026-07-01
 ---
 

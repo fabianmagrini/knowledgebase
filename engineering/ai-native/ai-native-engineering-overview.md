@@ -55,6 +55,7 @@ related:
   - engineering/ai-native/review-replacement.md
   - concepts/control-and-complexity.md
   - case-studies/ramp-inspect-agent-platform.md
+  - concepts/latency-patterns.md
 updated: 2026-06-27
 ---
 
@@ -225,6 +226,10 @@ A map of the notes on building software with AI agents. They answer different qu
   anchor under the cluster: a six-layer reference architecture, the SWE-bench/productivity evidence
   (and why benchmark gains ≠ team throughput), and five open problems mapped onto these notes
   *(in reading)*.
+- [Latency Patterns](../../concepts/latency-patterns.md) — the runtime measure this cluster
+  otherwise lacks: AI applications lose most of their time *outside* the model call, so the
+  quantity to optimise is time to first useful result across the whole critical path, not tokens
+  per second *(in concepts)*.
 
 ## The through-line
 
