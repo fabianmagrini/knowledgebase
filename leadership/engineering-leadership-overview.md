@@ -34,6 +34,9 @@ related:
   - leadership/finding-problems-to-solve.md
   - leadership/landing-the-plane.md
   - leadership/coach-and-judge.md
+  - leadership/principal-engineer-consensus.md
+  - leadership/arguing-to-win.md
+  - leadership/learning-culture-ai-agents.md
 updated: 2026-08-30
 ---
 
@@ -71,6 +74,10 @@ how to set direction and make good decisions with other people.
 
 - [Facilitating Technical Decisions](decision-facilitation.md) — high signal / low noise;
   the decision frame; facilitate rather than lecture.
+- [Consensus Among Principal Engineers](principal-engineer-consensus.md) — consensus as neither
+  unanimity nor a vote: what a group of Principals owes a decision it did not individually pick.
+- [Why Arguing to Win Fails](arguing-to-win.md) — Cong Wang on abandoning the habit of arguing to
+  prove himself correct, framed as a technical mindset misapplied to people.
 - [Architecture Decision Forum](architecture-decision-forum.md) — the advisory body that
   governs high-blast-radius decisions without becoming a gatekeeper.
 - [Agile Design Decisions and Principles](../engineering/architecture/agile-design-decisions.md) — the
@@ -112,6 +119,9 @@ how to set direction and make good decisions with other people.
 - [The Learning Organisation and AI Adoption](learning-organisation.md) — the cultural
   prerequisites (psychological safety, slack, intelligent failure) that let teams absorb new
   technology faster than it changes.
+- [A Learning Culture for AI-Augmented Teams](learning-culture-ai-agents.md) — the team-level
+  companion: integrating coding agents changes how software gets built, not just what tools are
+  installed.
 - [Magical Thinking in Engineering Leadership](magical-thinking.md) — the failure mode on the
   other side: substituting a "one weird trick" (an inspiring speech, growth-mindset rhetoric,
   adopting AI) for the operational work, and why blaming insufficient effort keeps the pattern

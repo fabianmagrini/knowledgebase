@@ -57,6 +57,12 @@ related:
   - case-studies/ramp-inspect-agent-platform.md
   - concepts/latency-patterns.md
   - engineering/architecture/data-readiness-for-agents.md
+  - engineering/ai-native/scaling-ai-adoption.md
+  - engineering/ai-native/ai-factory.md
+  - engineering/ai-native/agentic-autonomy-levels.md
+  - engineering/ai-native/cress-context-engineering.md
+  - engineering/ai-native/model-routing-and-ai-gateways.md
+  - engineering/ai-native/team-topologies-agentic-platform.md
 updated: 2026-06-27
 ---
 
@@ -73,6 +79,11 @@ A map of the notes on building software with AI agents. They answer different qu
   assisted coding to controlled autonomy.
 - [AI in the SDLC — Terminology](ai-sdlc-terminology.md) — disambiguating the competing
   umbrella terms (AI-Augmented, AI SDLC, Agentic, AI-Native).
+- [Scaling AI Adoption in the SDLC](scaling-ai-adoption.md) — moving from a few developers with an
+  assistant to an integrated agentic SDLC is an organisational programme, not a licensing
+  exercise.
+- [The AI Factory](ai-factory.md) — the factory framing narrowed to software engineering: a
+  production system for coding agents rather than a metaphor.
 
 ## Process — how does work flow?
 
@@ -95,6 +106,9 @@ A map of the notes on building software with AI agents. They answer different qu
 
 - [The AI-Native Engineering Stack](ai-native-engineering-stack.md) — the tooling/platform
   layer (the internal developer platform, golden paths).
+- [Team Topologies for the Agentic Platform](team-topologies-agentic-platform.md) — Skelton &
+  Pais applied to an organisation built around an agentic platform: who owns the factory, and
+  which team types survive it.
 - [Ramp's Inspect Agent Platform](../../case-studies/ramp-inspect-agent-platform.md) — that
   platform layer built in one company: agents moved off laptops onto cloud sandboxes to remove
   the parallel-session ceiling, an existing harness wrapped in internal integrations, and the
@@ -172,6 +186,13 @@ A map of the notes on building software with AI agents. They answer different qu
   across the context development lifecycle.
 - [Harness Engineering](harness-engineering.md) — the component-level anatomy of an agent
   harness (the program agents run inside): core loop, tools, memory, patterns, trade-offs.
+- [Agentic Autonomy Levels](agentic-autonomy-levels.md) — autonomy on two axes (agency ×
+  orchestration) across six levels, with calibrated autonomy as the discipline: a safety property
+  matched to your ability to verify and undo, not a status to climb.
+- [CRESS Principles for Context Engineering](cress-context-engineering.md) — a mnemonic for the
+  properties an LLM's context needs to generate code reliably.
+- [Model Routing and AI Gateways](model-routing-and-ai-gateways.md) — routing each request to the
+  cheapest model that is good enough, rather than sending everything to one frontier model.
 - [Harness Design for Long-Running App Development](harness-design-experiments.md) — Anthropic's
   measured comparison of solo agents against elaborate harnesses (a ~22× cost multiple), the
   planner/generator/evaluator split, sprint contracts, context anxiety, and the finding that

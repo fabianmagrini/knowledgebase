@@ -34,6 +34,10 @@ related:
   - engineering/architecture/enforced-architecture-rules.md
   - engineering/architecture/runtime-architecture-verification.md
   - engineering/architecture/data-readiness-for-agents.md
+  - engineering/architecture/skeleton-architecture.md
+  - engineering/architecture/caching-reference-data-apis.md
+  - engineering/architecture/adrs-in-an-agentic-world.md
+  - engineering/architecture/design-docs.md
 updated: 2026-06-20
 ---
 
@@ -84,12 +88,25 @@ systems.
   system as constraint layer and platform for AI-generated UI.
 - [Generative UI](generative-ui.md) — producing UI with AI at build time (generated code) and
   run time (LLM-assembled interfaces from a whitelisted component registry).
+- [Skeleton Architecture](skeleton-architecture.md) — the general-code sibling of the design-system
+  control plane: an immutable human-designed skeleton (base classes, contracts, security context)
+  constraining AI-generated tissue, enforced by Template Method, schema-first contracts and
+  ArchUnit topology checks.
+- [Caching Reference Data APIs](caching-reference-data-apis.md) — cache patterns for slow-moving
+  lookup data (long TTL + ETag, versioned datasets, cache-aside, event invalidation,
+  stale-while-revalidate) and a recommended enterprise topology.
 
 ## Deciding & recording
 
 - [Agile Design Decisions and Principles](agile-design-decisions.md) — continuous design;
   reversibility (one-way / two-way doors) and blast-radius frameworks; emergent
   architecture; technical debt as a tool.
+- [ADRs in an Agentic World](adrs-in-an-agentic-world.md) — how agentic coding shifts the ADR from
+  a pre-authorisation gate to a post-exploration record: the Pareto flip, spikes-as-options,
+  evidence over rhetoric, and agents drafting the record.
+- [Writing an Effective Design Doc](design-docs.md) — the larger up-front cousin of the ADR: when
+  it earns the investment, and a selective component catalogue (goals/non-goals, scenarios, SLOs,
+  alternatives, trust boundaries).
 - [Architectural Decision Records (ADRs)](adr.md) — lightweight, version-controlled records
   of significant decisions.
 - [Architectural Change Cases](architectural-change-cases.md) — extend ADRs forward in time:
