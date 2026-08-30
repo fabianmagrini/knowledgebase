@@ -16,6 +16,7 @@ related:
   - engineering/ai-native/skill-engineering-disciplines.md
   - languages-and-frameworks/react-storybook.md
   - engineering/ai-native/loop-driven-development.md
+  - case-studies/lovable-nextjs-migration.md
 source: "https://nextjs.org/blog/making-v0-navigations-instant"
 updated: 2026-08-16
 ---

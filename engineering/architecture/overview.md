@@ -15,6 +15,7 @@ related:
   - engineering/architecture/design-systems-ai-control-plane.md
   - leadership/architecture-decision-forum.md
   - engineering/architecture/strangler-fig.md
+  - case-studies/lovable-nextjs-migration.md
   - engineering/architecture/thinking-in-constraints.md
   - engineering/architecture/generative-ui.md
   - engineering/architecture/micro-frontend-principles.md
@@ -73,6 +74,10 @@ systems.
   runtime's critical path: the startup waterfall, platform-core/deferred split, and prefetching.
 - [Strangler Fig Pattern](strangler-fig.md) — modernise legacy incrementally behind a
   facade, without a big-bang rewrite.
+- [Lovable's Migration Off Next.js](../../case-studies/lovable-nextjs-migration.md) — that
+  pattern executed on a live 42M-visitor frontend, and the constraint it adds: session state means
+  the migration unit is the user's navigation graph, not the code's module graph *(in case
+  studies)*.
 - [Design Systems as the AI Control Plane](design-systems-ai-control-plane.md) — the design
   system as constraint layer and platform for AI-generated UI.
 - [Generative UI](generative-ui.md) — producing UI with AI at build time (generated code) and

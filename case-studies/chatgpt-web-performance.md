@@ -10,6 +10,7 @@ related:
   - case-studies/linear-performance-architecture.md
   - engineering/practices/performance-testing-strategy.md
   - engineering/architecture/thin-shell-startup-performance.md
+  - case-studies/lovable-nextjs-migration.md
 source: "https://performance.dev/chatgpt"
 updated: 2026-07-11
 ---

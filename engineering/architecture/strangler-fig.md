@@ -12,6 +12,7 @@ related:
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/architectural-change-cases.md
   - engineering/practices/feature-flags-and-branch-by-abstraction.md
+  - case-studies/lovable-nextjs-migration.md
 updated: 2026-06-13
 ---
 

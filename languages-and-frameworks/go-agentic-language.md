@@ -11,6 +11,7 @@ related:
   - engineering/ai-native/long-running-agents.md
   - engineering/ai-native/loop-driven-development.md
   - engineering/security/agent-skill-security.md
+  - case-studies/lovable-nextjs-migration.md
 source: "https://spf13.com/p/go-the-agentic-language/; https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/"
 updated: 2026-08-16
 ---
