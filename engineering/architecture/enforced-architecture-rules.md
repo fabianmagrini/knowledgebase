@@ -17,6 +17,7 @@ related:
   - engineering/architecture/overview.md
   - engineering/ai-native/light-and-dark-factories.md
   - engineering/ai-native/linters-over-ai-review.md
+  - engineering/architecture/runtime-architecture-verification.md
 source: "https://nick-tune.me/blog/2026-08-13-enforced-application-architecture-for-agents-and-humans/"
 updated: 2026-08-23
 ---
@@ -71,6 +72,12 @@ This is the **gate versus rule** distinction from
 [Backpressure Loops for Coding Agents](../ai-native/agent-backpressure-loops.md), applied to
 the import graph. A rule in a markdown file has an opt-out path an agent can reason around; a
 build failure does not.
+
+**Where this reaches its limit**: the strategy works because the violation *is* an import. A
+class of coupling leaves no structural trace at all — a synchronous `fetch()` to a URL creates
+no module dependency — and is invisible to any import rule, however strict. See
+[Runtime Architecture Verification](runtime-architecture-verification.md) for the observational
+layer that covers it.
 
 **He also closes the obvious escape route**, which is the part most constraint systems miss.
 You might expect an agent to dodge the adapter restriction by putting logic into a

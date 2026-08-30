@@ -15,6 +15,7 @@ related:
   - engineering/architecture/comprehension-as-architecture.md
   - sre/self-blame-in-incident-reviews.md
   - sre/heroic-saves-are-near-misses.md
+  - engineering/architecture/runtime-architecture-verification.md
 source: "https://ferd.ca/control-and-complexity-tension-in-systems-design.html"
 updated: 2026-08-30
 ---
@@ -130,6 +131,10 @@ closes with "systems are systems. They will keep acting like systems, and failin
 - [Comprehension as an Architectural Characteristic](../engineering/architecture/comprehension-as-architecture.md)
   — shared understanding is exactly the kind of emergent good that decomposition-thinking cannot
   see, because no component is responsible for it.
+- [Runtime Architecture Verification](../engineering/architecture/runtime-architecture-verification.md)
+  — a concrete instance of the static-barrier objection, arrived at independently: an import rule
+  satisfied its stated purpose while a synchronous HTTP call walked around the architecture it
+  was meant to enforce, visible only by observing the running system.
 - [Self-Blame in Post-Incident Reviews](../sre/self-blame-in-incident-reviews.md) — already
   borrows Hebert's "superficial blamelessness". Redirecting toward local rationality *is* the
   complexity view applied to one conversation; "be more careful" is the control view's answer.

@@ -20,6 +20,7 @@ related:
   - engineering/architecture/comprehension-as-architecture.md
   - engineering/architecture/change-locality.md
   - case-studies/lovable-nextjs-migration.md
+  - engineering/architecture/runtime-architecture-verification.md
 source: "https://www.infoq.com/articles/architectural-change-cases/"
 updated: 2026-06-19
 ---

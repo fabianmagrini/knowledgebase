@@ -32,6 +32,7 @@ related:
   - engineering/architecture/comprehension-as-architecture.md
   - engineering/architecture/change-locality.md
   - engineering/architecture/enforced-architecture-rules.md
+  - engineering/architecture/runtime-architecture-verification.md
 updated: 2026-06-20
 ---
 
@@ -118,6 +119,10 @@ systems.
 - [Enforced Architecture Rules for Agents and Humans](enforced-architecture-rules.md) — the
   constraints made executable: package, layer and role rules that fail the build, ordered
   cheapest-first, making violations unrepresentable rather than discouraged.
+- [Runtime Architecture Verification](runtime-architecture-verification.md) — the boundary on
+  that approach: a `fetch()` creates no module dependency, so coupling that exists only while the
+  system runs needs call-graph diffing against traces. Structure is checkable statically;
+  topology is not. Also the deterministic-scoring / interpretive-model split.
 
 ## The through-line
 

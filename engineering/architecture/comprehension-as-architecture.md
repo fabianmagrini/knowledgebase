@@ -20,6 +20,7 @@ related:
   - engineering/architecture/change-locality.md
   - engineering/architecture/enforced-architecture-rules.md
   - concepts/control-and-complexity.md
+  - engineering/architecture/runtime-architecture-verification.md
 source: "https://www.infoq.com/articles/system-comprehension-evolutionary-architecture/"
 updated: 2026-08-23
 ---
