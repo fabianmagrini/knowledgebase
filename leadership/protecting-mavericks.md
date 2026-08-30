@@ -11,6 +11,7 @@ related:
   - leadership/principal-engineer-influence.md
   - leadership/learning-organisation.md
   - leadership/learning-culture-ai-agents.md
+  - leadership/coach-and-judge.md
 source: "https://gist.github.com/fabianmagrini/8d7a465df449ea54881c86f563ec6f6d"
 updated: 2026-06-13
 ---

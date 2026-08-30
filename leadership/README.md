@@ -33,6 +33,7 @@ make good decisions with others.
 - [Facilitating Technical Decisions](decision-facilitation.md)
 - [Architecture Decision Forum](architecture-decision-forum.md)
 - [Protecting Mavericks](protecting-mavericks.md)
+- [Coach and Judge](coach-and-judge.md)
 - [Managed Disruption](managed-disruption.md)
 - [Landing the Plane](landing-the-plane.md)
 - [Scaling an Engineering Organisation (20/50/200)](scaling-engineering-org.md)

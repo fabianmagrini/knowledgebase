@@ -14,6 +14,7 @@ related:
   - leadership/engineering-manager-role.md
   - leadership/magical-thinking.md
   - leadership/engineering-leadership-overview.md
+  - leadership/coach-and-judge.md
 source: "https://www.theengineeringmanager.com/growth/landing-the-plane/"
 updated: 2026-08-30
 ---

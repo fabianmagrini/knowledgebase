@@ -33,6 +33,7 @@ related:
   - leadership/magical-thinking.md
   - leadership/finding-problems-to-solve.md
   - leadership/landing-the-plane.md
+  - leadership/coach-and-judge.md
 updated: 2026-08-30
 ---
 
@@ -91,6 +92,9 @@ how to set direction and make good decisions with other people.
   (bridges to the AI-native cluster).
 - [Protecting Mavericks](protecting-mavericks.md) — letting unconventional talent flourish
   without letting disruption damage the team.
+- [Coach and Judge](coach-and-judge.md) — the other side of that: coaching has a range, and five
+  observable signals that a manager has stayed inside it too long — including their own hedging
+  language. Distinguishes the maverick (difficult and moving) from the stalled case.
 - [Managed Disruption](managed-disruption.md) — introducing change into delivery safely and
   deliberately.
 - [Landing the Plane](landing-the-plane.md) — the counterweight to managed disruption: the phase
