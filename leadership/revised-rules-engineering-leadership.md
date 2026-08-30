@@ -1,7 +1,7 @@
 ---
 type: note
 title: Revised Rules of Engineering Leadership
-description: "Will Larson revises his rules of engineering leadership for an era where AI tooling sharply accelerates execution."
+description: "Will Larson revises his rules of engineering leadership for an era where AI tooling sharply accelerates execution — and carries the diagnosis into the roadmap, which should list decisions rather than dates."
 tags: [leadership, ai-engineering, decision-making, reading]
 topic: leadership
 status: notes
@@ -19,8 +19,9 @@ related:
   - reading/ai-productivity-research.md
   - product/prioritisation-as-a-symptom.md
   - case-studies/anthropic-ai-native-teams.md
-source: "https://lethain.com/revised-rules-of-engineering-leadership/"
-updated: 2026-07-26
+  - engineering/practices/feature-flags-and-branch-by-abstraction.md
+source: "https://lethain.com/revised-rules-of-engineering-leadership/; https://lethain.com/decisions-not-dates/"
+updated: 2026-08-30
 ---
 
 # Revised Rules of Engineering Leadership
@@ -94,6 +95,43 @@ constraint, he names as three sources of friction:
 This is the diagnosis under rule 5. Two of the three are decision defects rather
 than technical ones, which is why he lands on decision-making as the leadership
 obligation rather than on tooling.
+
+## The roadmap consequence
+
+A follow-up post ([*Roadmap decisions rather than dates*](https://lethain.com/decisions-not-dates/),
+August 2026) carries the same diagnosis into a specific artefact. If the binding
+constraint is decisions rather than execution bandwidth, then a roadmap organised
+around dates is measuring the wrong thing. His prescription: **"they should focus on
+the list of decisions to be made, and work through them directly."** He names the
+actual constraints as approvals, cross-team and cross-functional handoffs, and
+missing decisions — none of which a date resolves.
+
+**The caveat is his own and worth keeping**, because the title overstates the claim:
+*"Dates are the external interface for coordinating across companies, so you still
+need dates."* The argument is about what the internal planning artefact is organised
+around, not about abolishing commitments.
+
+Two mechanisms come with it:
+
+- **Prototyping collapses a decision.** Rather than comparing options in the
+  abstract, build one behind a disabled feature flag until the trade-offs are
+  concrete. Larson's example: he could not get passkey support onto the roadmap at
+  Imprint, built it flagged-off as a side project, and once the real trade-offs were
+  visible the team resolved the remainder and shipped it — later to mobile — without
+  it ever occupying a roadmap slot. This is a worked instance of the harness argument
+  in rule 2: the flag is what makes shipping-to-decide cheap enough to be reasonable.
+- **Laudable mistakes** — his term for failures worth having, defined by their
+  containment rather than their outcome: *"almost always couched in a web of
+  derisking, often feature flags, to make them inexpensive."* The
+  [feature-flag machinery](../engineering/practices/feature-flags-and-branch-by-abstraction.md)
+  is what converts a wrong call into a cheap one.
+
+For why local prioritisation beats central orchestration he reaches for CPU
+scheduling: a scheduler that centrally ordered priority within every thread would be
+"extraordinarily slow and stuck all the time; it's only by locally determining
+priority ... that things move quickly overall." The analogy is illustrative rather
+than argued — it restates rule 4's case for durable, high-context teams rather than
+supplying independent evidence for it.
 
 ## Larson's examples (his reported figures)
 

@@ -104,3 +104,8 @@ the thing to fix.
 - [A Plan Is Not a Strategy](../leadership/plan-is-not-a-strategy.md) — a related scepticism
   about planning artefacts standing in for judgement, though Roger Martin's remedy is a
   sharper strategy rather than faster delivery.
+- [Revised Rules of Engineering Leadership](../leadership/revised-rules-engineering-leadership.md) —
+  the third position on the same problem. This note dissolves prioritisation through speed and
+  stable domain ownership; Larson keeps the roadmap but changes what it lists, organising it
+  around the decisions to be made rather than dates. Both treat the difficulty as structural,
+  and both end up arguing that cheap shipping is what makes the ordering matter less.

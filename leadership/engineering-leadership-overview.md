@@ -118,7 +118,8 @@ how to set direction and make good decisions with other people.
   alive.
 - [Revised Rules of Engineering Leadership](revised-rules-engineering-leadership.md) — how
   leadership shifts when AI makes execution cheap: durable teams and fast, good decisions become
-  the scarce goods (bridges to the AI-native cluster).
+  the scarce goods, and the roadmap should list the decisions to be made rather than dates
+  (bridges to the AI-native cluster).
 - [The Product Engineer Company (Portkey)](../case-studies/portkey-product-engineer-company.md) —
   a case study of the no-PM, end-to-end-ownership operating model: barbell teams, disciplined
   scope, and AI in reliability-critical work *(in case studies)*.
