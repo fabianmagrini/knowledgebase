@@ -32,7 +32,8 @@ related:
   - leadership/mission-to-metrics.md
   - leadership/magical-thinking.md
   - leadership/finding-problems-to-solve.md
-updated: 2026-07-26
+  - leadership/landing-the-plane.md
+updated: 2026-08-30
 ---
 
 # Engineering Leadership — Overview
@@ -92,6 +93,9 @@ how to set direction and make good decisions with other people.
   without letting disruption damage the team.
 - [Managed Disruption](managed-disruption.md) — introducing change into delivery safely and
   deliberately.
+- [Landing the Plane](landing-the-plane.md) — the counterweight to managed disruption: the phase
+  where change is deliberately refused. Why work stalls at 90%, "noble obstacles" as the name for
+  late scope that arrives disguised as diligence, and closure as a practice.
 - [Managing Sideways](managing-sideways.md) — driving change across peer teams you don't control:
   why authority fails, the adoption-without-a-mandate play (recruit the first mover, let results
   recruit the next), and treating resistance as fear rather than flawed logic.

@@ -14,6 +14,7 @@ related:
   - case-studies/portkey-product-engineer-company.md
   - reading/building-software-is-learning.md
   - leadership/plan-is-not-a-strategy.md
+  - leadership/landing-the-plane.md
 source: "https://staysaasy.com/strategy/2026/07/16/the-best-prioritization-is-no-prioritization.html"
 updated: 2026-08-03
 ---

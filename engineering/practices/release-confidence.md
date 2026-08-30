@@ -20,6 +20,7 @@ related:
   - engineering/practices/rollback-and-roll-forward.md
   - engineering/ai-native/trust-factory.md
   - reading/ownership-thorsten-ball.md
+  - leadership/landing-the-plane.md
 source: "https://newsletter.optimistengineer.com/p/why-your-releases-feel-harder-than"
 updated: 2026-06-20
 ---

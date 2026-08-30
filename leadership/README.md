@@ -34,6 +34,7 @@ make good decisions with others.
 - [Architecture Decision Forum](architecture-decision-forum.md)
 - [Protecting Mavericks](protecting-mavericks.md)
 - [Managed Disruption](managed-disruption.md)
+- [Landing the Plane](landing-the-plane.md)
 - [Scaling an Engineering Organisation (20/50/200)](scaling-engineering-org.md)
 - [First-Principles Thinking](first-principles-thinking.md)
 - [Designing with Constraints](designing-with-constraints.md)

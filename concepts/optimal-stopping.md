@@ -12,6 +12,7 @@ related:
   - leadership/first-principles-thinking.md
   - engineering/architecture/agile-design-decisions.md
   - engineering/architecture/reversibility-decays.md
+  - leadership/landing-the-plane.md
 source: "https://read.perspectiveship.com/p/secretary-problem"
 updated: 2026-08-03
 ---

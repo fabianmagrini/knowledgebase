@@ -14,6 +14,7 @@ related:
   - leadership/scaling-engineering-org.md
   - leadership/all-hands-meetings.md
   - leadership/engineering-leadership-overview.md
+  - leadership/landing-the-plane.md
 source: "https://bjorg.bjornroche.com/management/magical-thinking/"
 updated: 2026-08-03
 ---
