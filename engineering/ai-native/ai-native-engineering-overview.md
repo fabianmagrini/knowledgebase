@@ -56,6 +56,7 @@ related:
   - concepts/control-and-complexity.md
   - case-studies/ramp-inspect-agent-platform.md
   - concepts/latency-patterns.md
+  - engineering/architecture/data-readiness-for-agents.md
 updated: 2026-06-27
 ---
 
@@ -226,6 +227,11 @@ A map of the notes on building software with AI agents. They answer different qu
   anchor under the cluster: a six-layer reference architecture, the SWE-bench/productivity evidence
   (and why benchmark gains ≠ team throughput), and five open problems mapped onto these notes
   *(in reading)*.
+- [Data Readiness for Agents](../architecture/data-readiness-for-agents.md) — the input side this
+  cluster otherwise ignores: it is almost entirely about generating *code*, and says little about
+  the data agents act on. A human hesitates at data that looks wrong; an agent does not, so the
+  scepticism has to be rebuilt as contracts, freshness SLAs and quality-signal gates
+  *(in architecture)*.
 - [Latency Patterns](../../concepts/latency-patterns.md) — the runtime measure this cluster
   otherwise lacks: AI applications lose most of their time *outside* the model call, so the
   quantity to optimise is time to first useful result across the whole critical path, not tokens

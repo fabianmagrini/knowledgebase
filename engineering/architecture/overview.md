@@ -33,6 +33,7 @@ related:
   - engineering/architecture/change-locality.md
   - engineering/architecture/enforced-architecture-rules.md
   - engineering/architecture/runtime-architecture-verification.md
+  - engineering/architecture/data-readiness-for-agents.md
 updated: 2026-06-20
 ---
 
@@ -119,6 +120,9 @@ systems.
 - [Enforced Architecture Rules for Agents and Humans](enforced-architecture-rules.md) — the
   constraints made executable: package, layer and role rules that fail the build, ordered
   cheapest-first, making violations unrepresentable rather than discouraged.
+- [Data Readiness for Agents](data-readiness-for-agents.md) — constraints on the data side: the
+  scepticism a human analyst supplied silently has to become contracts, freshness SLAs and
+  quarantine, with business rules in code because "retrieved text informs, it never gates".
 - [Runtime Architecture Verification](runtime-architecture-verification.md) — the boundary on
   that approach: a `fetch()` creates no module dependency, so coupling that exists only while the
   system runs needs call-graph diffing against traces. Structure is checkable statically;

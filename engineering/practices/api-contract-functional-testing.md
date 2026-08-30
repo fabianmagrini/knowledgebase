@@ -16,6 +16,7 @@ related:
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/change-absorption-capacity.md
   - engineering/architecture/caching-reference-data-apis.md
+  - engineering/architecture/data-readiness-for-agents.md
   - languages-and-frameworks/react-forms.md
 ---
 

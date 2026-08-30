@@ -15,6 +15,7 @@ related:
   - engineering/ai-native/agentic-autonomy-levels.md
   - tools/claude-code-steering-mechanisms.md
   - languages-and-frameworks/go-agentic-language.md
+  - engineering/architecture/data-readiness-for-agents.md
 source: "https://generativeprogrammer.com/p/10-open-source-projects-for-securing"
 updated: 2026-08-08
 ---

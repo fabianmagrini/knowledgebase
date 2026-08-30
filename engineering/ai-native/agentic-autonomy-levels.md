@@ -22,6 +22,7 @@ related:
   - engineering/ai-native/dark-factories-examined.md
   - case-studies/vercel-v0-instant-navigations.md
   - case-studies/anthropic-ai-native-teams.md
+  - engineering/architecture/data-readiness-for-agents.md
 source: "https://addyo.substack.com/p/agentic-autonomy-levels"
 updated: 2026-07-05
 ---
