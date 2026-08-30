@@ -21,6 +21,7 @@ related:
   - engineering/ai-native/light-and-dark-factories.md
   - engineering/ai-native/harness-design-experiments.md
   - case-studies/stripe-kai-agent-platform.md
+  - case-studies/ramp-inspect-agent-platform.md
 source: "https://addyo.substack.com/p/long-running-agents"
 updated: 2026-06-20
 ---

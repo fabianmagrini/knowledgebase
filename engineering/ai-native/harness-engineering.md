@@ -33,6 +33,7 @@ related:
   - engineering/ai-native/skill-engineering-disciplines.md
   - case-studies/openai-agent-first-harness.md
   - case-studies/stripe-kai-agent-platform.md
+  - case-studies/ramp-inspect-agent-platform.md
 source: "https://diego-pacheco.blogspot.com/2026/05/harness-engineering.html"
 updated: 2026-06-20
 ---

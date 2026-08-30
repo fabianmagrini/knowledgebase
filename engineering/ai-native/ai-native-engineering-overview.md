@@ -54,6 +54,7 @@ related:
   - engineering/ai-native/linters-over-ai-review.md
   - engineering/ai-native/review-replacement.md
   - concepts/control-and-complexity.md
+  - case-studies/ramp-inspect-agent-platform.md
 updated: 2026-06-27
 ---
 
@@ -92,6 +93,11 @@ A map of the notes on building software with AI agents. They answer different qu
 
 - [The AI-Native Engineering Stack](ai-native-engineering-stack.md) — the tooling/platform
   layer (the internal developer platform, golden paths).
+- [Ramp's Inspect Agent Platform](../../case-studies/ramp-inspect-agent-platform.md) — that
+  platform layer built in one company: agents moved off laptops onto cloud sandboxes to remove
+  the parallel-session ceiling, an existing harness wrapped in internal integrations, and the
+  platform effect where the return is the tenth agent rather than the first *(in case studies;
+  paywalled past the architecture section)*.
 - [The AI-Augmented Engineering Team](ai-augmented-engineering-team.md) — the operating
   model: team composition, Intent Specs, the delivery loop, transition roadmap. The capstone
   that ties the rest together.

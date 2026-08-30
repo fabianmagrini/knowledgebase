@@ -20,6 +20,7 @@ related:
   - engineering/ai-native/dark-factories-examined.md
   - engineering/architecture/enforced-architecture-rules.md
   - case-studies/anthropic-ai-native-teams.md
+  - case-studies/ramp-inspect-agent-platform.md
 source: "https://openai.com/index/harness-engineering/"
 updated: 2026-07-26
 ---
