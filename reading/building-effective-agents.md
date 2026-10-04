@@ -18,6 +18,7 @@ related:
   - reading/agentic-ai-architecture-emag.md
   - case-studies/cloudflare-ai-code-review.md
   - engineering/ai-native/harness-design-experiments.md
+  - case-studies/cursor-agent-swarm-economics.md
 source: "https://resources.anthropic.com/hubfs/Building%20Effective%20AI%20Agents-%20Architecture%20Patterns%20and%20Implementation%20Frameworks.pdf"
 updated: 2026-06-27
 ---

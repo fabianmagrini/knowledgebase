@@ -21,6 +21,7 @@ related:
   - engineering/architecture/enforced-architecture-rules.md
   - case-studies/anthropic-ai-native-teams.md
   - case-studies/ramp-inspect-agent-platform.md
+  - case-studies/cursor-agent-swarm-economics.md
 source: "https://openai.com/index/harness-engineering/"
 updated: 2026-07-26
 ---

@@ -63,6 +63,7 @@ related:
   - engineering/ai-native/cress-context-engineering.md
   - engineering/ai-native/model-routing-and-ai-gateways.md
   - engineering/ai-native/team-topologies-agentic-platform.md
+  - case-studies/cursor-agent-swarm-economics.md
 updated: 2026-06-27
 ---
 
@@ -197,6 +198,11 @@ A map of the notes on building software with AI agents. They answer different qu
   measured comparison of solo agents against elaborate harnesses (a ~22× cost multiple), the
   planner/generator/evaluator split, sprint contracts, context anxiety, and the finding that
   harness complexity should *shrink* as models improve.
+- [Cursor's Agent Swarm Economics](../../case-studies/cursor-agent-swarm-economics.md) — the
+  experiment pointing the other way, and the model-economics result: a frontier planner over
+  cheap workers at similar quality for a fraction of the cost, because few moments in a large
+  task need frontier intelligence. Also the thrash finding — 68,000 commits being worse than 971
+  *(in case studies; Cursor's own swarm and own worker model)*.
 - [Light and Dark Software Factories](light-and-dark-factories.md) — the lights-out analogy for
   deciding which loops run unattended: the loop → harness → factory nesting, why lit factories
   put judgement upstream at design, why the harness alone can't buy maintainability, and graphs

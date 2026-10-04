@@ -17,6 +17,7 @@ related:
   - case-studies/openai-agent-first-harness.md
   - reading/ai-productivity-research.md
   - engineering/ai-native/tdd-in-the-agent-loop.md
+  - case-studies/cursor-agent-swarm-economics.md
 source: "https://www.anthropic.com/engineering/harness-design-long-running-apps"
 updated: 2026-07-26
 ---

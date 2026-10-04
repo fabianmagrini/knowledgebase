@@ -16,6 +16,7 @@ related:
   - engineering/ai-native/ai-gateway-control-plane.md
   - case-studies/slack-ai-multi-cloud.md
   - concepts/latency-patterns.md
+  - case-studies/cursor-agent-swarm-economics.md
 source: "https://newsletter.pragmaticengineer.com/p/the-pulse-a-new-trend-smart-model"
 updated: 2026-07-05
 ---

@@ -15,6 +15,7 @@ related:
   - engineering/ai-native/ai-native-engineering-overview.md
   - reading/factory-engineers.md
   - case-studies/cloudflare-ai-code-review.md
+  - case-studies/cursor-agent-swarm-economics.md
 source: "https://davidwells.io/blog/multi-agent-coding-without-worktree-chaos"
 updated: 2026-06-27
 ---

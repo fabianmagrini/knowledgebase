@@ -18,6 +18,7 @@ related:
   - case-studies/rewind-ai-pr-approval.md
   - concepts/control-plane-data-plane.md
   - case-studies/ramp-inspect-agent-platform.md
+  - case-studies/cursor-agent-swarm-economics.md
 source: "https://rootly.com/blog/why-we-got-rid-of-our-small-pr-rule"
 updated: 2026-07-26
 ---
