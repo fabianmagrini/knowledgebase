@@ -21,6 +21,7 @@ related:
   - engineering/ai-native/substitution-myth-in-code-review.md
   - engineering/ai-native/brownfield-agentic-engineering.md
   - reading/the-capability-overhang.md
+  - engineering/ai-native/accountability-for-unread-code.md
 source: "https://newsletter.getdx.com/p/five-studies-that-are-changing-how"
 updated: 2026-08-03
 ---

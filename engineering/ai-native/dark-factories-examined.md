@@ -20,6 +20,7 @@ related:
   - engineering/ai-native/linters-over-ai-review.md
   - engineering/ai-native/loop-driven-development.md
   - engineering/ai-native/review-replacement.md
+  - engineering/ai-native/accountability-for-unread-code.md
 source: "https://kachar.dev/blog/the-lights-were-never-off"
 updated: 2026-08-16
 ---

@@ -19,6 +19,7 @@ related:
   - concepts/progressive-delivery.md
   - concepts/control-and-complexity.md
   - engineering/ai-native/substitution-myth-in-code-review.md
+  - engineering/ai-native/accountability-for-unread-code.md
 source: "https://www.latent.space/p/reviews-dead"
 updated: 2026-10-10
 ---

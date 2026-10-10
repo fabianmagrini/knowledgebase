@@ -24,6 +24,7 @@ related:
   - engineering/ai-native/substitution-myth-in-code-review.md
   - engineering/architecture/layered-architecture.md
   - engineering/ai-native/brownfield-agentic-engineering.md
+  - engineering/ai-native/accountability-for-unread-code.md
 source: "https://www.infoq.com/articles/system-comprehension-evolutionary-architecture/"
 updated: 2026-08-23
 ---

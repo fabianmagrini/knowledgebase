@@ -70,6 +70,7 @@ related:
   - case-studies/linear-ci-rework.md
   - standards/agent-interop-protocols.md
   - reading/the-capability-overhang.md
+  - engineering/ai-native/accountability-for-unread-code.md
 updated: 2026-06-27
 ---
 
@@ -177,6 +178,12 @@ A map of the notes on building software with AI agents. They answer different qu
   replicate each, declare the human redundant — while the contribution that mattered was the
   integration across them. Seven non-detection functions enumerated, from confusion-as-signal to
   skin in the game.
+- [Accountability for Unread Code](accountability-for-unread-code.md) — what you owe once the code
+  is unread regardless: Elish's **moral crumple zone** (a name on the approval without the capacity
+  to catch the problem), the two costs — checking unread work versus undoing failures the checks
+  miss, with "neither" as the unsustainable third option — and the constraint that decides whether
+  checking works at all: **the oracle must be independent of the generator**. Supplies the 14%
+  Microsoft figure that evidences the substitution argument *(sponsored)*.
 - [Control and Complexity](../../concepts/control-and-complexity.md) — the theory under this
   section's disagreements: control-shaped and complexity-shaped design are different philosophies,
   and a static barrier can satisfy a practice's stated purpose while deleting the emergent ones it

@@ -16,6 +16,7 @@ related:
   - case-studies/ramp-inspect-agent-platform.md
   - case-studies/rootly-pr-size-risk-labels.md
   - reading/reactive-reducer-orchestration.md
+  - engineering/ai-native/accountability-for-unread-code.md
 source: "https://cursor.com/blog/agent-swarm-model-economics"
 updated: 2026-10-05
 ---

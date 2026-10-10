@@ -18,6 +18,7 @@ related:
   - reading/ai-productivity-research.md
   - engineering/ai-native/tdd-in-the-agent-loop.md
   - case-studies/cursor-agent-swarm-economics.md
+  - engineering/ai-native/accountability-for-unread-code.md
 source: "https://www.anthropic.com/engineering/harness-design-long-running-apps"
 updated: 2026-07-26
 ---

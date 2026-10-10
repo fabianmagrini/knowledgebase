@@ -37,6 +37,7 @@ related:
   - engineering/ai-native/review-replacement.md
   - engineering/ai-native/substitution-myth-in-code-review.md
   - engineering/ai-native/brownfield-agentic-engineering.md
+  - engineering/ai-native/accountability-for-unread-code.md
 source: "https://addyo.substack.com/p/agentic-code-review"
 updated: 2026-06-20
 ---
