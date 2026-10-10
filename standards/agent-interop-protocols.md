@@ -18,6 +18,7 @@ related:
   - case-studies/slack-agentic-e2e-testing.md
   - case-studies/openai-agent-first-harness.md
   - case-studies/stripe-kai-agent-platform.md
+  - case-studies/doordash-flag-cleanup-agents.md
 source: "https://generativeprogrammer.com/p/the-emerging-standards-behind-ai"
 updated: 2026-10-10
 ---

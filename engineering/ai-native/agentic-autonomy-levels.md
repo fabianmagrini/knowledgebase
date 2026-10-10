@@ -25,6 +25,7 @@ related:
   - engineering/architecture/data-readiness-for-agents.md
   - engineering/ai-native/brownfield-agentic-engineering.md
   - reading/reactive-reducer-orchestration.md
+  - case-studies/doordash-flag-cleanup-agents.md
 source: "https://addyo.substack.com/p/agentic-autonomy-levels"
 updated: 2026-07-05
 ---

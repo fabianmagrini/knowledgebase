@@ -30,6 +30,7 @@ related:
   - engineering/ai-native/accountability-for-unread-code.md
   - case-studies/anthropic-claude-ai-performance-sprint.md
   - engineering/ai-native/activity-metrics-obsolete.md
+  - case-studies/doordash-flag-cleanup-agents.md
 source: "https://addyo.substack.com/p/brownfield-agentic-engineering"
 updated: 2026-10-10
 ---
