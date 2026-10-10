@@ -16,6 +16,7 @@ related:
   - engineering/ai-native/trust-factory.md
   - reading/multi-agent-coding-coordination.md
   - reading/what-is-software-engineering-ai.md
+  - reading/state-of-tech-2026.md
 source: "https://miren.dev/blog/agile-in-the-age-of-ai"
 updated: 2026-06-20
 ---

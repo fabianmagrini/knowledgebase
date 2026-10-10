@@ -18,6 +18,7 @@ related:
   - case-studies/cursor-agent-swarm-economics.md
   - reading/reactive-reducer-orchestration.md
   - case-studies/doordash-flag-cleanup-agents.md
+  - reading/state-of-tech-2026.md
 source: "https://davidwells.io/blog/multi-agent-coding-without-worktree-chaos"
 updated: 2026-06-27
 ---

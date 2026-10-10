@@ -19,6 +19,7 @@ related:
   - engineering/ai-native/accountability-for-unread-code.md
   - case-studies/doordash-flag-cleanup-agents.md
   - case-studies/github-copilot-rust-migration.md
+  - reading/state-of-tech-2026.md
 source: "https://cursor.com/blog/agent-swarm-model-economics"
 updated: 2026-10-05
 ---

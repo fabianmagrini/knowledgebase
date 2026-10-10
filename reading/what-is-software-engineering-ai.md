@@ -14,6 +14,7 @@ related:
   - engineering/architecture/team-topologies.md
   - engineering/ai-native/ai-native-engineering-overview.md
   - reading/building-software-is-learning.md
+  - reading/state-of-tech-2026.md
 source: "https://blog.colinbreck.com/adapting-to-ai-what-is-software-engineering/"
 updated: 2026-06-27
 ---

@@ -23,6 +23,7 @@ related:
   - reading/the-capability-overhang.md
   - engineering/ai-native/accountability-for-unread-code.md
   - engineering/ai-native/activity-metrics-obsolete.md
+  - reading/state-of-tech-2026.md
 source: "https://newsletter.getdx.com/p/five-studies-that-are-changing-how"
 updated: 2026-08-03
 ---

@@ -73,6 +73,7 @@ related:
   - engineering/ai-native/accountability-for-unread-code.md
   - case-studies/anthropic-claude-ai-performance-sprint.md
   - engineering/ai-native/activity-metrics-obsolete.md
+  - reading/state-of-tech-2026.md
   - case-studies/doordash-flag-cleanup-agents.md
   - case-studies/github-copilot-rust-migration.md
 updated: 2026-06-27
@@ -316,6 +317,11 @@ A map of the notes on building software with AI agents. They answer different qu
   one. Wall-clock time was too noisy to gate on, so CI gated on CPU instruction counts and React
   commits, with a ratchet that only lowers the ceiling *(in case studies; Anthropic on its own
   model and product)*.
+- [The State of the Tech Industry in 2026](../../reading/state-of-tech-2026.md) — scale
+  indicators rather than effect estimates: GitHub's agent/human PR crossover in August 2026 after
+  a ninefold rise in eight months, and **compute capacity** as a binding constraint this cluster
+  otherwise ignores entirely. Also unsettles the ~3-parallel-agents ceiling *(in reading;
+  interviews, not studies)*.
 - [Agentic AI in the SDLC — A Research Survey](../../reading/agentic-sdlc-survey.md) — the empirical
   anchor under the cluster: a six-layer reference architecture, the SWE-bench/productivity evidence
   (and why benchmark gains ≠ team throughput), and five open problems mapped onto these notes

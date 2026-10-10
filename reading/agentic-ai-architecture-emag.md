@@ -11,6 +11,7 @@ related:
   - reading/agentic-sdlc-survey.md
   - engineering/ai-native/harness-engineering.md
   - engineering/ai-native/cress-context-engineering.md
+  - reading/state-of-tech-2026.md
 source: "https://www.infoq.com/minibooks/agentic-ai-architecture/"
 updated: 2026-07-05
 ---

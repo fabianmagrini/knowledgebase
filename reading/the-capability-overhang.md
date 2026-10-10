@@ -22,6 +22,7 @@ related:
   - leadership/revised-rules-engineering-leadership.md
   - engineering/ai-native/linters-over-ai-review.md
   - engineering/ai-native/harness-engineering.md
+  - reading/state-of-tech-2026.md
 source: "https://www.oneusefulthing.org/p/the-overhang"
 updated: 2026-10-11
 ---
