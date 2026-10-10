@@ -30,6 +30,8 @@ Grouped by what each case study is about.
 
 - [Linear's CI Rework Under Agent Volume](linear-ci-rework.md) — absorbing a near-quadrupled test suite (~2,000 tests added weekly) while PR wait fell from 6+ minutes to just over 5: setup overhead as the cap on parallelism (4→8 shards while total setup time *fell*), `node_modules` caching abandoned because rebuilding was faster (28→7.5s), and ~87,000 runner-minutes saved monthly by batching seven checks into two *(company-authored and self-reported, but no CI vendor named and the figures are per-stage)*
 
+- [Rendering Huge Pull Requests (GitHub Copilot App)](github-huge-pr-rendering.md) — virtualisation split into two geometry domains because comments have no knowable height (markdown reflow, expandable blocks, async assets): deterministic code rows with all heights known before paint versus lazily measured blocks bounded to viewport ±2400px, height fingerprinting keyed to content hash *plus bucketed width* so ordinary resizes don't invalidate the cache, measurement moved off the scroll path, and an unattended autopilot reading the app's own rAF jank sampler. The deliberate opposite of ChatGPT's no-virtualisation choice
+
 ### Distributed systems at scale
 
 - [Zalando's Client-Side Load Balancing](zalando-client-side-load-balancing.md) — moving ~1M req/s off a shared edge load balancer into the calling process: watch-based discovery, consistent hashing with hash parity, occupancy (Little's Law) as the load signal, N-ring fade-in, bounded-load walk, and the cache-locality-vs-zone-cost trade-offs

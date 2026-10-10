@@ -13,6 +13,7 @@ related:
   - case-studies/lovable-nextjs-migration.md
   - concepts/latency-patterns.md
   - case-studies/linear-ci-rework.md
+  - case-studies/github-huge-pr-rendering.md
 source: "https://performance.dev/chatgpt"
 updated: 2026-07-11
 ---

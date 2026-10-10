@@ -15,6 +15,7 @@ related:
   - engineering/practices/trunk-based-development.md
   - engineering/ai-native/brownfield-agentic-engineering.md
   - case-studies/chatgpt-web-performance.md
+  - case-studies/github-huge-pr-rendering.md
 source: "https://linear.app/now/ci-bottleneck-reworked"
 updated: 2026-10-10
 ---

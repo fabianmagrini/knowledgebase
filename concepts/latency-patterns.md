@@ -15,6 +15,7 @@ related:
   - engineering/ai-native/model-routing-and-ai-gateways.md
   - engineering/ai-native/brownfield-agentic-engineering.md
   - case-studies/linear-ci-rework.md
+  - case-studies/github-huge-pr-rendering.md
 source: "https://generativeprogrammer.com/p/latency-patterns-for-faster-ai-applications"
 updated: 2026-08-30
 ---

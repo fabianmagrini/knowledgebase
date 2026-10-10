@@ -16,6 +16,7 @@ related:
   - languages-and-frameworks/react-state-management.md
   - engineering/practices/spa-soak-testing.md
   - case-studies/linear-ci-rework.md
+  - case-studies/github-huge-pr-rendering.md
 source: "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown"
 updated: 2026-06-22
 ---

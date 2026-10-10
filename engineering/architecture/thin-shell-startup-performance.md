@@ -13,6 +13,7 @@ related:
   - case-studies/chatgpt-web-performance.md
   - engineering/practices/performance-testing-strategy.md
   - engineering/practices/spa-soak-testing.md
+  - case-studies/github-huge-pr-rendering.md
 updated: 2026-06-22
 ---
 

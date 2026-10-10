@@ -18,6 +18,7 @@ related:
   - engineering/ai-native/loop-driven-development.md
   - case-studies/lovable-nextjs-migration.md
   - engineering/ai-native/brownfield-agentic-engineering.md
+  - case-studies/github-huge-pr-rendering.md
 source: "https://nextjs.org/blog/making-v0-navigations-instant"
 updated: 2026-08-16
 ---
