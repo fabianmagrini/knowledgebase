@@ -68,6 +68,7 @@ related:
   - engineering/ai-native/brownfield-agentic-engineering.md
   - reading/reactive-reducer-orchestration.md
   - case-studies/linear-ci-rework.md
+  - standards/agent-interop-protocols.md
 updated: 2026-06-27
 ---
 
@@ -142,6 +143,10 @@ A map of the notes on building software with AI agents. They answer different qu
   accumulates code faster than trust, and "genie" development erodes the loops that build it.
 - [Open Knowledge Format (OKF)](../../standards/open-knowledge-format.md) — a portable
   markdown+YAML format for the knowledge/context agents consume *(in standards)*.
+- [Agent Interoperability Protocols](../../standards/agent-interop-protocols.md) — where to look
+  up the vocabulary this cluster uses throughout: one contract per boundary (MCP for tools, A2A
+  between agents, AGENTS.md and Skills in the repo, OTel GenAI for tracing, ACP for IDEs), and
+  why adopting one commits you to none of the others *(in standards)*.
 - [The LLM-Maintained Wiki](../../reading/llm-maintained-wiki.md) — Karpathy's pattern of an LLM
   compiling and maintaining a persistent wiki (raw → wiki → schema; ingest/query/lint) instead of
   RAG over raw docs; the maintenance discipline behind context-in-the-repo *(in reading)*.

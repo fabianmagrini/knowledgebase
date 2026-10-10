@@ -17,6 +17,7 @@ related:
   - case-studies/microsoft-ai-core-competency.md
   - engineering/security/agent-skill-security.md
   - case-studies/ramp-inspect-agent-platform.md
+  - standards/agent-interop-protocols.md
 source: "https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents"
 updated: 2026-08-08
 ---

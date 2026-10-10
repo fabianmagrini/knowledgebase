@@ -23,6 +23,7 @@ related:
   - case-studies/ramp-inspect-agent-platform.md
   - case-studies/cursor-agent-swarm-economics.md
   - engineering/ai-native/brownfield-agentic-engineering.md
+  - standards/agent-interop-protocols.md
 source: "https://openai.com/index/harness-engineering/"
 updated: 2026-07-26
 ---

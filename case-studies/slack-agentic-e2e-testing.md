@@ -12,6 +12,7 @@ related:
   - engineering/ai-native/agentic-code-review.md
   - engineering/ai-native/eval-driven-ai-development.md
   - case-studies/slack-ai-multi-cloud.md
+  - standards/agent-interop-protocols.md
 source: "https://slack.engineering/agentic-testing-where-agents-fit-in-the-e2e-testing-stack/"
 updated: 2026-07-19
 ---

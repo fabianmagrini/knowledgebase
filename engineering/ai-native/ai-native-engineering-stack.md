@@ -28,6 +28,7 @@ related:
   - engineering/ai-native/scaling-ai-adoption.md
   - engineering/ai-native/ai-factory.md
   - engineering/ai-native/skill-engineering-disciplines.md
+  - standards/agent-interop-protocols.md
 source: "https://gist.github.com/fabianmagrini/9543a6a750d904f66744d7fbfb3d3ec3"
 ---
 

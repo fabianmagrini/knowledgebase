@@ -12,6 +12,7 @@ related:
   - engineering/ai-native/loop-driven-development.md
   - engineering/ai-native/ai-native-engineering-stack.md
   - reading/llm-maintained-wiki.md
+  - standards/agent-interop-protocols.md
 source: "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/"
 updated: 2026-06-14
 ---

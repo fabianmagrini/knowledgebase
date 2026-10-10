@@ -16,6 +16,7 @@ related:
   - case-studies/stripe-kai-agent-platform.md
   - engineering/security/agent-skill-security.md
   - case-studies/vercel-v0-instant-navigations.md
+  - standards/agent-interop-protocols.md
 source: "https://generativeprogrammer.com/p/5-software-disciplines-that-keep"
 updated: 2026-07-19
 ---
