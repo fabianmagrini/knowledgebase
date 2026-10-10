@@ -23,6 +23,7 @@ related:
   - case-studies/stripe-kai-agent-platform.md
   - case-studies/ramp-inspect-agent-platform.md
   - case-studies/cursor-agent-swarm-economics.md
+  - reading/reactive-reducer-orchestration.md
 source: "https://addyo.substack.com/p/long-running-agents"
 updated: 2026-06-20
 ---

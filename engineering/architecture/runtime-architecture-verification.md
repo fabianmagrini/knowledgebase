@@ -15,6 +15,7 @@ related:
   - case-studies/netflix-service-topology.md
   - engineering/practices/change-absorption-capacity.md
   - engineering/architecture/data-readiness-for-agents.md
+  - reading/reactive-reducer-orchestration.md
 source: "https://www.linkedin.com/pulse/you-cant-govern-what-see-luca-mezzalira-quige/"
 updated: 2026-08-30
 ---

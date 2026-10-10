@@ -15,6 +15,7 @@ related:
   - case-studies/openai-agent-first-harness.md
   - case-studies/ramp-inspect-agent-platform.md
   - case-studies/rootly-pr-size-risk-labels.md
+  - reading/reactive-reducer-orchestration.md
 source: "https://cursor.com/blog/agent-swarm-model-economics"
 updated: 2026-10-05
 ---

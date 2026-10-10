@@ -66,6 +66,7 @@ related:
   - case-studies/cursor-agent-swarm-economics.md
   - engineering/ai-native/substitution-myth-in-code-review.md
   - engineering/ai-native/brownfield-agentic-engineering.md
+  - reading/reactive-reducer-orchestration.md
 updated: 2026-06-27
 ---
 
@@ -232,6 +233,11 @@ A map of the notes on building software with AI agents. They answer different qu
 - [Multi-Agent Coding Without Worktree Chaos](../../reading/multi-agent-coding-coordination.md) —
   coordinating a *swarm* of coding agents on one branch via planning, a task graph, file
   reservations, and a coordinator, rather than one worktree per agent *(in reading)*.
+- [Reactive Reducer Orchestration](../../reading/reactive-reducer-orchestration.md) — the opposite
+  pole: remove the model from control flow entirely, so agents write values into a typed context
+  store and a deterministic state machine fires the edges. Directly contradicts Cursor's frontier
+  planner, and generalises the keep-models-out-of-scoring principle one layer up *(in reading;
+  one practitioner's own framework, no prior art cited, no measurements)*.
 - [Quality-First AI Coding](quality-first-ai-coding.md) — the practitioner workflow: multi-model
   bug review and quality-over-velocity use of AI to write better code more slowly.
 - [How I Use LLMs as a Staff Engineer (2026)](../../reading/how-i-use-llms-2026.md) — a
