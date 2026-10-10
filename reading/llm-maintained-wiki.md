@@ -12,6 +12,7 @@ related:
   - engineering/ai-native/modern-engineering-values.md
   - engineering/ai-native/harness-engineering.md
   - engineering/ai-native/ai-native-engineering-overview.md
+  - engineering/ai-native/brownfield-agentic-engineering.md
 source: "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
 updated: 2026-06-27
 ---

@@ -19,6 +19,7 @@ related:
   - engineering/ai-native/light-and-dark-factories.md
   - engineering/architecture/comprehension-as-architecture.md
   - engineering/ai-native/review-replacement.md
+  - engineering/ai-native/brownfield-agentic-engineering.md
 source: "https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html"
 updated: 2026-08-23
 ---

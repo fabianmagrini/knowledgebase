@@ -13,6 +13,7 @@ related:
   - engineering/architecture/architectural-change-cases.md
   - engineering/practices/feature-flags-and-branch-by-abstraction.md
   - case-studies/lovable-nextjs-migration.md
+  - engineering/ai-native/brownfield-agentic-engineering.md
 updated: 2026-06-13
 ---
 

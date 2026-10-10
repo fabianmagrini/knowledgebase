@@ -19,6 +19,7 @@ related:
   - engineering/ai-native/dark-factories-examined.md
   - engineering/architecture/comprehension-as-architecture.md
   - engineering/ai-native/substitution-myth-in-code-review.md
+  - engineering/ai-native/brownfield-agentic-engineering.md
 source: "https://newsletter.getdx.com/p/five-studies-that-are-changing-how"
 updated: 2026-08-03
 ---

@@ -27,6 +27,7 @@ related:
   - engineering/ai-native/tdd-in-the-agent-loop.md
   - engineering/architecture/enforced-architecture-rules.md
   - engineering/ai-native/linters-over-ai-review.md
+  - engineering/ai-native/brownfield-agentic-engineering.md
 source: "https://generativeprogrammer.com/p/stop-babysitting-your-coding-agent"
 updated: 2026-06-20
 ---

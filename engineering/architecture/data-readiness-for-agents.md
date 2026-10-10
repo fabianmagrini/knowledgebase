@@ -15,6 +15,7 @@ related:
   - engineering/ai-native/ai-gateway-control-plane.md
   - engineering/architecture/runtime-architecture-verification.md
   - case-studies/oracle-ai-agent-memory.md
+  - engineering/ai-native/brownfield-agentic-engineering.md
 source: "https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html"
 updated: 2026-08-30
 ---

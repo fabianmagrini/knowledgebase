@@ -65,6 +65,7 @@ related:
   - engineering/ai-native/team-topologies-agentic-platform.md
   - case-studies/cursor-agent-swarm-economics.md
   - engineering/ai-native/substitution-myth-in-code-review.md
+  - engineering/ai-native/brownfield-agentic-engineering.md
 updated: 2026-06-27
 ---
 
@@ -184,6 +185,11 @@ A map of the notes on building software with AI agents. They answer different qu
   agent-authored test-first runs produced *worse* solutions at 3–8× the tokens, because the
   forcing function and the psychology both depend on a human. Measure the outcome (mutation
   testing) rather than mandating the process.
+- [Brownfield Agentic Engineering](brownfield-agentic-engineering.md) — the legacy-codebase case
+  this cluster otherwise skips: zones as a standing risk map of the codebase (humans draw the
+  maps; zones are *earned*), characterisation tests pinned by a person before the agent works,
+  and the migration evidence — **28 of 520** agent runs passing a full audit, with the largest
+  cited migration done by codemod and no agents *(sponsored)*.
 - [Slack's Agentic E2E Testing Experiment](../../case-studies/slack-agentic-e2e-testing.md) — the
   inverse of eval-driven: using agents *to run* E2E tests. Goal-based vs journey-based testing,
   three execution models measured across 200+ runs, and the cost/reliability trade-offs that keep

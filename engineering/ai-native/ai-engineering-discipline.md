@@ -16,6 +16,7 @@ related:
   - engineering/ai-native/ai-native-engineering-overview.md
   - engineering/ai-native/trust-factory.md
   - reading/what-is-software-engineering-ai.md
+  - engineering/ai-native/brownfield-agentic-engineering.md
 source: "https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline"
 updated: 2026-06-20
 ---

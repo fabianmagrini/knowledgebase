@@ -15,6 +15,7 @@ related:
   - engineering/ai-native/team-topologies-agentic-platform.md
   - engineering/ai-native/long-running-agents.md
   - case-studies/cursor-agent-swarm-economics.md
+  - engineering/ai-native/brownfield-agentic-engineering.md
 source: "https://newsletter.pragmaticengineer.com/p/why-ramp-built-inspect"
 updated: 2026-08-30
 ---
