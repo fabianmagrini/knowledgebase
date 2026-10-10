@@ -74,6 +74,7 @@ related:
   - case-studies/anthropic-claude-ai-performance-sprint.md
   - engineering/ai-native/activity-metrics-obsolete.md
   - case-studies/doordash-flag-cleanup-agents.md
+  - case-studies/github-copilot-rust-migration.md
 updated: 2026-06-27
 ---
 
@@ -269,6 +270,12 @@ A map of the notes on building software with AI agents. They answer different qu
 - [How I Use LLMs as a Staff Engineer (2026)](../../reading/how-i-use-llms-2026.md) — a
   practitioner's delegation map: what to hand to agents (bugs, tests, config), what to review
   hard (code changes), and what to keep human (PR descriptions, ADRs, comms) *(in reading)*.
+- [Migrating the Copilot Runtime to Rust With Agents](../../case-studies/github-copilot-rust-migration.md)
+  — the counterweight to the 28-of-520 figure above, with its own conditions stated: in-place
+  porting keeping the trunk shippable, and an interop-shim count driven to **zero**, which makes
+  migration blindness impossible to fake. Also qualifies types-as-a-gate — the compiler caught
+  mechanical errors at volume (borrow checker just 1.7%) and design errors not at all
+  *(in case studies)*.
 - [DoorDash's Multi-Agent Feature-Flag Cleanup](../../case-studies/doordash-flag-cleanup-agents.md)
   — peer-reviewed (ICSME 2026) agent work on a task with a natural oracle: flag removal should
   change no behaviour, so the build *is* the check. The human checkpoint sits at the judgement —

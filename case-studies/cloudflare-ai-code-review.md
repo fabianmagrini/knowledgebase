@@ -20,6 +20,7 @@ related:
   - case-studies/intercom-ai-pr-approval.md
   - concepts/control-plane-data-plane.md
   - engineering/ai-native/linters-over-ai-review.md
+  - case-studies/github-copilot-rust-migration.md
 source: "https://blog.cloudflare.com/ai-code-review/"
 updated: 2026-06-27
 ---

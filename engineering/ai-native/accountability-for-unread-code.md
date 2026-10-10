@@ -20,6 +20,7 @@ related:
   - case-studies/vercel-v0-instant-navigations.md
   - engineering/ai-native/activity-metrics-obsolete.md
   - case-studies/doordash-flag-cleanup-agents.md
+  - case-studies/github-copilot-rust-migration.md
 source: "https://addyo.substack.com/p/the-code-nobody-reads"
 updated: 2026-10-11
 ---

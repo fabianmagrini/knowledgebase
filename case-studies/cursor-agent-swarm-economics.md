@@ -18,6 +18,7 @@ related:
   - reading/reactive-reducer-orchestration.md
   - engineering/ai-native/accountability-for-unread-code.md
   - case-studies/doordash-flag-cleanup-agents.md
+  - case-studies/github-copilot-rust-migration.md
 source: "https://cursor.com/blog/agent-swarm-model-economics"
 updated: 2026-10-05
 ---

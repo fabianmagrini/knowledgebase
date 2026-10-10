@@ -13,6 +13,7 @@ related:
   - case-studies/vercel-v0-instant-navigations.md
   - case-studies/chatgpt-web-performance.md
   - engineering/architecture/architectural-change-cases.md
+  - case-studies/github-copilot-rust-migration.md
 source: "https://lovable.dev/blog/how-we-migrated-lovable-dev-away-from-nextjs"
 updated: 2026-08-30
 ---

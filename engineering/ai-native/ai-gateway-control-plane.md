@@ -21,6 +21,7 @@ related:
   - concepts/control-plane-data-plane.md
   - engineering/architecture/data-readiness-for-agents.md
   - standards/agent-interop-protocols.md
+  - case-studies/github-copilot-rust-migration.md
 source: "https://www.infoq.com/articles/evolutionary-architecture-pattern/"
 updated: 2026-08-03
 ---
