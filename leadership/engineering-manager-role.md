@@ -20,6 +20,7 @@ related:
   - leadership/magical-thinking.md
   - leadership/landing-the-plane.md
   - leadership/coach-and-judge.md
+  - leadership/protecting-mavericks.md
 source: "https://softwareleads.substack.com/p/the-four-pillars-of-engineering-management; https://softwareleads.substack.com/p/engineering-leaders-day-to-day-activities"
 updated: 2026-07-26
 ---
