@@ -72,6 +72,7 @@ related:
   - reading/the-capability-overhang.md
   - engineering/ai-native/accountability-for-unread-code.md
   - case-studies/anthropic-claude-ai-performance-sprint.md
+  - engineering/ai-native/activity-metrics-obsolete.md
 updated: 2026-06-27
 ---
 
@@ -292,6 +293,11 @@ A map of the notes on building software with AI agents. They answer different qu
 - [The APEX Framework](apex-framework.md) — a measurement operating model (AI Leverage,
   Predictability, Flow Efficiency, Developer Experience) for judging whether AI adoption creates
   *sustainable* value, measured at the PR and in the critical path rather than by tool adoption.
+- [Activity Metrics Under AI](activity-metrics-obsolete.md) — the evidence and the replacements:
+  a **−19% to +40.5%** productivity scatter that rules out any single coefficient (METR's negative
+  result came from mature repositories), six diagnostics with definitions including
+  **rework per AI spend**, and the first AI-code vulnerability rates in these notes (Veracode 45%,
+  Apiiro's 322% rise in privilege-escalation paths).
 - [Anthropic's claude.ai Performance Sprint](../../case-studies/anthropic-claude-ai-performance-sprint.md)
   — what an agent needs in order to optimise something: not a better metric but a **deterministic**
   one. Wall-clock time was too noisy to gate on, so CI gated on CPU instruction counts and React

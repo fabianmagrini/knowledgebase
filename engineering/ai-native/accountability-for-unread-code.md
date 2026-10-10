@@ -18,6 +18,7 @@ related:
   - reading/ai-productivity-research.md
   - engineering/architecture/comprehension-as-architecture.md
   - case-studies/vercel-v0-instant-navigations.md
+  - engineering/ai-native/activity-metrics-obsolete.md
 source: "https://addyo.substack.com/p/the-code-nobody-reads"
 updated: 2026-10-11
 ---

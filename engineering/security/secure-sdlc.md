@@ -18,6 +18,7 @@ related:
   - engineering/ai-native/ai-gateway-control-plane.md
   - case-studies/intercom-ai-pr-approval.md
   - engineering/security/agent-skill-security.md
+  - engineering/ai-native/activity-metrics-obsolete.md
 updated: 2026-06-16
 ---
 

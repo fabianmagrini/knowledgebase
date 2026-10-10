@@ -14,6 +14,7 @@ related:
   - product/explore-vs-exploit.md
   - product/prioritisation-as-a-symptom.md
   - leadership/finding-problems-to-solve.md
+  - engineering/ai-native/activity-metrics-obsolete.md
 source: "https://www.anniez.xyz/p/mission-to-metrics"
 updated: 2026-07-26
 ---

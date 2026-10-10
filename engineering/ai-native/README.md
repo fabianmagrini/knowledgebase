@@ -43,6 +43,7 @@ in **[Practices](../practices/)**.
 - [Light and Dark Software Factories](light-and-dark-factories.md)
 - [Dark Factories Examined](dark-factories-examined.md)
 - [The APEX Framework — Measuring AI Engineering Impact](apex-framework.md)
+- [Activity Metrics Under AI](activity-metrics-obsolete.md)
 - [Modern Engineering Values](modern-engineering-values.md)
 - [AI Demands More Engineering Discipline](ai-engineering-discipline.md)
 

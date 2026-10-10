@@ -22,6 +22,7 @@ related:
   - engineering/ai-native/brownfield-agentic-engineering.md
   - reading/the-capability-overhang.md
   - engineering/ai-native/accountability-for-unread-code.md
+  - engineering/ai-native/activity-metrics-obsolete.md
 source: "https://newsletter.getdx.com/p/five-studies-that-are-changing-how"
 updated: 2026-08-03
 ---
