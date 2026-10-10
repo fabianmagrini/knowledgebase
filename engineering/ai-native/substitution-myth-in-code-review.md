@@ -1,7 +1,7 @@
 ---
 type: note
 title: The Substitution Myth in Code Review
-description: "John Allspaw's resilience-engineering objection to replacing review with agents: decompose, replicate, declare redundant — while the contribution that mattered was the integration across functions. Seven non-detection functions enumerated."
+description: "John Allspaw's resilience-engineering objection to replacing review with agents: decompose, replicate, declare redundant — while the contribution that mattered was the integration across functions. Seven non-detection functions enumerated, plus Laycock's proposal for where they relocate."
 tags: [ai-engineering, code-review, culture, reading]
 topic: engineering/ai-native
 status: notes
@@ -14,7 +14,9 @@ related:
   - engineering/ai-native/linters-over-ai-review.md
   - case-studies/intercom-ai-pr-approval.md
   - engineering/architecture/comprehension-as-architecture.md
-source: "https://www.adaptivecapacitylabs.com/2026/08/24/there-is-more-to-code-review-than-automatable-detection/"
+  - leadership/learning-culture-ai-agents.md
+  - reading/ai-productivity-research.md
+source: "https://www.adaptivecapacitylabs.com/2026/08/24/there-is-more-to-code-review-than-automatable-detection/; https://martinfowler.com/rachels-ramblings/code-review.html"
 updated: 2026-10-10
 ---
 
@@ -94,15 +96,59 @@ held by someone, and a detector holds none of them."** Where a team moves a func
 deliberately, the objection is answered; where it is dropped silently because a benchmark
 covered the detection half, it is not.
 
-## What the piece does not do
+## Where the functions could go
+
+Allspaw names the bill without paying it (below). **Rachel Laycock** (CTO at Thoughtworks,
+September 2026) supplies a destination in
+[*Maybe We Shouldn't Be Reviewing All This Code*](https://martinfowler.com/rachels-ramblings/code-review.html),
+and the two pieces fit together more tightly than either author appears to intend.
+
+Her move is to relocate the functions rather than automate or abandon them:
+
+> "If we want **knowledge transfer**, pair. Sitting next to someone, physically or virtually,
+> while they reason through a problem teaches you far more than reading their completed solution
+> afterwards."
+
+Pairing and mob programming supply **bidirectional cognition** and knowledge transfer directly —
+the discussion *is* the practice rather than a by-product of inspecting a finished diff. Team
+design sessions supply **scepticism about necessity** earlier, while the change is still a
+proposal. Her slogan for the target: **"We need engineers to understand systems, not diffs."**
+
+The complement is **review by exception** — a human reviewer reserved for changes crossing a
+sensitive security boundary, carrying a large blast radius, touching an unfamiliar part of a
+critical system, "or simply something where the team says, *'I'm not confident about this.'*"
+
+**That last trigger is the sharpest thing in her piece**, because it closes a loop with the
+table above: it turns **confusion-as-signal from a review output into a review input**.
+Allspaw's point is that a reviewer's incomprehension is a finding; Laycock's is that a self-
+declared lack of confidence should be what routes the change to a reviewer in the first place.
+Same signal, read before the work rather than after it.
+
+Two caveats on her piece. The risk-tiering half is **well-held ground here** — it is
+[Agentic Code Review](agentic-code-review.md)'s tiering and
+[Rootly's risk labels](../../case-studies/rootly-pr-size-risk-labels.md) — and her "cognitive
+and intent debt" framing is already carried from the peer-reviewed side in
+[Five Studies on AI Productivity](../../reading/ai-productivity-research.md), which holds Brian
+Houck, the source she attributes it to. Her motivating figures — Meta's "significant lines of
+code per human-landed diff reportedly increased 106% in a year" and DX's "median pull request
+size increasing 64%" — also arrive via Houck, and **she gives no direct citation for either**,
+so they are second-hand and worth treating as indicative rather than as evidence.
+
+What pairing does *not* obviously supply is **accountability** — the skin-in-the-game function.
+Two people at one keyboard both authored the change; neither is the independent party signing
+off on it. Laycock's review-by-exception half covers the high-risk cases, but for everything
+routed away from review the question of who is answerable is left where
+[Intercom](../../case-studies/intercom-ai-pr-approval.md) puts it: on the author.
+
+## What Allspaw's piece does not do
 
 Recorded because the absence shapes how much weight it carries: **there is no closing statement
 of what Allspaw is and is not claiming**, and no positive proposal. It is a critique of one
 preprint, not an account of what review should become as volume rises — which is the live
-problem the rest of this cluster is working on. The spectrum in
-[Replacing Code Review With Upstream Verification](review-replacement.md) still has to be
-navigated by teams whose review throughput genuinely cannot match agent output, and this note
-does not help them choose. It tells them what the bill is.
+problem the rest of this cluster is working on. Read alone it tells a team what the bill is, not
+how to pay it; the Laycock section above is one answer, and the spectrum in
+[Replacing Code Review With Upstream Verification](review-replacement.md) is where teams whose
+throughput genuinely cannot match agent output still have to place themselves.
 
 ## Relationship to other notes
 

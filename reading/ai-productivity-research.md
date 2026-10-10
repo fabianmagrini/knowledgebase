@@ -18,6 +18,7 @@ related:
   - engineering/ai-native/own-the-outer-loop.md
   - engineering/ai-native/dark-factories-examined.md
   - engineering/architecture/comprehension-as-architecture.md
+  - engineering/ai-native/substitution-myth-in-code-review.md
 source: "https://newsletter.getdx.com/p/five-studies-that-are-changing-how"
 updated: 2026-08-03
 ---

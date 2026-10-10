@@ -18,6 +18,7 @@ related:
   - leadership/staying-technical-as-a-manager.md
   - reading/offloading-thinking-to-ai.md
   - reading/ai-productivity-research.md
+  - engineering/ai-native/substitution-myth-in-code-review.md
 updated: 2026-06-29
 ---
 
