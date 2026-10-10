@@ -21,7 +21,7 @@ related:
   - concepts/control-and-complexity.md
   - engineering/ai-native/substitution-myth-in-code-review.md
 source: "https://swizec.com/blog/stop-burning-tokens-on-code-review"
-updated: 2026-08-29
+updated: 2026-10-10
 ---
 
 # Linters Over AI Review
@@ -82,6 +82,22 @@ deterministic enough for a linter is being run in the wrong place if it waits fo
   things and quiet about the right ones
 
 His term for tools in this mode: **slop cannons**.
+
+### A second team reaching the same verdict
+
+The noise objection is the part of this note that rested on a single experience report. It now
+has independent support. **WeTravel**, a Series C company, reported via
+[Gergely Orosz](https://newsletter.pragmaticengineer.com/p/what-is-happening-with-code-reviews)
+(September 2026) that they "decided to not use AI for code reviews because of the amount of
+noise it generated" — and then re-tested: "In June, they did an updated evaluation which showed
+lots of improvement, but still not enough to justify adopting AI for the task."
+
+No figures are given, so this is a reported verdict rather than data. Two details make it worth
+recording anyway. It is a **second independent rejection on noise specifically**, which is the
+mechanism Swizec names rather than the cost. And it is a **re-evaluation** — a team that went
+back after the tools improved and still declined, which is stronger evidence than a one-off
+rejection that might simply have been early. Negative results in this area are rarely published
+at all.
 
 ## Building the linters from the docs
 

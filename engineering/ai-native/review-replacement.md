@@ -20,7 +20,7 @@ related:
   - concepts/control-and-complexity.md
   - engineering/ai-native/substitution-myth-in-code-review.md
 source: "https://www.latent.space/p/reviews-dead"
-updated: 2026-08-29
+updated: 2026-10-10
 ---
 
 # Replacing Code Review With Upstream Verification
@@ -57,6 +57,36 @@ Jain's supporting argument is fair, though: review was never the real safety net
 relied on **feature flags and rollbacks** for years, which is
 [progressive delivery](../../concepts/progressive-delivery.md) doing work that review was
 credited with.
+
+### Two further datasets
+
+Both from Gergely Orosz's [*What is happening with code reviews?*](https://newsletter.pragmaticengineer.com/p/what-is-happening-with-code-reviews)
+(September 2026; paywalled past its third section), and both broadening the evidence beyond the
+single Faros dataset above.
+
+**Platform-wide.** GitHub reports "the number of PRs opened has increased fivefold" across three
+years, with "PRs and commits nearly doubled *just* in that period alone" — the acceleration
+concentrated in the most recent stretch. Cited from GitHub's own August 17 outage postmortem,
+which is odd provenance but not a vendor's selected sample: it is platform-load context in an
+incident writeup. This is the broadest population these notes hold on the volume question.
+
+**One team, with a confound worth naming.** The Duckbill Group (a 15-person startup) reports:
+
+| Measure | Reported |
+|---|---|
+| PRs merged | 353 → 684 (80/wk → 154/wk, **+94%**) |
+| Merged within 1h | 28% → 45% |
+| Merged within 24h | 76% → 80% |
+| Human-reviewed, median merge time | **26h** |
+| No human review, median merge time | **1h** |
+
+**The 26h-versus-1h gap is not the cost of human review**, and should not be read that way.
+Duckbill route changes to human review by risk category, so the two populations are *selected to
+differ* — the reviewed set is the set someone judged risky, and the article does not state that
+the groups are comparable in size or risk. The defensible reading is narrower and still useful:
+**once you triage, the untriaged majority merges quickly**, which is a claim about what fraction
+of changes are genuinely low-risk rather than about review latency. It supports risk tiering (as
+in [Rootly](../../case-studies/rootly-pr-size-risk-labels.md)), not review removal.
 
 ## The five replacement layers
 
