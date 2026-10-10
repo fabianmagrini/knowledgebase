@@ -11,6 +11,7 @@ related:
   - sre/incident-swarming.md
   - leadership/decision-facilitation.md
   - leadership/learning-organisation.md
+  - concepts/control-and-complexity.md
 source: "https://www.honeycomb.io/blog/leveraging-cognitive-diversity-tackle-system-complexity"
 updated: 2026-07-11
 ---

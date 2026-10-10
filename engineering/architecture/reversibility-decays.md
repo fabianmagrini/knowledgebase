@@ -20,6 +20,7 @@ related:
   - engineering/architecture/change-locality.md
   - engineering/architecture/data-readiness-for-agents.md
   - case-studies/doordash-flag-cleanup-agents.md
+  - concepts/control-and-complexity.md
 source: "https://fffej.substack.com/p/two-way-doors-sometimes-lock-behind"
 updated: 2026-08-08
 ---

@@ -17,8 +17,11 @@ related:
   - sre/heroic-saves-are-near-misses.md
   - engineering/architecture/runtime-architecture-verification.md
   - engineering/ai-native/substitution-myth-in-code-review.md
-source: "https://ferd.ca/control-and-complexity-tension-in-systems-design.html"
-updated: 2026-08-30
+  - sre/cognitive-diversity-in-incident-reviews.md
+  - engineering/architecture/reversibility-decays.md
+  - leadership/coach-and-judge.md
+source: "https://ferd.ca/control-and-complexity-tension-in-systems-design.html; https://andiroberts.com/leadership/decision-making-under-uncertainty"
+updated: 2026-10-11
 ---
 
 # Control and Complexity
@@ -87,6 +90,48 @@ Borrowed to explain why accidents keep evading prevention:
 
 Only the first is a technical property. The second is about power — who is permitted to notice —
 and the third is about adaptation producing outcomes nobody designed.
+
+## Trialectics: a method for the complexity side
+
+Hebert describes the complexity *stance* and offers no method for operating inside it. **Dave
+Snowden's trialectics** is one — the discipline of holding **three** aspects in active tension
+rather than collapsing them into a binary. Three triads:
+
+| Triad | The three |
+|---|---|
+| **Perception** | **Salience** (what captures attention, and what is overlooked) / **sapience** (how experience shapes judgement) / **sentience** (emotional experience treated as data) |
+| **Knowledge** | **Explicit** / **tacit** / **entangled** — knowledge inseparable from its relational context |
+| **Reasoning** | **Deduction** (apply established relationships) / **induction** (infer patterns from observation) / **abduction** (hold several plausible explanations open) |
+
+Two of the nine carry the weight. Explicit/tacit is Polanyi's familiar pair; **entangled** as a
+third category is the addition — knowledge that does not survive being extracted from the
+relationship it lives in, which is why "document the tacit knowledge" is only a partial remedy.
+And **abduction** names the mode these notes keep arriving at without a word for it:
+
+- [The Substitution Myth in Code Review](../engineering/ai-native/substitution-myth-in-code-review.md)
+  — a reviewer's confusion *is* the finding. Resolving it prematurely destroys the signal.
+- [Reversibility Decays](../engineering/architecture/reversibility-decays.md) — which doors are
+  still open should be "a known fact rather than an assumption".
+- **Le Coze's epistemic unpredictability** above — weak signals that structures of power will not
+  see or accept. Premature closure is how a weak signal gets dismissed.
+- [Cognitive Diversity in Incident Reviews](../sre/cognitive-diversity-in-incident-reviews.md) —
+  genuinely different mental models held in the room at once, which is abduction performed by a
+  group rather than by an individual.
+
+**The inversion worth keeping**, because it cuts against an assumption these notes otherwise
+share: *speed in interpreting a complex situation becomes a liability when it prevents noticing
+anomalies*, because **experience makes novelty look familiar**. The repo generally treats
+experience as straightforwardly good — the signals in
+[Coach and Judge](../leadership/coach-and-judge.md), the calibrated attention in the
+substitution-myth table. This names its cost: pattern-matching is fast precisely because it
+stops looking.
+
+> **Provenance of this section.** The framework is **Snowden's** (The Cynefin Company), cited
+> from his 2026 writing. These notes read it via a secondary summary —
+> [Andi Roberts](https://andiroberts.com/leadership/decision-making-under-uncertainty),
+> September 2026 — which is an executive-coaching article promoting its author's services and
+> built around 27 diagnostic questions not carried here. **If this tradition earns a note of its
+> own, it should be sourced to Snowden directly**, not to a coach's summary of him.
 
 ## What this says about AI-driven process change
 

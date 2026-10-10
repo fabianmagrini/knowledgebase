@@ -14,6 +14,7 @@ related:
   - leadership/landing-the-plane.md
   - leadership/engineering-leadership-overview.md
   - sre/heroic-saves-are-near-misses.md
+  - concepts/control-and-complexity.md
 source: "https://dev.jimgrey.net/2026/08/19/coach-and-judge/"
 updated: 2026-08-30
 ---
