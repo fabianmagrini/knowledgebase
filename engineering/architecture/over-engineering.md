@@ -17,6 +17,7 @@ related:
   - leadership/finding-problems-to-solve.md
   - engineering/architecture/primitives-over-frameworks.md
   - engineering/architecture/change-locality.md
+  - engineering/architecture/layered-architecture.md
 source: "https://var0.xyz/posts/perfection-is-not-over-engineering.html"
 updated: 2026-08-03
 ---

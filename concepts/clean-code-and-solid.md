@@ -13,6 +13,7 @@ related:
   - engineering/architecture/agile-design-decisions.md
   - engineering/practices/naming-conventions.md
   - engineering/architecture/over-engineering.md
+  - engineering/architecture/layered-architecture.md
 updated: 2026-06-19
 ---
 

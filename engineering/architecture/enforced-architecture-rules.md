@@ -18,6 +18,7 @@ related:
   - engineering/ai-native/light-and-dark-factories.md
   - engineering/ai-native/linters-over-ai-review.md
   - engineering/architecture/runtime-architecture-verification.md
+  - engineering/architecture/layered-architecture.md
 source: "https://nick-tune.me/blog/2026-08-13-enforced-application-architecture-for-agents-and-humans/"
 updated: 2026-08-23
 ---

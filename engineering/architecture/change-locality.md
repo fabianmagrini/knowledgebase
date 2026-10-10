@@ -18,6 +18,7 @@ related:
   - engineering/architecture/adr.md
   - engineering/architecture/enforced-architecture-rules.md
   - engineering/architecture/runtime-architecture-verification.md
+  - engineering/architecture/layered-architecture.md
 source: "https://www.infoq.com/articles/evolutionary-architecture-change-locality/"
 updated: 2026-08-23
 ---

@@ -15,6 +15,7 @@ related:
   - concepts/clean-code-and-solid.md
   - engineering/practices/naming-conventions.md
   - engineering/architecture/over-engineering.md
+  - engineering/architecture/layered-architecture.md
 updated: 2026-06-19
 ---
 

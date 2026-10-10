@@ -34,6 +34,7 @@ related:
   - engineering/architecture/enforced-architecture-rules.md
   - engineering/architecture/runtime-architecture-verification.md
   - engineering/architecture/data-readiness-for-agents.md
+  - engineering/architecture/layered-architecture.md
   - engineering/architecture/skeleton-architecture.md
   - engineering/architecture/caching-reference-data-apis.md
   - engineering/architecture/adrs-in-an-agentic-world.md
@@ -78,6 +79,10 @@ systems.
   shell as bootloader, platform services extracted into a separately deployed, versioned remote.
 - [Thin-Shell Startup Performance](thin-shell-startup-performance.md) — engineering the extracted
   runtime's critical path: the startup waterfall, platform-core/deferred split, and prefetching.
+- [Layered Architecture](layered-architecture.md) — the base pattern: five layers with
+  dependencies flowing inward, and the scaling caveat that matters — slice vertically by domain
+  first, then layer within each slice, or `services/` becomes the God-module the layering was
+  meant to prevent.
 - [Strangler Fig Pattern](strangler-fig.md) — modernise legacy incrementally behind a
   facade, without a big-bang rewrite.
 - [Lovable's Migration Off Next.js](../../case-studies/lovable-nextjs-migration.md) — that

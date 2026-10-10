@@ -22,6 +22,7 @@ related:
   - concepts/control-and-complexity.md
   - engineering/architecture/runtime-architecture-verification.md
   - engineering/ai-native/substitution-myth-in-code-review.md
+  - engineering/architecture/layered-architecture.md
 source: "https://www.infoq.com/articles/system-comprehension-evolutionary-architecture/"
 updated: 2026-08-23
 ---

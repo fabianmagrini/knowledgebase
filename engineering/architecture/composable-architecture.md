@@ -29,6 +29,7 @@ related:
   - engineering/architecture/caching-reference-data-apis.md
   - case-studies/linear-performance-architecture.md
   - engineering/architecture/primitives-over-frameworks.md
+  - engineering/architecture/layered-architecture.md
 source: "https://gist.github.com/fabianmagrini/3b93d3db8189f663053489dd554d311d"
 ---
 

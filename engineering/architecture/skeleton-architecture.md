@@ -13,6 +13,7 @@ related:
   - engineering/ai-native/cress-context-engineering.md
   - engineering/ai-native/agentic-sdlc.md
   - engineering/architecture/enforced-architecture-rules.md
+  - engineering/architecture/layered-architecture.md
 source: "https://www.infoq.com/articles/skeleton-architecture/"
 updated: 2026-07-19
 ---
