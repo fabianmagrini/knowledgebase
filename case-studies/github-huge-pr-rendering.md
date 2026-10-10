@@ -15,6 +15,7 @@ related:
   - concepts/latency-patterns.md
   - engineering/architecture/thin-shell-startup-performance.md
   - case-studies/linear-ci-rework.md
+  - case-studies/anthropic-claude-ai-performance-sprint.md
 source: "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/"
 updated: 2026-10-10
 ---

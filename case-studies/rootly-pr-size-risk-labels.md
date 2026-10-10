@@ -21,6 +21,7 @@ related:
   - case-studies/cursor-agent-swarm-economics.md
   - engineering/ai-native/brownfield-agentic-engineering.md
   - case-studies/github-huge-pr-rendering.md
+  - case-studies/anthropic-claude-ai-performance-sprint.md
 source: "https://rootly.com/blog/why-we-got-rid-of-our-small-pr-rule"
 updated: 2026-07-26
 ---

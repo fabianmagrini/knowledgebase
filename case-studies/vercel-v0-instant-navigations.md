@@ -20,6 +20,7 @@ related:
   - engineering/ai-native/brownfield-agentic-engineering.md
   - case-studies/github-huge-pr-rendering.md
   - engineering/ai-native/accountability-for-unread-code.md
+  - case-studies/anthropic-claude-ai-performance-sprint.md
 source: "https://nextjs.org/blog/making-v0-navigations-instant"
 updated: 2026-08-16
 ---

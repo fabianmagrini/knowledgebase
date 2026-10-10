@@ -18,6 +18,7 @@ related:
   - engineering/ai-native/ci-speed-with-ai-agents.md
   - engineering/ai-native/agentic-autonomy-levels.md
   - case-studies/ramp-inspect-agent-platform.md
+  - case-studies/anthropic-claude-ai-performance-sprint.md
 source: "https://newsletter.eng-leadership.com/p/how-anthropic-builds-ai-native-engineering"
 updated: 2026-08-23
 ---

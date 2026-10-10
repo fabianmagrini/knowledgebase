@@ -32,6 +32,8 @@ Grouped by what each case study is about.
 
 - [Rendering Huge Pull Requests (GitHub Copilot App)](github-huge-pr-rendering.md) — virtualisation split into two geometry domains because comments have no knowable height (markdown reflow, expandable blocks, async assets): deterministic code rows with all heights known before paint versus lazily measured blocks bounded to viewport ±2400px, height fingerprinting keyed to content hash *plus bucketed width* so ordinary resizes don't invalidate the cache, measurement moved off the scroll path, and an unattended autopilot reading the app's own rAF jank sampler. The deliberate opposite of ChatGPT's no-virtualisation choice
 
+- [Anthropic's claude.ai Performance Sprint](anthropic-claude-ai-performance-sprint.md) — an agent-driven two-week sprint (3.1× geometric mean across thirteen measurements) whose transferable part is the *metric*: wall-clock time was too noisy to gate on, so CI gated on **deterministic counts** — CPU instructions via Valgrind with `node --predictable`, React commits, style recalcs, DOM mutations — with a **ratchet** that only lowers the ceiling, never raises it. 3,000+ changes, no reported incident *(Anthropic on Anthropic's model improving Anthropic's product — the method is copyable, the magnitude is not independent evidence)*
+
 ### Distributed systems at scale
 
 - [Zalando's Client-Side Load Balancing](zalando-client-side-load-balancing.md) — moving ~1M req/s off a shared edge load balancer into the calling process: watch-based discovery, consistent hashing with hash parity, occupancy (Little's Law) as the load signal, N-ring fade-in, bounded-load walk, and the cache-locality-vs-zone-cost trade-offs

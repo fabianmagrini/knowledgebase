@@ -28,6 +28,7 @@ related:
   - case-studies/linear-ci-rework.md
   - reading/the-capability-overhang.md
   - engineering/ai-native/accountability-for-unread-code.md
+  - case-studies/anthropic-claude-ai-performance-sprint.md
 source: "https://addyo.substack.com/p/brownfield-agentic-engineering"
 updated: 2026-10-10
 ---

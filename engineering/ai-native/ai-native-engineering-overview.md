@@ -71,6 +71,7 @@ related:
   - standards/agent-interop-protocols.md
   - reading/the-capability-overhang.md
   - engineering/ai-native/accountability-for-unread-code.md
+  - case-studies/anthropic-claude-ai-performance-sprint.md
 updated: 2026-06-27
 ---
 
@@ -291,6 +292,11 @@ A map of the notes on building software with AI agents. They answer different qu
 - [The APEX Framework](apex-framework.md) — a measurement operating model (AI Leverage,
   Predictability, Flow Efficiency, Developer Experience) for judging whether AI adoption creates
   *sustainable* value, measured at the PR and in the critical path rather than by tool adoption.
+- [Anthropic's claude.ai Performance Sprint](../../case-studies/anthropic-claude-ai-performance-sprint.md)
+  — what an agent needs in order to optimise something: not a better metric but a **deterministic**
+  one. Wall-clock time was too noisy to gate on, so CI gated on CPU instruction counts and React
+  commits, with a ratchet that only lowers the ceiling *(in case studies; Anthropic on its own
+  model and product)*.
 - [Agentic AI in the SDLC — A Research Survey](../../reading/agentic-sdlc-survey.md) — the empirical
   anchor under the cluster: a six-layer reference architecture, the SWE-bench/productivity evidence
   (and why benchmark gains ≠ team throughput), and five open problems mapped onto these notes

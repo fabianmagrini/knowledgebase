@@ -16,6 +16,7 @@ related:
   - engineering/ai-native/brownfield-agentic-engineering.md
   - case-studies/chatgpt-web-performance.md
   - case-studies/github-huge-pr-rendering.md
+  - case-studies/anthropic-claude-ai-performance-sprint.md
 source: "https://linear.app/now/ci-bottleneck-reworked"
 updated: 2026-10-10
 ---
