@@ -25,6 +25,7 @@ related:
   - case-studies/ramp-inspect-agent-platform.md
   - reading/llm-maintained-wiki.md
   - concepts/latency-patterns.md
+  - case-studies/linear-ci-rework.md
 source: "https://addyo.substack.com/p/brownfield-agentic-engineering"
 updated: 2026-10-10
 ---

@@ -67,6 +67,7 @@ related:
   - engineering/ai-native/substitution-myth-in-code-review.md
   - engineering/ai-native/brownfield-agentic-engineering.md
   - reading/reactive-reducer-orchestration.md
+  - case-studies/linear-ci-rework.md
 updated: 2026-06-27
 ---
 
@@ -96,6 +97,10 @@ A map of the notes on building software with AI agents. They answer different qu
   pipeline as the guardrail that makes agent-speed delivery safe.
 - [CI Speed When Agents Write the Code](ci-speed-with-ai-agents.md) — why fast CI's
   context-switching rationale weakens once agents, not humans, wait on the pipeline.
+- [Linear's CI Rework Under Agent Volume](../../case-studies/linear-ci-rework.md) — the first
+  evidence bearing on that argument: ~2,000 tests a week and a near-quadrupled suite answered by
+  attacking fixed overhead and runner spend rather than latency for its own sake. Setup cost caps
+  sharding, and one cache was dropped because rebuilding was faster *(in case studies)*.
 - [AI-DLC and the Reimagined SDLC](ai-dlc-methodology.md) — a concrete, ceremony-level
   methodology (AI-DLC, V-Bounce, Bolts/Units/Intents) instantiating the agentic loop.
 - [Spec-Driven Development](spec-driven-development.md) — the spec, not the code, as the

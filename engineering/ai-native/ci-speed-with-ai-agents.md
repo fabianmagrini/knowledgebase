@@ -15,8 +15,9 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - concepts/devops-capability-model.md
   - case-studies/anthropic-ai-native-teams.md
+  - case-studies/linear-ci-rework.md
 source: ""
-updated: 2026-06-21
+updated: 2026-10-10
 ---
 
 # CI Speed When Agents Write the Code
@@ -88,6 +89,19 @@ constraint to a throughput-and-cost optimisation.** When humans waited, latency 
 the enemy because it broke people. When agents wait, latency is a dial you trade
 against thoroughness and spend — and you may rationally choose a slower, more
 rigorous pipeline than you ever would have for a human in the loop.
+
+## The first evidence
+
+This note is reasoning, not reporting — it carries no source. The nearest thing to a test of it
+is [Linear's CI Rework Under Agent Volume](../../case-studies/linear-ci-rework.md), which
+supports the reframing: facing ~2,000 new tests a week and a suite that almost quadrupled, Linear
+attacked **fixed overhead and runner spend** (~87,000 runner-minutes a month) rather than chasing
+latency for developer flow, and accepted a modest wait-time gain — 6+ minutes to just over 5.
+
+The limit on that support is worth stating: they never discuss the trade-off this note poses,
+because absorbing the volume at roughly constant latency turned out to be achievable. A team for
+whom it was *not* — forced to choose between a slower, more thorough pipeline and a faster, thinner
+one — would be the real test.
 
 ## Caveats
 

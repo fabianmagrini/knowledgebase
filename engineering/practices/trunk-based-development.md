@@ -23,6 +23,7 @@ related:
   - engineering/practices/gitops.md
   - engineering/ai-native/ci-speed-with-ai-agents.md
   - engineering/practices/database-migration-strategies.md
+  - case-studies/linear-ci-rework.md
 ---
 
 # Trunk-Based Development

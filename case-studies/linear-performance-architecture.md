@@ -15,6 +15,7 @@ related:
   - case-studies/chatgpt-web-performance.md
   - languages-and-frameworks/react-state-management.md
   - engineering/practices/spa-soak-testing.md
+  - case-studies/linear-ci-rework.md
 source: "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown"
 updated: 2026-06-22
 ---
