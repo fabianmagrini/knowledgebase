@@ -64,6 +64,7 @@ related:
   - engineering/ai-native/model-routing-and-ai-gateways.md
   - engineering/ai-native/team-topologies-agentic-platform.md
   - case-studies/cursor-agent-swarm-economics.md
+  - engineering/ai-native/substitution-myth-in-code-review.md
 updated: 2026-06-27
 ---
 
@@ -153,6 +154,11 @@ A map of the notes on building software with AI agents. They answer different qu
 - [Replacing Code Review With Upstream Verification](review-replacement.md) — the far end of the
   spectrum: review declared obsolete, replaced by five upstream layers. Cites the same Faros data
   as dark-factories-examined and draws the opposite conclusion from it.
+- [The Substitution Myth in Code Review](substitution-myth-in-code-review.md) — the principled
+  counter-endpoint to that spectrum: decompose review into measurable functions, show machines
+  replicate each, declare the human redundant — while the contribution that mattered was the
+  integration across them. Seven non-detection functions enumerated, from confusion-as-signal to
+  skin in the game.
 - [Control and Complexity](../../concepts/control-and-complexity.md) — the theory under this
   section's disagreements: control-shaped and complexity-shaped design are different philosophies,
   and a static barrier can satisfy a practice's stated purpose while deleting the emergent ones it

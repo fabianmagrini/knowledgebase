@@ -16,6 +16,7 @@ related:
   - sre/self-blame-in-incident-reviews.md
   - sre/heroic-saves-are-near-misses.md
   - engineering/architecture/runtime-architecture-verification.md
+  - engineering/ai-native/substitution-myth-in-code-review.md
 source: "https://ferd.ca/control-and-complexity-tension-in-systems-design.html"
 updated: 2026-08-30
 ---
@@ -135,6 +136,10 @@ closes with "systems are systems. They will keep acting like systems, and failin
   — a concrete instance of the static-barrier objection, arrived at independently: an import rule
   satisfied its stated purpose while a synchronous HTTP call walked around the architecture it
   was meant to enforce, visible only by observing the running system.
+- [The Substitution Myth in Code Review](../engineering/ai-native/substitution-myth-in-code-review.md)
+  — the answer to the question this note only poses. Hebert asks what emergent roles a practice
+  may have; Allspaw enumerates seven for code review, filling in the one-row summary in the table
+  above.
 - [Self-Blame in Post-Incident Reviews](../sre/self-blame-in-incident-reviews.md) — already
   borrows Hebert's "superficial blamelessness". Redirecting toward local rationality *is* the
   complexity view applied to one conversation; "be more careful" is the control view's answer.

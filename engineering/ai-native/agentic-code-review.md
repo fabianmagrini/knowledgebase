@@ -35,6 +35,7 @@ related:
   - engineering/architecture/comprehension-as-architecture.md
   - engineering/ai-native/linters-over-ai-review.md
   - engineering/ai-native/review-replacement.md
+  - engineering/ai-native/substitution-myth-in-code-review.md
 source: "https://addyo.substack.com/p/agentic-code-review"
 updated: 2026-06-20
 ---

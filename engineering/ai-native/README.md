@@ -58,6 +58,7 @@ in **[Practices](../practices/)**.
 - [Agentic Code Review](agentic-code-review.md)
 - [Linters Over AI Review](linters-over-ai-review.md)
 - [Replacing Code Review With Upstream Verification](review-replacement.md)
+- [The Substitution Myth in Code Review](substitution-myth-in-code-review.md)
 - [Harness Engineering](harness-engineering.md)
 - [Harness Design for Long-Running App Development](harness-design-experiments.md)
 - [Quality-First AI Coding](quality-first-ai-coding.md)

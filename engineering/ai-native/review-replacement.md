@@ -18,6 +18,7 @@ related:
   - engineering/ai-native/ai-native-engineering-overview.md
   - concepts/progressive-delivery.md
   - concepts/control-and-complexity.md
+  - engineering/ai-native/substitution-myth-in-code-review.md
 source: "https://www.latent.space/p/reviews-dead"
 updated: 2026-08-29
 ---
