@@ -15,6 +15,7 @@ related:
   - tools/claude-code-steering-mechanisms.md
   - leadership/learning-culture-ai-agents.md
   - reading/how-i-use-llms-2026.md
+  - reading/the-capability-overhang.md
 source: "https://addyo.substack.com/p/the-prompt-engineering-playbook-for"
 updated: 2026-06-14
 ---

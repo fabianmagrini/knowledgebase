@@ -15,6 +15,7 @@ related:
   - engineering/ai-native/ai-native-engineering-overview.md
   - reading/offloading-thinking-to-ai.md
   - reading/ai-productivity-research.md
+  - reading/the-capability-overhang.md
 source: "https://www.seangoedecke.com/how-i-use-llms-in-2026/"
 updated: 2026-06-27
 ---

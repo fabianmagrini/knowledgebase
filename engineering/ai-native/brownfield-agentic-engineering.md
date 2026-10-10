@@ -26,6 +26,7 @@ related:
   - reading/llm-maintained-wiki.md
   - concepts/latency-patterns.md
   - case-studies/linear-ci-rework.md
+  - reading/the-capability-overhang.md
 source: "https://addyo.substack.com/p/brownfield-agentic-engineering"
 updated: 2026-10-10
 ---

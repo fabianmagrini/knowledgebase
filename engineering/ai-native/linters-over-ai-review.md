@@ -21,6 +21,7 @@ related:
   - concepts/control-and-complexity.md
   - engineering/ai-native/substitution-myth-in-code-review.md
   - engineering/ai-native/brownfield-agentic-engineering.md
+  - reading/the-capability-overhang.md
 source: "https://swizec.com/blog/stop-burning-tokens-on-code-review"
 updated: 2026-10-10
 ---

@@ -18,6 +18,7 @@ related:
   - engineering/ai-native/brownfield-agentic-engineering.md
   - reading/reactive-reducer-orchestration.md
   - standards/agent-interop-protocols.md
+  - reading/the-capability-overhang.md
 source: "https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html"
 updated: 2026-08-30
 ---

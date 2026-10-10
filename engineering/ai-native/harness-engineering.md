@@ -36,6 +36,7 @@ related:
   - case-studies/ramp-inspect-agent-platform.md
   - reading/reactive-reducer-orchestration.md
   - standards/agent-interop-protocols.md
+  - reading/the-capability-overhang.md
 source: "https://diego-pacheco.blogspot.com/2026/05/harness-engineering.html"
 updated: 2026-06-20
 ---

@@ -15,6 +15,7 @@ related:
   - leadership/all-hands-meetings.md
   - leadership/engineering-leadership-overview.md
   - leadership/landing-the-plane.md
+  - reading/the-capability-overhang.md
 source: "https://bjorg.bjornroche.com/management/magical-thinking/"
 updated: 2026-08-03
 ---

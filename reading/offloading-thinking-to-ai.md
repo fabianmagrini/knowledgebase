@@ -12,6 +12,7 @@ related:
   - leadership/learning-organisation.md
   - leadership/learning-culture-ai-agents.md
   - engineering/ai-native/agentic-code-review.md
+  - reading/the-capability-overhang.md
 source: "https://www.artfish.ai/p/offloading-thinking-to-ai"
 updated: 2026-07-26
 ---

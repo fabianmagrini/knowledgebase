@@ -19,6 +19,7 @@ related:
   - reading/offloading-thinking-to-ai.md
   - reading/ai-productivity-research.md
   - engineering/ai-native/substitution-myth-in-code-review.md
+  - reading/the-capability-overhang.md
 updated: 2026-06-29
 ---
 

@@ -69,6 +69,7 @@ related:
   - reading/reactive-reducer-orchestration.md
   - case-studies/linear-ci-rework.md
   - standards/agent-interop-protocols.md
+  - reading/the-capability-overhang.md
 updated: 2026-06-27
 ---
 
@@ -88,6 +89,11 @@ A map of the notes on building software with AI agents. They answer different qu
 - [Scaling AI Adoption in the SDLC](scaling-ai-adoption.md) — moving from a few developers with an
   assistant to an integrated agentic SDLC is an organisational programme, not a licensing
   exercise.
+- [The Capability Overhang](../../reading/the-capability-overhang.md) — Mollick's name for the
+  premise that note and three others rest on: capability already exceeds utilisation, so the
+  binding constraint is absorption. Also the **jagged frontier** — capability is ragged and not
+  where intuition puts it, which is why zones and quality gates beat uniform policy
+  *(in reading; argued from demonstrations, not measured)*.
 - [The AI Factory](ai-factory.md) — the factory framing narrowed to software engineering: a
   production system for coding agents rather than a metaphor.
 

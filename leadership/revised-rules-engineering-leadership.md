@@ -20,6 +20,7 @@ related:
   - product/prioritisation-as-a-symptom.md
   - case-studies/anthropic-ai-native-teams.md
   - engineering/practices/feature-flags-and-branch-by-abstraction.md
+  - reading/the-capability-overhang.md
 source: "https://lethain.com/revised-rules-of-engineering-leadership/; https://lethain.com/decisions-not-dates/"
 updated: 2026-08-30
 ---

@@ -19,6 +19,7 @@ related:
   - reading/new-sdlc-vibe-coding.md
   - leadership/magical-thinking.md
   - engineering/ai-native/tdd-in-the-agent-loop.md
+  - reading/the-capability-overhang.md
 updated: 2026-08-23
 ---
 
