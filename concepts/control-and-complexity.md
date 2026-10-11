@@ -20,6 +20,7 @@ related:
   - sre/cognitive-diversity-in-incident-reviews.md
   - engineering/architecture/reversibility-decays.md
   - leadership/coach-and-judge.md
+  - engineering/architecture/llm-platform-engineering.md
 source: "https://ferd.ca/control-and-complexity-tension-in-systems-design.html; https://andiroberts.com/leadership/decision-making-under-uncertainty"
 updated: 2026-10-11
 ---

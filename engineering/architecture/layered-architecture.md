@@ -17,6 +17,7 @@ related:
   - engineering/practices/software-design-principles.md
   - engineering/architecture/comprehension-as-architecture.md
   - engineering/architecture/agile-design-decisions.md
+  - engineering/architecture/llm-platform-engineering.md
 source: "https://mikehuls.com/layered-architecture-for-building-readable-robust-and-extensible-apps/"
 updated: 2026-10-10
 ---

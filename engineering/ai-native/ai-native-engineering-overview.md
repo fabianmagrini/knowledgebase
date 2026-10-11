@@ -75,6 +75,7 @@ related:
   - engineering/ai-native/activity-metrics-obsolete.md
   - reading/state-of-tech-2026.md
   - case-studies/uber-mcp-gateway.md
+  - engineering/architecture/llm-platform-engineering.md
   - case-studies/doordash-flag-cleanup-agents.md
   - case-studies/github-copilot-rust-migration.md
 updated: 2026-06-27
@@ -331,6 +332,10 @@ A map of the notes on building software with AI agents. They answer different qu
   anchor under the cluster: a six-layer reference architecture, the SWE-bench/productivity evidence
   (and why benchmark gains ≠ team throughput), and five open problems mapped onto these notes
   *(in reading)*.
+- [Platform Engineering for Production LLMs](../architecture/llm-platform-engineering.md) — the
+  other side this cluster skips: *operating* LLM features in production rather than building
+  software with agents. Hallucination becomes measurable via schema flags, prompts get runtime
+  rollback, and authorisation moves to the resource server *(in architecture)*.
 - [Data Readiness for Agents](../architecture/data-readiness-for-agents.md) — the input side this
   cluster otherwise ignores: it is almost entirely about generating *code*, and says little about
   the data agents act on. A human hesitates at data that looks wrong; an agent does not, so the

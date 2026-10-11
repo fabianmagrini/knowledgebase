@@ -23,6 +23,7 @@ related:
   - leadership/learning-organisation.md
   - leadership/magical-thinking.md
   - product/modelling-business-impact.md
+  - engineering/architecture/llm-platform-engineering.md
 source: "https://bharatsharma.pro/articles/activity-based-engineering-metrics-are-obsolete"
 updated: 2026-10-11
 ---

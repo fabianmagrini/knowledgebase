@@ -34,6 +34,7 @@ related:
   - engineering/architecture/enforced-architecture-rules.md
   - engineering/architecture/runtime-architecture-verification.md
   - engineering/architecture/data-readiness-for-agents.md
+  - engineering/architecture/llm-platform-engineering.md
   - engineering/architecture/layered-architecture.md
   - engineering/architecture/skeleton-architecture.md
   - engineering/architecture/caching-reference-data-apis.md
@@ -142,6 +143,10 @@ systems.
 - [Enforced Architecture Rules for Agents and Humans](enforced-architecture-rules.md) — the
   constraints made executable: package, layer and role rules that fail the build, ordered
   cheapest-first, making violations unrepresentable rather than discouraged.
+- [Platform Engineering for Production LLMs](llm-platform-engineering.md) — the serving layer:
+  hallucination as a platform-controllable metric via schema flags the model must declare, a
+  prompt registry with rollback without redeploy, and authorisation enforced at the resource
+  rather than only at the gateway.
 - [Data Readiness for Agents](data-readiness-for-agents.md) — constraints on the data side: the
   scepticism a human analyst supplied silently has to become contracts, freshness SLAs and
   quarantine, with business rules in code because "retrieved text informs, it never gates".

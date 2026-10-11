@@ -18,6 +18,7 @@ related:
   - engineering/architecture/data-readiness-for-agents.md
   - standards/agent-interop-protocols.md
   - engineering/ai-native/activity-metrics-obsolete.md
+  - engineering/architecture/llm-platform-engineering.md
 source: "https://generativeprogrammer.com/p/10-open-source-projects-for-securing"
 updated: 2026-08-08
 ---

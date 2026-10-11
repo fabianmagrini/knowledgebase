@@ -31,6 +31,7 @@ related:
   - engineering/architecture/primitives-over-frameworks.md
   - engineering/architecture/reversibility-decays.md
   - engineering/architecture/layered-architecture.md
+  - engineering/architecture/llm-platform-engineering.md
 source: "https://gist.github.com/fabianmagrini/76071cbc06aa1a5eafd19a7fb5ea2457"
 updated: 2026-06-20
 ---

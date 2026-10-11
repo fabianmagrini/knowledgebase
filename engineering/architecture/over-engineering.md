@@ -18,6 +18,7 @@ related:
   - engineering/architecture/primitives-over-frameworks.md
   - engineering/architecture/change-locality.md
   - engineering/architecture/layered-architecture.md
+  - engineering/architecture/llm-platform-engineering.md
 source: "https://var0.xyz/posts/perfection-is-not-over-engineering.html"
 updated: 2026-08-03
 ---

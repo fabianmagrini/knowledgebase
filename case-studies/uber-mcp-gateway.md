@@ -17,6 +17,7 @@ related:
   - case-studies/portkey-product-engineer-company.md
   - engineering/ai-native/ai-factory.md
   - concepts/latency-patterns.md
+  - engineering/architecture/llm-platform-engineering.md
 source: "https://www.uber.com/gb/en/blog/designing-mcp-gateway/"
 updated: 2026-10-11
 ---

@@ -23,6 +23,7 @@ related:
   - standards/agent-interop-protocols.md
   - case-studies/github-copilot-rust-migration.md
   - case-studies/uber-mcp-gateway.md
+  - engineering/architecture/llm-platform-engineering.md
 source: "https://www.infoq.com/articles/evolutionary-architecture-pattern/"
 updated: 2026-08-03
 ---
