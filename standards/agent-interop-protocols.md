@@ -19,6 +19,7 @@ related:
   - case-studies/openai-agent-first-harness.md
   - case-studies/stripe-kai-agent-platform.md
   - case-studies/doordash-flag-cleanup-agents.md
+  - case-studies/uber-mcp-gateway.md
 source: "https://generativeprogrammer.com/p/the-emerging-standards-behind-ai"
 updated: 2026-10-10
 ---

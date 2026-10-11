@@ -21,6 +21,7 @@ related:
   - engineering/architecture/data-readiness-for-agents.md
   - engineering/ai-native/brownfield-agentic-engineering.md
   - reading/the-capability-overhang.md
+  - case-studies/uber-mcp-gateway.md
 source: "https://codemanship.wordpress.com/2026/05/04/c-r-e-s-s-principles-for-context-engineering/"
 updated: 2026-07-05
 ---

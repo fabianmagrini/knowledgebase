@@ -74,6 +74,7 @@ related:
   - case-studies/anthropic-claude-ai-performance-sprint.md
   - engineering/ai-native/activity-metrics-obsolete.md
   - reading/state-of-tech-2026.md
+  - case-studies/uber-mcp-gateway.md
   - case-studies/doordash-flag-cleanup-agents.md
   - case-studies/github-copilot-rust-migration.md
 updated: 2026-06-27
@@ -131,6 +132,10 @@ A map of the notes on building software with AI agents. They answer different qu
 - [Team Topologies for the Agentic Platform](team-topologies-agentic-platform.md) — Skelton &
   Pais applied to an organisation built around an agentic platform: who owns the factory, and
   which team types survive it.
+- [Uber's MCP Gateway](../../case-studies/uber-mcp-gateway.md) — the tools layer of that
+  platform at 800+ servers and 5,000+ tools: a registry/proxy control-plane split, auto-generated
+  MCP from IDLs, and **"discovery doesn't imply exposure"** as the governance rule that makes bulk
+  generation safe *(in case studies)*.
 - [Ramp's Inspect Agent Platform](../../case-studies/ramp-inspect-agent-platform.md) — that
   platform layer built in one company: agents moved off laptops onto cloud sandboxes to remove
   the parallel-session ceiling, an existing harness wrapped in internal integrations, and the

@@ -16,6 +16,7 @@ related:
   - reading/new-sdlc-vibe-coding.md
   - engineering/ai-native/light-and-dark-factories.md
   - case-studies/openai-agent-first-harness.md
+  - case-studies/uber-mcp-gateway.md
 updated: 2026-07-03
 ---
 

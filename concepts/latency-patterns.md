@@ -17,6 +17,7 @@ related:
   - case-studies/linear-ci-rework.md
   - case-studies/github-huge-pr-rendering.md
   - case-studies/anthropic-claude-ai-performance-sprint.md
+  - case-studies/uber-mcp-gateway.md
 source: "https://generativeprogrammer.com/p/latency-patterns-for-faster-ai-applications"
 updated: 2026-08-30
 ---

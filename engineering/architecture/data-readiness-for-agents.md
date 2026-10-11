@@ -19,6 +19,7 @@ related:
   - reading/reactive-reducer-orchestration.md
   - standards/agent-interop-protocols.md
   - reading/the-capability-overhang.md
+  - case-studies/uber-mcp-gateway.md
 source: "https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html"
 updated: 2026-08-30
 ---
