@@ -37,6 +37,7 @@ related:
   - leadership/principal-engineer-consensus.md
   - leadership/arguing-to-win.md
   - leadership/learning-culture-ai-agents.md
+  - product/modelling-business-impact.md
 updated: 2026-08-30
 ---
 
@@ -50,6 +51,10 @@ how to set direction and make good decisions with other people.
 - [Start with the Why](start-with-why.md) — lead with purpose before approach or output.
 - [A Plan Is Not a Strategy](plan-is-not-a-strategy.md) — strategy is an integrative set of
   choices (where to play / how to win), not a controllable list of initiatives.
+- [Modelling Software's Business Impact](../product/modelling-business-impact.md) — the value
+  side of the measurement question: NPV models, Pirate Metrics as proxies for an attribution
+  problem that cannot be solved directly, and the reframe that a model earns its place by forcing
+  hidden assumptions into the open rather than by being accurate *(in product)*.
 - [From Mission to Metrics](mission-to-metrics.md) — the continuation of that: the written
   mission → strategy → goals → metrics cascade that lets a growing organisation distribute
   decisions, the target/guardrail/diagnostic split, and the Goodhart failure modes.

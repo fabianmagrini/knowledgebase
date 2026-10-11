@@ -16,6 +16,7 @@ related:
   - leadership/engineering-manager-role.md
   - leadership/mission-to-metrics.md
   - product/prioritisation-as-a-symptom.md
+  - product/modelling-business-impact.md
 source: "https://www.youtube.com/watch?v=iuYlGRnC7J8"
 updated: 2026-06-21
 ---

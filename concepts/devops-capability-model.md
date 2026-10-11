@@ -21,6 +21,7 @@ related:
   - leadership/learning-organisation.md
   - engineering/architecture/team-topologies.md
   - engineering/ai-native/activity-metrics-obsolete.md
+  - product/modelling-business-impact.md
 source: "Forsgren, Humble & Kim — Accelerate: The Science of Lean Software and DevOps (2018); https://dora.dev"
 updated: 2026-06-21
 ---

@@ -32,6 +32,7 @@ related:
   - engineering/architecture/runtime-architecture-verification.md
   - case-studies/linear-ci-rework.md
   - engineering/ai-native/activity-metrics-obsolete.md
+  - product/modelling-business-impact.md
 source: "https://stackoverflow.blog/2026/05/12/you-shipped-it-fast-but-did-you-ship-it-right/"
 updated: 2026-06-20
 ---

@@ -15,6 +15,7 @@ related:
   - product/prioritisation-as-a-symptom.md
   - leadership/finding-problems-to-solve.md
   - engineering/ai-native/activity-metrics-obsolete.md
+  - product/modelling-business-impact.md
 source: "https://www.anniez.xyz/p/mission-to-metrics"
 updated: 2026-07-26
 ---
