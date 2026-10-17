@@ -76,6 +76,7 @@ related:
   - reading/state-of-tech-2026.md
   - case-studies/uber-mcp-gateway.md
   - engineering/architecture/llm-platform-engineering.md
+  - engineering/ai-native/agentic-verification.md
   - case-studies/doordash-flag-cleanup-agents.md
   - case-studies/github-copilot-rust-migration.md
 updated: 2026-06-27
@@ -216,6 +217,11 @@ A map of the notes on building software with AI agents. They answer different qu
   anchored in built evidence rather than rhetoric *(in architecture)*.
 - [Eval-Driven Development for AI Capabilities](eval-driven-ai-development.md) — testing the
   prompts/skills/agents themselves, not just the code they emit.
+- [Agentic Verification](agentic-verification.md) — three techniques for checking agent-written
+  code: **E2E as ground truth** because a mock encodes the agent's own misunderstanding of the
+  dependency, **property-based tests** for invariants an agent never thinks to try, and
+  **differential tests** treating the legacy system as the oracle — which is what migration
+  blindness looks like when it is missing.
 - [TDD Inside the Agent Loop](tdd-in-the-agent-loop.md) — Böckeler's experiment finding
   agent-authored test-first runs produced *worse* solutions at 3–8× the tokens, because the
   forcing function and the psychology both depend on a human. Measure the outcome (mutation

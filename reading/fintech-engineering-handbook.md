@@ -9,6 +9,7 @@ level: intermediate
 related:
   - concepts/resilient-software-design.md
   - engineering/security/secure-sdlc.md
+  - engineering/ai-native/agentic-verification.md
 source: "https://w.pitula.me/fintech-engineering-handbook/"
 updated: 2026-07-11
 ---

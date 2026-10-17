@@ -28,6 +28,7 @@ related:
   - engineering/architecture/enforced-architecture-rules.md
   - engineering/ai-native/linters-over-ai-review.md
   - engineering/ai-native/brownfield-agentic-engineering.md
+  - engineering/ai-native/agentic-verification.md
 source: "https://generativeprogrammer.com/p/stop-babysitting-your-coding-agent"
 updated: 2026-06-20
 ---

@@ -16,6 +16,7 @@ related:
   - concepts/devops-capability-model.md
   - case-studies/anthropic-ai-native-teams.md
   - case-studies/linear-ci-rework.md
+  - engineering/ai-native/agentic-verification.md
 source: ""
 updated: 2026-10-10
 ---

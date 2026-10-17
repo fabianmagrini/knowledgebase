@@ -18,6 +18,7 @@ related:
   - case-studies/lovable-nextjs-migration.md
   - engineering/ai-native/ai-gateway-control-plane.md
   - case-studies/cloudflare-ai-code-review.md
+  - engineering/ai-native/agentic-verification.md
 source: "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/"
 updated: 2026-10-11
 ---

@@ -42,6 +42,7 @@ related:
   - case-studies/rewind-ai-pr-approval.md
   - concepts/control-plane-data-plane.md
   - case-studies/linear-ci-rework.md
+  - engineering/ai-native/agentic-verification.md
 ---
 
 # CI/CD as the Control Plane for AI-Assisted Engineering

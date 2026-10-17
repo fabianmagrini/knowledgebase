@@ -27,6 +27,7 @@ related:
   - engineering/ai-native/accountability-for-unread-code.md
   - engineering/ai-native/activity-metrics-obsolete.md
   - product/modelling-business-impact.md
+  - engineering/ai-native/agentic-verification.md
 source: "https://www.infoq.com/articles/system-comprehension-evolutionary-architecture/"
 updated: 2026-08-23
 ---

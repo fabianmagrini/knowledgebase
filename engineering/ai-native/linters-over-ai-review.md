@@ -23,6 +23,7 @@ related:
   - engineering/ai-native/brownfield-agentic-engineering.md
   - reading/the-capability-overhang.md
   - case-studies/doordash-flag-cleanup-agents.md
+  - engineering/ai-native/agentic-verification.md
 source: "https://swizec.com/blog/stop-burning-tokens-on-code-review"
 updated: 2026-10-10
 ---

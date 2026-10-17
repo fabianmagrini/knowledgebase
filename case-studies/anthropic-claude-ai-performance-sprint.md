@@ -19,6 +19,7 @@ related:
   - case-studies/rootly-pr-size-risk-labels.md
   - engineering/ai-native/brownfield-agentic-engineering.md
   - case-studies/github-copilot-rust-migration.md
+  - engineering/ai-native/agentic-verification.md
 source: "https://claude.dev/blog/how-we-made-claude-ai-faster/"
 updated: 2026-10-11
 ---

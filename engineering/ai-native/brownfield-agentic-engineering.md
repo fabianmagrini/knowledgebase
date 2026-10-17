@@ -34,6 +34,7 @@ related:
   - case-studies/github-copilot-rust-migration.md
   - reading/state-of-tech-2026.md
   - engineering/architecture/llm-platform-engineering.md
+  - engineering/ai-native/agentic-verification.md
 source: "https://addyo.substack.com/p/brownfield-agentic-engineering"
 updated: 2026-10-10
 ---
