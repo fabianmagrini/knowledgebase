@@ -13,8 +13,9 @@ related:
   - engineering/security/agent-skill-security.md
   - case-studies/lovable-nextjs-migration.md
   - case-studies/github-copilot-rust-migration.md
+  - languages-and-frameworks/rust-for-agentic-development.md
 source: "https://spf13.com/p/go-the-agentic-language/; https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/"
-updated: 2026-08-16
+updated: 2026-10-18
 ---
 
 # Go as an Agentic Language

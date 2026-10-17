@@ -26,8 +26,9 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - engineering/ai-native/ci-cd-ai-engineering.md
   - reading/fintech-engineering-handbook.md
+  - languages-and-frameworks/rust-for-agentic-development.md
 source: "https://addyo.substack.com/p/agentic-verification"
-updated: 2026-10-17
+updated: 2026-10-18
 ---
 
 # Agentic Verification

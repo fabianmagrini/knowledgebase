@@ -23,8 +23,9 @@ related:
   - case-studies/github-copilot-rust-migration.md
   - reading/state-of-tech-2026.md
   - engineering/ai-native/agentic-verification.md
+  - languages-and-frameworks/rust-for-agentic-development.md
 source: "https://addyo.substack.com/p/the-code-nobody-reads"
-updated: 2026-10-11
+updated: 2026-10-18
 ---
 
 # Accountability for Unread Code

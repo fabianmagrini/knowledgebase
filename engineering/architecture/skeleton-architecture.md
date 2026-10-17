@@ -14,8 +14,9 @@ related:
   - engineering/ai-native/agentic-sdlc.md
   - engineering/architecture/enforced-architecture-rules.md
   - engineering/architecture/layered-architecture.md
+  - languages-and-frameworks/rust-for-agentic-development.md
 source: "https://www.infoq.com/articles/skeleton-architecture/"
-updated: 2026-07-19
+updated: 2026-10-18
 ---
 
 # Skeleton Architecture

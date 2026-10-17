@@ -29,8 +29,9 @@ related:
   - engineering/ai-native/linters-over-ai-review.md
   - engineering/ai-native/brownfield-agentic-engineering.md
   - engineering/ai-native/agentic-verification.md
+  - languages-and-frameworks/rust-for-agentic-development.md
 source: "https://generativeprogrammer.com/p/stop-babysitting-your-coding-agent"
-updated: 2026-06-20
+updated: 2026-10-18
 ---
 
 # Backpressure Loops for Coding Agents

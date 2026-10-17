@@ -20,8 +20,9 @@ related:
   - concepts/control-and-complexity.md
   - engineering/ai-native/agentic-verification.md
   - product/four-abstraction-levels-of-refinement.md
+  - languages-and-frameworks/rust-for-agentic-development.md
 source: "https://brooker.co.za/blog/2026/04/09/waterfall-vs-spec"
-updated: 2026-10-17
+updated: 2026-10-18
 ---
 
 # Spec-Driven Development

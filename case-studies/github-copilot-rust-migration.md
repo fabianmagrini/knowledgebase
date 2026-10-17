@@ -19,8 +19,9 @@ related:
   - engineering/ai-native/ai-gateway-control-plane.md
   - case-studies/cloudflare-ai-code-review.md
   - engineering/ai-native/agentic-verification.md
+  - languages-and-frameworks/rust-for-agentic-development.md
 source: "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/"
-updated: 2026-10-11
+updated: 2026-10-18
 ---
 
 # Migrating the Copilot Runtime to Rust With Agents
