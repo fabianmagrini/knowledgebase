@@ -15,8 +15,9 @@ related:
   - reading/offloading-thinking-to-ai.md
   - engineering/architecture/over-engineering.md
   - product/prioritisation-as-a-symptom.md
+  - product/four-abstraction-levels-of-refinement.md
 source: "https://registerspill.thorstenball.com/p/building-software-is-learning"
-updated: 2026-07-05
+updated: 2026-10-17
 ---
 
 # Building Software Is Learning

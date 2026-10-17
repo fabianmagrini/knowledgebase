@@ -17,8 +17,9 @@ related:
   - reading/multi-agent-coding-coordination.md
   - reading/what-is-software-engineering-ai.md
   - reading/state-of-tech-2026.md
+  - product/four-abstraction-levels-of-refinement.md
 source: "https://miren.dev/blog/agile-in-the-age-of-ai"
-updated: 2026-06-20
+updated: 2026-10-17
 ---
 
 # Agile in the Age of AI

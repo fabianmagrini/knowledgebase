@@ -32,8 +32,9 @@ related:
   - engineering/architecture/reversibility-decays.md
   - engineering/architecture/layered-architecture.md
   - engineering/architecture/llm-platform-engineering.md
+  - product/four-abstraction-levels-of-refinement.md
 source: "https://gist.github.com/fabianmagrini/76071cbc06aa1a5eafd19a7fb5ea2457"
-updated: 2026-06-20
+updated: 2026-10-17
 ---
 
 # Agile Design Decisions and Principles

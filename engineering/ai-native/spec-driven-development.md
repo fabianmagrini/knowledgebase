@@ -19,8 +19,9 @@ related:
   - engineering/ai-native/review-replacement.md
   - concepts/control-and-complexity.md
   - engineering/ai-native/agentic-verification.md
+  - product/four-abstraction-levels-of-refinement.md
 source: "https://brooker.co.za/blog/2026/04/09/waterfall-vs-spec"
-updated: 2026-06-20
+updated: 2026-10-17
 ---
 
 # Spec-Driven Development

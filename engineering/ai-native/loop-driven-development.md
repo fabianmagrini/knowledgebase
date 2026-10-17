@@ -28,11 +28,12 @@ related:
   - engineering/ai-native/tdd-in-the-agent-loop.md
   - engineering/ai-native/dark-factories-examined.md
   - case-studies/vercel-v0-instant-navigations.md
+  - product/four-abstraction-levels-of-refinement.md
 source:
   - "https://generativeprogrammer.com/p/from-test-driven-to-loop-driven-development"
   - "https://addyo.substack.com/p/loop-engineering"
   - "https://www.liquid.ai/blog/agent-loops"
-updated: 2026-08-29
+updated: 2026-10-17
 ---
 
 # Loop-Driven Development

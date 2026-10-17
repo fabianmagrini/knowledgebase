@@ -19,8 +19,9 @@ related:
   - engineering/architecture/change-locality.md
   - engineering/architecture/layered-architecture.md
   - engineering/architecture/llm-platform-engineering.md
+  - product/four-abstraction-levels-of-refinement.md
 source: "https://var0.xyz/posts/perfection-is-not-over-engineering.html"
-updated: 2026-08-03
+updated: 2026-10-17
 ---
 
 # Over-Engineering Is Solving the Wrong Problem
