@@ -21,8 +21,9 @@ related:
   - engineering/ai-native/trust-factory.md
   - reading/ownership-thorsten-ball.md
   - leadership/landing-the-plane.md
+  - case-studies/anthropic-scion-source-control.md
 source: "https://newsletter.optimistengineer.com/p/why-your-releases-feel-harder-than"
-updated: 2026-06-20
+updated: 2026-10-18
 ---
 
 # Release Confidence as a System Property

@@ -20,8 +20,9 @@ related:
   - engineering/ai-native/brownfield-agentic-engineering.md
   - case-studies/github-copilot-rust-migration.md
   - engineering/ai-native/agentic-verification.md
+  - case-studies/anthropic-scion-source-control.md
 source: "https://claude.dev/blog/how-we-made-claude-ai-faster/"
-updated: 2026-10-11
+updated: 2026-10-18
 ---
 
 # Anthropic's claude.ai Performance Sprint

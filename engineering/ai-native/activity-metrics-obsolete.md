@@ -26,8 +26,9 @@ related:
   - engineering/architecture/llm-platform-engineering.md
   - engineering/ai-native/agentic-verification.md
   - case-studies/uber-mcp-gateway.md
+  - case-studies/anthropic-scion-source-control.md
 source: "https://bharatsharma.pro/articles/activity-based-engineering-metrics-are-obsolete"
-updated: 2026-10-11
+updated: 2026-10-18
 ---
 
 # Activity Metrics Under AI

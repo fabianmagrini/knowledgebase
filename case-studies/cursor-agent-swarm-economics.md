@@ -20,8 +20,9 @@ related:
   - case-studies/doordash-flag-cleanup-agents.md
   - case-studies/github-copilot-rust-migration.md
   - reading/state-of-tech-2026.md
+  - case-studies/anthropic-scion-source-control.md
 source: "https://cursor.com/blog/agent-swarm-model-economics"
-updated: 2026-10-05
+updated: 2026-10-18
 ---
 
 # Cursor's Agent Swarm Economics

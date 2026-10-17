@@ -5,12 +5,13 @@ description: "fundamentals, workflow, rebase, stash, bisect, cherry-pick"
 tags: [git]
 topic: tools
 status: notes
-updated: 2026-06-13
+updated: 2026-10-18
 related:
   - engineering/practices/trunk-based-development.md
   - engineering/practices/polyrepo-branching-strategy.md
   - engineering/practices/code-review-policy.md
   - engineering/practices/gitops.md
+  - case-studies/anthropic-scion-source-control.md
 source: "https://gist.github.com/fabianmagrini/155e09d4ff0e49aaa8b66017aa7b96e5"
 ---
 

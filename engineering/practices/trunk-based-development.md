@@ -5,7 +5,7 @@ description: "All developers integrate to a single branch (main or trunk) contin
 tags: [git, ci-cd]
 topic: engineering/practices
 status: notes
-updated: 2026-06-15
+updated: 2026-10-18
 related:
   - engineering/practices/polyrepo-branching-strategy.md
   - engineering/practices/regulated-service-release-process.md
@@ -23,6 +23,7 @@ related:
   - engineering/practices/gitops.md
   - engineering/ai-native/ci-speed-with-ai-agents.md
   - engineering/practices/database-migration-strategies.md
+  - case-studies/anthropic-scion-source-control.md
   - case-studies/linear-ci-rework.md
 ---
 

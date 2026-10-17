@@ -18,8 +18,9 @@ related:
   - case-studies/linear-ci-rework.md
   - engineering/ai-native/agentic-verification.md
   - case-studies/uber-mcp-gateway.md
+  - case-studies/anthropic-scion-source-control.md
 source: ""
-updated: 2026-10-10
+updated: 2026-10-18
 ---
 
 # CI Speed When Agents Write the Code

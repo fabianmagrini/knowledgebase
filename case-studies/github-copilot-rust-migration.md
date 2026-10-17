@@ -20,6 +20,7 @@ related:
   - case-studies/cloudflare-ai-code-review.md
   - engineering/ai-native/agentic-verification.md
   - languages-and-frameworks/rust-for-agentic-development.md
+  - case-studies/anthropic-scion-source-control.md
 source: "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/"
 updated: 2026-10-18
 ---

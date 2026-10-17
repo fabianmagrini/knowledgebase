@@ -24,6 +24,7 @@ related:
   - reading/state-of-tech-2026.md
   - engineering/ai-native/agentic-verification.md
   - languages-and-frameworks/rust-for-agentic-development.md
+  - case-studies/anthropic-scion-source-control.md
 source: "https://addyo.substack.com/p/the-code-nobody-reads"
 updated: 2026-10-18
 ---

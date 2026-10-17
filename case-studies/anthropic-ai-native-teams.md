@@ -20,8 +20,9 @@ related:
   - case-studies/ramp-inspect-agent-platform.md
   - case-studies/anthropic-claude-ai-performance-sprint.md
   - reading/state-of-tech-2026.md
+  - case-studies/anthropic-scion-source-control.md
 source: "https://newsletter.eng-leadership.com/p/how-anthropic-builds-ai-native-engineering"
-updated: 2026-08-23
+updated: 2026-10-18
 ---
 
 # Anthropic's AI-Native Team Structure
