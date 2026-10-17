@@ -24,6 +24,7 @@ related:
   - case-studies/rootly-pr-size-risk-labels.md
   - case-studies/cursor-agent-swarm-economics.md
   - reading/agentic-ai-architecture-emag.md
+  - case-studies/uber-mcp-gateway.md
 source: "https://newsletter.pragmaticengineer.com/p/the-state-of-the-tech-industry-in"
 updated: 2026-10-11
 ---

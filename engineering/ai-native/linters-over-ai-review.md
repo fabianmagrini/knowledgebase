@@ -24,6 +24,7 @@ related:
   - reading/the-capability-overhang.md
   - case-studies/doordash-flag-cleanup-agents.md
   - engineering/ai-native/agentic-verification.md
+  - case-studies/uber-mcp-gateway.md
 source: "https://swizec.com/blog/stop-burning-tokens-on-code-review"
 updated: 2026-10-10
 ---

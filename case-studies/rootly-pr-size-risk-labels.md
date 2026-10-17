@@ -24,6 +24,7 @@ related:
   - case-studies/anthropic-claude-ai-performance-sprint.md
   - engineering/ai-native/activity-metrics-obsolete.md
   - reading/state-of-tech-2026.md
+  - case-studies/uber-mcp-gateway.md
 source: "https://rootly.com/blog/why-we-got-rid-of-our-small-pr-rule"
 updated: 2026-07-26
 ---

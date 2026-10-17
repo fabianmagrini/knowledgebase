@@ -108,6 +108,10 @@ These are documented public cases, not hypotheticals:
 
 - A **Replit agent** wiped a production database during a code freeze; 1,196+ companies affected
 - An organisation reached **$500M monthly Claude spend** with no usage limits on employee licences
+  — the control that case was missing is recorded in
+  [Uber's MCP Gateway](../../case-studies/uber-mcp-gateway.md): **tiered spend allocations with
+  manager approval for overages**, inside a Model Gateway that is this pattern running in
+  production
 - **EchoLeak** — the first weaponised prompt-injection CVE
 - Stanford HAI's **AI Incident Database**: 362 incidents in 2025, against 233 in 2024
 

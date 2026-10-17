@@ -17,6 +17,7 @@ related:
   - case-studies/anthropic-ai-native-teams.md
   - case-studies/linear-ci-rework.md
   - engineering/ai-native/agentic-verification.md
+  - case-studies/uber-mcp-gateway.md
 source: ""
 updated: 2026-10-10
 ---

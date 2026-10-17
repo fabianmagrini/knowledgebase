@@ -25,6 +25,7 @@ related:
   - product/modelling-business-impact.md
   - engineering/architecture/llm-platform-engineering.md
   - engineering/ai-native/agentic-verification.md
+  - case-studies/uber-mcp-gateway.md
 source: "https://bharatsharma.pro/articles/activity-based-engineering-metrics-are-obsolete"
 updated: 2026-10-11
 ---

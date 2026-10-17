@@ -39,6 +39,7 @@ related:
   - engineering/ai-native/brownfield-agentic-engineering.md
   - engineering/ai-native/accountability-for-unread-code.md
   - engineering/ai-native/agentic-verification.md
+  - case-studies/uber-mcp-gateway.md
 source: "https://addyo.substack.com/p/agentic-code-review"
 updated: 2026-06-20
 ---

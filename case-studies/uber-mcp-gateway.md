@@ -1,7 +1,7 @@
 ---
 type: case-study
 title: Uber's MCP Gateway
-description: "800+ MCP servers and 5,000+ tools behind a registry/proxy split, with 'discovery doesn't imply exposure' as the governance rule — and the resolution of the auto-generated-MCP HOLD: the objection is to exposure, not generation."
+description: "800+ MCP servers and 5,000+ tools behind a registry/proxy split, with 'discovery doesn't imply exposure' as the governance rule, the resolution of the auto-generated-MCP HOLD, and the surrounding platform — including PR categorisation instead of velocity counting."
 tags: [ai-engineering, architecture, agentic-workflows, governance, reading]
 topic: case-studies
 status: notes
@@ -18,8 +18,15 @@ related:
   - engineering/ai-native/ai-factory.md
   - concepts/latency-patterns.md
   - engineering/architecture/llm-platform-engineering.md
-source: "https://www.uber.com/gb/en/blog/designing-mcp-gateway/"
-updated: 2026-10-11
+  - engineering/ai-native/activity-metrics-obsolete.md
+  - case-studies/ramp-inspect-agent-platform.md
+  - case-studies/rootly-pr-size-risk-labels.md
+  - engineering/ai-native/agentic-code-review.md
+  - engineering/ai-native/linters-over-ai-review.md
+  - engineering/ai-native/ci-speed-with-ai-agents.md
+  - reading/state-of-tech-2026.md
+source: "https://www.uber.com/gb/en/blog/designing-mcp-gateway/; https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside"
+updated: 2026-10-17
 ---
 
 # Uber's MCP Gateway
@@ -148,6 +155,69 @@ Two decisions worth recording because they are about *not* building things:
 That second one is the generalisable move: agent traffic is still traffic, and a mature service
 mesh already solves routing, retries and telemetry. Building parallel plumbing for agents is a
 cost many organisations will pay by default.
+
+## The platform around the gateway
+
+A later interview — [Gergely Orosz with Uday Kiran Medisetty, Uber Distinguished
+Engineer](https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside) (October
+2026, not paywalled) — covers the same platform at lower resolution but supplies the surrounding
+system, which the blog post above does not.
+
+| Component | What it is |
+|---|---|
+| **Model Gateway** | One abstraction over Anthropic, OpenAI and proprietary models, with embedded security checks (**AI Guard**), spend tracking and audit logging |
+| **AIFX** | A wrapper letting engineers switch between Claude Code, Codex and OpenCode **without losing settings or plugins** |
+| **DevPods** | Containerised dev environments, built **2017**, now hosting agent work |
+| **Context Graph / Cortana** | Maps relationships between code, services and engineers to inform agent decisions |
+| **Minion** | Background agent system, built 2025 |
+| **Slate** | Testing and review assistance |
+| **Agent Skills repository** | Centralised capability catalogue |
+
+Three things here sharpen notes held elsewhere.
+
+**The Model Gateway is the AI-gateway pattern in production.**
+[The AI Gateway as a Governance Control Plane](../engineering/ai-native/ai-gateway-control-plane.md)
+is a *pattern proposal* listing what the seam should hold — model routing, identity, action
+policy, guardrails, audit. This is a running instance with the same contents. These notes had the
+pattern and no production example of it.
+
+**Spend governance: tiered allocations with manager approval for overages**, rather than
+unlimited budgets. That same pattern note cites an organisation reaching **$500M monthly Claude
+spend with no usage limits on employee licences** as its cautionary case — this is the control
+that case was missing, and the first concrete budget-governance mechanism recorded here.
+
+**PR categorisation instead of velocity counting.** Tags for feature, bugfix, maintenance,
+testing and docs replaced simple velocity metrics, and revealed **feature PRs rising while
+maintenance PRs declined**. That is a better answer to the authorship-count problem running
+through [Activity Metrics Under AI](../engineering/ai-native/activity-metrics-obsolete.md),
+[Ramp's 75%](ramp-inspect-agent-platform.md) and
+[Rootly's 80%](rootly-pr-size-risk-labels.md): **categorise the PRs rather than count them**, so
+the measure reports *composition* rather than volume. Worth noting what it leaves open — whether
+declining maintenance means less debt or more debt accruing unattended is exactly the question
+the measure raises, and the interview does not answer it.
+
+Smaller: **`afx validate`** moved lint and build checks into the inner loop after the CI system's
+workload doubled — [Linters Over AI Review](../engineering/ai-native/linters-over-ai-review.md)
+and [CI Speed When Agents Write the Code](../engineering/ai-native/ci-speed-with-ai-agents.md)
+instantiated at scale. And the ~50% per-token cost reduction is the figure already recorded in
+[The State of the Tech Industry in 2026](../reading/state-of-tech-2026.md).
+
+### The insider's caveats
+
+Two, and both are more useful than the component list.
+
+> "Code review has become a big bottleneck inside the company"
+
+Said by a Distinguished Engineer about his own employer — which is
+[Agentic Code Review](../engineering/ai-native/agentic-code-review.md)'s central claim confirmed
+from inside a large deployment rather than argued from outside. He adds that engineers now
+multitask harder and must verify agent output to avoid shipping regressions.
+
+And the line that bounds the whole case study: the infrastructure was **"built on top of a decade
+worth of dev tooling investment"** — DevPods from 2017, M3DB built for an observability problem
+of 500 million metrics per second. **None of this is replicable by a team starting now**, and the
+registry/proxy architecture above should be read with that in mind. What transfers is the
+*reasoning*; the implementation rests on prerequisites most organisations do not have.
 
 ## What the piece does not cover
 
