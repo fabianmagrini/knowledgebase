@@ -27,8 +27,9 @@ related:
   - engineering/ai-native/ci-cd-ai-engineering.md
   - reading/fintech-engineering-handbook.md
   - languages-and-frameworks/rust-for-agentic-development.md
+  - reading/ultimate-self-extending-harness.md
 source: "https://addyo.substack.com/p/agentic-verification"
-updated: 2026-10-18
+updated: 2026-10-24
 ---
 
 # Agentic Verification

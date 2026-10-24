@@ -15,8 +15,9 @@ related:
   - engineering/architecture/runtime-architecture-verification.md
   - engineering/architecture/data-readiness-for-agents.md
   - engineering/ai-native/agentic-autonomy-levels.md
+  - reading/ultimate-self-extending-harness.md
 source: "https://bradmurry.com/software/reactive-reducer-patterns/"
-updated: 2026-10-10
+updated: 2026-10-24
 ---
 
 # Reactive Reducer Orchestration

@@ -19,8 +19,9 @@ related:
   - engineering/ai-native/tdd-in-the-agent-loop.md
   - case-studies/cursor-agent-swarm-economics.md
   - engineering/ai-native/accountability-for-unread-code.md
+  - reading/ultimate-self-extending-harness.md
 source: "https://www.anthropic.com/engineering/harness-design-long-running-apps"
-updated: 2026-07-26
+updated: 2026-10-24
 ---
 
 # Harness Design for Long-Running App Development

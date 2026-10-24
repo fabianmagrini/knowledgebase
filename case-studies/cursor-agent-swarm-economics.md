@@ -21,8 +21,9 @@ related:
   - case-studies/github-copilot-rust-migration.md
   - reading/state-of-tech-2026.md
   - case-studies/anthropic-scion-source-control.md
+  - reading/ultimate-self-extending-harness.md
 source: "https://cursor.com/blog/agent-swarm-model-economics"
-updated: 2026-10-18
+updated: 2026-10-24
 ---
 
 # Cursor's Agent Swarm Economics

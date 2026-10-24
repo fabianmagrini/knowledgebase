@@ -37,8 +37,9 @@ related:
   - reading/reactive-reducer-orchestration.md
   - standards/agent-interop-protocols.md
   - reading/the-capability-overhang.md
+  - reading/ultimate-self-extending-harness.md
 source: "https://diego-pacheco.blogspot.com/2026/05/harness-engineering.html"
-updated: 2026-06-20
+updated: 2026-10-24
 ---
 
 # Harness Engineering

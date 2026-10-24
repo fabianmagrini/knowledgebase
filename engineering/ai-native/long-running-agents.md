@@ -25,8 +25,9 @@ related:
   - case-studies/cursor-agent-swarm-economics.md
   - reading/reactive-reducer-orchestration.md
   - case-studies/github-copilot-rust-migration.md
+  - reading/ultimate-self-extending-harness.md
 source: "https://addyo.substack.com/p/long-running-agents"
-updated: 2026-06-20
+updated: 2026-10-24
 ---
 
 # Long-Running Agents
