@@ -21,8 +21,9 @@ related:
   - reading/state-of-tech-2026.md
   - reading/ultimate-self-extending-harness.md
   - leadership/decision-facilitation.md
+  - case-studies/anthropic-formal-verification-at-scale.md
 source: "https://davidwells.io/blog/multi-agent-coding-without-worktree-chaos"
-updated: 2026-10-25
+updated: 2026-10-26
 ---
 
 # Multi-Agent Coding Without Worktree Chaos

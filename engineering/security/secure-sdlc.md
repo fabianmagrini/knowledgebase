@@ -19,7 +19,8 @@ related:
   - case-studies/intercom-ai-pr-approval.md
   - engineering/security/agent-skill-security.md
   - engineering/ai-native/activity-metrics-obsolete.md
-updated: 2026-10-25
+  - case-studies/anthropic-formal-verification-at-scale.md
+updated: 2026-10-26
 ---
 
 # Secure SDLC (DevSecOps)

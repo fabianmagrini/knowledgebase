@@ -20,8 +20,9 @@ related:
   - engineering/ai-native/activity-metrics-obsolete.md
   - engineering/practices/release-confidence.md
   - languages-and-frameworks/go-agentic-language.md
+  - case-studies/anthropic-formal-verification-at-scale.md
 source: "https://www.anthropic.com/engineering/redesigning-source-control"
-updated: 2026-10-18
+updated: 2026-10-26
 ---
 
 # Anthropic's Scion — Source Control at Agent Scale

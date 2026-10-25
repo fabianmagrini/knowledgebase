@@ -28,8 +28,9 @@ related:
   - case-studies/doordash-flag-cleanup-agents.md
   - languages-and-frameworks/rust-for-agentic-development.md
   - engineering/architecture/agents-as-distributed-systems.md
+  - case-studies/anthropic-formal-verification-at-scale.md
 source: "https://addyo.substack.com/p/agentic-autonomy-levels"
-updated: 2026-10-25
+updated: 2026-10-26
 ---
 
 # Agentic Autonomy Levels

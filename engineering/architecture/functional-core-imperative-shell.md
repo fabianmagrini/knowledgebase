@@ -18,6 +18,7 @@ related:
   - engineering/architecture/change-locality.md
   - engineering/architecture/enforced-architecture-rules.md
   - engineering/architecture/team-topologies.md
+  - case-studies/anthropic-formal-verification-at-scale.md
 source: "https://ricofritzsche.me/why-are-we-still-talking-about-clean-architecture/"
 updated: 2026-10-26
 ---
