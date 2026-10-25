@@ -15,8 +15,9 @@ related:
   - engineering/practices/regulated-service-release-process.md
   - engineering/practices/gitops.md
   - tools/postgresql-ha-kubernetes.md
+  - case-studies/airbnb-database-workload-replay.md
 source: ""
-updated: 2026-06-21
+updated: 2026-10-25
 ---
 
 # Database Migration Strategies

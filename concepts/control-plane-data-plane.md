@@ -18,8 +18,9 @@ related:
   - case-studies/cloudflare-ai-code-review.md
   - case-studies/rootly-pr-size-risk-labels.md
   - case-studies/uber-mcp-gateway.md
+  - case-studies/airbnb-database-workload-replay.md
 source: "https://www.allthingsdistributed.com/2026/08/on-building-scalable-control-planes.html"
-updated: 2026-08-23
+updated: 2026-10-25
 ---
 
 # Control Plane and Data Plane

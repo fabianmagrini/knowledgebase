@@ -12,8 +12,9 @@ related:
   - tools/dynamic-configuration-sidecar.md
   - concepts/control-plane-data-plane.md
   - engineering/architecture/runtime-architecture-verification.md
+  - case-studies/airbnb-database-workload-replay.md
 source: "https://netflixtechblog.com/building-service-topology-at-scale-architecture-challenges-and-lessons-learned-f4b792f3f0d8"
-updated: 2026-07-19
+updated: 2026-10-25
 ---
 
 # Netflix's Service Topology at Scale

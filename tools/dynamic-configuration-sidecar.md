@@ -14,8 +14,9 @@ related:
   - engineering/architecture/thinking-in-constraints.md
   - engineering/architecture/caching-reference-data-apis.md
   - concepts/control-plane-data-plane.md
+  - case-studies/airbnb-database-workload-replay.md
 source: "https://medium.com/airbnb-engineering/sitar-agent-building-a-reliable-dynamic-configuration-sidecar-at-scale-b7e00c152068"
-updated: 2026-06-20
+updated: 2026-10-25
 ---
 
 # Dynamic Configuration Sidecar (Airbnb Sitar)

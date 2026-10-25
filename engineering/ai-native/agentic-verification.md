@@ -28,8 +28,9 @@ related:
   - reading/fintech-engineering-handbook.md
   - languages-and-frameworks/rust-for-agentic-development.md
   - reading/ultimate-self-extending-harness.md
+  - case-studies/airbnb-database-workload-replay.md
 source: "https://addyo.substack.com/p/agentic-verification"
-updated: 2026-10-24
+updated: 2026-10-25
 ---
 
 # Agentic Verification

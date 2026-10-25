@@ -20,8 +20,9 @@ related:
   - engineering/architecture/caching-reference-data-apis.md
   - engineering/practices/spa-soak-testing.md
   - concepts/latency-patterns.md
+  - case-studies/airbnb-database-workload-replay.md
 source: "https://gist.github.com/fabianmagrini/dbf422910023dc8460f1331dd27c6f21"
-updated: 2026-06-20
+updated: 2026-10-25
 ---
 
 # Performance Testing Strategy
