@@ -21,8 +21,9 @@ related:
   - engineering/architecture/agile-design-decisions.md
   - engineering/architecture/layered-architecture.md
   - engineering/architecture/reversibility-decays.md
+  - engineering/architecture/agents-as-distributed-systems.md
 source: "https://www.infoq.com/articles/platform-engineering-playbook-production-llms/"
-updated: 2026-10-11
+updated: 2026-10-25
 ---
 
 # Platform Engineering for Production LLMs

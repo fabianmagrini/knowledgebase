@@ -26,8 +26,9 @@ related:
   - reading/reactive-reducer-orchestration.md
   - case-studies/github-copilot-rust-migration.md
   - reading/ultimate-self-extending-harness.md
+  - engineering/architecture/agents-as-distributed-systems.md
 source: "https://addyo.substack.com/p/long-running-agents"
-updated: 2026-10-24
+updated: 2026-10-25
 ---
 
 # Long-Running Agents

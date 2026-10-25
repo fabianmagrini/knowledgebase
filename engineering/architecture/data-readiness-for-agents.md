@@ -21,8 +21,9 @@ related:
   - reading/the-capability-overhang.md
   - case-studies/uber-mcp-gateway.md
   - engineering/architecture/llm-platform-engineering.md
+  - engineering/architecture/agents-as-distributed-systems.md
 source: "https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html"
-updated: 2026-08-30
+updated: 2026-10-25
 ---
 
 # Data Readiness for Agents

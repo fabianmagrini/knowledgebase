@@ -25,6 +25,7 @@ related:
   - case-studies/uber-mcp-gateway.md
   - engineering/architecture/llm-platform-engineering.md
   - reading/the-capability-overhang.md
+  - engineering/architecture/agents-as-distributed-systems.md
 source: "https://www.infoq.com/articles/evolutionary-architecture-pattern/"
 updated: 2026-10-25
 ---

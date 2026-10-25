@@ -54,6 +54,9 @@ systems.
 
 ## Shaping systems
 
+- [Agents as Distributed Systems](agents-as-distributed-systems.md) — decision decomposition
+  after functional decomposition, and quality as a reliability concern alongside latency,
+  availability and throughput.
 - [Composable Architecture](composable-architecture.md) — packaged business capabilities,
   API gateway/BFF, journey APIs, GraphQL federation.
 - [The Micro-Frontend Canvas](micro-frontend-canvas.md) — a single-page tool for deciding and

@@ -18,8 +18,9 @@ related:
   - reading/reactive-reducer-orchestration.md
   - case-studies/anthropic-claude-ai-performance-sprint.md
   - engineering/ai-native/activity-metrics-obsolete.md
+  - engineering/architecture/agents-as-distributed-systems.md
 source: "https://www.linkedin.com/pulse/you-cant-govern-what-see-luca-mezzalira-quige/"
-updated: 2026-08-30
+updated: 2026-10-25
 ---
 
 # Runtime Architecture Verification

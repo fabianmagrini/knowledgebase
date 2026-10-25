@@ -21,8 +21,9 @@ related:
   - case-studies/doordash-flag-cleanup-agents.md
   - case-studies/uber-mcp-gateway.md
   - engineering/architecture/llm-platform-engineering.md
+  - engineering/architecture/agents-as-distributed-systems.md
 source: "https://generativeprogrammer.com/p/the-emerging-standards-behind-ai"
-updated: 2026-10-10
+updated: 2026-10-25
 ---
 
 # Agent Interoperability Protocols

@@ -21,6 +21,7 @@ related:
   - engineering/ai-native/accountability-for-unread-code.md
   - reading/ultimate-self-extending-harness.md
   - reading/the-capability-overhang.md
+  - engineering/architecture/agents-as-distributed-systems.md
 source: "https://www.anthropic.com/engineering/harness-design-long-running-apps"
 updated: 2026-10-25
 ---

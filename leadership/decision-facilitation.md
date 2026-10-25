@@ -27,6 +27,7 @@ related:
   - leadership/learning-organisation.md
   - reading/multi-agent-coding-coordination.md
   - engineering/ai-native/substitution-myth-in-code-review.md
+  - engineering/architecture/agents-as-distributed-systems.md
 source: "https://gist.github.com/fabianmagrini/10e09bb9cef680c07cad82e7bfbcb441; https://www.seangoedecke.com/you-should-all-be-asking-way-more-questions/"
 updated: 2026-10-25
 ---

@@ -12,8 +12,9 @@ related:
   - engineering/ai-native/harness-engineering.md
   - engineering/ai-native/cress-context-engineering.md
   - reading/state-of-tech-2026.md
+  - engineering/architecture/agents-as-distributed-systems.md
 source: "https://www.infoq.com/minibooks/agentic-ai-architecture/"
-updated: 2026-07-05
+updated: 2026-10-25
 ---
 
 # Agentic AI Architecture (InfoQ eMag)
@@ -52,7 +53,13 @@ rather than a fresh deep-dive:
 
 ## If revisited
 
-The genuinely distinct material worth capturing from the full text: the **distributed-systems
+The genuinely distinct material worth capturing from the full text was the **distributed-systems
 framing** (agents as the successor to microservices, with decision decomposition) and the
-**chains → graphs → code** harness-maturation model. Both are TOC-level here; a proper note would
-need the chapter contents.
+**chains → graphs → code** harness-maturation model.
+
+- **Done.** Chapter 1 was published standalone on InfoQ in October 2026 and is captured in
+  [Agents as Distributed Systems](../engineering/architecture/agents-as-distributed-systems.md) —
+  decision decomposition, the three dimensions of difference, silent quality degradation, and
+  retry amplification.
+- **Still open.** Ramgopal's **chains → graphs → code** harness maturation remains TOC-level
+  here; a proper note would need the chapter contents.
