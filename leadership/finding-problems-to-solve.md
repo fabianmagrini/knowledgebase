@@ -15,8 +15,9 @@ related:
   - product/explore-vs-exploit.md
   - leadership/mission-to-metrics.md
   - leadership/engineering-leadership-overview.md
+  - reading/the-capability-overhang.md
 source: "https://lalitm.com/post/find-problems-staff-engineer/; https://alifeengineered.substack.com/p/the-art-of-dealing-with-ambiguity-89d"
-updated: 2026-08-23
+updated: 2026-10-25
 ---
 
 # Finding Problems to Solve as a Staff Engineer

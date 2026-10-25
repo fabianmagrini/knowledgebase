@@ -20,8 +20,9 @@ related:
   - case-studies/cursor-agent-swarm-economics.md
   - engineering/ai-native/accountability-for-unread-code.md
   - reading/ultimate-self-extending-harness.md
+  - reading/the-capability-overhang.md
 source: "https://www.anthropic.com/engineering/harness-design-long-running-apps"
-updated: 2026-10-24
+updated: 2026-10-25
 ---
 
 # Harness Design for Long-Running App Development

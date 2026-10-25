@@ -24,8 +24,9 @@ related:
   - case-studies/github-copilot-rust-migration.md
   - case-studies/uber-mcp-gateway.md
   - engineering/architecture/llm-platform-engineering.md
+  - reading/the-capability-overhang.md
 source: "https://www.infoq.com/articles/evolutionary-architecture-pattern/"
-updated: 2026-08-03
+updated: 2026-10-25
 ---
 
 # The AI Gateway as a Governance Control Plane
