@@ -43,6 +43,7 @@ in **[Practices](../practices/)**.
 - [The AI Factory](ai-factory.md)
 - [Light and Dark Software Factories](light-and-dark-factories.md)
 - [Dark Factories Examined](dark-factories-examined.md)
+- [DORA on AI — The Amplifier and the J-Curve](dora-ai-capabilities.md)
 - [The APEX Framework — Measuring AI Engineering Impact](apex-framework.md)
 - [Activity Metrics Under AI](activity-metrics-obsolete.md)
 - [Modern Engineering Values](modern-engineering-values.md)

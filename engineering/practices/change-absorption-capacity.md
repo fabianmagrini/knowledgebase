@@ -35,8 +35,9 @@ related:
   - product/modelling-business-impact.md
   - engineering/ai-native/agentic-verification.md
   - case-studies/anthropic-scion-source-control.md
+  - engineering/ai-native/dora-ai-capabilities.md
 source: "https://stackoverflow.blog/2026/05/12/you-shipped-it-fast-but-did-you-ship-it-right/"
-updated: 2026-10-18
+updated: 2026-10-26
 ---
 
 # Change Absorption Capacity (CATS)

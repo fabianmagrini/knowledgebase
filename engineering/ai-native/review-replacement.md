@@ -21,8 +21,9 @@ related:
   - engineering/ai-native/substitution-myth-in-code-review.md
   - engineering/ai-native/accountability-for-unread-code.md
   - reading/state-of-tech-2026.md
+  - engineering/ai-native/dora-ai-capabilities.md
 source: "https://www.latent.space/p/reviews-dead"
-updated: 2026-10-10
+updated: 2026-10-26
 ---
 
 # Replacing Code Review With Upstream Verification

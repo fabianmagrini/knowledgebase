@@ -79,7 +79,8 @@ related:
   - engineering/ai-native/agentic-verification.md
   - case-studies/doordash-flag-cleanup-agents.md
   - case-studies/github-copilot-rust-migration.md
-updated: 2026-06-27
+  - engineering/ai-native/dora-ai-capabilities.md
+updated: 2026-10-26
 ---
 
 # AI-Native Engineering — Overview
@@ -317,6 +318,13 @@ A map of the notes on building software with AI agents. They answer different qu
 
 ## Measurement — is it working?
 
+- [DORA on AI — The Amplifier and the J-Curve](dora-ai-capabilities.md) — the primary source for
+  two claims these notes held second-hand, from the lead of Google Cloud's DORA team: AI
+  **amplifies** existing capability rather than creating it, and adoption runs a **J-curve**
+  whose exit DORA openly says it cannot yet describe. **90%** adoption with **~35%** relying on
+  it little or not at all, a **two-hour** median in an eight-hour day, and **delivery instability
+  rising** — gains local, costs systemic. His proposal to *"throw out code reviews"* is where this
+  repo disagrees on its own evidence.
 - [The APEX Framework](apex-framework.md) — a measurement operating model (AI Leverage,
   Predictability, Flow Efficiency, Developer Experience) for judging whether AI adoption creates
   *sustainable* value, measured at the PR and in the critical path rather than by tool adoption.

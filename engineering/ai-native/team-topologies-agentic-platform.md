@@ -16,8 +16,9 @@ related:
   - case-studies/stripe-kai-agent-platform.md
   - case-studies/anthropic-ai-native-teams.md
   - case-studies/ramp-inspect-agent-platform.md
+  - engineering/ai-native/dora-ai-capabilities.md
 source: "https://blog.owulveryck.info/2026/06/24/who-does-what-team-topologies-for-the-agentic-platform.html"
-updated: 2026-07-05
+updated: 2026-10-26
 ---
 
 # Team Topologies for the Agentic Platform

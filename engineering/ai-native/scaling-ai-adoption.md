@@ -20,7 +20,8 @@ related:
   - leadership/magical-thinking.md
   - engineering/ai-native/tdd-in-the-agent-loop.md
   - reading/the-capability-overhang.md
-updated: 2026-08-23
+  - engineering/ai-native/dora-ai-capabilities.md
+updated: 2026-10-26
 ---
 
 # Scaling AI Adoption in the SDLC

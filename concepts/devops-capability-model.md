@@ -22,8 +22,9 @@ related:
   - engineering/architecture/team-topologies.md
   - engineering/ai-native/activity-metrics-obsolete.md
   - product/modelling-business-impact.md
+  - engineering/ai-native/dora-ai-capabilities.md
 source: "Forsgren, Humble & Kim — Accelerate: The Science of Lean Software and DevOps (2018); https://dora.dev"
-updated: 2026-06-21
+updated: 2026-10-26
 ---
 
 # The DevOps Capability Model (Accelerate / DORA)

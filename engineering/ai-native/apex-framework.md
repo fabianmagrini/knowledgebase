@@ -21,8 +21,9 @@ related:
   - reading/ai-productivity-research.md
   - engineering/ai-native/activity-metrics-obsolete.md
   - product/modelling-business-impact.md
+  - engineering/ai-native/dora-ai-capabilities.md
 source: "https://linearb.io/resources/apex-framework"
-updated: 2026-06-20
+updated: 2026-10-26
 ---
 
 # The APEX Framework — Measuring AI Engineering Impact

@@ -17,8 +17,9 @@ related:
   - leadership/landing-the-plane.md
   - reading/the-capability-overhang.md
   - engineering/ai-native/activity-metrics-obsolete.md
+  - engineering/ai-native/dora-ai-capabilities.md
 source: "https://bjorg.bjornroche.com/management/magical-thinking/"
-updated: 2026-08-03
+updated: 2026-10-26
 ---
 
 # Magical Thinking in Engineering Leadership

@@ -22,8 +22,9 @@ related:
   - case-studies/uber-mcp-gateway.md
   - engineering/architecture/llm-platform-engineering.md
   - engineering/architecture/agents-as-distributed-systems.md
+  - engineering/ai-native/dora-ai-capabilities.md
 source: "https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html"
-updated: 2026-10-25
+updated: 2026-10-26
 ---
 
 # Data Readiness for Agents

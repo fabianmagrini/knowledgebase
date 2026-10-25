@@ -27,8 +27,9 @@ related:
   - case-studies/anthropic-scion-source-control.md
   - engineering/architecture/design-docs.md
   - reading/how-i-use-llms-2026.md
+  - engineering/ai-native/dora-ai-capabilities.md
 source: "https://addyo.substack.com/p/the-code-nobody-reads; https://alifeengineered.substack.com/p/on-the-death-of-amazons-writing-culture"
-updated: 2026-10-25
+updated: 2026-10-26
 ---
 
 # Accountability for Unread Code
