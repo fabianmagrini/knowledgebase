@@ -112,12 +112,30 @@ added; the point is the shape, not the exact numbers.
 ## Status Lifecycle
 
 ```
-draft → notes → complete
+draft → notes          (content notes)
+complete               (hub documents)
 ```
 
-- **draft** — placeholder or rough capture, may be incomplete
-- **notes** — useful content but not polished
-- **complete** — well-structured, reviewed, cross-linked
+- **draft** — a rough capture that is not yet usable: a stub, an unplaced idea, or a
+  note whose claims have not been checked. Promote to `notes` as soon as it is useful
+  to a reader, which is usually the same sitting.
+- **notes** — **the normal and expected state for a content note**, however polished.
+  A note being well-structured, verified and cross-linked does not move it off `notes`;
+  that is simply what a note here looks like.
+- **complete** — reserved for **hub documents**: folder `README.md` indexes,
+  `type: overview` maps, and the meta files (`conventions.md`, root `README.md`). These
+  have a definition of done — they describe a cluster, and they are either current or
+  they are not.
+
+> **Why `complete` is not a content state.** A structure review in October 2026 measured
+> **19** files at `complete`, all of them indexes and meta documents, and **zero** of 198
+> content notes. A terminal state nothing reaches is not a lifecycle stage; it is a label
+> nobody can apply. Rather than invent criteria for promoting notes, the vocabulary now
+> matches observed use: notes live at `notes`, hubs are `complete` or stale.
+>
+> The practical consequence is that `status` is a **signal about hub freshness** plus a
+> *"don't trust this yet"* flag on drafts. It is not a quality grade, and
+> `grep -rl "status: draft"` is the only query it needs to serve well.
 
 ## Filtering
 

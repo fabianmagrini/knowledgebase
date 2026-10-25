@@ -4,7 +4,7 @@ title: Theory of Constraints
 description: "Goldratt's idea that a system's throughput is limited by a single bottleneck, and the five focusing steps for exploiting it."
 tags: [decision-making, ci-cd, ai-engineering]
 topic: concepts
-status: draft
+status: notes
 level: intermediate
 related:
   - concepts/continuous-delivery.md
@@ -20,7 +20,7 @@ related:
   - engineering/ai-native/agentic-sdlc-maturity-model.md
   - product/modelling-business-impact.md
 source: "Eliyahu M. Goldratt — The Goal (1984) and Theory of Constraints (1990)"
-updated: 2026-06-20
+updated: 2026-10-25
 ---
 
 # Theory of Constraints

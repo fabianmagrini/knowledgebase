@@ -4,7 +4,7 @@ title: Constraints as a Lens
 description: "hub unifying the three constraint senses (throughput, structure, selection)"
 tags: [decision-making, architecture, system-design]
 topic: concepts
-status: draft
+status: notes
 level: intermediate
 related:
   - concepts/theory-of-constraints.md
@@ -13,7 +13,7 @@ related:
   - leadership/first-principles-thinking.md
   - engineering/architecture/over-engineering.md
   - concepts/control-and-complexity.md
-updated: 2026-06-17
+updated: 2026-10-25
 ---
 
 # Constraints as a Lens

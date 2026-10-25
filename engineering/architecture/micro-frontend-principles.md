@@ -4,7 +4,7 @@ title: Microfrontend Architecture Principles
 description: "the principles a good microfrontend boundary must satisfy at scale (bounded contexts, team autonomy, explicit contracts, independent deployability, platform over governance, Conway's Law), with a pre-creation checklist"
 tags: [architecture, system-design, microservices]
 topic: engineering/architecture
-status: draft
+status: notes
 level: intermediate
 related:
   - engineering/architecture/micro-frontend-canvas.md
@@ -21,7 +21,7 @@ related:
   - engineering/architecture/thin-shell-platform-runtime.md
   - case-studies/linear-performance-architecture.md
   - engineering/practices/visual-regression-testing.md
-updated: 2026-06-20
+updated: 2026-10-25
 ---
 
 # Microfrontend Architecture Principles

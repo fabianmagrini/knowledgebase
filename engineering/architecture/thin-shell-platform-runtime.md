@@ -1,7 +1,7 @@
 ---
 type: note
 title: Thin Shell + Platform Runtime Remote
-description: "the packaging variant: keep the shell a thin bootloader (kernel loader) and extract the platform services into a separately deployed runtime remote, with a versioned platform contract, startup sequence, and the distributed-monolith risk"
+description: "the packaging variant: keep the shell a thin bootloader (kernel loader) and extract the platform services into a separately deployed runtime remote, with a versioned platform contract, startup sequence, the state test for what must stay out, and the distributed-monolith risk"
 tags: [architecture, system-design, microservices]
 topic: engineering/architecture
 status: notes
@@ -11,7 +11,7 @@ related:
   - engineering/architecture/thin-shell-startup-performance.md
   - engineering/architecture/micro-frontend-principles.md
   - engineering/architecture/composable-architecture.md
-updated: 2026-06-22
+updated: 2026-10-25
 ---
 
 # Thin Shell + Platform Runtime Remote
@@ -113,6 +113,43 @@ remote.mount(container, {
   userContext: platform.session.currentUser,
 })
 ```
+
+## What does *not* belong in the platform, and the test that decides
+
+The lists above say what the two halves own. The harder question is what neither
+should hold, because the failure mode is a platform that grows into *"a giant shared
+application — a distributed monolith with a single chokepoint."* Product concerns to
+keep out:
+
+- individual product workflows and domain business rules
+- MFE-specific forms and page-level UI state
+- feature-specific API orchestration and validation
+- complex shared stores used by everyone
+
+**The cleanest test is on state**, and it is sharper than the ownership lists:
+
+| | Example |
+|---|---|
+| **Good** platform-owned state | global context — current user, tenant, locale, selected account |
+| **Bad** platform-owned state | page and form state, and domain state owned by a single product area |
+
+The platform owns the **enterprise runtime**, not every shared concern. That is the
+operational form of the distributed-monolith risk below: a chokepoint does not announce
+itself as one, it arrives as a succession of reasonable-looking additions, and the state
+test is what catches each of them at the time.
+
+### Where to start
+
+The contract above lists eleven services, and a mature platform grows past it. **You do
+not need all of them on day one.** A strong foundation is twelve concerns: routing,
+auth/session, authorization, navigation, layout, remote registry, runtime config,
+notifications, error handling, observability, HTTP client, and feature flags. Localisation,
+accessibility conventions, design-system providers, lifecycle hooks, the event bus and
+shared state can follow as the platform matures.
+
+Worth stating because the versioned-contract machinery below is only worth its cost once
+several remotes depend on it — a two-team system is better served by the simpler
+[shell-as-platform-runtime](microfrontend-shell-platform.md) model until it is not.
 
 ## Layout: who renders the frame
 

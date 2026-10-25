@@ -4,7 +4,7 @@ title: Generative UI
 description: "producing UI with AI at build time (generated components) and run time (LLM-assembled interfaces); patterns, the whitelisted component registry as safety boundary, risks, and when to use it"
 tags: [ai-engineering, architecture, system-design]
 topic: engineering/architecture
-status: draft
+status: notes
 level: intermediate
 related:
   - engineering/architecture/design-systems-ai-control-plane.md
@@ -12,7 +12,7 @@ related:
   - engineering/architecture/composable-architecture.md
   - engineering/architecture/micro-frontend-canvas.md
   - engineering/ai-native/ai-native-engineering-stack.md
-updated: 2026-06-19
+updated: 2026-10-25
 ---
 
 # Generative UI

@@ -5,9 +5,8 @@ description: "AI coding assistants and autonomous agents accelerate code generat
 tags: [ci-cd, ai-engineering, testing, code-review, observability]
 topic: engineering/ai-native
 status: notes
-updated: 2026-06-20
+updated: 2026-10-25
 related:
-  - engineering/practices/README.md
   - engineering/practices/api-contract-functional-testing.md
   - engineering/practices/polyrepo-branching-strategy.md
   - engineering/practices/regulated-service-release-process.md

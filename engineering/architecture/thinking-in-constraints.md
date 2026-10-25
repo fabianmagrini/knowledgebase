@@ -4,7 +4,7 @@ title: Thinking in Constraints
 description: "surfacing, classifying, and challenging the constraints that bound a solution; constraints as the architect's primary input"
 tags: [architecture, system-design, decision-making]
 topic: engineering/architecture
-status: draft
+status: notes
 level: intermediate
 related:
   - engineering/architecture/adr.md
@@ -20,7 +20,7 @@ related:
   - tools/dynamic-configuration-sidecar.md
   - engineering/architecture/skeleton-architecture.md
   - engineering/architecture/over-engineering.md
-updated: 2026-06-20
+updated: 2026-10-25
 ---
 
 # Thinking in Constraints

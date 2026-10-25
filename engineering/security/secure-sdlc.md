@@ -4,7 +4,7 @@ title: Secure SDLC (DevSecOps)
 description: "Shifting security left with automated pipeline gates plus beyond-the-pipeline DevSecOps practices."
 tags: [security, ci-cd, ai-engineering, governance]
 topic: engineering/security
-status: draft
+status: notes
 related:
   - engineering/security/governing-ai-in-the-cloud.md
   - languages-and-frameworks/nodejs-cli-best-practices.md
@@ -19,7 +19,7 @@ related:
   - case-studies/intercom-ai-pr-approval.md
   - engineering/security/agent-skill-security.md
   - engineering/ai-native/activity-metrics-obsolete.md
-updated: 2026-06-16
+updated: 2026-10-25
 ---
 
 # Secure SDLC (DevSecOps)

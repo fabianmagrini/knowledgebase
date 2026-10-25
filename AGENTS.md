@@ -14,7 +14,7 @@ All conventions are documented in [conventions.md](conventions.md). Read it befo
 - `type` is the [OKF](standards/open-knowledge-format.md) concept type: `note` | `index` (folder READMEs) | `overview` (thematic maps) | `case-study` | `reading` | `reference`
 - File names are lowercase and hyphenated: `event-driven-architecture.md`
 - Tags are lowercase and hyphenated; use the established vocabulary in `conventions.md` before inventing new tags
-- Status values: `draft` → `notes` → `complete`
+- Status: content notes are `notes` (`draft` only while genuinely unusable); `complete` is for hub documents — folder READMEs, overview maps, meta files. It is **not** a quality grade for a note; see [conventions.md](conventions.md#status-lifecycle)
 
 ## Structure
 
@@ -37,7 +37,11 @@ reading/                # notes from books, papers, articles
 
 Each folder has a `README.md` as its index. When adding a new note to a folder, update that folder's `README.md` to link to it.
 
-`drafts/` also exists for rough, unplaced captures, but prefer filing a note in its topical folder with `status: draft` over parking it here.
+There is no `drafts/` folder. File every note in its topical folder — use `status: draft` if it
+is genuinely not yet usable. A separate drafts directory was removed in October 2026: it held one
+note for four months, that note had quietly been superseded by a filed one, and because `drafts`
+is in the linter's `EXCLUDE_DIRS` its frontmatter had rotted unnoticed. Unlinted parking spaces
+accumulate exactly that.
 
 ## Creating notes
 
@@ -50,7 +54,7 @@ title:
 description: ""
 tags: []
 topic: folder/subfolder
-status: draft
+status: notes
 updated: YYYY-MM-DD
 related:
   - path/to/related.md
@@ -110,15 +114,19 @@ Adding notes one at a time optimises each note locally. Structural problems only
 
 ```bash
 # Notes per folder — look for imbalance, not absolute size
-for d in engineering/* leadership product languages-and-frameworks tools sre standards concepts case-studies reading drafts; do
+for d in engineering/* leadership product languages-and-frameworks tools sre standards concepts case-studies reading; do
   [ -d "$d" ] && printf "%-32s %s\n" "$d" "$(ls "$d"/*.md 2>/dev/null | grep -vc README)"
 done
 
 # Where lint warnings actually come from — a few files dominating means the rule is wrong, not the notes
 python3 scripts/lint-notes.py 2>&1 | grep -E '^WARN  [^ ]+\.md:' | sed -E 's/^WARN  ([^:]+):.*/\1/' | sort | uniq -c | sort -rn
 
-# Status spread — if almost everything sits at one value, the lifecycle isn't discriminating
-grep -rh "^status:" --include='*.md' . | sort | uniq -c | sort -rn
+# Stale hubs — `complete` is for hub documents, so check their `updated` dates, not the spread.
+# Content notes sitting at `notes` is correct and expected; do not read that as a problem.
+grep -rl "^status: complete" --include='*.md' . | xargs grep -H "^updated:" | sort -t: -k3
+
+# Real drafts — should be few and short-lived
+grep -rln "^status: draft" --include='*.md' . | grep -v -e AGENTS.md -e conventions.md
 ```
 
 What to look for, and the bias to apply:
@@ -126,6 +134,6 @@ What to look for, and the bias to apply:
 - **Folder balance** — a large folder is fine if its `README.md` is sectioned and its overview map is current. Prefer sectioning an index over splitting a folder: moving notes rewrites hundreds of relative links for little navigational gain.
 - **Content gaps** — a topic repeatedly referenced from other notes but with no home of its own.
 - **Linter signal-to-noise** — if most warnings come from a handful of files, question the rule before editing the notes.
-- **Conventions still serving** — a status value nothing reaches, a folder nothing is filed in, a tag that never became a cluster.
+- **Conventions still serving** — a folder nothing is filed in, a tag that never became a cluster, a rule whose warnings nobody can act on. The October 2026 review found `complete` was a status no content note had ever reached in 198 tries; the fix was redefining the vocabulary to match observed use, not relabelling notes.
 
 Rank findings by fix-cost against value, and prefer changes that don't touch note content.

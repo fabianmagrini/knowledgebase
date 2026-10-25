@@ -18,7 +18,9 @@ Checks (see conventions.md and AGENTS.md):
       (folder READMEs and `type: overview` maps) are exempt, since they map a
       cluster by design and spokes are not expected to link back
     - a note is not linked from its folder README index
-    - a tag is used by only one note (likely sprawl, not a shared facet)
+    - a tag is used by only one note (likely sprawl, not a shared facet); notes in
+      languages-and-frameworks/ are exempt, since that folder holds one note per
+      language and its subject tags are single-use by design
 
 Usage:
     python3 scripts/lint-notes.py            # report; exit 1 on errors
@@ -281,11 +283,20 @@ def main() -> int:
                 )
 
     # --- single-use tags (warning) ---
+    # A tag naming the subject of a per-subject folder is legitimately used once:
+    # languages-and-frameworks/ holds one note per language, so `go`, `typescript`
+    # and `nodejs` will never be shared facets. Exempt that folder rather than
+    # emit a warning nobody can act on — before this exemption the rule produced
+    # three of the repo's four warnings, all of them unfixable by design.
+    SINGLE_USE_EXEMPT_DIRS = {"languages-and-frameworks"}
     for tag, users in sorted(tag_usage.items()):
-        if len(users) == 1:
-            warnings.append(
-                f"single-use tag '{tag}' (only {users[0]}) — not a shared facet"
-            )
+        if len(users) != 1:
+            continue
+        if users[0].split("/")[0] in SINGLE_USE_EXEMPT_DIRS:
+            continue
+        warnings.append(
+            f"single-use tag '{tag}' (only {users[0]}) — not a shared facet"
+        )
 
     # --- report ---
     if not args.errors_only:

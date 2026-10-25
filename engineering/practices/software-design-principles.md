@@ -4,7 +4,7 @@ title: Software Design Principles
 description: "A prioritised set of code-level design principles."
 tags: [system-design, refactoring, code-review]
 topic: engineering/practices
-status: draft
+status: notes
 level: intermediate
 related:
   - engineering/architecture/micro-frontend-principles.md
@@ -16,7 +16,7 @@ related:
   - engineering/practices/naming-conventions.md
   - engineering/architecture/over-engineering.md
   - engineering/architecture/layered-architecture.md
-updated: 2026-06-19
+updated: 2026-10-25
 ---
 
 # Software Design Principles
