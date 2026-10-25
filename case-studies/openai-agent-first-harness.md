@@ -24,8 +24,9 @@ related:
   - case-studies/cursor-agent-swarm-economics.md
   - engineering/ai-native/brownfield-agentic-engineering.md
   - standards/agent-interop-protocols.md
+  - engineering/ai-native/activity-metrics-obsolete.md
 source: "https://openai.com/index/harness-engineering/"
-updated: 2026-07-26
+updated: 2026-10-25
 ---
 
 # OpenAI's Agent-First Harness

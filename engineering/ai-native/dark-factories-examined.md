@@ -22,8 +22,9 @@ related:
   - engineering/ai-native/review-replacement.md
   - engineering/ai-native/accountability-for-unread-code.md
   - reading/state-of-tech-2026.md
+  - engineering/ai-native/activity-metrics-obsolete.md
 source: "https://kachar.dev/blog/the-lights-were-never-off"
-updated: 2026-08-16
+updated: 2026-10-25
 ---
 
 # Dark Factories Examined

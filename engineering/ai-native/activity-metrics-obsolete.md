@@ -1,7 +1,7 @@
 ---
 type: note
 title: Activity Metrics Under AI
-description: "Why LOC, commits and PR counts stopped measuring anything useful — the −19% to +40.5% productivity scatter, six diagnostic replacements including rework-per-AI-spend, and the first vulnerability-rate figures in these notes."
+description: "Why LOC, commits and PR counts stopped measuring anything useful — the −19% to +40.5% productivity scatter, six diagnostic replacements including rework-per-AI-spend, a measured $150–$3,000/dev/month spend range for its denominator, and the finding that culture sets PR baselines so cross-company counts confound."
 tags: [ai-engineering, observability, ci-cd, security, reading]
 topic: engineering/ai-native
 status: notes
@@ -27,8 +27,10 @@ related:
   - engineering/ai-native/agentic-verification.md
   - case-studies/uber-mcp-gateway.md
   - case-studies/anthropic-scion-source-control.md
-source: "https://bharatsharma.pro/articles/activity-based-engineering-metrics-are-obsolete"
-updated: 2026-10-18
+  - engineering/ai-native/dark-factories-examined.md
+  - case-studies/openai-agent-first-harness.md
+source: "https://bharatsharma.pro/articles/activity-based-engineering-metrics-are-obsolete; https://newsletter.pragmaticengineer.com/p/whats-the-roi-of-software-engineers"
+updated: 2026-10-25
 ---
 
 # Activity Metrics Under AI
@@ -125,6 +127,87 @@ triggers, not gates"*; [From Mission to Metrics](../../leadership/mission-to-met
 the same Goodhart problem with the target/guardrail/diagnostic split. His version is the policy
 form: **the risk is the dashboard becoming a leaderboard**, and the mitigation is structural
 rather than cultural.
+
+## The denominator, measured — and a disagreement it surfaces
+
+*Rework per AI spend* needs a spend figure, and a survey by
+[Gergely Orosz](https://newsletter.pragmaticengineer.com/p/whats-the-roi-of-software-engineers)
+(October 2026) supplies the first distribution of one in these notes.
+
+> **How to read it.** The volume data below comes from **CodeRabbit** and **Gitar** (Sonar's AI
+> code verification product) — vendors with an interest in PR volume looking high. Everything
+> else is self-report from engineering leaders, which is the weak link
+> [Dark Factories Examined](dark-factories-examined.md) identifies: METR measured developers
+> **19% slower** while they believed they were **20% faster**. And the article is **paywalled
+> from section 4**, so its actual ROI analysis — the question in its title — is not readable
+> here. What follows is the spend survey, not an answer.
+
+**Spend per developer per month spans roughly 20×, with no relation to company size:**
+
+| Organisation | Per dev / month |
+|---|---|
+| Publicly traded, 1,500 engineers | **$150** (limit) |
+| Publicly traded, 25,000+ employees | ~$1,000 (average) |
+| Publicly traded SaaS, ~600 engineers | $1,200 (limit) |
+| Series D hospitality, 200 engineers | $1,500 (default cap) |
+| Quant trading, ~2,000 devs | $1,600 average — **up from $80** |
+| AI SaaS, ~100 employees | $2,000 |
+| Small .NET startup, **2 devs** | **$3,000** — the highest |
+| Multinational, 10K+ employees | $4,000 hard-cap ceiling |
+
+The extremes run *inverse* to headcount: the smallest company spends twenty times per head what
+the 1,500-engineer one allows. Useful mainly as a sanity range — anyone computing rework per AI
+spend now has an idea of what the denominator looks like elsewhere.
+
+**The trajectory matters more than the level:**
+
+> June and July saw peak monthly spend at nearly all companies, and costs have roughly halved
+> for those on API plans. A mix of Opus 5.5 and moving to open models is the reason for the drop
+> at most companies.
+
+Nothing else here records AI cost *deflation* over time, and it has a direct consequence: every
+cost figure in these notes captured before August 2026 is now wrong in the favourable direction,
+and any ROI case built at the peak understates the return.
+
+### The amplifier effect, contradicted
+
+The **amplifier effect** below has strong practices magnifying AI's throughput gain. A staff
+engineer at a publicly traded SaaS company (~600 engineers) reports close to the opposite:
+
+> Overall, I personally see accelerated slop produced all around me. However, when the team
+> cares about the quality in production code and wants to keep it like before AI, then actual
+> development speed had not increased much.
+
+DORA has good practice *amplifying* the gain; this has quality insistence *absorbing* it. The
+likely reconciliation is that the two measure different outputs — DORA's throughput is delivered
+change, this is features shipped **at constant quality** — but the disagreement is worth leaving
+visible, because the second version is the one a team with high standards will recognise and the
+first is the one that gets quoted at them.
+
+### Culture sets the baseline, which confounds every PR count
+
+Gitar's tiers across hundreds of customers: regular teams at **~5 PRs/dev/week**, "AI-native"
+teams at **60+**. Orosz's explanation is not tooling:
+
+> If the company is one where ~5 PRs per week is considered a high output, then new joiners get
+> used to that pace. If it's a place where most people ship 20-30 PRs to production per week,
+> then new joiners pick up that pace!
+
+If baseline output is culturally set, **cross-company PR comparisons are partly measuring
+culture rather than AI** — which is a caveat the authorship-count figures in these notes
+([Ramp's 75%](../../case-studies/ramp-inspect-agent-platform.md),
+[Rootly's 80%](../../case-studies/rootly-pr-size-risk-labels.md),
+[OpenAI's ~3.5 PRs per engineer per day](../../case-studies/openai-agent-first-harness.md)) do
+not carry. It is also a second argument for *Trusted Throughput* below: weighting by difficulty
+at least normalises against a baseline the counting does not.
+
+CodeRabbit's own figure — **a 128% rise in PRs** for the same cohort of 20,000 developers over a
+year — is the volume claim, and it is a vendor measuring activity on its own platform.
+
+One team lead reports *"PRs have exploded in size and have 3x as many lines of code per change
+request as before"*. Faros's **+51% PR size** across 22,000 developers in
+[Dark Factories Examined](dark-factories-examined.md) is the same direction at a third the
+magnitude; treat the 3× as one team's observation and the +51% as the figure.
 
 ## Two framings worth keeping
 
