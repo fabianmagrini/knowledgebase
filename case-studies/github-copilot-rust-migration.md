@@ -22,6 +22,7 @@ related:
   - languages-and-frameworks/rust-for-agentic-development.md
   - case-studies/anthropic-scion-source-control.md
   - case-studies/airbnb-database-workload-replay.md
+  - reading/how-i-use-llms-2026.md
 source: "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/"
 updated: 2026-10-25
 ---

@@ -20,8 +20,9 @@ related:
   - case-studies/doordash-flag-cleanup-agents.md
   - reading/state-of-tech-2026.md
   - reading/ultimate-self-extending-harness.md
+  - leadership/decision-facilitation.md
 source: "https://davidwells.io/blog/multi-agent-coding-without-worktree-chaos"
-updated: 2026-10-24
+updated: 2026-10-25
 ---
 
 # Multi-Agent Coding Without Worktree Chaos

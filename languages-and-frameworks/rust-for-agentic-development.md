@@ -15,8 +15,9 @@ related:
   - engineering/ai-native/agent-backpressure-loops.md
   - engineering/architecture/skeleton-architecture.md
   - engineering/ai-native/accountability-for-unread-code.md
+  - reading/how-i-use-llms-2026.md
 source: "https://smallcultfollowing.com/babysteps/blog/2026/10/14/agentic-dev-and-rust/"
-updated: 2026-10-18
+updated: 2026-10-25
 ---
 
 # Rust for Agentic Development

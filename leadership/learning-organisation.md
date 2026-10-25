@@ -29,8 +29,9 @@ related:
   - sre/heroic-saves-are-near-misses.md
   - reading/the-capability-overhang.md
   - engineering/ai-native/activity-metrics-obsolete.md
+  - leadership/decision-facilitation.md
 source: "https://erik.wiffin.com/posts/you-are-failing-at-ai-because-you-havent-built-a-learning-organization/"
-updated: 2026-06-20
+updated: 2026-10-25
 ---
 
 # The Learning Organisation and AI Adoption
