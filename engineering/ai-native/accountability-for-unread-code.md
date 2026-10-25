@@ -1,7 +1,7 @@
 ---
 type: note
 title: Accountability for Unread Code
-description: "The moral crumple zone applied to agent-authored code, the two costs (checking unread work versus undoing failures the checks miss), and why an oracle written by the generator proves nothing — plus the 14% figure that evidences review's non-detection function."
+description: "The moral crumple zone applied to agent-authored code, the two costs (checking unread work versus undoing failures the checks miss), why an oracle written by the generator proves nothing, the 14% figure evidencing review's non-detection function — and the same failure in prose, where no CI exists."
 tags: [ai-engineering, code-review, testing, culture, reading]
 topic: engineering/ai-native
 status: notes
@@ -25,8 +25,9 @@ related:
   - engineering/ai-native/agentic-verification.md
   - languages-and-frameworks/rust-for-agentic-development.md
   - case-studies/anthropic-scion-source-control.md
-source: "https://addyo.substack.com/p/the-code-nobody-reads"
-updated: 2026-10-18
+  - engineering/architecture/design-docs.md
+source: "https://addyo.substack.com/p/the-code-nobody-reads; https://alifeengineered.substack.com/p/on-the-death-of-amazons-writing-culture"
+updated: 2026-10-25
 ---
 
 # Accountability for Unread Code
@@ -132,6 +133,45 @@ produces: the agent satisfied the check it was handed and solved the wrong probl
 
 The 590× figure is the uncomfortable half. If trustworthy checking is what replaces reading, SQLite
 is the price list, and most codebases are nowhere near it.
+
+## The same failure in prose, where there is no CI
+
+Everything above concerns code.
+[Steve Huynh](https://alifeengineered.substack.com/p/on-the-death-of-amazons-writing-culture)
+(October 2026) describes the identical structure in documents at Amazon, and it is worth holding
+beside the code case because **the compensating controls are absent**: an unread PR still meets
+tests, linters and a pipeline; an unread document meets nothing.
+
+His anecdote is a public failure of this note's own test. An L7 principal product manager opened
+a review on a six-page document and *"two minutes into his presentation, it was blindingly
+obvious to everybody in the room that he was reading the document for the first time."* **"Can I
+explain this?"** answered in front of an audience.
+
+Two coinages worth keeping:
+
+- **"AI;DR"** — *AI; didn't read.* A senior engineer's tag for documents, on the reasoning that
+  *"if a model wrote it, a model can summarize it."* The document twin of unread code, and a
+  rational response: if the artefact was not authored, reading it closely is wasted effort.
+- **"Meat proxies"** — the sharpest line, and it lands on performance reviews rather than on
+  engineering: *"How absurd it is that the mechanism that was meant to be the primary driver of
+  career growth conversations has devolved to managers being meat proxies for a conversation
+  between two prompts."*
+
+Reviews written with AI, aggregated with AI, humans copy-pasting between prompts. That is
+**Elish's crumple zone with nothing in the loop at all** — the manager's name is on a career
+decision whose reasoning no human produced or read. It is a worse case than the code one on both
+costs above: there is no "check it" column, because no verification exists for a promotion
+rationale, and the "undo it" cost falls on a person rather than a service.
+
+Worth noting what this implies for the sector timelines below. Those forecast where line-by-line
+*code* reading persists, graded by consequence. The document version has no equivalent gradient —
+nobody has built evidence review for prose — so the artefacts carrying the highest personal
+stakes are the ones with the least machinery behind them.
+
+> **Provenance.** Huynh left Amazon in **2024** and states that *"everything after that date is
+> secondhand"*; the L7 story reached him via an L6 who was present. He is a shareholder, writes
+> for an audience, and says *"I'd like to be wrong about this."* Carried as a described failure
+> mode, not as a measurement of Amazon.
 
 ## Practices, and the numbers to attribute
 

@@ -1,7 +1,7 @@
 ---
 type: note
 title: Writing an Effective Design Doc
-description: "the design doc as an artifact: when it's worth writing, how much to invest, a selective component catalogue (goals/non-goals, scenarios, SLOs, alternatives considered, trust boundaries), and concrete practices; the larger up-front cousin of the ADR"
+description: "the design doc as an artifact: when it's worth writing, how much to invest, a selective component catalogue, concrete practices — plus the proof-of-work problem, since the thinking it forces was a property of writing being expensive, and study hall as the half that survives cheap generation"
 tags: [architecture, documentation, system-design, decision-making, reading]
 topic: engineering/architecture
 status: notes
@@ -12,8 +12,9 @@ related:
   - engineering/architecture/c4-model.md
   - engineering/ai-native/spec-driven-development.md
   - engineering/architecture/reversibility-decays.md
-source: "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/"
-updated: 2026-07-05
+  - engineering/ai-native/accountability-for-unread-code.md
+source: "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/; https://alifeengineered.substack.com/p/on-the-death-of-amazons-writing-culture"
+updated: 2026-10-25
 ---
 
 # Writing an Effective Design Doc
@@ -99,6 +100,64 @@ this project.
   the reader to a separate glossary.
 - **Include real metadata.** Author, date, and a stable canonical URL make the doc citable
   and findable later.
+
+## The forcing function was a property of the cost
+
+*"The value of the document is the thinking it forces"* is the premise this whole note rests on.
+It was true because writing was **expensive**, and that condition no longer holds automatically.
+
+[Steve Huynh](https://alifeengineered.substack.com/p/on-the-death-of-amazons-writing-culture)
+(October 2026) makes the point via Amazon, whose six-page narrative memo was the most
+committed version of this practice anywhere. Jeff Bezos's rationale is unusually explicit that
+the mechanism *was* the difficulty:
+
+> Full sentences are harder to write. They have verbs. The paragraphs have topic sentences.
+> There is no way to write a six-page, narratively structured memo and not have clear thinking.
+
+**The memo was proof-of-work.** It was expensive to fake, so its existence certified the
+thinking behind it — which is why the format could be trusted as a signal and why PowerPoint was
+banned in 2004 for letting recipients miss critical ideas. Cheap generation voids the
+certificate while leaving the ritual intact: the document still looks like six pages of
+reasoning, and no longer evidences any.
+
+That generalises past memos to every forcing-function artefact in these notes — design docs,
+[ADRs](adr.md), PR descriptions, promotion packets. **Any practice whose value came from an
+artefact being costly to produce loses its signalling value when production gets cheap**, and
+keeps its appearance. The remedies are to re-establish cost somewhere, or to stop reading the
+artefact as a signal and check the thinking directly.
+
+> **How much to believe.** Huynh left Amazon in **2024** and says *"everything after that date
+> is secondhand"*; his central evidence that this has actually happened is a single relayed
+> anecdote (an L7 principal PM visibly reading his own six-page document for the first time, via
+> an L6 who was in the room). He is a shareholder, now writes for an audience, and says *"I'd
+> like to be wrong about this."* **The mechanism is portable; the claim that a culture has died
+> is one story.**
+
+### Study hall is the half that survives
+
+The transferable practice is the one Huynh describes almost in passing: at Amazon the **first 30
+minutes of a one-hour meeting are silent reading** — six-page printouts, annotated in red pen,
+with discussion starting only once everyone has read the same thing.
+
+That is the **reading** half of proof-of-work, and unlike the writing half it is unaffected by
+generation getting cheap. A ritual that forces *consumption* still works no matter how the
+document was produced. If the signalling value of authorship is gone, the enforced-reading half
+is what is left worth keeping — and it is cheap to adopt without any of Amazon's apparatus.
+
+Huynh cites a complementary policy from **Sophie Alpert at Clay**: stand behind every sentence,
+treat writing as thinking, **spend more authorial time than reader time**, avoid unnecessary
+length, and label generated text. The third is the usable test — it prices the document in the
+author's attention rather than in its word count, which is the one quantity AI does not deflate.
+
+**Not carried from that piece:** its headline proposal that *"two-way doors can be AI, one-way
+doors require humans."* That is Bezos's own 2016 framework, already used above and held in depth
+in [Agile Design Decisions](agile-design-decisions.md#reversibility--one-way-vs-two-way-doors) —
+and [Reversibility Decays](reversibility-decays.md) is a direct objection to it: if two-way doors
+lock behind you as dependencies accumulate, "this one is reversible, let the model write it"
+understates the commitment being made. His other two rules have more teeth: **you own every
+word**, with managerial consequences for passing generated text off as your own thinking, and
+some documents are **always** human-written — he lists shareholder letters, OP1/OP2 planning,
+PR-FAQs, new initiatives, major rearchitectures, performance reviews and promotion documents.
 
 ## Relationship to other notes
 
