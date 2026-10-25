@@ -19,8 +19,9 @@ related:
   - engineering/ai-native/linters-over-ai-review.md
   - engineering/architecture/runtime-architecture-verification.md
   - engineering/architecture/layered-architecture.md
+  - engineering/architecture/functional-core-imperative-shell.md
 source: "https://nick-tune.me/blog/2026-08-13-enforced-application-architecture-for-agents-and-humans/"
-updated: 2026-08-23
+updated: 2026-10-26
 ---
 
 # Enforced Architecture Rules for Agents and Humans

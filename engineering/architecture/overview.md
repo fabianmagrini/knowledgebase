@@ -40,7 +40,8 @@ related:
   - engineering/architecture/caching-reference-data-apis.md
   - engineering/architecture/adrs-in-an-agentic-world.md
   - engineering/architecture/design-docs.md
-updated: 2026-06-20
+  - engineering/architecture/functional-core-imperative-shell.md
+updated: 2026-10-26
 ---
 
 # Architecture — Overview
@@ -57,6 +58,10 @@ systems.
 - [Agents as Distributed Systems](agents-as-distributed-systems.md) — decision decomposition
   after functional decomposition, and quality as a reliability concern alongside latency,
   availability and throughput.
+- [Functional Core, Imperative Shell](functional-core-imperative-shell.md) — the counterweight to
+  the layering family: inverting a source-code dependency leaves the **functional** dependency
+  intact, so move effects to the edge rather than behind an interface. Mocks become a symptom
+  rather than a tool.
 - [Composable Architecture](composable-architecture.md) — packaged business capabilities,
   API gateway/BFF, journey APIs, GraphQL federation.
 - [The Micro-Frontend Canvas](micro-frontend-canvas.md) — a single-page tool for deciding and

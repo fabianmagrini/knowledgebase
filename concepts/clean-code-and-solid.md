@@ -14,7 +14,8 @@ related:
   - engineering/practices/naming-conventions.md
   - engineering/architecture/over-engineering.md
   - engineering/architecture/layered-architecture.md
-updated: 2026-10-25
+  - engineering/architecture/functional-core-imperative-shell.md
+updated: 2026-10-26
 ---
 
 # Clean Code and SOLID

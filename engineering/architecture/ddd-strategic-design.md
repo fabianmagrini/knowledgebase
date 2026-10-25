@@ -17,8 +17,9 @@ related:
   - engineering/architecture/change-locality.md
   - engineering/architecture/enforced-architecture-rules.md
   - engineering/architecture/layered-architecture.md
+  - engineering/architecture/functional-core-imperative-shell.md
 source: "https://medium.com/@lambrych/domain-driven-design-ddd-strategic-design-explained-55e10b7ecc0f"
-updated: 2026-06-20
+updated: 2026-10-26
 ---
 
 # Domain-Driven Design: Strategic Design

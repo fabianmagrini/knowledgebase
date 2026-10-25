@@ -21,8 +21,9 @@ related:
   - product/prioritisation-as-a-symptom.md
   - engineering/architecture/comprehension-as-architecture.md
   - engineering/architecture/change-locality.md
+  - engineering/architecture/functional-core-imperative-shell.md
 source: "Skelton & Pais — Team Topologies (2019); Conway (1968)"
-updated: 2026-06-21
+updated: 2026-10-26
 ---
 
 # Team Topologies and Socio-Technical Architecture

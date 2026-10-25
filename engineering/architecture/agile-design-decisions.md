@@ -33,8 +33,9 @@ related:
   - engineering/architecture/layered-architecture.md
   - engineering/architecture/llm-platform-engineering.md
   - product/four-abstraction-levels-of-refinement.md
+  - engineering/architecture/functional-core-imperative-shell.md
 source: "https://gist.github.com/fabianmagrini/76071cbc06aa1a5eafd19a7fb5ea2457"
-updated: 2026-10-17
+updated: 2026-10-26
 ---
 
 # Agile Design Decisions and Principles

@@ -29,8 +29,9 @@ related:
   - languages-and-frameworks/rust-for-agentic-development.md
   - reading/ultimate-self-extending-harness.md
   - case-studies/airbnb-database-workload-replay.md
+  - engineering/architecture/functional-core-imperative-shell.md
 source: "https://addyo.substack.com/p/agentic-verification"
-updated: 2026-10-25
+updated: 2026-10-26
 ---
 
 # Agentic Verification

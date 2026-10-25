@@ -18,8 +18,9 @@ related:
   - engineering/architecture/comprehension-as-architecture.md
   - engineering/architecture/agile-design-decisions.md
   - engineering/architecture/llm-platform-engineering.md
+  - engineering/architecture/functional-core-imperative-shell.md
 source: "https://mikehuls.com/layered-architecture-for-building-readable-robust-and-extensible-apps/"
-updated: 2026-10-10
+updated: 2026-10-26
 ---
 
 # Layered Architecture
