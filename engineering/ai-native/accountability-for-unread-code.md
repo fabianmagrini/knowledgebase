@@ -29,8 +29,9 @@ related:
   - reading/how-i-use-llms-2026.md
   - engineering/ai-native/dora-ai-capabilities.md
   - case-studies/anthropic-formal-verification-at-scale.md
+  - reading/courses.md
 source: "https://addyo.substack.com/p/the-code-nobody-reads; https://alifeengineered.substack.com/p/on-the-death-of-amazons-writing-culture"
-updated: 2026-10-26
+updated: 2026-10-31
 ---
 
 # Accountability for Unread Code

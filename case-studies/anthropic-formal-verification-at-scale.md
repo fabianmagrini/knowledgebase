@@ -19,8 +19,9 @@ related:
   - case-studies/anthropic-scion-source-control.md
   - engineering/architecture/functional-core-imperative-shell.md
   - case-studies/airbnb-database-workload-replay.md
+  - reading/courses.md
 source: "https://www.anthropic.com/research/formal-verification"
-updated: 2026-10-26
+updated: 2026-10-31
 ---
 
 # Formal Verification at Scale With LLMs

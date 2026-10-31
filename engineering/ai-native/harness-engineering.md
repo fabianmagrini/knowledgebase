@@ -38,8 +38,9 @@ related:
   - standards/agent-interop-protocols.md
   - reading/the-capability-overhang.md
   - reading/ultimate-self-extending-harness.md
+  - reading/courses.md
 source: "https://diego-pacheco.blogspot.com/2026/05/harness-engineering.html"
-updated: 2026-10-24
+updated: 2026-10-31
 ---
 
 # Harness Engineering

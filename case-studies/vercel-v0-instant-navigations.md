@@ -21,8 +21,9 @@ related:
   - case-studies/github-huge-pr-rendering.md
   - engineering/ai-native/accountability-for-unread-code.md
   - case-studies/anthropic-claude-ai-performance-sprint.md
+  - reading/courses.md
 source: "https://nextjs.org/blog/making-v0-navigations-instant"
-updated: 2026-08-16
+updated: 2026-10-31
 ---
 
 # Vercel's Agent Loop for Instant Navigations

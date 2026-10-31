@@ -31,8 +31,9 @@ related:
   - case-studies/airbnb-database-workload-replay.md
   - engineering/architecture/functional-core-imperative-shell.md
   - case-studies/anthropic-formal-verification-at-scale.md
+  - reading/courses.md
 source: "https://addyo.substack.com/p/agentic-verification"
-updated: 2026-10-26
+updated: 2026-10-31
 ---
 
 # Agentic Verification

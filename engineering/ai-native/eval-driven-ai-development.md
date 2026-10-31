@@ -30,8 +30,9 @@ related:
   - engineering/architecture/llm-platform-engineering.md
   - engineering/ai-native/agentic-verification.md
   - engineering/architecture/agents-as-distributed-systems.md
+  - reading/courses.md
 source: "https://gist.github.com/fabianmagrini/4399048fc0f1dd2261a1c126589f29ec"
-updated: 2026-10-25
+updated: 2026-10-31
 ---
 
 # Eval-Driven Development for AI Capabilities

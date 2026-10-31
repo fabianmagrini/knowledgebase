@@ -11,6 +11,13 @@ updated: 2026-06-13
 
 Notes and summaries from books, papers, and articles.
 
+## Courses
+
+Structured learning material — courses, video series, book-plus-code packages — is indexed
+separately in **[Courses](courses.md)**, with sections by subject (currently *AI Fundamentals*).
+A course is a commitment rather than a read, so that index records prerequisites, time cost and
+what each one is *for*; articles stay below.
+
 ## Format
 
 Each note should include:
