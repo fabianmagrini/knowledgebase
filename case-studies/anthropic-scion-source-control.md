@@ -21,8 +21,9 @@ related:
   - engineering/practices/release-confidence.md
   - languages-and-frameworks/go-agentic-language.md
   - case-studies/anthropic-formal-verification-at-scale.md
+  - sre/ai-sre-and-the-incident-path.md
 source: "https://www.anthropic.com/engineering/redesigning-source-control"
-updated: 2026-10-26
+updated: 2026-10-31
 ---
 
 # Anthropic's Scion — Source Control at Agent Scale

@@ -27,8 +27,9 @@ related:
   - case-studies/github-copilot-rust-migration.md
   - reading/ultimate-self-extending-harness.md
   - engineering/architecture/agents-as-distributed-systems.md
+  - sre/ai-sre-and-the-incident-path.md
 source: "https://addyo.substack.com/p/long-running-agents"
-updated: 2026-10-25
+updated: 2026-10-31
 ---
 
 # Long-Running Agents

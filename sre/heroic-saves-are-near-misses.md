@@ -13,8 +13,9 @@ related:
   - leadership/landing-the-plane.md
   - leadership/coach-and-judge.md
   - concepts/control-and-complexity.md
+  - sre/ai-sre-and-the-incident-path.md
 source: "https://greatcircle.com/blog/2026/07/21/heroic-saves-are-near-misses/"
-updated: 2026-08-30
+updated: 2026-10-31
 ---
 
 # Heroic Saves Are Near Misses

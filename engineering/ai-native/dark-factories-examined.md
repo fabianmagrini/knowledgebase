@@ -25,6 +25,7 @@ related:
   - engineering/ai-native/activity-metrics-obsolete.md
   - engineering/ai-native/dora-ai-capabilities.md
   - reading/courses.md
+  - sre/ai-sre-and-the-incident-path.md
 source: "https://kachar.dev/blog/the-lights-were-never-off"
 updated: 2026-10-31
 ---

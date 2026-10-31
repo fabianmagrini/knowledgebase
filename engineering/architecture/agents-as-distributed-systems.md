@@ -22,8 +22,9 @@ related:
   - case-studies/uber-mcp-gateway.md
   - case-studies/airbnb-database-workload-replay.md
   - engineering/architecture/data-readiness-for-agents.md
+  - sre/ai-sre-and-the-incident-path.md
 source: "https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/"
-updated: 2026-10-25
+updated: 2026-10-31
 ---
 
 # Agents as Distributed Systems

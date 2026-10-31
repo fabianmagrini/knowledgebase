@@ -25,8 +25,9 @@ related:
   - engineering/ai-native/activity-metrics-obsolete.md
   - reading/state-of-tech-2026.md
   - case-studies/uber-mcp-gateway.md
+  - sre/ai-sre-and-the-incident-path.md
 source: "https://rootly.com/blog/why-we-got-rid-of-our-small-pr-rule"
-updated: 2026-07-26
+updated: 2026-10-31
 ---
 
 # Rootly Dropped Its Small-PR Rule

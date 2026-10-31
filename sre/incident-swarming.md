@@ -16,8 +16,9 @@ related:
   - concepts/resilient-software-design.md
   - engineering/practices/rollback-and-roll-forward.md
   - sre/heroic-saves-are-near-misses.md
+  - sre/ai-sre-and-the-incident-path.md
 source: "https://greatcircle.com/blog/2026/03/24/swarming-is-a-feature/"
-updated: 2026-06-20
+updated: 2026-10-31
 ---
 
 # Swarming in Incident Response

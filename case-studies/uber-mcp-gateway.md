@@ -26,8 +26,9 @@ related:
   - engineering/ai-native/ci-speed-with-ai-agents.md
   - reading/state-of-tech-2026.md
   - engineering/architecture/agents-as-distributed-systems.md
+  - sre/ai-sre-and-the-incident-path.md
 source: "https://www.uber.com/gb/en/blog/designing-mcp-gateway/; https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside"
-updated: 2026-10-25
+updated: 2026-10-31
 ---
 
 # Uber's MCP Gateway

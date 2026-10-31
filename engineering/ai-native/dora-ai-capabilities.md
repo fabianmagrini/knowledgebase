@@ -22,8 +22,9 @@ related:
   - engineering/ai-native/team-topologies-agentic-platform.md
   - engineering/ai-native/dark-factories-examined.md
   - engineering/architecture/llm-platform-engineering.md
+  - sre/ai-sre-and-the-incident-path.md
 source: "https://www.infoq.com/presentations/dora-ai-adoption-engineering-performance/"
-updated: 2026-10-26
+updated: 2026-10-31
 ---
 
 # DORA on AI — The Amplifier and the J-Curve

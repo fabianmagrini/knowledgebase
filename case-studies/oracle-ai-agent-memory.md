@@ -11,8 +11,9 @@ related:
   - engineering/ai-native/cress-context-engineering.md
   - engineering/ai-native/harness-engineering.md
   - engineering/architecture/data-readiness-for-agents.md
+  - sre/ai-sre-and-the-incident-path.md
 source: "https://blogs.oracle.com/developers/whats-new-in-oracle-ai-agent-memory-custom-extraction-hybrid-search-and-more-control"
-updated: 2026-07-19
+updated: 2026-10-31
 ---
 
 # Oracle AI Agent Memory

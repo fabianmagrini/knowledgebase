@@ -13,8 +13,9 @@ related:
   - leadership/decision-facilitation.md
   - sre/heroic-saves-are-near-misses.md
   - concepts/control-and-complexity.md
+  - sre/ai-sre-and-the-incident-path.md
 source: "https://greatcircle.com/blog/2026/04/21/self-blame-isnt-blameless/"
-updated: 2026-07-11
+updated: 2026-10-31
 ---
 
 # Self-Blame in Post-Incident Reviews

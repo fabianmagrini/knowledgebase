@@ -12,8 +12,9 @@ related:
   - leadership/decision-facilitation.md
   - leadership/learning-organisation.md
   - concepts/control-and-complexity.md
+  - sre/ai-sre-and-the-incident-path.md
 source: "https://www.honeycomb.io/blog/leveraging-cognitive-diversity-tackle-system-complexity"
-updated: 2026-07-11
+updated: 2026-10-31
 ---
 
 # Cognitive Diversity in Incident Reviews
