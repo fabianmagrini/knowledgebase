@@ -10,8 +10,9 @@ related:
   - concepts/resilient-software-design.md
   - engineering/security/secure-sdlc.md
   - engineering/ai-native/agentic-verification.md
+  - engineering/architecture/cell-based-architecture.md
 source: "https://w.pitula.me/fintech-engineering-handbook/"
-updated: 2026-07-11
+updated: 2026-11-02
 ---
 
 # Fintech Engineering Handbook

@@ -21,8 +21,9 @@ related:
   - engineering/architecture/llm-platform-engineering.md
   - product/four-abstraction-levels-of-refinement.md
   - engineering/architecture/functional-core-imperative-shell.md
+  - engineering/architecture/cell-based-architecture.md
 source: "https://var0.xyz/posts/perfection-is-not-over-engineering.html"
-updated: 2026-10-26
+updated: 2026-11-02
 ---
 
 # Over-Engineering Is Solving the Wrong Problem

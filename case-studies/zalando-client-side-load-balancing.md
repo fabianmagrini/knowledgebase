@@ -14,8 +14,9 @@ related:
   - engineering/ai-native/model-routing-and-ai-gateways.md
   - concepts/control-plane-data-plane.md
   - concepts/latency-patterns.md
+  - engineering/architecture/cell-based-architecture.md
 source: "https://engineering.zalando.com/posts/2026/06/client-side-load-balancing.html"
-updated: 2026-07-05
+updated: 2026-11-02
 ---
 
 # Zalando's Client-Side Load Balancing

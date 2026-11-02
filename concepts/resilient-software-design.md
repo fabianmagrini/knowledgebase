@@ -26,10 +26,11 @@ related:
   - concepts/control-plane-data-plane.md
   - concepts/control-and-complexity.md
   - concepts/latency-patterns.md
+  - engineering/architecture/cell-based-architecture.md
 source:
   - "https://www.ufried.com/blog/why_resilient_software_design_1/"
   - "https://www.ufried.com/blog/why_resilient_software_design_2/"
-updated: 2026-06-20
+updated: 2026-11-02
 ---
 
 # Resilient Software Design

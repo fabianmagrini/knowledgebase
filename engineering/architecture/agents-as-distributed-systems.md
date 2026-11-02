@@ -23,8 +23,9 @@ related:
   - case-studies/airbnb-database-workload-replay.md
   - engineering/architecture/data-readiness-for-agents.md
   - sre/ai-sre-and-the-incident-path.md
+  - engineering/architecture/cell-based-architecture.md
 source: "https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/"
-updated: 2026-10-31
+updated: 2026-11-02
 ---
 
 # Agents as Distributed Systems

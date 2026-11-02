@@ -15,7 +15,8 @@ related:
   - engineering/architecture/over-engineering.md
   - engineering/architecture/layered-architecture.md
   - engineering/architecture/functional-core-imperative-shell.md
-updated: 2026-10-26
+  - engineering/architecture/cell-based-architecture.md
+updated: 2026-11-02
 ---
 
 # Clean Code and SOLID

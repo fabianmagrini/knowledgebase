@@ -5,7 +5,7 @@ description: "PBCs, API Gateway, BFF, User Journey API, GraphQL federation, DX a
 tags: [architecture, microservices, system-design, api-design]
 topic: engineering/architecture
 status: notes
-updated: 2026-06-20
+updated: 2026-11-02
 related:
   - engineering/practices/engineering-playbook.md
   - engineering/architecture/c4-model.md
@@ -30,6 +30,7 @@ related:
   - case-studies/linear-performance-architecture.md
   - engineering/architecture/primitives-over-frameworks.md
   - engineering/architecture/layered-architecture.md
+  - engineering/architecture/cell-based-architecture.md
 source: "https://gist.github.com/fabianmagrini/3b93d3db8189f663053489dd554d311d"
 ---
 

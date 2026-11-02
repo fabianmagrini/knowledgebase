@@ -20,8 +20,9 @@ related:
   - engineering/architecture/runtime-architecture-verification.md
   - engineering/architecture/layered-architecture.md
   - engineering/architecture/functional-core-imperative-shell.md
+  - engineering/architecture/cell-based-architecture.md
 source: "https://www.infoq.com/articles/evolutionary-architecture-change-locality/"
-updated: 2026-10-26
+updated: 2026-11-02
 ---
 
 # Change Locality and Boundary Drift

@@ -16,8 +16,9 @@ related:
   - engineering/practices/gitops.md
   - tools/postgresql-ha-kubernetes.md
   - case-studies/airbnb-database-workload-replay.md
+  - engineering/architecture/cell-based-architecture.md
 source: ""
-updated: 2026-10-25
+updated: 2026-11-02
 ---
 
 # Database Migration Strategies

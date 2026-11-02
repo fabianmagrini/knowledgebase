@@ -16,7 +16,8 @@ related:
   - engineering/practices/naming-conventions.md
   - engineering/architecture/over-engineering.md
   - engineering/architecture/layered-architecture.md
-updated: 2026-10-25
+  - engineering/architecture/cell-based-architecture.md
+updated: 2026-11-02
 ---
 
 # Software Design Principles
