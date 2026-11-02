@@ -16,8 +16,9 @@ related:
   - engineering/architecture/layered-architecture.md
   - languages-and-frameworks/rust-for-agentic-development.md
   - engineering/architecture/functional-core-imperative-shell.md
+  - case-studies/meta-forum-ai-native-build.md
 source: "https://www.infoq.com/articles/skeleton-architecture/"
-updated: 2026-10-26
+updated: 2026-11-02
 ---
 
 # Skeleton Architecture

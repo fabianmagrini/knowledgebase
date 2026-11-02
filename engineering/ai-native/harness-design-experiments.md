@@ -23,8 +23,9 @@ related:
   - reading/the-capability-overhang.md
   - engineering/architecture/agents-as-distributed-systems.md
   - sre/ai-sre-and-the-incident-path.md
+  - case-studies/meta-forum-ai-native-build.md
 source: "https://www.anthropic.com/engineering/harness-design-long-running-apps"
-updated: 2026-10-31
+updated: 2026-11-02
 ---
 
 # Harness Design for Long-Running App Development

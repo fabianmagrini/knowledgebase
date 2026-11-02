@@ -16,8 +16,9 @@ related:
   - case-studies/stripe-kai-agent-platform.md
   - engineering/security/agent-skill-security.md
   - standards/agent-interop-protocols.md
+  - case-studies/meta-forum-ai-native-build.md
 source: "https://generativeprogrammer.com/p/10-claude-code-steering-mechanisms"
-updated: 2026-07-05
+updated: 2026-11-02
 ---
 
 # Claude Code Steering Mechanisms

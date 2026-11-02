@@ -25,8 +25,9 @@ related:
   - engineering/ai-native/brownfield-agentic-engineering.md
   - standards/agent-interop-protocols.md
   - engineering/ai-native/activity-metrics-obsolete.md
+  - case-studies/meta-forum-ai-native-build.md
 source: "https://openai.com/index/harness-engineering/"
-updated: 2026-10-25
+updated: 2026-11-02
 ---
 
 # OpenAI's Agent-First Harness

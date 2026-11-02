@@ -36,8 +36,9 @@ related:
   - engineering/architecture/llm-platform-engineering.md
   - engineering/ai-native/agentic-verification.md
   - case-studies/airbnb-database-workload-replay.md
+  - case-studies/meta-forum-ai-native-build.md
 source: "https://addyo.substack.com/p/brownfield-agentic-engineering"
-updated: 2026-10-25
+updated: 2026-11-02
 ---
 
 # Brownfield Agentic Engineering

@@ -16,8 +16,9 @@ related:
   - engineering/ai-native/agile-in-the-age-of-ai.md
   - engineering/ai-native/loop-driven-development.md
   - reading/the-capability-overhang.md
+  - case-studies/meta-forum-ai-native-build.md
 source: "https://mdalmijn.com/p/mastering-the-four-abstraction-levels"
-updated: 2026-10-25
+updated: 2026-11-02
 ---
 
 # The Four Abstraction Levels of Refinement

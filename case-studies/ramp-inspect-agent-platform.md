@@ -19,8 +19,9 @@ related:
   - engineering/ai-native/activity-metrics-obsolete.md
   - reading/state-of-tech-2026.md
   - case-studies/uber-mcp-gateway.md
+  - case-studies/meta-forum-ai-native-build.md
 source: "https://newsletter.pragmaticengineer.com/p/why-ramp-built-inspect"
-updated: 2026-08-30
+updated: 2026-11-02
 ---
 
 # Ramp's Inspect Agent Platform

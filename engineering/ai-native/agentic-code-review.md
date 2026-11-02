@@ -40,8 +40,9 @@ related:
   - engineering/ai-native/accountability-for-unread-code.md
   - engineering/ai-native/agentic-verification.md
   - case-studies/uber-mcp-gateway.md
+  - case-studies/meta-forum-ai-native-build.md
 source: "https://addyo.substack.com/p/agentic-code-review"
-updated: 2026-06-20
+updated: 2026-11-02
 ---
 
 # Agentic Code Review

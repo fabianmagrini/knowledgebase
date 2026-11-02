@@ -30,8 +30,9 @@ related:
   - engineering/ai-native/dark-factories-examined.md
   - case-studies/openai-agent-first-harness.md
   - engineering/ai-native/dora-ai-capabilities.md
+  - case-studies/meta-forum-ai-native-build.md
 source: "https://bharatsharma.pro/articles/activity-based-engineering-metrics-are-obsolete; https://newsletter.pragmaticengineer.com/p/whats-the-roi-of-software-engineers"
-updated: 2026-10-26
+updated: 2026-11-02
 ---
 
 # Activity Metrics Under AI

@@ -25,8 +25,9 @@ related:
   - case-studies/anthropic-claude-ai-performance-sprint.md
   - case-studies/doordash-flag-cleanup-agents.md
   - engineering/architecture/llm-platform-engineering.md
+  - case-studies/meta-forum-ai-native-build.md
 source: "Pete Hodgson — Feature Toggles (martinfowler.com); Martin Fowler — BranchByAbstraction; Jez Humble & David Farley — Continuous Delivery (2010)"
-updated: 2026-06-21
+updated: 2026-11-02
 ---
 
 # Feature Flags and Branch by Abstraction

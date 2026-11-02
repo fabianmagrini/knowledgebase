@@ -32,8 +32,9 @@ related:
   - engineering/architecture/functional-core-imperative-shell.md
   - case-studies/anthropic-formal-verification-at-scale.md
   - reading/courses.md
+  - case-studies/meta-forum-ai-native-build.md
 source: "https://addyo.substack.com/p/agentic-verification"
-updated: 2026-10-31
+updated: 2026-11-02
 ---
 
 # Agentic Verification
