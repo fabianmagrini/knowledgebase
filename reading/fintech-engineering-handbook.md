@@ -11,8 +11,9 @@ related:
   - engineering/security/secure-sdlc.md
   - engineering/ai-native/agentic-verification.md
   - engineering/architecture/cell-based-architecture.md
+  - case-studies/tano-eleven-x-pr-throughput.md
 source: "https://w.pitula.me/fintech-engineering-handbook/"
-updated: 2026-11-02
+updated: 2026-11-08
 ---
 
 # Fintech Engineering Handbook

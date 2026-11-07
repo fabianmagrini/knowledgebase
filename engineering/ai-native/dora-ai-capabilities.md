@@ -24,8 +24,9 @@ related:
   - engineering/architecture/llm-platform-engineering.md
   - sre/ai-sre-and-the-incident-path.md
   - case-studies/meta-forum-ai-native-build.md
+  - case-studies/tano-eleven-x-pr-throughput.md
 source: "https://www.infoq.com/presentations/dora-ai-adoption-engineering-performance/"
-updated: 2026-11-02
+updated: 2026-11-08
 ---
 
 # DORA on AI — The Amplifier and the J-Curve

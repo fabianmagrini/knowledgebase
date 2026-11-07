@@ -20,8 +20,9 @@ related:
   - reading/state-of-tech-2026.md
   - case-studies/uber-mcp-gateway.md
   - case-studies/meta-forum-ai-native-build.md
+  - case-studies/tano-eleven-x-pr-throughput.md
 source: "https://newsletter.pragmaticengineer.com/p/why-ramp-built-inspect"
-updated: 2026-11-02
+updated: 2026-11-08
 ---
 
 # Ramp's Inspect Agent Platform

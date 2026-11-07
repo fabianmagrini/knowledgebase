@@ -22,8 +22,9 @@ related:
   - engineering/ai-native/review-replacement.md
   - engineering/ai-native/substitution-myth-in-code-review.md
   - engineering/ai-native/accountability-for-unread-code.md
+  - case-studies/tano-eleven-x-pr-throughput.md
 source: "https://www.intercom.com/blog/ai-is-approving-our-pull-requests-heres-how-we-made-it-safe/"
-updated: 2026-08-08
+updated: 2026-11-08
 ---
 
 # Intercom's AI PR Approval

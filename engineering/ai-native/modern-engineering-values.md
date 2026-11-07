@@ -21,8 +21,9 @@ related:
   - engineering/architecture/primitives-over-frameworks.md
   - engineering/architecture/reversibility-decays.md
   - reading/the-capability-overhang.md
+  - case-studies/tano-eleven-x-pr-throughput.md
 source: "https://cpojer.net/posts/modern-engineering-values"
-updated: 2026-06-14
+updated: 2026-11-08
 ---
 
 # Modern Engineering Values

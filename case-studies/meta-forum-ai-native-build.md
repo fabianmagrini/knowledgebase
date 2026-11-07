@@ -23,8 +23,9 @@ related:
   - engineering/ai-native/review-replacement.md
   - product/four-abstraction-levels-of-refinement.md
   - engineering/ai-native/tdd-in-the-agent-loop.md
+  - case-studies/tano-eleven-x-pr-throughput.md
 source: "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/"
-updated: 2026-11-07
+updated: 2026-11-08
 ---
 
 # Meta's Forum — Human-on-the-Loop in Practice

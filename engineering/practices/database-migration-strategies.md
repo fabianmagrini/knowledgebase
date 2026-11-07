@@ -17,8 +17,9 @@ related:
   - tools/postgresql-ha-kubernetes.md
   - case-studies/airbnb-database-workload-replay.md
   - engineering/architecture/cell-based-architecture.md
+  - case-studies/tano-eleven-x-pr-throughput.md
 source: ""
-updated: 2026-11-02
+updated: 2026-11-08
 ---
 
 # Database Migration Strategies

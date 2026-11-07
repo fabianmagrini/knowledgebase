@@ -26,8 +26,9 @@ related:
   - engineering/architecture/llm-platform-engineering.md
   - reading/the-capability-overhang.md
   - engineering/architecture/agents-as-distributed-systems.md
+  - case-studies/tano-eleven-x-pr-throughput.md
 source: "https://www.infoq.com/articles/evolutionary-architecture-pattern/"
-updated: 2026-10-25
+updated: 2026-11-08
 ---
 
 # The AI Gateway as a Governance Control Plane

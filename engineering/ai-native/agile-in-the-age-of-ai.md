@@ -18,8 +18,9 @@ related:
   - reading/what-is-software-engineering-ai.md
   - reading/state-of-tech-2026.md
   - product/four-abstraction-levels-of-refinement.md
+  - case-studies/tano-eleven-x-pr-throughput.md
 source: "https://miren.dev/blog/agile-in-the-age-of-ai"
-updated: 2026-10-17
+updated: 2026-11-08
 ---
 
 # Agile in the Age of AI

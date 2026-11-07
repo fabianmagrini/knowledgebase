@@ -20,8 +20,9 @@ related:
   - reading/state-of-tech-2026.md
   - leadership/decision-facilitation.md
   - engineering/ai-native/dora-ai-capabilities.md
+  - case-studies/tano-eleven-x-pr-throughput.md
 source: "https://www.adaptivecapacitylabs.com/2026/08/24/there-is-more-to-code-review-than-automatable-detection/; https://martinfowler.com/rachels-ramblings/code-review.html"
-updated: 2026-10-26
+updated: 2026-11-08
 ---
 
 # The Substitution Myth in Code Review

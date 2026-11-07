@@ -22,8 +22,9 @@ related:
   - reading/state-of-tech-2026.md
   - case-studies/anthropic-scion-source-control.md
   - case-studies/meta-forum-ai-native-build.md
+  - case-studies/tano-eleven-x-pr-throughput.md
 source: "https://newsletter.eng-leadership.com/p/how-anthropic-builds-ai-native-engineering"
-updated: 2026-11-02
+updated: 2026-11-08
 ---
 
 # Anthropic's AI-Native Team Structure

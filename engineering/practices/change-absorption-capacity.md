@@ -37,8 +37,9 @@ related:
   - case-studies/anthropic-scion-source-control.md
   - engineering/ai-native/dora-ai-capabilities.md
   - sre/ai-sre-and-the-incident-path.md
+  - case-studies/tano-eleven-x-pr-throughput.md
 source: "https://stackoverflow.blog/2026/05/12/you-shipped-it-fast-but-did-you-ship-it-right/"
-updated: 2026-10-31
+updated: 2026-11-08
 ---
 
 # Change Absorption Capacity (CATS)

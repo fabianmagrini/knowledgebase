@@ -26,8 +26,9 @@ related:
   - engineering/ai-native/dora-ai-capabilities.md
   - reading/courses.md
   - sre/ai-sre-and-the-incident-path.md
+  - case-studies/tano-eleven-x-pr-throughput.md
 source: "https://kachar.dev/blog/the-lights-were-never-off"
-updated: 2026-10-31
+updated: 2026-11-08
 ---
 
 # Dark Factories Examined

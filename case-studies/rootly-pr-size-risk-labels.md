@@ -26,8 +26,9 @@ related:
   - reading/state-of-tech-2026.md
   - case-studies/uber-mcp-gateway.md
   - sre/ai-sre-and-the-incident-path.md
+  - case-studies/tano-eleven-x-pr-throughput.md
 source: "https://rootly.com/blog/why-we-got-rid-of-our-small-pr-rule"
-updated: 2026-10-31
+updated: 2026-11-08
 ---
 
 # Rootly Dropped Its Small-PR Rule
