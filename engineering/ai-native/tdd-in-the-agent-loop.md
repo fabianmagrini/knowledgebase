@@ -1,7 +1,7 @@
 ---
 type: note
 title: TDD Inside the Agent Loop
-description: "An experiment finding TDD inside autonomous agent loops produced worse solutions at 3–8× the tokens — because the discipline's forcing function and its psychology both depend on a human doing it."
+description: "Böckeler's experiment finding agent-run TDD ranked below non-TDD at 3-8x the tokens, the two mechanisms for why it does not transfer — and the methodology side, where Example Mapping before any prompt is the one component that survives the critique, plus a three-level pause-point ladder."
 tags: [ai-engineering, testing, agentic-workflows, reading]
 topic: engineering/ai-native
 status: notes
@@ -21,8 +21,14 @@ related:
   - engineering/ai-native/review-replacement.md
   - engineering/ai-native/brownfield-agentic-engineering.md
   - engineering/ai-native/agentic-verification.md
-source: "https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html"
-updated: 2026-08-23
+  - engineering/ai-native/spec-driven-development.md
+  - product/four-abstraction-levels-of-refinement.md
+  - engineering/ai-native/agentic-autonomy-levels.md
+  - case-studies/meta-forum-ai-native-build.md
+  - engineering/ai-native/accountability-for-unread-code.md
+  - case-studies/cursor-agent-swarm-economics.md
+source: "https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html; https://www.codecentric.de/en/knowledge-hub/blog/exact-coding-with-ai"
+updated: 2026-11-07
 ---
 
 # TDD Inside the Agent Loop
@@ -128,6 +134,64 @@ what an agent loop needs is a signal it can be judged against, not a ritual it c
 Greenfield is the important one. TDD's claimed benefits are often strongest in *brownfield*
 work — characterising existing behaviour before changing it — which this design does not test
 at all.
+
+## The methodology side, and the one part of it that survives this
+
+[EXACT Coding](https://www.codecentric.de/en/knowledge-hub/blog/exact-coding-with-ai) (Marco
+Emrich and Ferdinand Ade, codecentric, April 2026) is the prescriptive counterpart to the
+experiment above: **Ex**ample-guided, **A**I-**C**ollaborative, **T**est-driven Coding, as a
+seven-step workflow whose steps 4–7 are the red-green-refactor cycle run by an agent.
+
+> **It is a method, not a finding.** There is **no evidence of any kind** in the piece — no
+> measurement, no experiment, no case data — and it comes with a Leanpub book and full-day
+> workshops attached. Its central claim, *"quality can still be ensured even with high AI
+> usage — the question is less 'less AI' and more about what guardrails you set"*, is asserted
+> rather than shown, and the specific guardrail it prescribes is the one the experiment above
+> tested and ranked **#3–4 against non-TDD's #1–2** at **3–8× the tokens**. Carried for two
+> components, not for the loop.
+
+**Example Mapping is the component that answers this note's own diagnosis.** EXACT's step 2 is a
+*"short workshop with story, rules, examples, and open questions"*, held **"before the first line
+of code or the first prompt is written"**, converted in step 3 into an organised test list.
+
+That is exactly the arrangement flagged above as preserving the forcing function: a **human
+authoring the examples before an implementation exists**. The collapse described earlier happens
+because the agent plans the implementation and writes the test in the same breath; examples
+agreed in a workshop cannot be reverse-engineered from code that has not been written. Example
+Mapping is a pre-existing BDD practice — not an invention here — and naming it closes the gap
+this note left open, which was *what to do instead of asking the agent to write the test first*.
+It belongs with [spec-driven development](spec-driven-development.md)'s formality spectrum and the
+problem-before-solution sequencing in
+[The Four Abstraction Levels of Refinement](../../product/four-abstraction-levels-of-refinement.md),
+whose level 1 is the same artefact under another name.
+
+**The autonomy levels are a pause-point ladder these notes did not hold:**
+
+| Level | Where the human interrupts |
+|---|---|
+| **A** | *"The agent works through the test list largely on its own; review at the end"* |
+| **B** | *"Pause after every complete Red–Green–Refactor cycle"* |
+| **C** | *"Pause after every phase (Red, Green, Refactor)"* |
+
+[Agentic Autonomy Levels](agentic-autonomy-levels.md) is a multi-axis model of *what an agent is
+permitted to do*; this is the finer and more immediate question of **where a human breaks into a
+loop already running** — the *"watch the run, step in when it drifts"* verb from
+[Meta's Forum](../../case-studies/meta-forum-ai-native-build.md) given three concrete positions.
+Worth having as a dial even where the loop being paused is not red-green-refactor.
+
+**"Verification debt"** is a compact name for something these notes measure in three places:
+*"The generated code looks convincing, reviews become superficial — until things go wrong in
+production."* That is the **"neither"** column in
+[Accountability for Unread Code](accountability-for-unread-code.md) — neither read nor checked —
+with [Faros's +31.3% unreviewed merges and +242% incidents](dark-factories-examined.md) as its
+measurement and the 14%-of-570 review study as the mechanism.
+
+One incidental idea worth more than the methodology: their exercise domain is a card game,
+*"Overlords: The Card Game"*, chosen because it *"rarely appears in the training data of LLMs,
+[so] you can observe live how the AI solves real logic problems rather than just reciting from
+memory."* That is sound instinct about **evaluation contamination** applied to teaching material
+— the same reason [Cursor's swarm benchmark](../../case-studies/cursor-agent-swarm-economics.md)
+withheld the SQLite source and tests from the agents it measured.
 
 ## Relationship to other notes
 

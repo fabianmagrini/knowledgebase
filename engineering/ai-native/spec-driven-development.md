@@ -22,8 +22,9 @@ related:
   - product/four-abstraction-levels-of-refinement.md
   - languages-and-frameworks/rust-for-agentic-development.md
   - case-studies/anthropic-formal-verification-at-scale.md
+  - engineering/ai-native/tdd-in-the-agent-loop.md
 source: "https://brooker.co.za/blog/2026/04/09/waterfall-vs-spec"
-updated: 2026-10-26
+updated: 2026-11-07
 ---
 
 # Spec-Driven Development

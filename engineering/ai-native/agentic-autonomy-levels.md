@@ -30,8 +30,9 @@ related:
   - engineering/architecture/agents-as-distributed-systems.md
   - case-studies/anthropic-formal-verification-at-scale.md
   - sre/ai-sre-and-the-incident-path.md
+  - engineering/ai-native/tdd-in-the-agent-loop.md
 source: "https://addyo.substack.com/p/agentic-autonomy-levels"
-updated: 2026-10-31
+updated: 2026-11-07
 ---
 
 # Agentic Autonomy Levels

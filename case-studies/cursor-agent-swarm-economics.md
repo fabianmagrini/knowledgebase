@@ -23,8 +23,9 @@ related:
   - case-studies/anthropic-scion-source-control.md
   - reading/ultimate-self-extending-harness.md
   - case-studies/anthropic-formal-verification-at-scale.md
+  - engineering/ai-native/tdd-in-the-agent-loop.md
 source: "https://cursor.com/blog/agent-swarm-model-economics"
-updated: 2026-10-26
+updated: 2026-11-07
 ---
 
 # Cursor's Agent Swarm Economics
