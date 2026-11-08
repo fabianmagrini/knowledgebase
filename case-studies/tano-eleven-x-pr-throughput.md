@@ -24,6 +24,7 @@ related:
   - case-studies/ramp-inspect-agent-platform.md
   - engineering/ai-native/ai-gateway-control-plane.md
   - engineering/ai-native/modern-engineering-values.md
+  - engineering/ai-native/review-replacement.md
 source: "https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing"
 updated: 2026-11-08
 ---

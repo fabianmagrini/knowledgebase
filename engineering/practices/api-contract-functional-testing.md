@@ -5,7 +5,7 @@ description: "In distributed systems and microservice architectures, testing mus
 tags: [testing, api-design, ci-cd]
 topic: engineering/practices
 status: notes
-updated: 2026-06-08
+updated: 2026-11-08
 related:
   - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/polyrepo-branching-strategy.md
@@ -17,6 +17,7 @@ related:
   - engineering/practices/change-absorption-capacity.md
   - engineering/architecture/caching-reference-data-apis.md
   - engineering/architecture/data-readiness-for-agents.md
+  - engineering/ai-native/review-replacement.md
   - languages-and-frameworks/react-forms.md
 ---
 

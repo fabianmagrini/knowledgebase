@@ -12,6 +12,7 @@ related:
   - engineering/ai-native/agentic-verification.md
   - engineering/architecture/cell-based-architecture.md
   - case-studies/tano-eleven-x-pr-throughput.md
+  - engineering/ai-native/review-replacement.md
 source: "https://w.pitula.me/fintech-engineering-handbook/"
 updated: 2026-11-08
 ---

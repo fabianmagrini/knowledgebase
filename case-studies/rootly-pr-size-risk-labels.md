@@ -27,6 +27,7 @@ related:
   - case-studies/uber-mcp-gateway.md
   - sre/ai-sre-and-the-incident-path.md
   - case-studies/tano-eleven-x-pr-throughput.md
+  - engineering/ai-native/review-replacement.md
 source: "https://rootly.com/blog/why-we-got-rid-of-our-small-pr-rule"
 updated: 2026-11-08
 ---

@@ -18,6 +18,7 @@ related:
   - case-studies/airbnb-database-workload-replay.md
   - engineering/architecture/cell-based-architecture.md
   - case-studies/tano-eleven-x-pr-throughput.md
+  - engineering/ai-native/review-replacement.md
 source: ""
 updated: 2026-11-08
 ---

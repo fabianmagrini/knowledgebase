@@ -23,8 +23,14 @@ related:
   - reading/state-of-tech-2026.md
   - engineering/ai-native/dora-ai-capabilities.md
   - case-studies/meta-forum-ai-native-build.md
-source: "https://www.latent.space/p/reviews-dead"
-updated: 2026-11-02
+  - case-studies/tano-eleven-x-pr-throughput.md
+  - engineering/practices/database-migration-strategies.md
+  - reading/fintech-engineering-handbook.md
+  - engineering/practices/api-contract-functional-testing.md
+  - engineering/architecture/reversibility-decays.md
+  - case-studies/rootly-pr-size-risk-labels.md
+source: "https://www.latent.space/p/reviews-dead; https://swizec.com/blog/how-do-we-auto-approve-and-merge-60p-of-prs"
+updated: 2026-11-08
 ---
 
 # Replacing Code Review With Upstream Verification
@@ -126,11 +132,75 @@ These notes have accumulated a full range of positions on one question:
 | Tiered by risk; a human owns the merge | [Agentic Code Review](agentic-code-review.md) |
 | ~19% auto-approved, accountability moves to the author | [Intercom](../../case-studies/intercom-ai-pr-approval.md) |
 | ~40% auto-approved, under compliance controls | [Rewind](../../case-studies/rewind-ai-pr-approval.md) |
+| ~16% achieved, **60% targeted**, review pushed both upstream and downstream | [Swizec Teller](https://swizec.com/blog/how-do-we-auto-approve-and-merge-60p-of-prs) (November 2026), below |
 | **Review replaced outright by upstream verification** | this note |
 
 Better read as a spectrum than a debate. The practical question for any team is where on it
 they sit and why — and the observation worth carrying is that every middle position retains
 something both endpoints lack: **a named human accountable for a specific change.**
+
+### The fourth data point, and the direction it adds
+
+Teller — already a source here for
+[custom linters over AI review](linters-over-ai-review.md), from a team handling 2,900 PRs and
+10 reviews a day — describes pushing further along the same axis. **Read the figure carefully**:
+*"Getting to ~16% auto-approved and merged PRs helped but it's not enough. How can we do 60%?"*
+The 19% and 40% above are reported current states; **this is 16% achieved and 60% aspired to**,
+and belongs in the table as a direction rather than a measurement. No company is named and no
+time period is given for either number.
+
+**What it adds is a third stage the five layers above do not have:**
+
+> 1. **Before implementation** Engineers + Stakeholders review architecture, constraints, and
+>    product direction
+> 2. **During implementation** Agents + automated checks review correctness, contracts,
+>    conventions, and safety
+> 3. **After implementation** Engineers + users review actual behavior, UX, and usefulness
+
+Every one of this note's five replacement layers is **upstream** — best-of-N ranking,
+deterministic guardrails, acceptance criteria, permissions, adversarial verification. Stage 3
+moves review **downstream into observed behaviour with users**, which is a position these notes
+did not hold. Paired with Laycock's shift-left in
+[The Substitution Myth in Code Review](substitution-myth-in-code-review.md), the shape becomes
+clearer than either alone: **judgement moves both left and right, and the code-level review in
+the middle is what gets squeezed out.** Whether stage 3 can carry the weight is the open
+question — behaviour review catches what users notice, which is a different and smaller set than
+what a reviewer reading a diff would catch.
+
+**The exclusion list is the most portable line in the piece:**
+
+> It won't merge anything that touches **migrations, public interfaces, or finance**.
+
+Three categories named by *what they can damage* rather than by diff size or a risk score — and
+each is independently evidenced in these notes. Migrations:
+[Tano's blocking migration](../../case-studies/tano-eleven-x-pr-throughput.md) that stopped the
+ingestion pipeline writing, and
+[Database Migration Strategies](../practices/database-migration-strategies.md) on why stateful
+change is the hardest part of delivery. Finance: Tano's agent parsing currency minor units as
+floats, and [the fintech handbook](../../reading/fintech-engineering-handbook.md)'s *"no invented
+data"*. Public interfaces: [contract testing](../practices/api-contract-functional-testing.md)
+and [Reversibility Decays](../architecture/reversibility-decays.md), where an exported surface is
+the thing whose exit cost only rises. **A three-item denylist that matches where this repo's own
+recorded failures actually happened** is worth more than a scoring rubric nobody can calibrate.
+
+Risk itself is tagged *"by bugbot or a human"* — the same mechanism as
+[Rootly's risk labels](../../case-studies/rootly-pr-size-risk-labels.md), with no rubric given.
+
+Two smaller things. His name for review's residual purpose is good: *"Code review then mostly
+becomes about finding **desire paths in our architecture** so we can build tools for common
+problems"* — turning repeated review findings into linters, which continues his earlier argument
+and is the feedback loop `linters-over-ai-review` describes without naming. And his stated limit
+is the right one: *"I don't think 100% is feasible. Some things are high risk, need coordinated
+deploys, or just more feedback before they're ready"*, with mentoring junior engineers as the
+other case requiring humans.
+
+> **A collision worth not conflating.** He uses **"meat proxying"** to mean *himself* pasting a
+> PR link into Claude and saying "fix this" — a human as manual transport for work that should be
+> automated. [Accountability for Unread Code](accountability-for-unread-code.md) already carries
+> the phrase from Steve Huynh in a different sense: *"managers being meat proxies for a
+> conversation between two prompts"*, a human relaying between models while contributing no
+> judgement. Same words, opposite complaints — one wants the human removed from the pipe, the
+> other objects to the human having become one.
 
 ## The tension in his own argument
 
