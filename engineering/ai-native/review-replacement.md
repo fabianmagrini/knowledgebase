@@ -29,8 +29,9 @@ related:
   - engineering/practices/api-contract-functional-testing.md
   - engineering/architecture/reversibility-decays.md
   - case-studies/rootly-pr-size-risk-labels.md
+  - engineering/ai-native/agentic-ai-strategy-frameworks.md
 source: "https://www.latent.space/p/reviews-dead; https://swizec.com/blog/how-do-we-auto-approve-and-merge-60p-of-prs"
-updated: 2026-11-08
+updated: 2026-11-09
 ---
 
 # Replacing Code Review With Upstream Verification

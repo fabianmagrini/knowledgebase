@@ -24,8 +24,9 @@ related:
   - case-studies/uber-mcp-gateway.md
   - case-studies/rootly-pr-size-risk-labels.md
   - engineering/architecture/agents-as-distributed-systems.md
+  - engineering/ai-native/agentic-ai-strategy-frameworks.md
 source: "https://newsletter.pragmaticengineer.com/p/ai-sre"
-updated: 2026-10-31
+updated: 2026-11-09
 ---
 
 # AI SRE and the Incident Path

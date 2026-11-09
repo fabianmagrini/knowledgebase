@@ -41,8 +41,9 @@ related:
   - engineering/ai-native/agentic-verification.md
   - case-studies/uber-mcp-gateway.md
   - case-studies/meta-forum-ai-native-build.md
+  - engineering/ai-native/agentic-ai-strategy-frameworks.md
 source: "https://addyo.substack.com/p/agentic-code-review"
-updated: 2026-11-02
+updated: 2026-11-09
 ---
 
 # Agentic Code Review
