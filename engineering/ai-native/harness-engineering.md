@@ -39,8 +39,9 @@ related:
   - reading/the-capability-overhang.md
   - reading/ultimate-self-extending-harness.md
   - reading/courses.md
+  - case-studies/x-web-rewrite.md
 source: "https://diego-pacheco.blogspot.com/2026/05/harness-engineering.html"
-updated: 2026-10-31
+updated: 2026-11-12
 ---
 
 # Harness Engineering

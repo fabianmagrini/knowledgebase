@@ -19,8 +19,9 @@ related:
   - engineering/ai-native/review-replacement.md
   - engineering/architecture/agents-as-distributed-systems.md
   - engineering/architecture/cell-based-architecture.md
+  - case-studies/x-web-rewrite.md
 source: "James Governor / RedMonk — Progressive Delivery (2018); Adam Zimman, Heidi Waterhouse, James Governor — Progressive Delivery (LaunchDarkly, 2019)"
-updated: 2026-11-02
+updated: 2026-11-12
 ---
 
 # Progressive Delivery

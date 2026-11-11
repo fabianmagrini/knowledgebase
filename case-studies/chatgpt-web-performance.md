@@ -15,8 +15,9 @@ related:
   - case-studies/linear-ci-rework.md
   - case-studies/github-huge-pr-rendering.md
   - case-studies/anthropic-claude-ai-performance-sprint.md
+  - case-studies/x-web-rewrite.md
 source: "https://performance.dev/chatgpt"
-updated: 2026-07-11
+updated: 2026-11-12
 ---
 
 # ChatGPT's Web Performance Architecture

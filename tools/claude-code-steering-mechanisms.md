@@ -17,8 +17,9 @@ related:
   - engineering/security/agent-skill-security.md
   - standards/agent-interop-protocols.md
   - case-studies/meta-forum-ai-native-build.md
+  - case-studies/x-web-rewrite.md
 source: "https://generativeprogrammer.com/p/10-claude-code-steering-mechanisms"
-updated: 2026-11-02
+updated: 2026-11-12
 ---
 
 # Claude Code Steering Mechanisms

@@ -18,8 +18,9 @@ related:
   - case-studies/linear-ci-rework.md
   - case-studies/github-huge-pr-rendering.md
   - case-studies/anthropic-claude-ai-performance-sprint.md
+  - case-studies/x-web-rewrite.md
 source: "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown"
-updated: 2026-06-22
+updated: 2026-11-12
 ---
 
 # Linear's Performance Architecture

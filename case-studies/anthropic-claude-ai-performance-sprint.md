@@ -21,8 +21,9 @@ related:
   - case-studies/github-copilot-rust-migration.md
   - engineering/ai-native/agentic-verification.md
   - case-studies/anthropic-scion-source-control.md
+  - case-studies/x-web-rewrite.md
 source: "https://claude.dev/blog/how-we-made-claude-ai-faster/"
-updated: 2026-10-18
+updated: 2026-11-12
 ---
 
 # Anthropic's claude.ai Performance Sprint

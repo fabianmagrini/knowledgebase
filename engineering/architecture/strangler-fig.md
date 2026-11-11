@@ -15,7 +15,8 @@ related:
   - case-studies/lovable-nextjs-migration.md
   - engineering/ai-native/brownfield-agentic-engineering.md
   - case-studies/github-copilot-rust-migration.md
-updated: 2026-06-13
+  - case-studies/x-web-rewrite.md
+updated: 2026-11-12
 ---
 
 # Strangler Fig Pattern

@@ -25,8 +25,9 @@ related:
   - case-studies/doordash-flag-cleanup-agents.md
   - engineering/ai-native/agentic-verification.md
   - case-studies/uber-mcp-gateway.md
+  - case-studies/x-web-rewrite.md
 source: "https://swizec.com/blog/stop-burning-tokens-on-code-review"
-updated: 2026-10-10
+updated: 2026-11-12
 ---
 
 # Linters Over AI Review

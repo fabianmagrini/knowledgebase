@@ -24,8 +24,9 @@ related:
   - case-studies/airbnb-database-workload-replay.md
   - reading/how-i-use-llms-2026.md
   - case-studies/anthropic-formal-verification-at-scale.md
+  - case-studies/x-web-rewrite.md
 source: "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/"
-updated: 2026-10-26
+updated: 2026-11-12
 ---
 
 # Migrating the Copilot Runtime to Rust With Agents

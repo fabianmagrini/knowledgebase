@@ -26,8 +26,9 @@ related:
   - engineering/ai-native/modern-engineering-values.md
   - engineering/ai-native/review-replacement.md
   - engineering/ai-native/agentic-ai-strategy-frameworks.md
+  - case-studies/x-web-rewrite.md
 source: "https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing"
-updated: 2026-11-09
+updated: 2026-11-12
 ---
 
 # Tano — One Engineer's 11× Throughput, and What It Cost

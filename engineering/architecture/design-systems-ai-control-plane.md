@@ -24,8 +24,9 @@ related:
   - engineering/ai-native/ai-gateway-control-plane.md
   - case-studies/vercel-v0-instant-navigations.md
   - concepts/control-plane-data-plane.md
+  - case-studies/x-web-rewrite.md
 source: "https://gist.github.com/fabianmagrini/3bf21095225b78d8b30db9437f4477b9; https://engineering.gusto.com/eval-driven-design-systems-8f781dc2dacb"
-updated: 2026-08-03
+updated: 2026-11-12
 ---
 
 # Design Systems as the AI Control Plane

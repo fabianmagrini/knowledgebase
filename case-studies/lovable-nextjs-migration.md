@@ -14,8 +14,9 @@ related:
   - case-studies/chatgpt-web-performance.md
   - engineering/architecture/architectural-change-cases.md
   - case-studies/github-copilot-rust-migration.md
+  - case-studies/x-web-rewrite.md
 source: "https://lovable.dev/blog/how-we-migrated-lovable-dev-away-from-nextjs"
-updated: 2026-08-30
+updated: 2026-11-12
 ---
 
 # Lovable's Migration Off Next.js

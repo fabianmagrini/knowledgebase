@@ -38,8 +38,9 @@ related:
   - case-studies/airbnb-database-workload-replay.md
   - case-studies/meta-forum-ai-native-build.md
   - engineering/ai-native/agentic-ai-strategy-frameworks.md
+  - case-studies/x-web-rewrite.md
 source: "https://addyo.substack.com/p/brownfield-agentic-engineering"
-updated: 2026-11-09
+updated: 2026-11-12
 ---
 
 # Brownfield Agentic Engineering

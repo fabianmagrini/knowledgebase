@@ -27,8 +27,9 @@ related:
   - engineering/ai-native/activity-metrics-obsolete.md
   - case-studies/meta-forum-ai-native-build.md
   - case-studies/tano-eleven-x-pr-throughput.md
+  - case-studies/x-web-rewrite.md
 source: "https://openai.com/index/harness-engineering/"
-updated: 2026-11-08
+updated: 2026-11-12
 ---
 
 # OpenAI's Agent-First Harness
