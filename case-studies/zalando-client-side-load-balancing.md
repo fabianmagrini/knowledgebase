@@ -15,8 +15,9 @@ related:
   - concepts/control-plane-data-plane.md
   - concepts/latency-patterns.md
   - engineering/architecture/cell-based-architecture.md
+  - engineering/architecture/inference-serving-infrastructure.md
 source: "https://engineering.zalando.com/posts/2026/06/client-side-load-balancing.html"
-updated: 2026-11-02
+updated: 2026-11-15
 ---
 
 # Zalando's Client-Side Load Balancing

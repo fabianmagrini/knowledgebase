@@ -27,8 +27,9 @@ related:
   - reading/the-capability-overhang.md
   - engineering/architecture/agents-as-distributed-systems.md
   - case-studies/tano-eleven-x-pr-throughput.md
+  - engineering/architecture/inference-serving-infrastructure.md
 source: "https://www.infoq.com/articles/evolutionary-architecture-pattern/"
-updated: 2026-11-08
+updated: 2026-11-15
 ---
 
 # The AI Gateway as a Governance Control Plane

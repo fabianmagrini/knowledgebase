@@ -21,8 +21,9 @@ related:
   - engineering/practices/spa-soak-testing.md
   - concepts/latency-patterns.md
   - case-studies/airbnb-database-workload-replay.md
+  - engineering/architecture/inference-serving-infrastructure.md
 source: "https://gist.github.com/fabianmagrini/dbf422910023dc8460f1331dd27c6f21"
-updated: 2026-10-25
+updated: 2026-11-15
 ---
 
 # Performance Testing Strategy

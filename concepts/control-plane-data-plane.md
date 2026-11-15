@@ -20,8 +20,9 @@ related:
   - case-studies/uber-mcp-gateway.md
   - case-studies/airbnb-database-workload-replay.md
   - engineering/architecture/cell-based-architecture.md
+  - engineering/architecture/inference-serving-infrastructure.md
 source: "https://www.allthingsdistributed.com/2026/08/on-building-scalable-control-planes.html"
-updated: 2026-11-02
+updated: 2026-11-15
 ---
 
 # Control Plane and Data Plane

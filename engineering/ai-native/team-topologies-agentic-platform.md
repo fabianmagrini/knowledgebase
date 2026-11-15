@@ -18,8 +18,9 @@ related:
   - case-studies/ramp-inspect-agent-platform.md
   - engineering/ai-native/dora-ai-capabilities.md
   - reading/courses.md
+  - engineering/architecture/inference-serving-infrastructure.md
 source: "https://blog.owulveryck.info/2026/06/24/who-does-what-team-topologies-for-the-agentic-platform.html"
-updated: 2026-10-31
+updated: 2026-11-15
 ---
 
 # Team Topologies for the Agentic Platform

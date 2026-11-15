@@ -42,7 +42,8 @@ related:
   - engineering/architecture/design-docs.md
   - engineering/architecture/functional-core-imperative-shell.md
   - engineering/architecture/cell-based-architecture.md
-updated: 2026-11-02
+  - engineering/architecture/inference-serving-infrastructure.md
+updated: 2026-11-15
 ---
 
 # Architecture — Overview
@@ -96,6 +97,10 @@ systems.
 - [Cell-Based Architecture](cell-based-architecture.md) — bounding the failure domain at
   runtime: cells owning their own services and data, one router as the only cross-cell path,
   restart rather than resume, and observability kept out of the critical path.
+- [Inference Serving Infrastructure](inference-serving-infrastructure.md) — the serving layer for
+  self-hosted models: routing by cache residency rather than by load, the KV cache as a memory
+  hierarchy, and phase disaggregation. The same route-to-the-state principle as cells, one layer
+  down.
 - [Strangler Fig Pattern](strangler-fig.md) — modernise legacy incrementally behind a
   facade, without a big-bang rewrite.
 - [Lovable's Migration Off Next.js](../../case-studies/lovable-nextjs-migration.md) — that

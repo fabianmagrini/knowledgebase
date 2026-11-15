@@ -21,8 +21,9 @@ related:
   - concepts/clean-code-and-solid.md
   - engineering/practices/software-design-principles.md
   - concepts/progressive-delivery.md
+  - engineering/architecture/inference-serving-infrastructure.md
 source: "https://americanexpress.io/cell-based-architecture-for-resilient-payment-systems/"
-updated: 2026-11-02
+updated: 2026-11-15
 ---
 
 # Cell-Based Architecture

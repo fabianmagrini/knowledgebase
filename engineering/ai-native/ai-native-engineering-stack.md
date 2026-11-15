@@ -5,7 +5,7 @@ description: "AI-native engineering is not just AI writing code."
 tags: [ai-engineering, architecture, agentic-workflows]
 topic: engineering/ai-native
 status: notes
-updated: 2026-06-20
+updated: 2026-11-15
 related:
   - engineering/ai-native/ci-cd-ai-engineering.md
   - engineering/practices/engineering-playbook.md
@@ -29,6 +29,7 @@ related:
   - engineering/ai-native/ai-factory.md
   - engineering/ai-native/skill-engineering-disciplines.md
   - standards/agent-interop-protocols.md
+  - engineering/architecture/inference-serving-infrastructure.md
 source: "https://gist.github.com/fabianmagrini/9543a6a750d904f66744d7fbfb3d3ec3"
 ---
 

@@ -11,8 +11,9 @@ related:
   - engineering/ai-native/team-topologies-agentic-platform.md
   - engineering/architecture/design-systems-ai-control-plane.md
   - engineering/security/agent-skill-security.md
+  - engineering/architecture/inference-serving-infrastructure.md
 source: "https://www.infoq.com/articles/governing-ai-cloud-guide/"
-updated: 2026-07-05
+updated: 2026-11-15
 ---
 
 # Governing AI in the Cloud

@@ -19,8 +19,9 @@ related:
   - case-studies/anthropic-claude-ai-performance-sprint.md
   - case-studies/uber-mcp-gateway.md
   - engineering/ai-native/agentic-verification.md
+  - engineering/architecture/inference-serving-infrastructure.md
 source: "https://generativeprogrammer.com/p/latency-patterns-for-faster-ai-applications"
-updated: 2026-08-30
+updated: 2026-11-15
 ---
 
 # Latency Patterns

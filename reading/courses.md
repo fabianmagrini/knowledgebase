@@ -5,7 +5,7 @@ description: "Structured learning material — courses, video series and book-pl
 tags: [meta, ai-engineering, reading]
 topic: reading
 status: notes
-updated: 2026-10-31
+updated: 2026-11-15
 related:
   - engineering/ai-native/harness-engineering.md
   - engineering/ai-native/eval-driven-ai-development.md
@@ -14,6 +14,7 @@ related:
   - engineering/ai-native/accountability-for-unread-code.md
   - engineering/ai-native/dark-factories-examined.md
   - case-studies/vercel-v0-instant-navigations.md
+  - engineering/architecture/inference-serving-infrastructure.md
   - case-studies/anthropic-formal-verification-at-scale.md
 ---
 

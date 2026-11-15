@@ -20,8 +20,9 @@ related:
   - reading/state-of-tech-2026.md
   - case-studies/uber-mcp-gateway.md
   - reading/ultimate-self-extending-harness.md
+  - engineering/architecture/inference-serving-infrastructure.md
 source: "https://newsletter.pragmaticengineer.com/p/the-pulse-a-new-trend-smart-model"
-updated: 2026-10-24
+updated: 2026-11-15
 ---
 
 # Model Routing and AI Gateways

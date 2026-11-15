@@ -19,8 +19,9 @@ related:
   - case-studies/ramp-inspect-agent-platform.md
   - standards/agent-interop-protocols.md
   - case-studies/uber-mcp-gateway.md
+  - engineering/architecture/inference-serving-infrastructure.md
 source: "https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents"
-updated: 2026-08-08
+updated: 2026-11-15
 ---
 
 # Stripe's Kai Agent Platform
