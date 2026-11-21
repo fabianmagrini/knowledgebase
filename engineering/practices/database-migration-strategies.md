@@ -20,6 +20,7 @@ related:
   - case-studies/tano-eleven-x-pr-throughput.md
   - engineering/ai-native/review-replacement.md
   - product/predictability-vs-outcomes.md
+  - engineering/ai-native/long-running-agents.md
 source: ""
 updated: 2026-11-21
 ---

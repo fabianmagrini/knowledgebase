@@ -28,8 +28,15 @@ related:
   - reading/ultimate-self-extending-harness.md
   - engineering/architecture/agents-as-distributed-systems.md
   - sre/ai-sre-and-the-incident-path.md
-source: "https://addyo.substack.com/p/long-running-agents"
-updated: 2026-10-31
+  - engineering/ai-native/ai-gateway-control-plane.md
+  - engineering/ai-native/accountability-for-unread-code.md
+  - engineering/architecture/cell-based-architecture.md
+  - engineering/practices/database-migration-strategies.md
+  - engineering/ai-native/agentic-sdlc.md
+  - engineering/ai-native/agentic-code-review.md
+  - case-studies/doordash-flag-cleanup-agents.md
+source: "https://addyo.substack.com/p/long-running-agents; https://generativeprogrammer.com/p/the-evolution-of-agentic-loops"
+updated: 2026-11-21
 ---
 
 # Long-Running Agents
@@ -113,6 +120,71 @@ recoverable and auditable.**
 | External state enabling recovery without re-contextualising the model | Context rot degrading performance mid-run |
 | Test ratchets preventing backsliding | Models declaring "done" at 30% (self-grading) |
 | Session logs giving auditability | Memory drift; quality loss across repeated re-summaries; cost runaway without budgets/circuit-breakers |
+
+## Two things the three meanings do not cover
+
+[Bilgin Ibryam](https://generativeprogrammer.com/p/the-evolution-of-agentic-loops) (November
+2026) sets out a six-stage evolution of agent loops — tool-calling, stateful, durable, ambient,
+harness, persistent. **Four of the six are held elsewhere in these notes under other names**, and
+his stage 3 and stage 6 are this note's *long-running execution* and *persistent agency*, so the
+taxonomy is largely a restatement. Two stages supply something the three meanings above miss.
+
+> **Provenance.** Ibryam's ninth source in these notes, and he already supplies the repo's
+> [maturity model](agentic-sdlc-maturity-model.md) — a second staged taxonomy from one newsletter
+> is carried for its gaps, not its frame. He discloses contributing to **Dapr Agents**, which
+> appears in his own durable-execution section. 15+ frameworks cited with links; **no measurement
+> of his own**.
+
+**Ambient agents — the trigger question, which is absent from these notes entirely.** An ambient
+agent is *activated by events or schedules rather than by user initiation*, and runs headless.
+
+Every agent in this knowledge base is **invoked**: by a developer in a harness, by a PR opening,
+by an alert firing, by CI. [Agentic code review](agentic-code-review.md) runs on a pull request;
+[AI SRE](../../sre/ai-sre-and-the-incident-path.md) runs on a page;
+[DoorDash's flag cleanup](../../case-studies/doordash-flag-cleanup-agents.md) runs on a schedule
+someone set and watches. **A standing agent that activates on its own events is a different
+operational proposition**, and the three walls above do not cover its distinctive problem: not
+context, state or self-verification, but **who notices that it ran at all.**
+
+That bears directly on two things already held.
+[Agentic Autonomy Levels](agentic-autonomy-levels.md) bounds tools, permissions and budget for an
+invoked run — an ambient agent needs the same contract plus a *trigger* budget, since nobody is
+waiting for its output. And
+[the AI gateway control plane](ai-gateway-control-plane.md) argues for per-action authorisation
+rather than per-session trust; with no session and no human initiator, per-action is the only
+unit left. The accountability problem in
+[Accountability for Unread Code](accountability-for-unread-code.md) sharpens too: unread code at
+least had an author who asked for it.
+
+**Durable execution, with the mechanism this cluster never states.**
+[The Agentic SDLC](agentic-sdlc.md) lists *"durable execution"* as a bullet and never explains
+it. Ibryam's definition: record execution progress so a failed run **resumes rather than
+restarts**, with an **idempotency key** preventing duplicate side effects when a step is retried.
+Named implementations are ordinary workflow engines — Temporal, Restate, DBOS, Inngest, Dapr
+Agents — which is the useful observation: **this is not an agent problem, it is the durable-workflow
+problem with a model in one of the steps.**
+
+**That is the third arrival at one requirement in these notes.**
+[Cell-Based Architecture](../architecture/cell-based-architecture.md) needs a transaction
+identifier that *"remains consistent across retries and reroutes"* before it can restart work in
+another cell, so idempotency there is a **precondition for the failover strategy** rather than a
+safety net. [Database Migration Strategies](../practices/database-migration-strategies.md) wants
+backfills *"idempotent and resumable"* for the same reason. An agent step with side effects is the
+same shape: **retry safety is what buys you the right to resume at all**, and the checkpoint-and-resume
+pattern above silently assumes it.
+
+Note the tension with Amex, which is worth holding rather than resolving: they deliberately
+**restart rather than resume** across a boundary, because transferring partial state would breach
+the isolation the architecture exists to maintain. Durable execution resumes *inside* one
+workflow; cells restart *across* boundaries. Both need the identifier; they use it for opposite
+moves.
+
+**On persistent agents**, his stage 6 adds two smaller things to the *standing agents* idea held
+from [Ultimate](../../reading/ultimate-self-extending-harness.md): a cycle name —
+**Activate, Act, Adapt** — and **production examples** (Grok Bot, Meta Muse, Kiro Crew Bots).
+The second matters more than it sounds, because the repo's only instance of a never-concluding
+agent was one person's personal project with the author's own *"I don't really recommend it"*
+attached.
 
 ## Distinctive vocabulary
 

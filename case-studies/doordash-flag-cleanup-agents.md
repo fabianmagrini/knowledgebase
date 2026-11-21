@@ -17,8 +17,9 @@ related:
   - engineering/ai-native/linters-over-ai-review.md
   - engineering/ai-native/brownfield-agentic-engineering.md
   - standards/agent-interop-protocols.md
+  - engineering/ai-native/long-running-agents.md
 source: "https://careersatdoordash.com/blog/automating-feature-flag-cleanup-at-scale-with-a-multi-agent-llm-system/"
-updated: 2026-10-11
+updated: 2026-11-21
 ---
 
 # DoorDash's Multi-Agent Feature-Flag Cleanup

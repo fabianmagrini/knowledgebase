@@ -28,8 +28,9 @@ related:
   - engineering/architecture/agents-as-distributed-systems.md
   - case-studies/tano-eleven-x-pr-throughput.md
   - engineering/architecture/inference-serving-infrastructure.md
+  - engineering/ai-native/long-running-agents.md
 source: "https://www.infoq.com/articles/evolutionary-architecture-pattern/"
-updated: 2026-11-15
+updated: 2026-11-21
 ---
 
 # The AI Gateway as a Governance Control Plane

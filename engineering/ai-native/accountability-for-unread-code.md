@@ -33,8 +33,9 @@ related:
   - sre/ai-sre-and-the-incident-path.md
   - engineering/ai-native/tdd-in-the-agent-loop.md
   - case-studies/tano-eleven-x-pr-throughput.md
+  - engineering/ai-native/long-running-agents.md
 source: "https://addyo.substack.com/p/the-code-nobody-reads; https://alifeengineered.substack.com/p/on-the-death-of-amazons-writing-culture"
-updated: 2026-11-08
+updated: 2026-11-21
 ---
 
 # Accountability for Unread Code

@@ -5,7 +5,7 @@ description: "How agents reshape the SDLC once implementation is cheap: the phas
 tags: [ai-engineering, architecture, ci-cd, agentic-workflows]
 topic: engineering/ai-native
 status: notes
-updated: 2026-06-20
+updated: 2026-11-21
 related:
   - engineering/ai-native/ai-sdlc-terminology.md
   - engineering/ai-native/ai-factory.md
@@ -33,6 +33,7 @@ related:
   - reading/building-effective-agents.md
   - reading/llm-maintained-wiki.md
   - reading/factory-engineers.md
+  - engineering/ai-native/long-running-agents.md
 source: "https://gist.github.com/fabianmagrini/4862954cd301634ab4bfd595c00ea52c"
 ---
 

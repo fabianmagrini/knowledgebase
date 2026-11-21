@@ -12,8 +12,9 @@ related:
   - engineering/ai-native/harness-engineering.md
   - engineering/architecture/data-readiness-for-agents.md
   - sre/ai-sre-and-the-incident-path.md
-source: "https://blogs.oracle.com/developers/whats-new-in-oracle-ai-agent-memory-custom-extraction-hybrid-search-and-more-control"
-updated: 2026-10-31
+  - engineering/ai-native/activity-metrics-obsolete.md
+source: "https://blogs.oracle.com/developers/whats-new-in-oracle-ai-agent-memory-custom-extraction-hybrid-search-and-more-control; https://generativeprogrammer.com/p/the-evolution-of-agentic-loops"
+updated: 2026-11-21
 ---
 
 # Oracle AI Agent Memory
@@ -152,6 +153,35 @@ memory subsystem:
 5. **Governance is the moat** — provenance, audit, retention, and redaction
    ("receipts") are what move a memory store from a demo to something an
    enterprise will run.
+
+## The numbers this note was missing
+
+Everything above is architecture: pipeline, retrieval strategy, lifetimes, graph, governance.
+**No measurement appeared anywhere in the original write-up**, which left the design unfalsifiable
+— an arrangement that sounds right with nothing attached.
+
+A figure surfaces via
+[Bilgin Ibryam's agent-loop survey](https://generativeprogrammer.com/p/the-evolution-of-agentic-loops)
+(November 2026), citing Oracle:
+
+| | |
+|---|---|
+| **LongMemEval** | **93.8%** |
+| Tokens used | **10.7× fewer** |
+
+**Attributed, not relied on.** It is Oracle's own benchmark result on their own product, relayed
+through a third party, with no methodology or baseline given for what the 10.7× is measured
+against. LongMemEval is a public long-term-memory benchmark, which is better than an internal
+metric — but a vendor's self-reported score on a public benchmark is still a vendor's claim.
+
+The ratio is the more interesting half, and it is consistent with the architecture rather than
+independent of it. If hybrid retrieval and lifetime scoping work as described, the effect should
+show up as **fewer tokens for the same recall** — retrieving the right memories rather than
+injecting more of them. That is the mechanism the design predicts, so the figure is at least the
+shape the claim requires. It also lands beside the cost-efficiency argument in
+[Activity Metrics Under AI](../engineering/ai-native/activity-metrics-obsolete.md): a 10× token
+reduction at equal quality is the only kind of AI efficiency claim that survives the
+*rework-per-AI-spend* test, because it improves the denominator rather than the activity count.
 
 ## Relationship to other notes
 
