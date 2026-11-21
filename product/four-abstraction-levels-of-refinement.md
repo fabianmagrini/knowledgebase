@@ -18,8 +18,9 @@ related:
   - reading/the-capability-overhang.md
   - case-studies/meta-forum-ai-native-build.md
   - engineering/ai-native/tdd-in-the-agent-loop.md
+  - product/predictability-vs-outcomes.md
 source: "https://mdalmijn.com/p/mastering-the-four-abstraction-levels"
-updated: 2026-11-07
+updated: 2026-11-21
 ---
 
 # The Four Abstraction Levels of Refinement

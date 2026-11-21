@@ -17,8 +17,9 @@ related:
   - leadership/landing-the-plane.md
   - product/modelling-business-impact.md
   - product/four-abstraction-levels-of-refinement.md
+  - product/predictability-vs-outcomes.md
 source: "https://staysaasy.com/strategy/2026/07/16/the-best-prioritization-is-no-prioritization.html"
-updated: 2026-10-17
+updated: 2026-11-21
 ---
 
 # Prioritisation as a Symptom

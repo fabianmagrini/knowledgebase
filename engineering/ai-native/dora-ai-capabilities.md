@@ -25,8 +25,9 @@ related:
   - sre/ai-sre-and-the-incident-path.md
   - case-studies/meta-forum-ai-native-build.md
   - case-studies/tano-eleven-x-pr-throughput.md
+  - product/predictability-vs-outcomes.md
 source: "https://www.infoq.com/presentations/dora-ai-adoption-engineering-performance/"
-updated: 2026-11-08
+updated: 2026-11-21
 ---
 
 # DORA on AI — The Amplifier and the J-Curve

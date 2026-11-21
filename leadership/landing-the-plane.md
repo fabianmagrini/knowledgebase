@@ -16,8 +16,9 @@ related:
   - leadership/engineering-leadership-overview.md
   - leadership/coach-and-judge.md
   - sre/heroic-saves-are-near-misses.md
+  - product/predictability-vs-outcomes.md
 source: "https://www.theengineeringmanager.com/growth/landing-the-plane/"
-updated: 2026-08-30
+updated: 2026-11-21
 ---
 
 # Landing the Plane

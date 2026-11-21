@@ -18,8 +18,9 @@ related:
   - product/prioritisation-as-a-symptom.md
   - product/modelling-business-impact.md
   - engineering/ai-native/agentic-ai-strategy-frameworks.md
+  - product/predictability-vs-outcomes.md
 source: "https://www.youtube.com/watch?v=iuYlGRnC7J8"
-updated: 2026-11-09
+updated: 2026-11-21
 ---
 
 # A Plan Is Not a Strategy

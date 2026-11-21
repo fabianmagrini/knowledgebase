@@ -27,8 +27,9 @@ related:
   - engineering/ai-native/apex-framework.md
   - engineering/ai-native/ai-dlc-methodology.md
   - case-studies/anthropic-ai-native-teams.md
+  - product/predictability-vs-outcomes.md
 source: "https://gist.github.com/fabianmagrini/61ce6e1b381227755048dbd90704924b"
-updated: 2026-06-20
+updated: 2026-11-21
 ---
 
 # The AI-Augmented Engineering Team

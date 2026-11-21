@@ -18,8 +18,9 @@ related:
   - engineering/architecture/comprehension-as-architecture.md
   - engineering/ai-native/apex-framework.md
   - concepts/devops-capability-model.md
+  - product/predictability-vs-outcomes.md
 source: "https://www.jamesshore.com/v2/blog/2026/modeling-softwares-business-impact"
-updated: 2026-10-11
+updated: 2026-11-21
 ---
 
 # Modelling Software's Business Impact

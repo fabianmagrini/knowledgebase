@@ -13,8 +13,9 @@ related:
   - leadership/decision-facilitation.md
   - leadership/learning-organisation.md
   - leadership/engineering-leadership-overview.md
+  - product/predictability-vs-outcomes.md
 source: "https://randsinrepose.com/archives/heres-the-rub-we-dont-believe-you/"
-updated: 2026-06-20
+updated: 2026-11-21
 ---
 
 # The New Leader's Credibility Problem

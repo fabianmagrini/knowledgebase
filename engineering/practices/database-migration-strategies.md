@@ -19,8 +19,9 @@ related:
   - engineering/architecture/cell-based-architecture.md
   - case-studies/tano-eleven-x-pr-throughput.md
   - engineering/ai-native/review-replacement.md
+  - product/predictability-vs-outcomes.md
 source: ""
-updated: 2026-11-08
+updated: 2026-11-21
 ---
 
 # Database Migration Strategies

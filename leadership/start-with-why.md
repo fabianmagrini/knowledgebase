@@ -15,8 +15,9 @@ related:
   - leadership/plan-is-not-a-strategy.md
   - leadership/engineering-manager-role.md
   - leadership/mission-to-metrics.md
+  - product/predictability-vs-outcomes.md
 source: "https://gist.github.com/fabianmagrini/a9419029286fb2277dc7b2bc5fc0d43d"
-updated: 2026-06-15
+updated: 2026-11-21
 ---
 
 # Start with the Why
@@ -24,6 +25,13 @@ updated: 2026-06-15
 Popularised by Simon Sinek, **Start with the Why** is the practice of communicating purpose
 *before* approach or output. It maps directly onto an engineering principle you already use:
 **outcomes over outputs**.
+
+> **A caveat on that phrase.** Marty Cagan, who did more than anyone to popularise it, has since
+> argued it names the wrong trade-off — *"we can't achieve outcomes without output, so outcomes
+> versus output is not really a trade-off"* — and that the real competitor is **predictability**.
+> See [Predictability vs Outcomes](../product/predictability-vs-outcomes.md). It does not
+> undercut the practice below, which is about *communication order*; it does mean the slogan is a
+> poor way to describe the underlying tension.
 
 ## The Golden Circle
 

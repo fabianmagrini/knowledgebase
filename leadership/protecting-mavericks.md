@@ -14,8 +14,9 @@ related:
   - leadership/coach-and-judge.md
   - product/explore-vs-exploit.md
   - leadership/engineering-manager-role.md
+  - product/predictability-vs-outcomes.md
 source: "https://gist.github.com/fabianmagrini/8d7a465df449ea54881c86f563ec6f6d"
-updated: 2026-10-11
+updated: 2026-11-21
 ---
 
 # Protecting Mavericks

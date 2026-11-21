@@ -5,7 +5,7 @@ description: "The strategy for regulated or high-risk services is trunk + releas
 tags: [ci-cd, git, security, microservices, governance]
 topic: engineering/practices
 status: notes
-updated: 2026-06-15
+updated: 2026-11-21
 related:
   - engineering/practices/polyrepo-branching-strategy.md
   - engineering/ai-native/ci-cd-ai-engineering.md
@@ -20,6 +20,7 @@ related:
   - concepts/ci-cd-continuous-deployment.md
   - engineering/practices/feature-flags-and-branch-by-abstraction.md
   - engineering/practices/database-migration-strategies.md
+  - product/predictability-vs-outcomes.md
   - case-studies/rewind-ai-pr-approval.md
 ---
 

@@ -22,8 +22,9 @@ related:
   - engineering/architecture/comprehension-as-architecture.md
   - engineering/architecture/change-locality.md
   - engineering/architecture/functional-core-imperative-shell.md
+  - product/predictability-vs-outcomes.md
 source: "Skelton & Pais — Team Topologies (2019); Conway (1968)"
-updated: 2026-10-26
+updated: 2026-11-21
 ---
 
 # Team Topologies and Socio-Technical Architecture

@@ -19,8 +19,9 @@ related:
   - reading/state-of-tech-2026.md
   - product/four-abstraction-levels-of-refinement.md
   - case-studies/tano-eleven-x-pr-throughput.md
+  - product/predictability-vs-outcomes.md
 source: "https://miren.dev/blog/agile-in-the-age-of-ai"
-updated: 2026-11-08
+updated: 2026-11-21
 ---
 
 # Agile in the Age of AI

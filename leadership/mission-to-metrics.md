@@ -16,8 +16,9 @@ related:
   - leadership/finding-problems-to-solve.md
   - engineering/ai-native/activity-metrics-obsolete.md
   - product/modelling-business-impact.md
+  - product/predictability-vs-outcomes.md
 source: "https://www.anniez.xyz/p/mission-to-metrics"
-updated: 2026-07-26
+updated: 2026-11-21
 ---
 
 # From Mission to Metrics
