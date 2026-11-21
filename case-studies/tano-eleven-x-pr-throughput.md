@@ -28,6 +28,7 @@ related:
   - engineering/ai-native/agentic-ai-strategy-frameworks.md
   - case-studies/x-web-rewrite.md
   - product/predictability-vs-outcomes.md
+  - concepts/positive-friction.md
 source: "https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing"
 updated: 2026-11-21
 ---

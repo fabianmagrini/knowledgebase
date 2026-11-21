@@ -27,8 +27,9 @@ related:
   - case-studies/meta-forum-ai-native-build.md
   - engineering/ai-native/accountability-for-unread-code.md
   - case-studies/cursor-agent-swarm-economics.md
+  - concepts/positive-friction.md
 source: "https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html; https://www.codecentric.de/en/knowledge-hub/blog/exact-coding-with-ai"
-updated: 2026-11-07
+updated: 2026-11-21
 ---
 
 # TDD Inside the Agent Loop

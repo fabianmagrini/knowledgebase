@@ -21,8 +21,9 @@ related:
   - engineering/architecture/layered-architecture.md
   - engineering/architecture/functional-core-imperative-shell.md
   - engineering/architecture/cell-based-architecture.md
+  - concepts/positive-friction.md
 source: "https://www.infoq.com/articles/evolutionary-architecture-change-locality/"
-updated: 2026-11-02
+updated: 2026-11-21
 ---
 
 # Change Locality and Boundary Drift

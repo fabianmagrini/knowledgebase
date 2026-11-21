@@ -18,8 +18,9 @@ related:
   - case-studies/github-huge-pr-rendering.md
   - case-studies/anthropic-claude-ai-performance-sprint.md
   - case-studies/anthropic-scion-source-control.md
+  - concepts/positive-friction.md
 source: "https://linear.app/now/ci-bottleneck-reworked"
-updated: 2026-10-18
+updated: 2026-11-21
 ---
 
 # Linear's CI Rework Under Agent Volume

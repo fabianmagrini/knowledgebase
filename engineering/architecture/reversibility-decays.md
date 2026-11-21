@@ -24,8 +24,9 @@ related:
   - engineering/architecture/llm-platform-engineering.md
   - engineering/architecture/functional-core-imperative-shell.md
   - engineering/ai-native/review-replacement.md
+  - concepts/positive-friction.md
 source: "https://fffej.substack.com/p/two-way-doors-sometimes-lock-behind"
-updated: 2026-11-08
+updated: 2026-11-21
 ---
 
 # Reversibility Decays

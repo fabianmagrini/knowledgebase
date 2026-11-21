@@ -19,6 +19,7 @@ related:
   - case-studies/meta-forum-ai-native-build.md
   - engineering/ai-native/tdd-in-the-agent-loop.md
   - product/predictability-vs-outcomes.md
+  - concepts/positive-friction.md
 source: "https://mdalmijn.com/p/mastering-the-four-abstraction-levels"
 updated: 2026-11-21
 ---

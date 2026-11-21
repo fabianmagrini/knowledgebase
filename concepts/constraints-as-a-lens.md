@@ -13,7 +13,8 @@ related:
   - leadership/first-principles-thinking.md
   - engineering/architecture/over-engineering.md
   - concepts/control-and-complexity.md
-updated: 2026-10-25
+  - concepts/positive-friction.md
+updated: 2026-11-21
 ---
 
 # Constraints as a Lens

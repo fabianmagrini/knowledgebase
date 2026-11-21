@@ -24,8 +24,9 @@ related:
   - reading/state-of-tech-2026.md
   - product/modelling-business-impact.md
   - case-studies/x-web-rewrite.md
+  - concepts/positive-friction.md
 source: "https://lethain.com/revised-rules-of-engineering-leadership/; https://lethain.com/decisions-not-dates/"
-updated: 2026-11-12
+updated: 2026-11-21
 ---
 
 # Revised Rules of Engineering Leadership

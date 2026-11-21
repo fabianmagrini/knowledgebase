@@ -19,6 +19,7 @@ related:
   - engineering/ai-native/apex-framework.md
   - concepts/devops-capability-model.md
   - product/predictability-vs-outcomes.md
+  - concepts/positive-friction.md
 source: "https://www.jamesshore.com/v2/blog/2026/modeling-softwares-business-impact"
 updated: 2026-11-21
 ---

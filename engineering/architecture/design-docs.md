@@ -13,8 +13,9 @@ related:
   - engineering/ai-native/spec-driven-development.md
   - engineering/architecture/reversibility-decays.md
   - engineering/ai-native/accountability-for-unread-code.md
+  - concepts/positive-friction.md
 source: "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/; https://alifeengineered.substack.com/p/on-the-death-of-amazons-writing-culture"
-updated: 2026-10-25
+updated: 2026-11-21
 ---
 
 # Writing an Effective Design Doc

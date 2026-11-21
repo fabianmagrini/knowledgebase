@@ -13,8 +13,9 @@ related:
   - engineering/ai-native/ai-engineering-discipline.md
   - leadership/learning-organisation.md
   - engineering/ai-native/ai-native-engineering-overview.md
+  - concepts/positive-friction.md
 source: "https://newsletter.kentbeck.com/p/trust-factory"
-updated: 2026-06-20
+updated: 2026-11-21
 ---
 
 # The Trust Factory

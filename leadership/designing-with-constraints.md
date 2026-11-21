@@ -14,8 +14,9 @@ related:
   - concepts/constraints-as-a-lens.md
   - product/explore-vs-exploit.md
   - leadership/plan-is-not-a-strategy.md
+  - concepts/positive-friction.md
 source: "https://jordanlord.co.uk/blog/3-constraints/"
-updated: 2026-06-20
+updated: 2026-11-21
 ---
 
 # Designing with Constraints

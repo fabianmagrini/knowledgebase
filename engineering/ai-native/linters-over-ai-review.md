@@ -26,8 +26,9 @@ related:
   - engineering/ai-native/agentic-verification.md
   - case-studies/uber-mcp-gateway.md
   - case-studies/x-web-rewrite.md
+  - concepts/positive-friction.md
 source: "https://swizec.com/blog/stop-burning-tokens-on-code-review"
-updated: 2026-11-12
+updated: 2026-11-21
 ---
 
 # Linters Over AI Review

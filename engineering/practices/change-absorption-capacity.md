@@ -39,8 +39,9 @@ related:
   - sre/ai-sre-and-the-incident-path.md
   - case-studies/tano-eleven-x-pr-throughput.md
   - engineering/ai-native/agentic-ai-strategy-frameworks.md
+  - concepts/positive-friction.md
 source: "https://stackoverflow.blog/2026/05/12/you-shipped-it-fast-but-did-you-ship-it-right/"
-updated: 2026-11-09
+updated: 2026-11-21
 ---
 
 # Change Absorption Capacity (CATS)

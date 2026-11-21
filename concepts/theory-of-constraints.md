@@ -19,8 +19,9 @@ related:
   - leadership/magical-thinking.md
   - engineering/ai-native/agentic-sdlc-maturity-model.md
   - product/modelling-business-impact.md
+  - concepts/positive-friction.md
 source: "Eliyahu M. Goldratt — The Goal (1984) and Theory of Constraints (1990)"
-updated: 2026-10-25
+updated: 2026-11-21
 ---
 
 # Theory of Constraints

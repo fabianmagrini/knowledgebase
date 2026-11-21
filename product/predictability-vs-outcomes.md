@@ -28,6 +28,7 @@ related:
   - engineering/architecture/over-engineering.md
   - engineering/practices/database-migration-strategies.md
   - engineering/ai-native/dora-ai-capabilities.md
+  - concepts/positive-friction.md
 source: "https://www.svpg.com/predictability-vs-outcomes/"
 updated: 2026-11-21
 ---
