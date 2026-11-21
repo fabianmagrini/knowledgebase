@@ -22,8 +22,8 @@ related:
   - case-studies/uber-mcp-gateway.md
   - engineering/architecture/llm-platform-engineering.md
   - engineering/architecture/agents-as-distributed-systems.md
-source: "https://generativeprogrammer.com/p/the-emerging-standards-behind-ai"
-updated: 2026-10-25
+source: "https://generativeprogrammer.com/p/the-emerging-standards-behind-ai; https://blog.jetbrains.com/go/2026/11/20/jetbrains-air-in-goland/"
+updated: 2026-11-21
 ---
 
 # Agent Interoperability Protocols
@@ -72,6 +72,16 @@ what makes it survive the churn.
 **Two rows are one boundary split in half.** AG-UI carries events and A2UI carries components;
 they are adjacent specifications for the same agent-to-user surface. That is a sign of an
 unsettled boundary, and the place to expect consolidation.
+
+> **The IDE row has since shipped, which is the first checkable support for this table.**
+> JetBrains made **Air** the default AI workspace in its 2026.3 IDEs
+> ([GoLand announcement](https://blog.jetbrains.com/go/2026/11/20/jetbrains-air-in-goland/),
+> November 2026), hosting **Claude Agent, Codex, Gemini, GitHub Copilot, Junie, OpenCode and
+> other ACP-compatible agents** behind one interface. Everything else in this table is a
+> specification; this is a commercial vendor replacing its own single-agent product with an
+> ACP host, which is evidence that the **IDE → agent** boundary is the one actually consolidating
+> rather than merely specified. *(Product announcement; the canonical URL 403s to automated
+> fetch, so this is from search indexing and no architecture detail is available.)*
 
 ## Adoption order
 

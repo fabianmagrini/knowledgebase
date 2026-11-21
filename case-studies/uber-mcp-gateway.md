@@ -27,8 +27,8 @@ related:
   - reading/state-of-tech-2026.md
   - engineering/architecture/agents-as-distributed-systems.md
   - sre/ai-sre-and-the-incident-path.md
-source: "https://www.uber.com/gb/en/blog/designing-mcp-gateway/; https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside"
-updated: 2026-10-31
+source: "https://www.uber.com/gb/en/blog/designing-mcp-gateway/; https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside; https://blog.jetbrains.com/go/2026/11/20/jetbrains-air-in-goland/"
+updated: 2026-11-21
 ---
 
 # Uber's MCP Gateway
@@ -174,6 +174,18 @@ system, which the blog post above does not.
 | **Minion** | Background agent system, built 2025 |
 | **Slate** | Testing and review assistance |
 | **Agent Skills repository** | Centralised capability catalogue |
+
+> **AIFX has since stopped being an Uber-scale luxury.** This note's closing argument is that
+> the platform rests on *"a decade worth of dev tooling investment"*, so the architecture is not
+> a template — and harness portability was the clearest instance of something only a large
+> organisation could build for itself. In November 2026 JetBrains shipped the same capability as
+> a product: **Air**, the default AI workspace in its 2026.3 IDEs, hosts Claude Agent, Codex,
+> Gemini, GitHub Copilot, Junie and OpenCode behind one interface via
+> [ACP](../standards/agent-interop-protocols.md)
+> ([GoLand announcement](https://blog.jetbrains.com/go/2026/11/20/jetbrains-air-in-goland/)).
+> **A capability that required a bespoke wrapper a year ago is now a vendor default**, which is
+> worth recording because it is the component of this platform most likely to be obtainable
+> without rebuilding Uber. *(Product announcement, no detail; the URL 403s to automated fetch.)*
 
 Three things here sharpen notes held elsewhere.
 
