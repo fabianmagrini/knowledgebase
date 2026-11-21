@@ -23,8 +23,9 @@ related:
   - leadership/landing-the-plane.md
   - case-studies/anthropic-scion-source-control.md
   - case-studies/airbnb-database-workload-replay.md
+  - case-studies/datadog-continuous-spec-validation.md
 source: "https://newsletter.optimistengineer.com/p/why-your-releases-feel-harder-than"
-updated: 2026-10-25
+updated: 2026-11-21
 ---
 
 # Release Confidence as a System Property

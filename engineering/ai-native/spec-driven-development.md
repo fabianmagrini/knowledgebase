@@ -23,8 +23,9 @@ related:
   - languages-and-frameworks/rust-for-agentic-development.md
   - case-studies/anthropic-formal-verification-at-scale.md
   - engineering/ai-native/tdd-in-the-agent-loop.md
+  - case-studies/datadog-continuous-spec-validation.md
 source: "https://brooker.co.za/blog/2026/04/09/waterfall-vs-spec"
-updated: 2026-11-07
+updated: 2026-11-21
 ---
 
 # Spec-Driven Development

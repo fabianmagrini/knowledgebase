@@ -22,8 +22,9 @@ related:
   - engineering/practices/software-design-principles.md
   - concepts/progressive-delivery.md
   - engineering/architecture/inference-serving-infrastructure.md
+  - case-studies/datadog-continuous-spec-validation.md
 source: "https://americanexpress.io/cell-based-architecture-for-resilient-payment-systems/"
-updated: 2026-11-15
+updated: 2026-11-21
 ---
 
 # Cell-Based Architecture

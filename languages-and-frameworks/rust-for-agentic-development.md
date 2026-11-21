@@ -17,8 +17,9 @@ related:
   - engineering/ai-native/accountability-for-unread-code.md
   - reading/how-i-use-llms-2026.md
   - case-studies/anthropic-formal-verification-at-scale.md
+  - case-studies/datadog-continuous-spec-validation.md
 source: "https://smallcultfollowing.com/babysteps/blog/2026/10/14/agentic-dev-and-rust/"
-updated: 2026-10-26
+updated: 2026-11-21
 ---
 
 # Rust for Agentic Development

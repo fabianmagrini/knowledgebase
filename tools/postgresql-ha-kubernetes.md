@@ -12,8 +12,9 @@ related:
   - engineering/practices/database-migration-strategies.md
   - engineering/architecture/thinking-in-constraints.md
   - tools/dynamic-configuration-sidecar.md
+  - case-studies/datadog-continuous-spec-validation.md
 source: "https://www.datadoghq.com/blog/engineering/postgresql-ha-kubernetes/"
-updated: 2026-06-20
+updated: 2026-11-21
 ---
 
 # Highly Available PostgreSQL on Kubernetes

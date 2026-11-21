@@ -34,8 +34,9 @@ related:
   - reading/courses.md
   - case-studies/meta-forum-ai-native-build.md
   - case-studies/x-web-rewrite.md
+  - case-studies/datadog-continuous-spec-validation.md
 source: "https://addyo.substack.com/p/agentic-verification"
-updated: 2026-11-12
+updated: 2026-11-21
 ---
 
 # Agentic Verification

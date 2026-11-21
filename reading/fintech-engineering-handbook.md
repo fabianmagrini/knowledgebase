@@ -13,8 +13,9 @@ related:
   - engineering/architecture/cell-based-architecture.md
   - case-studies/tano-eleven-x-pr-throughput.md
   - engineering/ai-native/review-replacement.md
+  - case-studies/datadog-continuous-spec-validation.md
 source: "https://w.pitula.me/fintech-engineering-handbook/"
-updated: 2026-11-08
+updated: 2026-11-21
 ---
 
 # Fintech Engineering Handbook

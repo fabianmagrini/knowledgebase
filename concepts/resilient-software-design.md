@@ -27,10 +27,11 @@ related:
   - concepts/control-and-complexity.md
   - concepts/latency-patterns.md
   - engineering/architecture/cell-based-architecture.md
+  - case-studies/datadog-continuous-spec-validation.md
 source:
   - "https://www.ufried.com/blog/why_resilient_software_design_1/"
   - "https://www.ufried.com/blog/why_resilient_software_design_2/"
-updated: 2026-11-02
+updated: 2026-11-21
 ---
 
 # Resilient Software Design

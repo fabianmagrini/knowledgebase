@@ -18,8 +18,9 @@ related:
   - case-studies/netflix-service-topology.md
   - engineering/architecture/agents-as-distributed-systems.md
   - case-studies/anthropic-formal-verification-at-scale.md
+  - case-studies/datadog-continuous-spec-validation.md
 source: "https://airbnb.tech/infrastructure/beyond-synthetic-testing-capturing-and-replaying-real-database-workloads-at-airbnb/; https://medium.com/airbnb-engineering/beyond-synthetic-testing-capturing-and-replaying-real-database-workloads-at-airbnb-cea7ee9b1ab2"
-updated: 2026-10-26
+updated: 2026-11-21
 ---
 
 # Airbnb's Database Workload Capture and Replay

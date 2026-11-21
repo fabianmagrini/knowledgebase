@@ -20,8 +20,9 @@ related:
   - engineering/architecture/functional-core-imperative-shell.md
   - case-studies/airbnb-database-workload-replay.md
   - reading/courses.md
+  - case-studies/datadog-continuous-spec-validation.md
 source: "https://www.anthropic.com/research/formal-verification"
-updated: 2026-10-31
+updated: 2026-11-21
 ---
 
 # Formal Verification at Scale With LLMs

@@ -25,8 +25,9 @@ related:
   - sre/ai-sre-and-the-incident-path.md
   - engineering/architecture/cell-based-architecture.md
   - engineering/architecture/inference-serving-infrastructure.md
+  - case-studies/datadog-continuous-spec-validation.md
 source: "https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/"
-updated: 2026-11-15
+updated: 2026-11-21
 ---
 
 # Agents as Distributed Systems
