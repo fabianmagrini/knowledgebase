@@ -15,6 +15,7 @@ related:
   - engineering/architecture/cell-based-architecture.md
   - reading/reactive-reducer-orchestration.md
   - engineering/ai-native/agentic-sdlc.md
+  - case-studies/netflix-ontology-driven-observability.md
 source: "https://martinfowler.com/articles/durable-execution-agents.html"
 updated: 2026-11-28
 ---

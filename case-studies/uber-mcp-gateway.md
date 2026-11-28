@@ -27,8 +27,9 @@ related:
   - reading/state-of-tech-2026.md
   - engineering/architecture/agents-as-distributed-systems.md
   - sre/ai-sre-and-the-incident-path.md
+  - case-studies/netflix-ontology-driven-observability.md
 source: "https://www.uber.com/gb/en/blog/designing-mcp-gateway/; https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside; https://blog.jetbrains.com/go/2026/11/20/jetbrains-air-in-goland/"
-updated: 2026-11-21
+updated: 2026-11-28
 ---
 
 # Uber's MCP Gateway

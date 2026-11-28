@@ -23,8 +23,9 @@ related:
   - engineering/architecture/llm-platform-engineering.md
   - engineering/architecture/agents-as-distributed-systems.md
   - engineering/ai-native/dora-ai-capabilities.md
+  - case-studies/netflix-ontology-driven-observability.md
 source: "https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html"
-updated: 2026-10-26
+updated: 2026-11-28
 ---
 
 # Data Readiness for Agents
@@ -161,6 +162,9 @@ Carrying these keeps the framework honest:
   catalogues exist; applying it to the datasets themselves is forward-looking, not mainstream.
 - **Knowledge graphs are supplementary,** not foundational: GraphRAG and Graphiti add
   relationship-traversal depth beyond fixed joins at the cost of separate infrastructure.
+  [Netflix's ontology-driven observability](../../case-studies/netflix-ontology-driven-observability.md)
+  is the counter-case: where no join exists because identities differ across tools, the graph is
+  the foundation.
 - **Ownership is the part no tool solves.** Data as a product with named owners, published SLAs
   and versioned lifecycles is "the operating model that keeps it honest".
 

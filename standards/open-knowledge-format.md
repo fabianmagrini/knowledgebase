@@ -13,8 +13,9 @@ related:
   - engineering/ai-native/ai-native-engineering-stack.md
   - reading/llm-maintained-wiki.md
   - standards/agent-interop-protocols.md
+  - case-studies/netflix-ontology-driven-observability.md
 source: "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/"
-updated: 2026-06-14
+updated: 2026-11-28
 ---
 
 # Open Knowledge Format (OKF)

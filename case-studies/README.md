@@ -4,7 +4,7 @@ title: Case Studies
 description: "Deep-dives into how real-world production systems and teams are built, and why."
 tags: [meta]
 status: complete
-updated: 2026-06-22
+updated: 2026-11-28
 ---
 
 # Case Studies
@@ -41,6 +41,7 @@ Grouped by what each case study is about.
 - [Airbnb's Database Workload Capture and Replay](airbnb-database-workload-replay.md) — differential testing at the database layer from before the term arrived here: ProxySQL sidecar capture replacing per-language loggers, transactions reassembled and replayed with original timing at a configurable speed factor, MySQL 5.7 as the oracle for 8.0 (one query pattern 0.03s → 2.6s, 273 MB per join instead of 5 MB), and the lesson that pinning `last_insert_id` to make the oracle deterministic removed native auto-increment from the test's scope
 - [Zalando's Client-Side Load Balancing](zalando-client-side-load-balancing.md) — moving ~1M req/s off a shared edge load balancer into the calling process: watch-based discovery, consistent hashing with hash parity, occupancy (Little's Law) as the load signal, N-ring fade-in, bounded-load walk, and the cache-locality-vs-zone-cost trade-offs
 - [Netflix's Service Topology at Scale](netflix-service-topology.md) — a real-time service dependency graph from millions of flow records/sec: three physical layers, a three-stage aggregation pipeline whose load-bearing step resolves network intermediaries into true application edges, consistent-hashing load distribution against 100x hot nodes, immutable-snapshot time travel, and the cascading-bottleneck lessons
+- [Netflix's Ontology-Driven Observability](netflix-ontology-driven-observability.md) — observability as a data-modelling problem: an RDF/OWL knowledge graph in an in-house quad store joining Atlas, PagerDuty, Spinnaker, incident.io and Slack, with identity gated by the ~49k-entry software catalogue, incident discussion captured as triples, a correlation engine with a 10-minute window and 0.6 confidence floor, and the **ontology as the interface between root-cause agents** — plus *"constrain stochastic tools with a type system"*, the principle they would defend hardest *(company-authored and early; no MTTR or accuracy figures, and the flywheel percentages are illustrative)*
 - [Slack AI's Path to Multi-Cloud](slack-ai-multi-cloud.md) — four phases from SageMaker to AWS+GCP: the capacity economics of provisioned vs on-demand throughput and the spillover pattern between them, an intelligent routing layer with circuit breakers and a backup model per feature, the API normalisation layer that is the real price of provider agnosticism, and the operational costs (cost attribution, on-call knowledge gaps) they admit to
 
 ### AI code review & PR approval

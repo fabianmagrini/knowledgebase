@@ -14,8 +14,9 @@ related:
   - engineering/architecture/runtime-architecture-verification.md
   - case-studies/airbnb-database-workload-replay.md
   - engineering/architecture/cell-based-architecture.md
+  - case-studies/netflix-ontology-driven-observability.md
 source: "https://netflixtechblog.com/building-service-topology-at-scale-architecture-challenges-and-lessons-learned-f4b792f3f0d8"
-updated: 2026-11-02
+updated: 2026-11-28
 ---
 
 # Netflix's Service Topology at Scale

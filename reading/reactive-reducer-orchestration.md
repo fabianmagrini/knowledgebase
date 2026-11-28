@@ -17,6 +17,7 @@ related:
   - engineering/ai-native/agentic-autonomy-levels.md
   - reading/ultimate-self-extending-harness.md
   - reading/durable-execution-for-agents.md
+  - case-studies/netflix-ontology-driven-observability.md
 source: "https://bradmurry.com/software/reactive-reducer-patterns/"
 updated: 2026-11-28
 ---

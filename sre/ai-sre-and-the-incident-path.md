@@ -25,8 +25,9 @@ related:
   - case-studies/rootly-pr-size-risk-labels.md
   - engineering/architecture/agents-as-distributed-systems.md
   - engineering/ai-native/agentic-ai-strategy-frameworks.md
+  - case-studies/netflix-ontology-driven-observability.md
 source: "https://newsletter.pragmaticengineer.com/p/ai-sre"
-updated: 2026-11-09
+updated: 2026-11-28
 ---
 
 # AI SRE and the Incident Path
