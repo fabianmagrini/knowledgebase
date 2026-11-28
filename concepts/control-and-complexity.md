@@ -21,8 +21,8 @@ related:
   - engineering/architecture/reversibility-decays.md
   - leadership/coach-and-judge.md
   - engineering/architecture/llm-platform-engineering.md
-source: "https://ferd.ca/control-and-complexity-tension-in-systems-design.html; https://andiroberts.com/leadership/decision-making-under-uncertainty"
-updated: 2026-10-11
+source: "https://ferd.ca/control-and-complexity-tension-in-systems-design.html; https://andiroberts.com/leadership/decision-making-under-uncertainty; https://andiroberts.com/leadership-questions/organisational-change-going-off-track"
+updated: 2026-11-28
 ---
 
 # Control and Complexity
@@ -78,6 +78,36 @@ These adaptations are invisible in any description of what the control is *for*,
 **they are invisible in the business case for replacing it**. Swap the control for an automated
 equivalent that satisfies the stated purpose, and the unstated ones vanish without anyone having
 decided to give them up.
+
+### The same thing in reverse: workarounds under a new system
+
+When a change *introduces* a control, the same mechanism shows up from the other side. People
+build what the new design left out, and they build it informally. [Andi
+Roberts](https://andiroberts.com/leadership-questions/organisational-change-going-off-track)
+(November 2026) lists the forms it takes: **parallel spreadsheets or records kept outside the new
+system**, routine decisions escalating to senior managers, strained handovers, and heavy reliance
+on one overloaded person who knows how things actually get done. He also lists internal reports
+improving while customer complaints rise. He offers these as examples, not a checklist, and notes
+that the same signal can have different explanations.
+
+His prescription is the useful part: **investigate a workaround before stopping it**. Ask someone
+to demonstrate a recent case and find out what the workaround provides — missing information,
+an unclear decision boundary, a customer need the design did not anticipate. Treating it as
+resistance and shutting it down deletes that information, the same way replacing an old control
+deletes its hidden adaptations. A hidden adaptation is a design input that was never collected. A
+workaround is one that is being collected, informally, by the people doing the work.
+
+The positive counterpart is **bright spots** (Heath and Heath, *Switch*): where a team is making
+the change work, study the *conditions* that make it possible rather than copying the practice.
+Copying the practice without its conditions is the same error as copying a control without its
+adaptations.
+
+> **Provenance.** Roberts is an executive coach, and the post promotes his services; it is the
+> same author whose secondary summary of Snowden is flagged below. His frameworks are borrowed
+> and credited — Varney and Vogel's three domains of emergent change (a conference abstract),
+> Balogun and Johnson on middle-manager sensemaking, Eoyang and Holladay's *What? So what? Now
+> what?* re-labelled as *Notice, Explore, Respond* — so only the workaround practice is carried
+> here.
 
 ## Le Coze's three unpredictabilities
 
