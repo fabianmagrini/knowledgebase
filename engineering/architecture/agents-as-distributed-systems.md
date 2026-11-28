@@ -26,8 +26,9 @@ related:
   - engineering/architecture/cell-based-architecture.md
   - engineering/architecture/inference-serving-infrastructure.md
   - case-studies/datadog-continuous-spec-validation.md
+  - reading/durable-execution-for-agents.md
 source: "https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/"
-updated: 2026-11-21
+updated: 2026-11-28
 ---
 
 # Agents as Distributed Systems

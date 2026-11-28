@@ -24,8 +24,9 @@ related:
   - engineering/architecture/inference-serving-infrastructure.md
   - case-studies/datadog-continuous-spec-validation.md
   - engineering/ai-native/long-running-agents.md
+  - reading/durable-execution-for-agents.md
 source: "https://americanexpress.io/cell-based-architecture-for-resilient-payment-systems/"
-updated: 2026-11-21
+updated: 2026-11-28
 ---
 
 # Cell-Based Architecture

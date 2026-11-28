@@ -5,7 +5,7 @@ description: "How agents reshape the SDLC once implementation is cheap: the phas
 tags: [ai-engineering, architecture, ci-cd, agentic-workflows]
 topic: engineering/ai-native
 status: notes
-updated: 2026-11-21
+updated: 2026-11-28
 related:
   - engineering/ai-native/ai-sdlc-terminology.md
   - engineering/ai-native/ai-factory.md
@@ -34,6 +34,7 @@ related:
   - reading/llm-maintained-wiki.md
   - reading/factory-engineers.md
   - engineering/ai-native/long-running-agents.md
+  - reading/durable-execution-for-agents.md
 source: "https://gist.github.com/fabianmagrini/4862954cd301634ab4bfd595c00ea52c"
 ---
 
@@ -155,6 +156,9 @@ Deterministic test harnesses
 Strong observability
 Policy enforcement layers
 ```
+
+What "durable execution" involves in practice — and what it leaves to the harness — is in
+[Long-Horizon Agents and Durable Execution](../../reading/durable-execution-for-agents.md).
 
 ## AI observability and drift detection
 

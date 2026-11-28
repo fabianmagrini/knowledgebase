@@ -31,8 +31,9 @@ related:
   - case-studies/anthropic-formal-verification-at-scale.md
   - sre/ai-sre-and-the-incident-path.md
   - engineering/ai-native/tdd-in-the-agent-loop.md
+  - reading/durable-execution-for-agents.md
 source: "https://addyo.substack.com/p/agentic-autonomy-levels"
-updated: 2026-11-07
+updated: 2026-11-28
 ---
 
 # Agentic Autonomy Levels

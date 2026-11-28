@@ -80,7 +80,8 @@ related:
   - case-studies/doordash-flag-cleanup-agents.md
   - case-studies/github-copilot-rust-migration.md
   - engineering/ai-native/dora-ai-capabilities.md
-updated: 2026-10-26
+  - reading/durable-execution-for-agents.md
+updated: 2026-11-28
 ---
 
 # AI-Native Engineering — Overview
@@ -271,6 +272,10 @@ A map of the notes on building software with AI agents. They answer different qu
   to use agents *(in reading)*.
 - [Long-Running Agents](long-running-agents.md) — the durability layer: the three walls (context
   rot, no persistent state, no self-verification), brain/hands/session, checkpoints, and memory.
+- [Long-Horizon Agents and Durable Execution](../../reading/durable-execution-for-agents.md) — what
+  remains once durable execution works: unseen outcomes, stale facts, code changes mid-run, history
+  growth and untrusted input, plus the log as a published interface migrated by parallel change
+  *(in reading)*.
 - [Multi-Agent Coding Without Worktree Chaos](../../reading/multi-agent-coding-coordination.md) —
   coordinating a *swarm* of coding agents on one branch via planning, a task graph, file
   reservations, and a coordinator, rather than one worktree per agent *(in reading)*.

@@ -21,8 +21,9 @@ related:
   - engineering/ai-native/review-replacement.md
   - product/predictability-vs-outcomes.md
   - engineering/ai-native/long-running-agents.md
+  - reading/durable-execution-for-agents.md
 source: ""
-updated: 2026-11-21
+updated: 2026-11-28
 ---
 
 # Database Migration Strategies

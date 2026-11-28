@@ -35,8 +35,9 @@ related:
   - engineering/ai-native/agentic-sdlc.md
   - engineering/ai-native/agentic-code-review.md
   - case-studies/doordash-flag-cleanup-agents.md
+  - reading/durable-execution-for-agents.md
 source: "https://addyo.substack.com/p/long-running-agents; https://generativeprogrammer.com/p/the-evolution-of-agentic-loops"
-updated: 2026-11-21
+updated: 2026-11-28
 ---
 
 # Long-Running Agents
@@ -178,6 +179,10 @@ Note the tension with Amex, which is worth holding rather than resolving: they d
 the isolation the architecture exists to maintain. Durable execution resumes *inside* one
 workflow; cells restart *across* boundaries. Both need the identifier; they use it for opposite
 moves.
+
+**What durable execution does not solve** — unseen outcomes, stale facts, workflow code changing
+under a sleeping run, history growth and untrusted input — is set out with a worked system on two
+runtimes in [Long-Horizon Agents and Durable Execution](../../reading/durable-execution-for-agents.md).
 
 **On persistent agents**, his stage 6 adds two smaller things to the *standing agents* idea held
 from [Ultimate](../../reading/ultimate-self-extending-harness.md): a cycle name —

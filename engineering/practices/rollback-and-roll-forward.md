@@ -17,8 +17,9 @@ related:
   - engineering/practices/database-migration-strategies.md
   - case-studies/rootly-pr-size-risk-labels.md
   - sre/ai-sre-and-the-incident-path.md
+  - reading/durable-execution-for-agents.md
 source: "Jez Humble & David Farley — Continuous Delivery (2010); Google — Site Reliability Engineering"
-updated: 2026-10-31
+updated: 2026-11-28
 ---
 
 # Rollback and Roll Forward
