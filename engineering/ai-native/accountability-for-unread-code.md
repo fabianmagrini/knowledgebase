@@ -34,8 +34,9 @@ related:
   - engineering/ai-native/tdd-in-the-agent-loop.md
   - case-studies/tano-eleven-x-pr-throughput.md
   - engineering/ai-native/long-running-agents.md
+  - reading/preceptorship-for-early-career-engineers.md
 source: "https://addyo.substack.com/p/the-code-nobody-reads; https://alifeengineered.substack.com/p/on-the-death-of-amazons-writing-culture"
-updated: 2026-11-21
+updated: 2026-11-28
 ---
 
 # Accountability for Unread Code
@@ -191,6 +192,8 @@ preserve hands-on skills among junior engineers**; and be transparent about what
 reviewed. The last two are the least-held — the first is the pipeline problem
 [Comprehension as an Architectural Characteristic](../architecture/comprehension-as-architecture.md)
 implies without addressing, and the second is an honesty norm rather than a control.
+The first now has a proposed answer in
+[Preceptorship for Early-Career Engineers](../../reading/preceptorship-for-early-career-engineers.md).
 
 **Vendor-reported, so attributed rather than relayed:** Anthropic engineers merging "about eight
 times as much code per day" in Q2 2026 versus 2024, and automated review raising substantive

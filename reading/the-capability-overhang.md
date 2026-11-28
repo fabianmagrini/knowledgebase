@@ -27,8 +27,9 @@ related:
   - leadership/finding-problems-to-solve.md
   - engineering/ai-native/harness-design-experiments.md
   - engineering/ai-native/ai-gateway-control-plane.md
+  - reading/preceptorship-for-early-career-engineers.md
 source: "https://www.oneusefulthing.org/p/the-overhang; https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/"
-updated: 2026-10-25
+updated: 2026-11-28
 ---
 
 # The Capability Overhang

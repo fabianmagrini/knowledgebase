@@ -21,7 +21,8 @@ related:
   - engineering/ai-native/tdd-in-the-agent-loop.md
   - reading/the-capability-overhang.md
   - engineering/ai-native/dora-ai-capabilities.md
-updated: 2026-10-26
+  - reading/preceptorship-for-early-career-engineers.md
+updated: 2026-11-28
 ---
 
 # Scaling AI Adoption in the SDLC

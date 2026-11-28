@@ -14,8 +14,9 @@ related:
   - engineering/ai-native/agentic-code-review.md
   - reading/the-capability-overhang.md
   - concepts/positive-friction.md
+  - reading/preceptorship-for-early-career-engineers.md
 source: "https://www.artfish.ai/p/offloading-thinking-to-ai"
-updated: 2026-11-21
+updated: 2026-11-28
 ---
 
 # Offloading Thinking to AI

@@ -15,8 +15,9 @@ related:
   - engineering/ai-native/ai-native-engineering-overview.md
   - reading/building-software-is-learning.md
   - reading/state-of-tech-2026.md
+  - reading/preceptorship-for-early-career-engineers.md
 source: "https://blog.colinbreck.com/adapting-to-ai-what-is-software-engineering/"
-updated: 2026-06-27
+updated: 2026-11-28
 ---
 
 # What Is Software Engineering? (Adapting to AI)

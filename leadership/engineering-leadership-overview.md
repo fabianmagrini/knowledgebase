@@ -38,7 +38,8 @@ related:
   - leadership/arguing-to-win.md
   - leadership/learning-culture-ai-agents.md
   - product/modelling-business-impact.md
-updated: 2026-08-30
+  - reading/preceptorship-for-early-career-engineers.md
+updated: 2026-11-28
 ---
 
 # Engineering Leadership — Overview
@@ -127,6 +128,11 @@ how to set direction and make good decisions with other people.
 - [A Learning Culture for AI-Augmented Teams](learning-culture-ai-agents.md) — the team-level
   companion: integrating coding agents changes how software gets built, not just what tools are
   installed.
+- [Preceptorship for Early-Career Engineers](../reading/preceptorship-for-early-career-engineers.md)
+  — the organisation-design version: agents boost seniors and drag juniors, so "hire seniors,
+  automate juniors" narrows the pyramid; Russinovich and Hanselman's answer is trained senior
+  preceptors with 3–5 learners each, chat-log review, and a Socratic mode in the tools
+  *(in reading; a proposal, untested)*.
 - [Magical Thinking in Engineering Leadership](magical-thinking.md) — the failure mode on the
   other side: substituting a "one weird trick" (an inspiring speech, growth-mindset rhetoric,
   adopting AI) for the operational work, and why blaming insufficient effort keeps the pattern

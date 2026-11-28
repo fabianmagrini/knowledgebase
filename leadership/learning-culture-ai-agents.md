@@ -20,7 +20,8 @@ related:
   - reading/ai-productivity-research.md
   - engineering/ai-native/substitution-myth-in-code-review.md
   - reading/the-capability-overhang.md
-updated: 2026-06-29
+  - reading/preceptorship-for-early-career-engineers.md
+updated: 2026-11-28
 ---
 
 # A Learning Culture for AI-Augmented Teams
@@ -58,6 +59,10 @@ struggle that builds fundamentals.
   explain it line by line to a senior.
 - **Focus on the "why."** In review, don't just ask whether the code works — ask
   why this AI-generated approach over an alternative.
+
+The organisational version of this section — preceptors, ratios, chat-log review, and Socratic
+coaching as a tool default rather than a habit — is
+[Preceptorship for Early-Career Engineers](../reading/preceptorship-for-early-career-engineers.md).
 
 ## 3. Institutionalise AI knowledge sharing
 

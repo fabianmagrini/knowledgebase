@@ -25,8 +25,9 @@ related:
   - engineering/ai-native/activity-metrics-obsolete.md
   - reading/state-of-tech-2026.md
   - engineering/ai-native/dora-ai-capabilities.md
+  - reading/preceptorship-for-early-career-engineers.md
 source: "https://newsletter.getdx.com/p/five-studies-that-are-changing-how"
-updated: 2026-10-26
+updated: 2026-11-28
 ---
 
 # Five Studies on AI and Software Engineering Productivity

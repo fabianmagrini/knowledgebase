@@ -28,8 +28,9 @@ related:
   - engineering/ai-native/activity-metrics-obsolete.md
   - product/modelling-business-impact.md
   - engineering/ai-native/agentic-verification.md
+  - reading/preceptorship-for-early-career-engineers.md
 source: "https://www.infoq.com/articles/system-comprehension-evolutionary-architecture/"
-updated: 2026-08-23
+updated: 2026-11-28
 ---
 
 # Comprehension as an Architectural Characteristic
